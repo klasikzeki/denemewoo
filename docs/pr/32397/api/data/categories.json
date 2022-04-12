@@ -1,5 +1,72 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
-  "name" : "categories"
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"methodTitle\"\n                Received: \"Flat rate\"",
+      "children" : [ {
+        "name" : "can add a 'Flat rate' shipping method",
+        "uid" : "7f33c2456cd6cf45",
+        "parentUid" : "b2d080df12c95b11fee5fe7c7f500434",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649778991982,
+          "stop" : 1649778992097,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2d080df12c95b11fee5fe7c7f500434"
+    }, {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"methodTitle\"\n                Received: \"Free shipping\"",
+      "children" : [ {
+        "name" : "can add a 'Free shipping' shipping method",
+        "uid" : "4bb92a5fc5febe20",
+        "parentUid" : "9d712b2772a98df82fe318cefbe6cfae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649778992098,
+          "stop" : 1649778992213,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d712b2772a98df82fe318cefbe6cfae"
+    }, {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"methodTitle\"\n                Received: \"Local pickup\"",
+      "children" : [ {
+        "name" : "can add a 'Local pickup' shipping method",
+        "uid" : "2287f98ca5692990",
+        "parentUid" : "201ce4161e13491c15b9351d3062f246",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649778992213,
+          "stop" : 1649778992312,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "201ce4161e13491c15b9351d3062f246"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

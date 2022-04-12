@@ -1,0 +1,84 @@
+{
+  "uid" : "2287f98ca5692990",
+  "name" : "can add a 'Local pickup' shipping method",
+  "fullName" : "Shipping methods API tests.can add a 'Local pickup' shipping method",
+  "historyId" : "d69f5b69e82da15a3659c60a22029cdd",
+  "time" : {
+    "start" : 1649778992213,
+    "stop" : 1649778992312,
+    "duration" : 99
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"methodTitle\"\n                Received: \"Local pickup\"",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"methodTitle\"\n                Received: \"Local pickup\"\n                    at /home/runner/work/woocommerce/woocommerce/package/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-method.test.js:43:32\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shipping methods API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Shipping methods API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add a 'Local pickup' shipping method"
+  }, {
+    "name" : "package",
+    "value" : "Shipping methods API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c435a30bb0b00f45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649772932859,
+        "stop" : 1649772933002,
+        "duration" : 143
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b528341a4eccf524",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"methodTitle\"\n                Received: \"Local pickup\"",
+        "time" : {
+          "start" : 1649778992213,
+          "stop" : 1649778992312,
+          "duration" : 99
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2287f98ca5692990.json",
+  "parameterValues" : [ ]
+}
