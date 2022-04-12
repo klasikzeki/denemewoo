@@ -1,0 +1,75 @@
+name: Publish test report
+on:
+  workflow_dispatch:
+    inputs:
+      test_workflow:
+        description: Type of workflow that triggered report generation.
+        required: true
+        type: choice
+        options:
+          - daily
+          - pr
+          - release
+      test_type:
+        description: Type of test that ran.
+        required: true
+        type: choice
+        options:
+          - e2e
+          - api
+      run_id:
+        description: Workflow run ID containing the artifact to be downloaded.
+        required: true
+      artifact_name:
+        description: Name of artifact to be downloaded.
+        required: true
+      pr_number:
+        description: If test_workflow is 'pr', this is the WooCommerce PR that generated the test report.
+
+jobs:
+  publish_test_report:
+    name: Publish test report
+    runs-on: ubuntu-latest
+    env:
+      TEST_WORKFLOW: ${{ github.event.inputs.test_workflow }}
+      TEST_TYPE: ${{ github.event.inputs.test_type }}
+      RUN_ID: ${{ github.event.inputs.run_id }}
+      ARTIFACT_NAME: ${{ github.event.inputs.artifact_name }}
+      PR_NUMBER: ${{ github.event.inputs.pr_number }}
+      DOWNLOAD_PATH: ${{ github.workspace }}/download
+      REPO_PATH: ${{ github.workspace }}/repo
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - name: Validate PR number
+        if: ${{ github.event.inputs.test_workflow == 'pr' }}
+        run: gh pr view $PR_NUMBER --repo woocommerce/woocommerce >> /dev/null
+
+      - name: Create dirs
+        run: |
+          mkdir -p $DOWNLOAD_PATH
+          mkdir -p $REPO_PATH
+
+      - name: Install allure-commandline package
+        run: npm install -g allure-commandline
+
+      - name: Checkout this repo
+        uses: actions/checkout@v2
+        with:
+          path: ${{ env.REPO_PATH }}
+
+      - name: Download test report
+        working-directory: ${{ env.DOWNLOAD_PATH }}
+        run: |
+          gh run download $RUN_ID \
+            --name $ARTIFACT_NAME \
+            --repo woocommerce/woocommerce
+
+      - name: Regenerate report
+        run: ${{ env.REPO_PATH }}/.github/workflows/scripts/regenerate-report.sh
+
+      - name: Push changes to repo
+        env:
+          GH_USER: ${{ secrets.REPORTS_USER }}
+          GH_EMAIL: ${{ secrets.REPORTS_EMAIL }}
+          GH_TOKEN: ${{ secrets.REPORTS_TOKEN }}
+        run: ${{ env.REPO_PATH }}/.github/workflows/scripts/push-changes.sh
