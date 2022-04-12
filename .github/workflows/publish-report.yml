@@ -58,11 +58,7 @@ jobs:
           path: ${{ env.REPO_PATH }}
 
       - name: Download test report
-        working-directory: ${{ env.DOWNLOAD_PATH }}
-        run: |
-          gh run download $RUN_ID \
-            --name $ARTIFACT_NAME \
-            --repo woocommerce/woocommerce
+        run: ${{ env.REPO_PATH }}/.github/workflows/scripts/download-report.sh
 
       - name: Regenerate report
         run: ${{ env.REPO_PATH }}/.github/workflows/scripts/regenerate-report.sh
