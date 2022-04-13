@@ -25,6 +25,8 @@ on:
         required: true
       pr_number:
         description: If test_workflow is 'pr', this is the WooCommerce PR that generated the test report.
+      commit_sha:
+        description: Commit SHA of pull request that triggered this workflow.
 
 jobs:
   publish_test_report:
@@ -36,6 +38,7 @@ jobs:
       RUN_ID: ${{ github.event.inputs.run_id }}
       ARTIFACT_NAME: ${{ github.event.inputs.artifact_name }}
       PR_NUMBER: ${{ github.event.inputs.pr_number }}
+      COMMIT_SHA: ${{ github.event.inputs.commit_sha }}
       DOWNLOAD_PATH: ${{ github.workspace }}/download
       REPO_PATH: ${{ github.workspace }}/repo
       GITHUB_TOKEN: ${{ github.token }}
