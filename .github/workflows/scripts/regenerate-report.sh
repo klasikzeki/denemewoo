@@ -69,7 +69,7 @@ combine_new_report_with_existing() {
         # The test has previous report.
         # Combine it with newly downloaded one to create history trend.
         mkdir -p $DATA_PATH/history
-        cp -r $DOWNLOAD_PATH/allure-report/history/* $DATA_PATH/history
+        cp -r $REPORT_PATH/history/* $DATA_PATH/history
         cp -r $DOWNLOAD_PATH/allure-results/* $DATA_PATH
 
     else
