@@ -24,7 +24,7 @@ set_commit_message() {
         COMMIT_MESSAGE="$COMMIT_MESSAGE - Daily smoke test"
         ;;
     "pr")
-        COMMIT_MESSAGE="$COMMIT_MESSAGE - PR #$PR_NUMBER - Commit woocommerce/woocommerce@$COMMIT_SHA"
+        COMMIT_MESSAGE="$COMMIT_MESSAGE - PR woocommerce/woocommerce#$PR_NUMBER - Commit woocommerce/woocommerce@$COMMIT_SHA"
         ;;
     "release")
         COMMIT_MESSAGE="$COMMIT_MESSAGE - Release"
