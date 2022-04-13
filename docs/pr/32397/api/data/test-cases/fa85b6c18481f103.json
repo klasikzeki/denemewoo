@@ -1,0 +1,111 @@
+{
+  "uid" : "fa85b6c18481f103",
+  "name" : "can add a 'Free shipping' shipping method",
+  "fullName" : "Shipping methods API tests.can add a 'Free shipping' shipping method",
+  "historyId" : "c0b0c3af792f2090ec491f86e50d1062",
+  "time" : {
+    "start" : 1649834727739,
+    "stop" : 1649834727934,
+    "duration" : 195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shipping methods API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Shipping methods API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add a 'Free shipping' shipping method"
+  }, {
+    "name" : "package",
+    "value" : "Shipping methods API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "29b43d46733b4468",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649827507929,
+        "stop" : 1649827508116,
+        "duration" : 187
+      }
+    }, {
+      "uid" : "f2fe3c3be8555ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649813904826,
+        "stop" : 1649813905014,
+        "duration" : 188
+      }
+    }, {
+      "uid" : "992f44346e5a3f4f",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"methodTitle\"\n                Received: \"Free shipping\"",
+      "time" : {
+        "start" : 1649812511024,
+        "stop" : 1649812511096,
+        "duration" : 72
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7cad3ccaeda42259",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649827507929,
+          "stop" : 1649827508116,
+          "duration" : 187
+        }
+      }, {
+        "uid" : "adf76070e071d0ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649813904826,
+          "stop" : 1649813905014,
+          "duration" : 188
+        }
+      }, {
+        "uid" : "51e11480a4908d88",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"methodTitle\"\n                Received: \"Free shipping\"",
+        "time" : {
+          "start" : 1649812511024,
+          "stop" : 1649812511096,
+          "duration" : 72
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fa85b6c18481f103.json",
+  "parameterValues" : [ ]
+}
