@@ -12,10 +12,10 @@ set_commit_message() {
 
     case $TEST_TYPE in
     "e2e")
-        COMMIT_MESSAGE="Added: E2E test report"
+        COMMIT_MESSAGE="Add E2E test report"
         ;;
     "api")
-        COMMIT_MESSAGE="Added: API test report"
+        COMMIT_MESSAGE="Add API test report"
         ;;
     esac
 
@@ -24,14 +24,12 @@ set_commit_message() {
         COMMIT_MESSAGE="$COMMIT_MESSAGE - Daily smoke test"
         ;;
     "pr")
-        COMMIT_MESSAGE="$COMMIT_MESSAGE - PR $PR_NUMBER"
+        COMMIT_MESSAGE="$COMMIT_MESSAGE - PR #$PR_NUMBER - Commit woocommerce/woocommerce@$COMMIT_SHA"
         ;;
     "release")
         COMMIT_MESSAGE="$COMMIT_MESSAGE - Release"
         ;;
     esac
-
-    COMMIT_MESSAGE="$COMMIT_MESSAGE - Run $RUN_ID"
 }
 
 set_commit_message
@@ -40,7 +38,7 @@ cd $REPO_PATH
 git config user.name $GH_USER
 git config user.email $GH_EMAIL
 git add .
-git commit -m "$COMMIT_MESSAGE"
+git commit -m "$COMMIT_MESSAGE" -m "Workflow run: https://github.com/woocommerce/woocommerce/actions/runs/$RUN_ID"
 
 # Retry pushing changes up to 10 times when race conditions occur,
 # like when multiple workflows are trying to push to the repo at the same time.
