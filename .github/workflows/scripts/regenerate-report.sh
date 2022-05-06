@@ -37,10 +37,10 @@ set_report_title() {
 
     case $TEST_TYPE in
     "e2e")
-        REPORT_TITLE="WooCommerce E2E"
+        REPORT_TITLE="WooCommerce E2E Test Report"
         ;;
     "api")
-        REPORT_TITLE="WooCommerce REST API"
+        REPORT_TITLE="WooCommerce REST API Test Report"
         ;;
     esac
 
@@ -49,7 +49,8 @@ set_report_title() {
         REPORT_TITLE="$REPORT_TITLE - Daily smoke test"
         ;;
     "pr")
-        REPORT_TITLE="$REPORT_TITLE - Pull request #$PR_NUMBER"
+        COMMIT_MESSAGE=$(gh pr view $PR_NUMBER --repo woocommerce/woocommerce --json commits --jq '.commits[] | select(.oid=="$COMMIT_SHA") | .messageHeadline')
+        REPORT_TITLE="$REPORT_TITLE - PR #$PR_NUMBER - $COMMIT_MESSAGE"
         ;;
     "release")
         REPORT_TITLE="$REPORT_TITLE - Release"
