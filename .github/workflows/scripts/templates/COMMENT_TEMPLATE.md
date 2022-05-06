@@ -1,4 +1,4 @@
-### :bar_chart: Test report for commit COMMIT_SHA `COMMIT_MESSAGE` has been published!
+### :tada: Test report for commit COMMIT_SHA `COMMIT_MESSAGE` has been published!
 
 You may view the test reports by clicking on the following links:
 
