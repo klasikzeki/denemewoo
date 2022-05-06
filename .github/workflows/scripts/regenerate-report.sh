@@ -49,7 +49,7 @@ set_report_title() {
         REPORT_TITLE="$REPORT_TITLE - Daily smoke test"
         ;;
     "pr")
-        COMMIT_MESSAGE=$(gh pr view $PR_NUMBER --repo woocommerce/woocommerce --json commits --jq '.commits[] | select(.oid=="$COMMIT_SHA") | .messageHeadline')
+        COMMIT_MESSAGE=$(gh pr view $PR_NUMBER --repo woocommerce/woocommerce --json commits --jq ".commits[] | select(.oid == \"$COMMIT_SHA\") | .messageHeadline")
         REPORT_TITLE="$REPORT_TITLE - PR #$PR_NUMBER - $COMMIT_MESSAGE"
         ;;
     "release")
@@ -93,9 +93,9 @@ set_jekyll_front_matter() {
         # Set page variables specific to PR reports.
 
         # Get the URL-encoded PR title.
-        # URL encoding ensures special characters in PR titles will not cause any trouble when processed by Jekyll. 
+        # URL encoding ensures special characters in PR titles will not cause any trouble when processed by Jekyll.
         PR_TITLE_ENCODED=$(gh pr view $PR_NUMBER --repo woocommerce/woocommerce --json title --jq '.title|@uri')
-        
+
         # Variable to be used as basis for sorting the "Pull requests" list in homepage.
         LAST_PUBLISHED=$(date +'%Y-%m-%d %T %z')
 
