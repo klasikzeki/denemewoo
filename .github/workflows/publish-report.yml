@@ -62,6 +62,7 @@ jobs:
         if: ${{ github.event.inputs.test_workflow == 'pr' }}
         working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
         run: get-commit-message.sh
+        shell: bash
 
       - name: Install allure-commandline package
         run: npm install -g allure-commandline
@@ -83,5 +84,4 @@ jobs:
         if: ${{ github.event.inputs.test_workflow == 'pr' }}
         working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
         run: add-pr-comment.sh
-
-
+        shell: bash
