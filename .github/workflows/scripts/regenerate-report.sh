@@ -49,7 +49,6 @@ set_report_title() {
         REPORT_TITLE="$REPORT_TITLE - Daily smoke test"
         ;;
     "pr")
-        COMMIT_MESSAGE=$(gh pr view $PR_NUMBER --repo woocommerce/woocommerce --json commits --jq ".commits[] | select(.oid == \"$COMMIT_SHA\") | .messageHeadline")
         REPORT_TITLE="$REPORT_TITLE - PR #$PR_NUMBER - $COMMIT_MESSAGE"
         ;;
     "release")

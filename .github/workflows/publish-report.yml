@@ -31,7 +31,7 @@ on:
 jobs:
   publish_test_report:
     name: Publish test report
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     env:
       TEST_WORKFLOW: ${{ github.event.inputs.test_workflow }}
       TEST_TYPE: ${{ github.event.inputs.test_type }}
@@ -47,6 +47,11 @@ jobs:
         if: ${{ github.event.inputs.test_workflow == 'pr' }}
         run: gh pr view $PR_NUMBER --repo woocommerce/woocommerce >> /dev/null
 
+      - name: Get commit message
+        if: ${{ github.event.inputs.test_workflow == 'pr' }}
+        working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
+        run: get-commit-message.sh
+
       - name: Create dirs
         run: |
           mkdir -p $DOWNLOAD_PATH
@@ -56,7 +61,7 @@ jobs:
         run: npm install -g allure-commandline
 
       - name: Checkout this repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: ${{ env.REPO_PATH }}
           token: ${{ secrets.REPORTS_TOKEN }}
@@ -73,3 +78,10 @@ jobs:
           GH_EMAIL: ${{ secrets.REPORTS_EMAIL }}
           GH_TOKEN: ${{ secrets.REPORTS_TOKEN }}
         run: ${{ env.REPO_PATH }}/.github/workflows/scripts/push-changes.sh
+
+      - name: Add comment to PR
+        if: ${{ github.event.inputs.test_workflow == 'pr' }}
+        working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
+        run: add-pr-comment.sh
+
+
