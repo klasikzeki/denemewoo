@@ -52,6 +52,12 @@ jobs:
           mkdir -p $DOWNLOAD_PATH
           mkdir -p $REPO_PATH
 
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+        with:
+          path: ${{ env.REPO_PATH }}
+          token: ${{ secrets.REPORTS_TOKEN }}
+
       - name: Get commit message
         if: ${{ github.event.inputs.test_workflow == 'pr' }}
         working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
@@ -59,12 +65,6 @@ jobs:
 
       - name: Install allure-commandline package
         run: npm install -g allure-commandline
-
-      - name: Checkout this repo
-        uses: actions/checkout@v3
-        with:
-          path: ${{ env.REPO_PATH }}
-          token: ${{ secrets.REPORTS_TOKEN }}
 
       - name: Download test report
         run: ${{ env.REPO_PATH }}/.github/workflows/scripts/download-report.sh
