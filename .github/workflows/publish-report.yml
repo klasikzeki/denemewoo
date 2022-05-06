@@ -51,6 +51,7 @@ jobs:
         if: ${{ github.event.inputs.test_workflow == 'pr' }}
         working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
         run: get-commit-message.sh
+        shell: bash
 
       - name: Create dirs
         run: |
@@ -83,5 +84,6 @@ jobs:
         if: ${{ github.event.inputs.test_workflow == 'pr' }}
         working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
         run: add-pr-comment.sh
+        shell: bash
 
 
