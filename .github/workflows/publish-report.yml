@@ -47,14 +47,15 @@ jobs:
         if: ${{ github.event.inputs.test_workflow == 'pr' }}
         run: gh pr view $PR_NUMBER --repo woocommerce/woocommerce >> /dev/null
 
-      - name: Get commit message
-        if: ${{ github.event.inputs.test_workflow == 'pr' }}
-        run: ${{ env.REPO_PATH }}/.github/workflows/scripts/get-commit-message.sh
-
       - name: Create dirs
         run: |
           mkdir -p $DOWNLOAD_PATH
           mkdir -p $REPO_PATH
+
+      - name: Get commit message
+        if: ${{ github.event.inputs.test_workflow == 'pr' }}
+        working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
+        run: get-commit-message.sh
 
       - name: Install allure-commandline package
         run: npm install -g allure-commandline
@@ -80,6 +81,7 @@ jobs:
 
       - name: Add comment to PR
         if: ${{ github.event.inputs.test_workflow == 'pr' }}
-        run: ${{ env.REPO_PATH }}/.github/workflows/scripts/add-pr-comment.sh
+        working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
+        run: add-pr-comment.sh
 
 
