@@ -1,4 +1,4 @@
-### :tada: Test report for commit COMMIT_SHA `COMMIT_MESSAGE` has been published!
+### :bar_chart: Test reports for COMMIT_SHA `COMMIT_MESSAGE` have been published!
 
 You may view the test reports by clicking on the following links:
 
@@ -8,4 +8,3 @@ You may view the test reports by clicking on the following links:
 ---
 
 _Visit the [WooCommerce Test Reports](https://woocommerce.github.io/woocommerce-test-reports) homepage to view all published reports. See the [FAQs](https://github.com/woocommerce/woocommerce-test-reports/wiki/FAQs) page if you're having problems accessing them._
-
