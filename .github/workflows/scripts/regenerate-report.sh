@@ -57,10 +57,10 @@ set_report_title() {
     esac
 
     # HTML Title
-    sed -i "s/Allure Report/$REPORT_TITLE/g" $REPORT_PATH/index.html
+    node replace-string-in-file.js "$REPORT_PATH/index.html" "<title>Allure Report</title>" "<title>$REPORT_TITLE</title>"
 
     # Overview page header
-    sed -i "s/Allure Report/$REPORT_TITLE/g" $REPORT_PATH/widgets/summary.json
+    node replace-string-in-file.js "$REPORT_PATH/widgets/summary.json" "Allure Report" "$REPORT_TITLE"
 }
 
 combine_new_report_with_existing() {
