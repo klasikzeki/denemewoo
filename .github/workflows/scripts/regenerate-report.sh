@@ -57,10 +57,16 @@ set_report_title() {
     esac
 
     # HTML Title
-    node replace-string-in-file.js "$REPORT_PATH/index.html" "<title>Allure Report</title>" "<title>$REPORT_TITLE</title>"
+    node $REPO_PATH/.github/workflows/scripts/replace-string-in-file.js \
+        "$REPORT_PATH/index.html" \
+        "<title>Allure Report</title>" \
+        "<title>$REPORT_TITLE</title>"
 
     # Overview page header
-    node replace-string-in-file.js "$REPORT_PATH/widgets/summary.json" "Allure Report" "$REPORT_TITLE"
+    node $REPO_PATH/.github/workflows/scripts/replace-string-in-file.js \
+        "$REPORT_PATH/widgets/summary.json" \
+        "Allure Report" \
+        "$REPORT_TITLE"
 }
 
 combine_new_report_with_existing() {
