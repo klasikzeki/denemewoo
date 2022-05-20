@@ -1,0 +1,113 @@
+{
+  "uid" : "ac3c1c768d78cf9c",
+  "name" : "can batch update products",
+  "fullName" : "Products API tests: CRUD Batch update products.can batch update products",
+  "historyId" : "b24ff347d5b1e6dbb0f7aec8f53d0eaf",
+  "time" : {
+    "start" : 1653043060775,
+    "stop" : 1653043060948,
+    "duration" : 173
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Products API tests: CRUD Batch update products"
+  }, {
+    "name" : "testClass",
+    "value" : "Products API tests: CRUD Batch update products"
+  }, {
+    "name" : "testMethod",
+    "value" : "can batch update products"
+  }, {
+    "name" : "package",
+    "value" : "Products API tests: CRUD Batch update products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31e234f7c45b12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652916003556,
+        "stop" : 1652916003699,
+        "duration" : 143
+      }
+    }, {
+      "uid" : "cb4a8e8d0303099b",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "time" : {
+        "start" : 1652864723630,
+        "stop" : 1652864723662,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "77735beefd4ce3a4",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "time" : {
+        "start" : 1652863737217,
+        "stop" : 1652863737248,
+        "duration" : 31
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f3f5c8c0021445bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652916003556,
+          "stop" : 1652916003699,
+          "duration" : 143
+        }
+      }, {
+        "uid" : "b84996f0a5e0b59c",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1652864723630,
+          "stop" : 1652864723662,
+          "duration" : 32
+        }
+      }, {
+        "uid" : "e6b66e83af79006a",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1652863737217,
+          "stop" : 1652863737248,
+          "duration" : 31
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ac3c1c768d78cf9c.json",
+  "parameterValues" : [ ]
+}
