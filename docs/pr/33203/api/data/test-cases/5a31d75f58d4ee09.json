@@ -1,0 +1,99 @@
+{
+  "uid" : "5a31d75f58d4ee09",
+  "name" : "can add complex order",
+  "fullName" : "Orders API test.can add complex order",
+  "historyId" : "4b4a2e735451adced0823dd33109be06",
+  "time" : {
+    "start" : 1653553589171,
+    "stop" : 1653553589174,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+  "statusTrace" : "Error: connect ECONNREFUSED 127.0.0.1:8086\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API test"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API test"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add complex order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8465981acf0ab4e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653550599582,
+        "stop" : 1653550599927,
+        "duration" : 345
+      }
+    }, {
+      "uid" : "88a76602a110b216",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653547376222,
+        "stop" : 1653547376491,
+        "duration" : 269
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "86bf0fb7f1c4f804",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653550599582,
+          "stop" : 1653550599927,
+          "duration" : 345
+        }
+      }, {
+        "uid" : "927e83bd21346ae9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653547376222,
+          "stop" : 1653547376491,
+          "duration" : 269
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5a31d75f58d4ee09.json",
+  "parameterValues" : [ ]
+}

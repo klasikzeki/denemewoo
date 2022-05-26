@@ -1,0 +1,99 @@
+{
+  "uid" : "b37c56238727471d",
+  "name" : "can add shipping and billing contacts to an order",
+  "fullName" : "Orders API tests.can add shipping and billing contacts to an order",
+  "historyId" : "6c21ec843777b7653233f6aec17c76d0",
+  "time" : {
+    "start" : 1653553587981,
+    "stop" : 1653553587982,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+  "statusTrace" : "Error: connect ECONNREFUSED 127.0.0.1:8086\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add shipping and billing contacts to an order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1469538d129fb51f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653550581091,
+        "stop" : 1653550581212,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "5496b8c245f448ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653547360539,
+        "stop" : 1653547360648,
+        "duration" : 109
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "aa959c1d470adbef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653550581091,
+          "stop" : 1653550581212,
+          "duration" : 121
+        }
+      }, {
+        "uid" : "6caca57af4a4a8f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653547360539,
+          "stop" : 1653547360648,
+          "duration" : 109
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b37c56238727471d.json",
+  "parameterValues" : [ ]
+}

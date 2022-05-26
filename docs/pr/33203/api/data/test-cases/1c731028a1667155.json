@@ -1,0 +1,99 @@
+{
+  "uid" : "1c731028a1667155",
+  "name" : "can retrieve a shipping zone",
+  "fullName" : "Shipping zones API tests.can retrieve a shipping zone",
+  "historyId" : "c9977b1fa4ccc6637d66ac620abecee4",
+  "time" : {
+    "start" : 1653553589415,
+    "stop" : 1653553589416,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+  "statusTrace" : "Error: connect ECONNREFUSED 127.0.0.1:8086\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can retrieve a shipping zone"
+  }, {
+    "name" : "package",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e8ce2cbee433591f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653550601150,
+        "stop" : 1653550601230,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "4b886a922b32c9fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653547377515,
+        "stop" : 1653547377590,
+        "duration" : 75
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "14c2c9d546d7b759",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653550601150,
+          "stop" : 1653550601230,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "b179e51a92692ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653547377515,
+          "stop" : 1653547377590,
+          "duration" : 75
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1c731028a1667155.json",
+  "parameterValues" : [ ]
+}

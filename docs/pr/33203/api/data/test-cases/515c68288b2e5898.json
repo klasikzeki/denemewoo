@@ -1,0 +1,99 @@
+{
+  "uid" : "515c68288b2e5898",
+  "name" : "can list all shipping zones",
+  "fullName" : "Shipping zones API tests.can list all shipping zones",
+  "historyId" : "716a87a4683ef7f0b09a71b94df9879e",
+  "time" : {
+    "start" : 1653553589416,
+    "stop" : 1653553589417,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+  "statusTrace" : "Error: connect ECONNREFUSED 127.0.0.1:8086\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can list all shipping zones"
+  }, {
+    "name" : "package",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e6c6c1c7f697e7a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653550601230,
+        "stop" : 1653550601317,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "2e894ebf868efbc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653547377590,
+        "stop" : 1653547377669,
+        "duration" : 79
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "bb872caba026ff8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653550601230,
+          "stop" : 1653550601317,
+          "duration" : 87
+        }
+      }, {
+        "uid" : "309c7d17260720df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653547377590,
+          "stop" : 1653547377669,
+          "duration" : 79
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "515c68288b2e5898.json",
+  "parameterValues" : [ ]
+}

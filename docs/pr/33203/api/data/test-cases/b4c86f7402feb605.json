@@ -1,0 +1,99 @@
+{
+  "uid" : "b4c86f7402feb605",
+  "name" : "can limit result set to matching code",
+  "fullName" : "Coupons API tests List coupons.can limit result set to matching code",
+  "historyId" : "a4bc81e5f4da4e835ee6fbbc76e2db00",
+  "time" : {
+    "start" : 1653553588335,
+    "stop" : 1653553588337,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+  "statusTrace" : "Error: connect ECONNREFUSED 127.0.0.1:8086\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Coupons API tests List coupons"
+  }, {
+    "name" : "testClass",
+    "value" : "Coupons API tests List coupons"
+  }, {
+    "name" : "testMethod",
+    "value" : "can limit result set to matching code"
+  }, {
+    "name" : "package",
+    "value" : "Coupons API tests List coupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f09180daa1a77f54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653550590132,
+        "stop" : 1653550590285,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "664764cdb7c95b30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653547368331,
+        "stop" : 1653547368406,
+        "duration" : 75
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "214b9ef7a28bb734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653550590132,
+          "stop" : 1653550590285,
+          "duration" : 153
+        }
+      }, {
+        "uid" : "5178e2727b94797b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653547368331,
+          "stop" : 1653547368406,
+          "duration" : 75
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b4c86f7402feb605.json",
+  "parameterValues" : [ ]
+}
