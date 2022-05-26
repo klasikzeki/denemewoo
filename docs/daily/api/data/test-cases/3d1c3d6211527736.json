@@ -1,0 +1,85 @@
+{
+  "uid" : "3d1c3d6211527736",
+  "name" : "can update status of an order to 'refunded'",
+  "fullName" : "Orders API tests: CRUD Update an order.can update status of an order to 'refunded'",
+  "historyId" : "80d0ad8dd95cc10f24e48a5a973318e0",
+  "time" : {
+    "start" : 1653547334109,
+    "stop" : 1653547334361,
+    "duration" : 252
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404\n                    at /home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders-crud.test.js:141:22\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testMethod",
+    "value" : "can update status of an order to 'refunded'"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2972ce51e04ab727",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653547334109,
+          "stop" : 1653547334361,
+          "duration" : 252
+        }
+      }, {
+        "uid" : "5257b470afe100f2",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653547334109,
+          "stop" : 1653547334361,
+          "duration" : 252
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3d1c3d6211527736.json",
+  "parameterValues" : [ ]
+}

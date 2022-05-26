@@ -1,0 +1,85 @@
+{
+  "uid" : "212974771d2939f",
+  "name" : "can list all refunds",
+  "fullName" : "Refunds API tests.can list all refunds",
+  "historyId" : "f721ff0a76ceab61613514dafdc02311",
+  "time" : {
+    "start" : 1653547342567,
+    "stop" : 1653547342832,
+    "duration" : 265
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/refunds/refunds.test.js:96:20)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Refunds API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Refunds API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can list all refunds"
+  }, {
+    "name" : "package",
+    "value" : "Refunds API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "88e8e284ce0acc80",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653547342567,
+          "stop" : 1653547342832,
+          "duration" : 265
+        }
+      }, {
+        "uid" : "6bd9af2013eebe8b",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653547342567,
+          "stop" : 1653547342832,
+          "duration" : 265
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "212974771d2939f.json",
+  "parameterValues" : [ ]
+}

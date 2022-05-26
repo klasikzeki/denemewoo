@@ -1,0 +1,85 @@
+{
+  "uid" : "2b5170ae183d8674",
+  "name" : "can add a variable product",
+  "fullName" : "Products API tests: CRUD.can add a variable product",
+  "historyId" : "81a85d884e5b1e8edf1472b760f419fb",
+  "time" : {
+    "start" : 1653547327393,
+    "stop" : 1653547327642,
+    "duration" : 249
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 201\n                Received: 404",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 201\n                Received: 404\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/products/products-crud.test.js:62:20)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Products API tests: CRUD"
+  }, {
+    "name" : "testClass",
+    "value" : "Products API tests: CRUD"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add a variable product"
+  }, {
+    "name" : "package",
+    "value" : "Products API tests: CRUD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8448206375d74829",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 201\n                Received: 404",
+        "time" : {
+          "start" : 1653547327393,
+          "stop" : 1653547327642,
+          "duration" : 249
+        }
+      }, {
+        "uid" : "7fde53bafa83341e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 201\n                Received: 404",
+        "time" : {
+          "start" : 1653547327393,
+          "stop" : 1653547327642,
+          "duration" : 249
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2b5170ae183d8674.json",
+  "parameterValues" : [ ]
+}

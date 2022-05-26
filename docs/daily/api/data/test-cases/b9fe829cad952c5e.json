@@ -1,0 +1,85 @@
+{
+  "uid" : "b9fe829cad952c5e",
+  "name" : "can batch update coupons",
+  "fullName" : "Coupons API tests Batch update coupons.can batch update coupons",
+  "historyId" : "983a710bbd7d8ec3797abb4be72e78f5",
+  "time" : {
+    "start" : 1653547323466,
+    "stop" : 1653547323698,
+    "duration" : 232
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/coupons/coupons.test.js:136:41)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Coupons API tests Batch update coupons"
+  }, {
+    "name" : "testClass",
+    "value" : "Coupons API tests Batch update coupons"
+  }, {
+    "name" : "testMethod",
+    "value" : "can batch update coupons"
+  }, {
+    "name" : "package",
+    "value" : "Coupons API tests Batch update coupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9a063561e8b13b57",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653547323466,
+          "stop" : 1653547323698,
+          "duration" : 232
+        }
+      }, {
+        "uid" : "d1cb23b69e2dce8",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653547323466,
+          "stop" : 1653547323698,
+          "duration" : 232
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b9fe829cad952c5e.json",
+  "parameterValues" : [ ]
+}
