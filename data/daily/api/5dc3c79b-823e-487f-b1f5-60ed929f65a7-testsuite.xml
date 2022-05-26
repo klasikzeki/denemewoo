@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653556200161' stop='1653556214425'>
+    <name>Shipping zones API tests</name>
+    <title>Shipping zones API tests</title>
+    <test-cases>
+        <test-case start='1653556200162' status='failed' stop='1653556205164'>
+            <name>cannot delete the default shipping zone "Locations not covered by your other zones"</name>
+            <title>cannot delete the default shipping zone "Locations not covered by your other zones"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.</message>
+                <stack-trace>Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: 
+                    at new Spec (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+                    at new Spec (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)
+                    at specFactory (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/jasmine/Env.js:523:24)
+                    at Env.it (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/jasmine/Env.js:592:24)
+                    at Env.it (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:128:23)
+                    at it (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)
+                    at Suite.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:17:2)
+                    at addSpecsToSuite (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)
+                    at Env.describe (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)
+                    at describe (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:16:1)
+                    at Runtime._execModule (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-runtime@25.5.4/node_modules/jest-runtime/build/index.js:1205:24)
+                    at Runtime._loadModule (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-runtime@25.5.4/node_modules/jest-runtime/build/index.js:805:12)
+                    at Runtime.requireModule (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-runtime@25.5.4/node_modules/jest-runtime/build/index.js:662:10)
+                    at jasmine2 (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/index.js:228:13)
+                    at runTestInternal (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-runner@25.5.4/node_modules/jest-runner/build/runTest.js:385:22)
+                    at runTest (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-runner@25.5.4/node_modules/jest-runner/build/runTest.js:465:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653556205164' status='passed' stop='1653556206691'>
+            <name>cannot update the default shipping zone</name>
+            <title>cannot update the default shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653556206691' status='passed' stop='1653556208100'>
+            <name>can create a shipping zone</name>
+            <title>can create a shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653556208100' status='passed' stop='1653556209206'>
+            <name>can retrieve a shipping zone</name>
+            <title>can retrieve a shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653556209206' status='passed' stop='1653556210681'>
+            <name>can list all shipping zones</name>
+            <title>can list all shipping zones</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653556210681' status='failed' stop='1653556212001'>
+            <name>can update a shipping zone</name>
+            <title>can update a shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toHaveLength(expected)
+                
+                Expected length: 1
+                Received length: 2
+                Received array:  [{"id": 0}, {"id": 1786}]</message>
+                <stack-trace>Error: expect(received).toHaveLength(expected)
+                
+                Expected length: 1
+                Received length: 2
+                Received array:  [{"id": 0}, {"id": 1786}]
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:35:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653556212001' status='passed' stop='1653556214424'>
+            <name>can delete a shipping zone</name>
+            <title>can delete a shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
