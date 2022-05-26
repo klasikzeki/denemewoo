@@ -1,0 +1,117 @@
+{
+  "uid" : "51104a76659bf5f1",
+  "name" : "parent",
+  "fullName" : "Products API tests: List All Products List all products.parent",
+  "historyId" : "a3bb497327d60bad6016e464785d8301",
+  "time" : {
+    "start" : 1653554831526,
+    "stop" : 1653554831526,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+  "statusTrace" : "Error: connect ECONNREFUSED 127.0.0.1:8086\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Products API tests: List All Products List all products"
+  }, {
+    "name" : "testClass",
+    "value" : "Products API tests: List All Products List all products"
+  }, {
+    "name" : "testMethod",
+    "value" : "parent"
+  }, {
+    "name" : "package",
+    "value" : "Products API tests: List All Products List all products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d05ea3c0e849e40d",
+      "status" : "failed",
+      "statusDetails" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+      "time" : {
+        "start" : 1653553587443,
+        "stop" : 1653553587443,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6c77678fd6e50acb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653550568446,
+        "stop" : 1653550568665,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "df5637149bd1d1b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653547349515,
+        "stop" : 1653547349718,
+        "duration" : 203
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "5532fddafc7ca5ff",
+        "status" : "failed",
+        "statusDetails" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+        "time" : {
+          "start" : 1653553587443,
+          "stop" : 1653553587443,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b3defa9c837d000",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653550568446,
+          "stop" : 1653550568665,
+          "duration" : 219
+        }
+      }, {
+        "uid" : "f4b3e88bf36eba9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653547349515,
+          "stop" : 1653547349718,
+          "duration" : 203
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "51104a76659bf5f1.json",
+  "parameterValues" : [ ]
+}

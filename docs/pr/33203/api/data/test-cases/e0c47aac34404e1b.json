@@ -1,0 +1,117 @@
+{
+  "uid" : "e0c47aac34404e1b",
+  "name" : "can search by billing phone",
+  "fullName" : "Order Search API tests.can search by billing phone",
+  "historyId" : "32541ef28b02cade06f9b95feba5c43d",
+  "time" : {
+    "start" : 1653554834396,
+    "stop" : 1653554834397,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+  "statusTrace" : "Error: connect ECONNREFUSED 127.0.0.1:8086\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Order Search API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Order Search API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can search by billing phone"
+  }, {
+    "name" : "package",
+    "value" : "Order Search API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fffae26d04c14aa4",
+      "status" : "failed",
+      "statusDetails" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+      "time" : {
+        "start" : 1653553589905,
+        "stop" : 1653553589906,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9bb6f632e04024db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653550604078,
+        "stop" : 1653550604164,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "129b05036fd42bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653547380069,
+        "stop" : 1653547380161,
+        "duration" : 92
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a4aa7dbcb075f29f",
+        "status" : "failed",
+        "statusDetails" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+        "time" : {
+          "start" : 1653553589905,
+          "stop" : 1653553589906,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "650328fca6d6d799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653550604078,
+          "stop" : 1653550604164,
+          "duration" : 86
+        }
+      }, {
+        "uid" : "81ec37c98f2fa640",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653547380069,
+          "stop" : 1653547380161,
+          "duration" : 92
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e0c47aac34404e1b.json",
+  "parameterValues" : [ ]
+}

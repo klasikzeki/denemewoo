@@ -1,0 +1,117 @@
+{
+  "uid" : "5eeb4dd94e5637ed",
+  "name" : "can delete a refund",
+  "fullName" : "Refunds API tests.can delete a refund",
+  "historyId" : "1acb4253285ec26f54b09823d39f601a",
+  "time" : {
+    "start" : 1653554834101,
+    "stop" : 1653554834102,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+  "statusTrace" : "Error: connect ECONNREFUSED 127.0.0.1:8086\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Refunds API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Refunds API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can delete a refund"
+  }, {
+    "name" : "package",
+    "value" : "Refunds API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f6894027ff4634b8",
+      "status" : "failed",
+      "statusDetails" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+      "time" : {
+        "start" : 1653553589653,
+        "stop" : 1653553589654,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1de1e4ee85c44c04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653550602510,
+        "stop" : 1653550602795,
+        "duration" : 285
+      }
+    }, {
+      "uid" : "e909d65ef6c73b09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653547378703,
+        "stop" : 1653547378957,
+        "duration" : 254
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "efcba2b73ea818ee",
+        "status" : "failed",
+        "statusDetails" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+        "time" : {
+          "start" : 1653553589653,
+          "stop" : 1653553589654,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c308cb37c48e216e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653550602510,
+          "stop" : 1653550602795,
+          "duration" : 285
+        }
+      }, {
+        "uid" : "dae8eeb1ed0b001c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653547378703,
+          "stop" : 1653547378957,
+          "duration" : 254
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5eeb4dd94e5637ed.json",
+  "parameterValues" : [ ]
+}

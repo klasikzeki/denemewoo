@@ -1,0 +1,117 @@
+{
+  "uid" : "1f359a0a39610ddd",
+  "name" : "can pay for an order",
+  "fullName" : "Orders API tests: CRUD Update an order.can pay for an order",
+  "historyId" : "f3d813c134cee8ba5ebca5909d5692f4",
+  "time" : {
+    "start" : 1653554833278,
+    "stop" : 1653554833279,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+  "statusTrace" : "Error: connect ECONNREFUSED 127.0.0.1:8086\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testMethod",
+    "value" : "can pay for an order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e0e6050cecde27c",
+      "status" : "failed",
+      "statusDetails" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+      "time" : {
+        "start" : 1653553588947,
+        "stop" : 1653553588948,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "956dc610e25dcf11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653550597446,
+        "stop" : 1653550597688,
+        "duration" : 242
+      }
+    }, {
+      "uid" : "fba6bd11d080a742",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653547374357,
+        "stop" : 1653547374581,
+        "duration" : 224
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "5e360426511f7364",
+        "status" : "failed",
+        "statusDetails" : "Error: connect ECONNREFUSED 127.0.0.1:8086",
+        "time" : {
+          "start" : 1653553588947,
+          "stop" : 1653553588948,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "29717d305dd2da25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653550597446,
+          "stop" : 1653550597688,
+          "duration" : 242
+        }
+      }, {
+        "uid" : "e431b9dd4d379357",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653547374357,
+          "stop" : 1653547374581,
+          "duration" : 224
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1f359a0a39610ddd.json",
+  "parameterValues" : [ ]
+}
