@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653553990144' stop='1653553992125'>
+    <name>Test API connectivity</name>
+    <title>Test API connectivity</title>
+    <test-cases>
+        <test-case start='1653553990145' status='failed' stop='1653553991732'>
+            <name>can access a non-authenticated endpoint</name>
+            <title>can access a non-authenticated endpoint</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 200
+                Received: 404</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 200
+                Received: 404
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/hello/hello.test.js:12:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653553991732' status='failed' stop='1653553992125'>
+            <name>can access an authenticated endpoint</name>
+            <title>can access an authenticated endpoint</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 200
+                Received: 404</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 200
+                Received: 404
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/hello/hello.test.js:17:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
