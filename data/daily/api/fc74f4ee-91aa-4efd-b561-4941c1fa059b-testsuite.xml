@@ -1,0 +1,155 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653559581005' stop='1653559600647'>
+    <name>Order Search API tests</name>
+    <title>Order Search API tests</title>
+    <test-cases>
+        <test-case start='1653559583079' status='passed' stop='1653559584212'>
+            <name>can search by orderId</name>
+            <title>can search by orderId</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559584212' status='passed' stop='1653559585475'>
+            <name>can search by billing first name</name>
+            <title>can search by billing first name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559585475' status='passed' stop='1653559586636'>
+            <name>can search by billing company name</name>
+            <title>can search by billing company name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559586636' status='passed' stop='1653559587484'>
+            <name>can search by billing address 2</name>
+            <title>can search by billing address 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559587484' status='passed' stop='1653559588329'>
+            <name>can search by billing city name</name>
+            <title>can search by billing city name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559588329' status='passed' stop='1653559589582'>
+            <name>can search by billing post code</name>
+            <title>can search by billing post code</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559589582' status='passed' stop='1653559590398'>
+            <name>can search by billing phone</name>
+            <title>can search by billing phone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559590398' status='passed' stop='1653559591611'>
+            <name>can search by billing state</name>
+            <title>can search by billing state</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559591611' status='passed' stop='1653559592787'>
+            <name>can search by shipping first name</name>
+            <title>can search by shipping first name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559592787' status='passed' stop='1653559594030'>
+            <name>can search by shipping last name</name>
+            <title>can search by shipping last name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559594030' status='passed' stop='1653559594993'>
+            <name>can search by shipping address 2</name>
+            <title>can search by shipping address 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559594993' status='passed' stop='1653559596385'>
+            <name>can search by shipping city</name>
+            <title>can search by shipping city</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1653559596385' status='failed' stop='1653559597547'>
+            <name>can search by shipping post code</name>
+            <title>can search by shipping post code</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toHaveLength(expected)
+                
+                Expected length: 1
+                Received length: 0
+                Received array:  []</message>
+                <stack-trace>Error: expect(received).toHaveLength(expected)
+                
+                Expected length: 1
+                Received length: 0
+                Received array:  []
+                    at /home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/order-search.test.js:74:18
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653559597547' status='failed' stop='1653559598518'>
+            <name>can search by shipping state</name>
+            <title>can search by shipping state</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toHaveLength(expected)
+                
+                Expected length: 1
+                Received length: 0
+                Received array:  []</message>
+                <stack-trace>Error: expect(received).toHaveLength(expected)
+                
+                Expected length: 1
+                Received length: 0
+                Received array:  []
+                    at /home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/order-search.test.js:74:18
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1653559598518' status='passed' stop='1653559599613'>
+            <name>can return an empty result set when no matches were found</name>
+            <title>can return an empty result set when no matches were found</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
