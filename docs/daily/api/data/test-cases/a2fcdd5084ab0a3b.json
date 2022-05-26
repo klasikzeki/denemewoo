@@ -1,0 +1,115 @@
+{
+  "uid" : "a2fcdd5084ab0a3b",
+  "name" : "can access a non-authenticated endpoint",
+  "fullName" : "Test API connectivity.can access a non-authenticated endpoint",
+  "historyId" : "e67aefd267ad685450d45d9d40a01ac6",
+  "time" : {
+    "start" : 1653555133972,
+    "stop" : 1653555138196,
+    "duration" : 4224
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test API connectivity"
+  }, {
+    "name" : "testClass",
+    "value" : "Test API connectivity"
+  }, {
+    "name" : "testMethod",
+    "value" : "can access a non-authenticated endpoint"
+  }, {
+    "name" : "package",
+    "value" : "Test API connectivity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "836e60eb8e539242",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "time" : {
+        "start" : 1653553990145,
+        "stop" : 1653553991732,
+        "duration" : 1587
+      }
+    }, {
+      "uid" : "1ea950a21aa3c5ff",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "time" : {
+        "start" : 1653553387458,
+        "stop" : 1653553389542,
+        "duration" : 2084
+      }
+    }, {
+      "uid" : "349a55b7d28b2e36",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "time" : {
+        "start" : 1653550703023,
+        "stop" : 1653550703369,
+        "duration" : 346
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6d4f426f844b5781",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653553990145,
+          "stop" : 1653553991732,
+          "duration" : 1587
+        }
+      }, {
+        "uid" : "675851660b95022a",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653553387458,
+          "stop" : 1653553389542,
+          "duration" : 2084
+        }
+      }, {
+        "uid" : "9fb1ca8a0b4e990",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653550703023,
+          "stop" : 1653550703369,
+          "duration" : 346
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a2fcdd5084ab0a3b.json",
+  "parameterValues" : [ ]
+}
