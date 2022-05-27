@@ -5,62 +5,41 @@
     "children" : [ {
       "name" : "SyntaxError: Unexpected token < in JSON at position 0",
       "children" : [ {
-        "name" : "can create a coupon",
-        "uid" : "cc1470ff5d649f7c",
+        "name" : "can retrieve a coupon",
+        "uid" : "ee1bbfbf828a522c",
         "parentUid" : "3406c329d113278ce7d49f293ee42f7a",
         "status" : "failed",
         "time" : {
-          "start" : 1653624153891,
-          "stop" : 1653624154768,
-          "duration" : 877
+          "start" : 1653625155572,
+          "stop" : 1653625155594,
+          "duration" : 22
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 5,
+        "retriesCount" : 6,
         "retriesStatusChange" : true,
         "parameters" : [ ]
       }, {
-        "name" : "can retrieve a coupon",
-        "uid" : "e697c9c78b512751",
+        "name" : "can update a coupon",
+        "uid" : "fa2fa2b798d567d8",
         "parentUid" : "3406c329d113278ce7d49f293ee42f7a",
         "status" : "failed",
         "time" : {
-          "start" : 1653624154768,
-          "stop" : 1653624155019,
-          "duration" : 251
+          "start" : 1653625155594,
+          "stop" : 1653625155635,
+          "duration" : 41
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 5,
+        "retriesCount" : 6,
         "retriesStatusChange" : true,
         "parameters" : [ ]
       } ],
       "uid" : "3406c329d113278ce7d49f293ee42f7a"
-    }, {
-      "name" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
-      "children" : [ {
-        "name" : "can update a coupon",
-        "uid" : "96d3b9ff867f4e15",
-        "parentUid" : "0ab843ce8a14656c72cfa30ecaa2fc1c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1653624155020,
-          "stop" : 1653624155248,
-          "duration" : 228
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 5,
-        "retriesStatusChange" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0ab843ce8a14656c72cfa30ecaa2fc1c"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
