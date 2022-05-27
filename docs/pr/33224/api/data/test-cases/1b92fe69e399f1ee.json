@@ -1,0 +1,133 @@
+{
+  "uid" : "1b92fe69e399f1ee",
+  "name" : "can update a coupon",
+  "fullName" : "Coupons API tests.can update a coupon",
+  "historyId" : "e47ddb3721f1431171dbdbfa6c310b60",
+  "time" : {
+    "start" : 1653623043870,
+    "stop" : 1653623044817,
+    "duration" : 947
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/coupons/coupons.test.js:38:33)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Coupons API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Coupons API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can update a coupon"
+  }, {
+    "name" : "package",
+    "value" : "Coupons API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d019fd40645a513d",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "time" : {
+        "start" : 1653621369215,
+        "stop" : 1653621369363,
+        "duration" : 148
+      }
+    }, {
+      "uid" : "751ce9f48ee94f74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653620560615,
+        "stop" : 1653620560698,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "192c3d0a03a1fce3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653619683625,
+        "stop" : 1653619683750,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "1cb5ce18bb95943b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653618716296,
+        "stop" : 1653618716483,
+        "duration" : 187
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2c99224c61e06ee0",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653621369215,
+          "stop" : 1653621369363,
+          "duration" : 148
+        }
+      }, {
+        "uid" : "68d91de2e9724de4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620560615,
+          "stop" : 1653620560698,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "4fb7b3bfecb3fadc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653619683625,
+          "stop" : 1653619683750,
+          "duration" : 125
+        }
+      }, {
+        "uid" : "d45281f557a3cd25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653618716296,
+          "stop" : 1653618716483,
+          "duration" : 187
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b92fe69e399f1ee.json",
+  "parameterValues" : [ ]
+}
