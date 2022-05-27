@@ -1,5 +1,68 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "SyntaxError: Unexpected token < in JSON at position 0",
+      "children" : [ {
+        "name" : "can create a coupon",
+        "uid" : "d79f90bc0e4b0b3e",
+        "parentUid" : "3406c329d113278ce7d49f293ee42f7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653621368007,
+          "stop" : 1653621369199,
+          "duration" : 1192
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "can retrieve a coupon",
+        "uid" : "a724a8001cfa6542",
+        "parentUid" : "3406c329d113278ce7d49f293ee42f7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653621369199,
+          "stop" : 1653621369214,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3406c329d113278ce7d49f293ee42f7a"
+    }, {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "children" : [ {
+        "name" : "can update a coupon",
+        "uid" : "2c99224c61e06ee0",
+        "parentUid" : "0ab843ce8a14656c72cfa30ecaa2fc1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653621369215,
+          "stop" : 1653621369363,
+          "duration" : 148
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ab843ce8a14656c72cfa30ecaa2fc1c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }
