@@ -4,14 +4,10 @@ COMMENT_BODY=""
 COMMENT_ID=""
 
 set_comment_body() {
-    REPORTS_REPO_NAME=${REPORTS_REPO#"$REPORTS_REPO_OWNER/"}
     COMMENT_BODY=$(cat templates/COMMENT_TEMPLATE.md)
     COMMENT_BODY=${COMMENT_BODY//COMMIT_SHA/$COMMIT_SHA}
     COMMENT_BODY=${COMMENT_BODY//COMMIT_MESSAGE/$COMMIT_MESSAGE}
     COMMENT_BODY=${COMMENT_BODY//PR_NUMBER/$PR_NUMBER}
-    COMMENT_BODY=${COMMENT_BODY//REPORTS_REPO_NAME/$REPORTS_REPO_NAME}
-    COMMENT_BODY=${COMMENT_BODY//REPORTS_REPO/$REPORTS_REPO}
-    COMMENT_BODY=${COMMENT_BODY//WOO_REPO_OWNER/$WOO_REPO_OWNER}
 
     echo "Comment to be posted on pull request #$PR_NUMBER:"
     echo "$COMMENT_BODY"
@@ -22,16 +18,16 @@ get_comment_id() {
     # "Test reports for ... have been published"
     # And will return an array of comment id's.
     # The first id in the array will be saved as COMMENT_ID.
-    COMMENT_ID=$(gh api repos/$WOO_REPO/issues/$PR_NUMBER/comments \
+    COMMENT_ID=$(gh api repos/woocommerce/woocommerce/issues/$PR_NUMBER/comments \
         --jq "[.[] | select((.user.login == \"$REPORTS_USER\") and (.body | test(\".*Test reports for .* have been published\"))) | .id][0]")
 }
 
 add_comment() {
-    gh pr comment $PR_NUMBER --repo=$WOO_REPO --body "$COMMENT_BODY"
+    gh pr comment $PR_NUMBER --repo=woocommerce/woocommerce --body "$COMMENT_BODY"
 }
 
 update_comment() {
-    gh api -X PATCH repos/$WOO_REPO/issues/comments/$COMMENT_ID -f body="$COMMENT_BODY"
+    gh api -X PATCH repos/woocommerce/woocommerce/issues/comments/$COMMENT_ID -f body="$COMMENT_BODY"
 }
 
 set_comment_body
