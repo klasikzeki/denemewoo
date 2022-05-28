@@ -46,7 +46,7 @@ set_report_title() {
 
     case $TEST_WORKFLOW in
     "daily")
-        REPORT_TITLE="$REPORT_TITLE - Daily smoke test"
+        REPORT_TITLE="$REPORT_TITLE - Daily smoke test - $COMMIT_MESSAGE"
         ;;
     "pr")
         REPORT_TITLE="$REPORT_TITLE - PR #$PR_NUMBER - $COMMIT_MESSAGE"
