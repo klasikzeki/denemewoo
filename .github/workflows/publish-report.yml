@@ -23,12 +23,6 @@ on:
       artifact_name:
         description: Name of artifact to be downloaded.
         required: true
-      woo_repo:
-        description: Repository that triggered this workflow.
-        default: woocommerce/woocommerce
-      woo_repo_owner:
-        description: Owner of woo_repo.
-        default: woocommerce
       pr_number:
         description: If test_workflow is 'pr', this is the WooCommerce PR that generated the test report.
       commit_sha:
@@ -45,15 +39,13 @@ jobs:
       ARTIFACT_NAME: ${{ github.event.inputs.artifact_name }}
       PR_NUMBER: ${{ github.event.inputs.pr_number }}
       COMMIT_SHA: ${{ github.event.inputs.commit_sha }}
-      WOO_REPO: ${{ github.event.inputs.woo_repo }}
-      WOO_REPO_OWNER: ${{ github.event.inputs.woo_repo_owner }}
       DOWNLOAD_PATH: ${{ github.workspace }}/download
       REPO_PATH: ${{ github.workspace }}/repo
       GITHUB_TOKEN: ${{ github.token }}
     steps:
       - name: Validate PR number
         if: ${{ github.event.inputs.test_workflow == 'pr' }}
-        run: gh pr view $PR_NUMBER --repo $WOO_REPO >> /dev/null
+        run: gh pr view $PR_NUMBER --repo woocommerce/woocommerce >> /dev/null
 
       - name: Create dirs
         run: |
@@ -92,7 +84,5 @@ jobs:
         working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
         env:
           GITHUB_TOKEN: ${{ secrets.REPORTS_TOKEN }}
-          REPORTS_REPO: ${{ github.repository }}
-          REPORTS_REPO_OWNER: ${{ github.repository_owner }}
           REPORTS_USER: ${{ secrets.REPORTS_USER }}
         run: bash add-pr-comment.sh
