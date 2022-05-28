@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       RUN_ID: ${{ github.event.inputs.run_id }}
-      API_ARTIFACT: ${{ github.event.inputs.artifact_name }}
+      API_ARTIFACT: ${{ github.event.inputs.api_artifact }}
       DOWNLOAD_PATH: ${{ github.workspace }}/download
       REPO_PATH: ${{ github.workspace }}/repo
       GITHUB_TOKEN: ${{ github.token }}
@@ -55,7 +55,7 @@ jobs:
         id: slack_message
         working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
         run: |
-          SLACK_MESSAGE=$(node prepare-slack-message-daily.js)
+          SLACK_MESSAGE=$(COMMIT_MESSAGE="$COMMIT_MESSAGE" node prepare-slack-message-daily.js)
           echo "::set-output name=slack_message::$SLACK_MESSAGE"
 
       - name: Post test report to Slack channel
@@ -64,4 +64,4 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.E2E_SLACK_TOKEN }}
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID_DAILY }}
-          slack-message: ${{ steps.slack_message.outputs.slack_message }}
+          payload: ${{ steps.slack_message.outputs.slack_message }}
