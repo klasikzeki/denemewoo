@@ -38,8 +38,11 @@ jobs:
       - name: Install allure-commandline package
         run: npm install -g allure-commandline
 
-      - name: Download test report
-        run: ${{ env.REPO_PATH }}/.github/workflows/scripts/download-report.sh
+      - name: Download API test report artifact
+        working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
+        env:
+          ARTIFACT_NAME: ${{ env.API_ARTIFACT }}
+        run: bash download-report.sh
 
       - name: Regenerate report
         run: ${{ env.REPO_PATH }}/.github/workflows/scripts/regenerate-report.sh
