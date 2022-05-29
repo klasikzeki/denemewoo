@@ -18,7 +18,7 @@ const changeSummaryJsonTitle = () => {
   const summary = require(SUMMARY_JSON);
   summary.reportName = REPORT_TITLE;
 
-  writeFileSync(SUMMARY_JSON, summary.toString());
+  writeFileSync(SUMMARY_JSON, JSON.stringify(summary));
 };
 
 changeIndexHtmlTitle();
