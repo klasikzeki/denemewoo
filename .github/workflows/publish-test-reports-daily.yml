@@ -77,7 +77,6 @@ jobs:
           SLACK_MESSAGE=$(COMMIT_MESSAGE=\"$COMMIT_MESSAGE\" RUN_ID=\"$RUN_ID\" node prepare-slack-message-daily.js)
           echo "$SLACK_MESSAGE" > $GITHUB_WORKSPACE/slack/slack-message.json
           cat $GITHUB_WORKSPACE/slack/slack-message.json
-          echo "::set-output name=slack_message_path::$GITHUB_WORKSPACE/slack/slack-message.json"
 
       - name: Post test report to Slack channel
         uses: slackapi/slack-github-action@v1.19.0
@@ -85,4 +84,4 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.E2E_SLACK_TOKEN }}
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID_DAILY }}
-          payload-file-path: ${{ steps.prepare_slack_message.outputs.slack_message_path }}
+          payload-file-path: ${{ github.workspace/slack/slack-message.json }}
