@@ -23,6 +23,16 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
+        "text": "As part of our automated testing processes, smoke tests are regularly being run against `trunk` at 3:25 UTC everyday. The following is a summary of the daily smoke test report."
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
         "text": " :alphabet-white-hash: *Commit*"
       }
     },
@@ -37,7 +47,7 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "```$COMMIT_MESSAGE```"
+        "text": "> $COMMIT_MESSAGE"
       }
     },
     {
@@ -118,6 +128,9 @@
       }
     },
     {
+      "type": "divider"
+    },
+    {
       "type": "section",
       "text": {
         "type": "mrkdwn",
@@ -193,6 +206,9 @@
         "type": "mrkdwn",
         "text": "_Duration: *TBC*_"
       }
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "section",
