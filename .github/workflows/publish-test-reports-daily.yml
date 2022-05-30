@@ -84,4 +84,4 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.E2E_SLACK_TOKEN }}
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID_DAILY }}
-          payload-file-path: ${{ github.workspace/slack/slack-message.json }}
+          payload-file-path: ${{ github.workspace }}/slack/slack-message.json
