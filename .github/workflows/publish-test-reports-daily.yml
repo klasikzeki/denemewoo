@@ -76,11 +76,6 @@ jobs:
           SLACK_MESSAGE=$(COMMIT_MESSAGE="$COMMIT_MESSAGE" RUN_ID="$RUN_ID" node prepare-slack-message-daily.js)
           echo "::set-output name=slack_message::\"$SLACK_MESSAGE\""
 
-      - name: Print SLACK_MESSAGE for testing
-        env:
-          SLACK_MESSAGE: ${{ steps.slack_message.outputs.slack_message }}
-        run: echo "SLACK_MESSAGE:\n\"$SLACK_MESSAGE\""
-
       - name: Post test report to Slack channel
         if: ${{ false }}
         uses: slackapi/slack-github-action@v1.19.0
