@@ -74,10 +74,9 @@ jobs:
         working-directory: repo/.github/workflows/scripts
         run: |
           SLACK_MESSAGE=$(COMMIT_MESSAGE="$COMMIT_MESSAGE" RUN_ID="$RUN_ID" node prepare-slack-message-daily.js)
-          echo "::set-output name=slack_message::\"$SLACK_MESSAGE\""
+          echo "::set-output name=slack_message::$SLACK_MESSAGE"
 
       - name: Post test report to Slack channel
-        if: ${{ false }}
         uses: slackapi/slack-github-action@v1.19.0
         env:
           SLACK_BOT_TOKEN: ${{ secrets.E2E_SLACK_TOKEN }}
