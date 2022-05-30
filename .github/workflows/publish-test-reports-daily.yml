@@ -74,7 +74,7 @@ jobs:
         working-directory: repo/.github/workflows/scripts
         run: |
           SLACK_MESSAGE=$(COMMIT_MESSAGE=\"$COMMIT_MESSAGE\" RUN_ID=\"$RUN_ID\" node prepare-slack-message-daily.js)
-          echo "::set-output name=slack_message::toJSON($SLACK_MESSAGE)"
+          echo "::set-output name=slack_message::${{ toJSON($SLACK_MESSAGE) }}"
 
       - name: Print slack message for debugging
         env:
