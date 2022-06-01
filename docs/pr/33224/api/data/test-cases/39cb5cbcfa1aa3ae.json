@@ -1,0 +1,307 @@
+{
+  "uid" : "39cb5cbcfa1aa3ae",
+  "name" : "can add shipping and billing contacts to an order",
+  "fullName" : "Orders API tests: CRUD Update an order.can add shipping and billing contacts to an order",
+  "historyId" : "937369dd4a8ea38a19cc90f7ca2fca71",
+  "time" : {
+    "start" : 1654127240143,
+    "stop" : 1654127240260,
+    "duration" : 117
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add shipping and billing contacts to an order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "631426e60678f270",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654125560018,
+        "stop" : 1654125560130,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "6d3bf6b6a4e81507",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654062672666,
+        "stop" : 1654062672787,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "36786df95599c219",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+      "time" : {
+        "start" : 1654061772934,
+        "stop" : 1654061773003,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "f4b3da3e3b085cb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654061174806,
+        "stop" : 1654061174918,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "f6a5a74375ed3654",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+      "time" : {
+        "start" : 1654059877397,
+        "stop" : 1654059877491,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "10fe9dc4378f1657",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+      "time" : {
+        "start" : 1654058750678,
+        "stop" : 1654058750752,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "2b06902745c0923b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654057911674,
+        "stop" : 1654057911777,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "67b28235d30db900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626451488,
+        "stop" : 1653626451598,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "880302b03c49ed5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653625162157,
+        "stop" : 1653625162271,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "7e262baad2d8e50b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653624162363,
+        "stop" : 1653624162483,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "695e676cb38de9ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653623053927,
+        "stop" : 1653623054083,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "37b71f1c98202fe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653621375577,
+        "stop" : 1653621375682,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "1a36fbec80428f7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653620567399,
+        "stop" : 1653620567511,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "d75158cd2ab30cb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653619692943,
+        "stop" : 1653619693107,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "a38f5eac4de82e5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653618723053,
+        "stop" : 1653618723167,
+        "duration" : 114
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "f8b7cf0d0f2b54dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654125560018,
+          "stop" : 1654125560130,
+          "duration" : 112
+        }
+      }, {
+        "uid" : "1ac33ce25bcb5b39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654062672666,
+          "stop" : 1654062672787,
+          "duration" : 121
+        }
+      }, {
+        "uid" : "49fdfd159397d9de",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+        "time" : {
+          "start" : 1654061772934,
+          "stop" : 1654061773003,
+          "duration" : 69
+        }
+      }, {
+        "uid" : "1fd885f434dc1c6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654061174806,
+          "stop" : 1654061174918,
+          "duration" : 112
+        }
+      }, {
+        "uid" : "72466e6c0aaf06cf",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+        "time" : {
+          "start" : 1654059877397,
+          "stop" : 1654059877491,
+          "duration" : 94
+        }
+      }, {
+        "uid" : "e957ab8812999333",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+        "time" : {
+          "start" : 1654058750678,
+          "stop" : 1654058750752,
+          "duration" : 74
+        }
+      }, {
+        "uid" : "7bd8f943cb44fcb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654057911674,
+          "stop" : 1654057911777,
+          "duration" : 103
+        }
+      }, {
+        "uid" : "76a4168b5aea51df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653626451488,
+          "stop" : 1653626451598,
+          "duration" : 110
+        }
+      }, {
+        "uid" : "eef0ab41d9520a1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653625162157,
+          "stop" : 1653625162271,
+          "duration" : 114
+        }
+      }, {
+        "uid" : "f101e0eef303a8c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653624162363,
+          "stop" : 1653624162483,
+          "duration" : 120
+        }
+      }, {
+        "uid" : "91d3d15978a5549b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653623053927,
+          "stop" : 1653623054083,
+          "duration" : 156
+        }
+      }, {
+        "uid" : "1001411464b157bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653621375577,
+          "stop" : 1653621375682,
+          "duration" : 105
+        }
+      }, {
+        "uid" : "f0ba2a7a3eb9727e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620567399,
+          "stop" : 1653620567511,
+          "duration" : 112
+        }
+      }, {
+        "uid" : "eb85549e9342f5a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653619692943,
+          "stop" : 1653619693107,
+          "duration" : 164
+        }
+      }, {
+        "uid" : "428629af1acfa123",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653618723053,
+          "stop" : 1653618723167,
+          "duration" : 114
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "39cb5cbcfa1aa3ae.json",
+  "parameterValues" : [ ]
+}
