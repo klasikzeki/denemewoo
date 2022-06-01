@@ -1,0 +1,211 @@
+{
+  "uid" : "d6fcfbeee5d45e42",
+  "name" : "search",
+  "fullName" : "Orders API tests List all orders.search",
+  "historyId" : "c400624d633e0f72ee94ecf0543446df",
+  "time" : {
+    "start" : 1654058745093,
+    "stop" : 1654058745172,
+    "duration" : 79
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: logoProducts.map is not a function",
+  "statusTrace" : "TypeError: logoProducts.map is not a function\n                    at createSampleGroupedProduct (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1133:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Object.createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1645:26)\n                    at createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/orders.js:17:26)\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders.test.js:49:16)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testMethod",
+    "value" : "search"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3fe822771e21e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654057901369,
+        "stop" : 1654057901851,
+        "duration" : 482
+      }
+    }, {
+      "uid" : "bc6488c14878d95c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626440121,
+        "stop" : 1653626440667,
+        "duration" : 546
+      }
+    }, {
+      "uid" : "f2875da90b69a5c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653625151235,
+        "stop" : 1653625151742,
+        "duration" : 507
+      }
+    }, {
+      "uid" : "ef20ea892e6c072a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653624150320,
+        "stop" : 1653624150855,
+        "duration" : 535
+      }
+    }, {
+      "uid" : "27e9c79ba693a01e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653623038893,
+        "stop" : 1653623039611,
+        "duration" : 718
+      }
+    }, {
+      "uid" : "8aeffe07785e5c81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653621364969,
+        "stop" : 1653621365456,
+        "duration" : 487
+      }
+    }, {
+      "uid" : "95c96bc347d3a4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653620555735,
+        "stop" : 1653620556266,
+        "duration" : 531
+      }
+    }, {
+      "uid" : "e1cf19b63c8464bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653619677642,
+        "stop" : 1653619678340,
+        "duration" : 698
+      }
+    }, {
+      "uid" : "79daeb995fb44802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653618711751,
+        "stop" : 1653618712273,
+        "duration" : 522
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "142838e8764b6aeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654057901369,
+          "stop" : 1654057901851,
+          "duration" : 482
+        }
+      }, {
+        "uid" : "a01b318765c05bdd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653626440121,
+          "stop" : 1653626440667,
+          "duration" : 546
+        }
+      }, {
+        "uid" : "e399bed29c56f696",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653625151235,
+          "stop" : 1653625151742,
+          "duration" : 507
+        }
+      }, {
+        "uid" : "a3438a380603ddd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653624150320,
+          "stop" : 1653624150855,
+          "duration" : 535
+        }
+      }, {
+        "uid" : "67e77c45cb2c63c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653623038893,
+          "stop" : 1653623039611,
+          "duration" : 718
+        }
+      }, {
+        "uid" : "9c46dfff5966782a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653621364969,
+          "stop" : 1653621365456,
+          "duration" : 487
+        }
+      }, {
+        "uid" : "7740e54f0692a345",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620555735,
+          "stop" : 1653620556266,
+          "duration" : 531
+        }
+      }, {
+        "uid" : "c9d324b600ab880",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653619677642,
+          "stop" : 1653619678340,
+          "duration" : 698
+        }
+      }, {
+        "uid" : "ef3b467c1d543a58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653618711751,
+          "stop" : 1653618712273,
+          "duration" : 522
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d6fcfbeee5d45e42.json",
+  "parameterValues" : [ ]
+}
