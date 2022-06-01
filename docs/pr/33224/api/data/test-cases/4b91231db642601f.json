@@ -1,0 +1,271 @@
+{
+  "uid" : "4b91231db642601f",
+  "name" : "can update a coupon",
+  "fullName" : "Coupons API tests.can update a coupon",
+  "historyId" : "e47ddb3721f1431171dbdbfa6c310b60",
+  "time" : {
+    "start" : 1654061768330,
+    "stop" : 1654061768399,
+    "duration" : 69
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ObjectContaining {\"description\": \"10% off storewide\", \"free_shipping\": true, \"maximum_amount\": \"500.00\", \"usage_limit_per_user\": 1}\n                Received: {}",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ObjectContaining {\"description\": \"10% off storewide\", \"free_shipping\": true, \"maximum_amount\": \"500.00\", \"usage_limit_per_user\": 1}\n                Received: {}\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/coupons/coupons.test.js:56:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : true,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Coupons API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Coupons API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can update a coupon"
+  }, {
+    "name" : "package",
+    "value" : "Coupons API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bf05890ae92a7080",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654061167481,
+        "stop" : 1654061167567,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "d9f1613a916eae06",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ObjectContaining {\"description\": \"10% off storewide\", \"free_shipping\": true, \"maximum_amount\": \"500.00\", \"usage_limit_per_user\": 1}\n                Received: {}",
+      "time" : {
+        "start" : 1654059871117,
+        "stop" : 1654059871201,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "72ccbe3f9e66adc5",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ObjectContaining {\"description\": \"10% off storewide\", \"free_shipping\": true, \"maximum_amount\": \"500.00\", \"usage_limit_per_user\": 1}\n                Received: {}",
+      "time" : {
+        "start" : 1654058745860,
+        "stop" : 1654058745932,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "f95e587839424e07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654057905571,
+        "stop" : 1654057905648,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "9ffaf69eee2c510f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626444946,
+        "stop" : 1653626445030,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "f8f67d90f13f7407",
+      "status" : "failed",
+      "statusDetails" : "SyntaxError: Unexpected token < in JSON at position 0",
+      "time" : {
+        "start" : 1653625155594,
+        "stop" : 1653625155635,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "cd724232d8a87a59",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "time" : {
+        "start" : 1653624155020,
+        "stop" : 1653624155248,
+        "duration" : 228
+      }
+    }, {
+      "uid" : "1e60e44da4f868ce",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "time" : {
+        "start" : 1653623043870,
+        "stop" : 1653623044817,
+        "duration" : 947
+      }
+    }, {
+      "uid" : "d21bec1812307528",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+      "time" : {
+        "start" : 1653621369215,
+        "stop" : 1653621369363,
+        "duration" : 148
+      }
+    }, {
+      "uid" : "67853655af545f3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653620560615,
+        "stop" : 1653620560698,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "7ee649781d40aac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653619683625,
+        "stop" : 1653619683750,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "e8eca61198a17e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653618716296,
+        "stop" : 1653618716483,
+        "duration" : 187
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "cc34ecb3adc66abe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654061167481,
+          "stop" : 1654061167567,
+          "duration" : 86
+        }
+      }, {
+        "uid" : "141e0b53e7913b94",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ObjectContaining {\"description\": \"10% off storewide\", \"free_shipping\": true, \"maximum_amount\": \"500.00\", \"usage_limit_per_user\": 1}\n                Received: {}",
+        "time" : {
+          "start" : 1654059871117,
+          "stop" : 1654059871201,
+          "duration" : 84
+        }
+      }, {
+        "uid" : "ec7a87663304d998",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ObjectContaining {\"description\": \"10% off storewide\", \"free_shipping\": true, \"maximum_amount\": \"500.00\", \"usage_limit_per_user\": 1}\n                Received: {}",
+        "time" : {
+          "start" : 1654058745860,
+          "stop" : 1654058745932,
+          "duration" : 72
+        }
+      }, {
+        "uid" : "cf7c281d46a0bcc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654057905571,
+          "stop" : 1654057905648,
+          "duration" : 77
+        }
+      }, {
+        "uid" : "e99844be54b25aa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653626444946,
+          "stop" : 1653626445030,
+          "duration" : 84
+        }
+      }, {
+        "uid" : "fa2fa2b798d567d8",
+        "status" : "failed",
+        "statusDetails" : "SyntaxError: Unexpected token < in JSON at position 0",
+        "time" : {
+          "start" : 1653625155594,
+          "stop" : 1653625155635,
+          "duration" : 41
+        }
+      }, {
+        "uid" : "96d3b9ff867f4e15",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653624155020,
+          "stop" : 1653624155248,
+          "duration" : 228
+        }
+      }, {
+        "uid" : "1b92fe69e399f1ee",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653623043870,
+          "stop" : 1653623044817,
+          "duration" : 947
+        }
+      }, {
+        "uid" : "2c99224c61e06ee0",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 404",
+        "time" : {
+          "start" : 1653621369215,
+          "stop" : 1653621369363,
+          "duration" : 148
+        }
+      }, {
+        "uid" : "68d91de2e9724de4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620560615,
+          "stop" : 1653620560698,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "4fb7b3bfecb3fadc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653619683625,
+          "stop" : 1653619683750,
+          "duration" : 125
+        }
+      }, {
+        "uid" : "d45281f557a3cd25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653618716296,
+          "stop" : 1653618716483,
+          "duration" : 187
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4b91231db642601f.json",
+  "parameterValues" : [ ]
+}

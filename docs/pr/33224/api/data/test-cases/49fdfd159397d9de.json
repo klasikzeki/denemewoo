@@ -1,0 +1,263 @@
+{
+  "uid" : "49fdfd159397d9de",
+  "name" : "can add shipping and billing contacts to an order",
+  "fullName" : "Orders API tests: CRUD Update an order.can add shipping and billing contacts to an order",
+  "historyId" : "937369dd4a8ea38a19cc90f7ca2fca71",
+  "time" : {
+    "start" : 1654061772934,
+    "stop" : 1654061773003,
+    "duration" : 69
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders-crud.test.js:155:36)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : true,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add shipping and billing contacts to an order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "203278e4c5198db6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654061174806,
+        "stop" : 1654061174918,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "d3ceb1dd02360036",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+      "time" : {
+        "start" : 1654059877397,
+        "stop" : 1654059877491,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "8c8bf251c23af475",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+      "time" : {
+        "start" : 1654058750678,
+        "stop" : 1654058750752,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "6a73996df9d07759",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654057911674,
+        "stop" : 1654057911777,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "eec899807d9328db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626451488,
+        "stop" : 1653626451598,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "720aa2b22e75b046",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653625162157,
+        "stop" : 1653625162271,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "7496f41102d235c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653624162363,
+        "stop" : 1653624162483,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "31f29f9c8c2e07e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653623053927,
+        "stop" : 1653623054083,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "9c0af3077fa25117",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653621375577,
+        "stop" : 1653621375682,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "7f62259fb19cf438",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653620567399,
+        "stop" : 1653620567511,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "a41ff318a8421fe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653619692943,
+        "stop" : 1653619693107,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "a392da86b92bf31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653618723053,
+        "stop" : 1653618723167,
+        "duration" : 114
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "1fd885f434dc1c6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654061174806,
+          "stop" : 1654061174918,
+          "duration" : 112
+        }
+      }, {
+        "uid" : "72466e6c0aaf06cf",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+        "time" : {
+          "start" : 1654059877397,
+          "stop" : 1654059877491,
+          "duration" : 94
+        }
+      }, {
+        "uid" : "e957ab8812999333",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+        "time" : {
+          "start" : 1654058750678,
+          "stop" : 1654058750752,
+          "duration" : 74
+        }
+      }, {
+        "uid" : "7bd8f943cb44fcb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654057911674,
+          "stop" : 1654057911777,
+          "duration" : 103
+        }
+      }, {
+        "uid" : "76a4168b5aea51df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653626451488,
+          "stop" : 1653626451598,
+          "duration" : 110
+        }
+      }, {
+        "uid" : "eef0ab41d9520a1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653625162157,
+          "stop" : 1653625162271,
+          "duration" : 114
+        }
+      }, {
+        "uid" : "f101e0eef303a8c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653624162363,
+          "stop" : 1653624162483,
+          "duration" : 120
+        }
+      }, {
+        "uid" : "91d3d15978a5549b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653623053927,
+          "stop" : 1653623054083,
+          "duration" : 156
+        }
+      }, {
+        "uid" : "1001411464b157bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653621375577,
+          "stop" : 1653621375682,
+          "duration" : 105
+        }
+      }, {
+        "uid" : "f0ba2a7a3eb9727e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620567399,
+          "stop" : 1653620567511,
+          "duration" : 112
+        }
+      }, {
+        "uid" : "eb85549e9342f5a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653619692943,
+          "stop" : 1653619693107,
+          "duration" : 164
+        }
+      }, {
+        "uid" : "428629af1acfa123",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653618723053,
+          "stop" : 1653618723167,
+          "duration" : 114
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "49fdfd159397d9de.json",
+  "parameterValues" : [ ]
+}

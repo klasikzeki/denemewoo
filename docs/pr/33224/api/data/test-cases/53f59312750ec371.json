@@ -1,0 +1,263 @@
+{
+  "uid" : "53f59312750ec371",
+  "name" : "can update status of an order to 'refunded'",
+  "fullName" : "Orders API tests: CRUD Update an order.can update status of an order to 'refunded'",
+  "historyId" : "80d0ad8dd95cc10f24e48a5a973318e0",
+  "time" : {
+    "start" : 1654061772791,
+    "stop" : 1654061772866,
+    "duration" : 75
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"refunded\"\n                Received: undefined",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"refunded\"\n                Received: undefined\n                    at /home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders-crud.test.js:143:27\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : true,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testMethod",
+    "value" : "can update status of an order to 'refunded'"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4267808120a4ad63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654061174619,
+        "stop" : 1654061174716,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "7d8e83c6f084d02c",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"refunded\"\n                Received: undefined",
+      "time" : {
+        "start" : 1654059877220,
+        "stop" : 1654059877309,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "3d938854c24b1fac",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"refunded\"\n                Received: undefined",
+      "time" : {
+        "start" : 1654058750536,
+        "stop" : 1654058750607,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "f414d728494ad657",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654057911493,
+        "stop" : 1654057911589,
+        "duration" : 96
+      }
+    }, {
+      "uid" : "dc8d4e672ae25cdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626451310,
+        "stop" : 1653626451400,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "623fc674dc179ecc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653625161980,
+        "stop" : 1653625162069,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "52eb6bce6f775ca0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653624162172,
+        "stop" : 1653624162266,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "5277a75434f8c8ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653623053686,
+        "stop" : 1653623053805,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "a1e31101f14a48e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653621375409,
+        "stop" : 1653621375494,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "614203feeb2430b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653620567217,
+        "stop" : 1653620567307,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "27f0a958ca4a202c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653619692721,
+        "stop" : 1653619692832,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "8c5d6b38c3475efe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653618722874,
+        "stop" : 1653618722963,
+        "duration" : 89
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "3fa1ea97d1d82aca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654061174619,
+          "stop" : 1654061174716,
+          "duration" : 97
+        }
+      }, {
+        "uid" : "87e599ad251889f8",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"refunded\"\n                Received: undefined",
+        "time" : {
+          "start" : 1654059877220,
+          "stop" : 1654059877309,
+          "duration" : 89
+        }
+      }, {
+        "uid" : "adef74e7b2a062f5",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"refunded\"\n                Received: undefined",
+        "time" : {
+          "start" : 1654058750536,
+          "stop" : 1654058750607,
+          "duration" : 71
+        }
+      }, {
+        "uid" : "7cfeee60e8d43a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654057911493,
+          "stop" : 1654057911589,
+          "duration" : 96
+        }
+      }, {
+        "uid" : "a79e87bb480c4ecf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653626451310,
+          "stop" : 1653626451400,
+          "duration" : 90
+        }
+      }, {
+        "uid" : "44ec5a4b8466aeda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653625161980,
+          "stop" : 1653625162069,
+          "duration" : 89
+        }
+      }, {
+        "uid" : "9eb161e73f23b5dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653624162172,
+          "stop" : 1653624162266,
+          "duration" : 94
+        }
+      }, {
+        "uid" : "8f0648a63e084bb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653623053686,
+          "stop" : 1653623053805,
+          "duration" : 119
+        }
+      }, {
+        "uid" : "be55077d47d49576",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653621375409,
+          "stop" : 1653621375494,
+          "duration" : 85
+        }
+      }, {
+        "uid" : "a776d817146e2060",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620567217,
+          "stop" : 1653620567307,
+          "duration" : 90
+        }
+      }, {
+        "uid" : "f55ef21a0fdb6881",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653619692721,
+          "stop" : 1653619692832,
+          "duration" : 111
+        }
+      }, {
+        "uid" : "bb01e867849b204f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653618722874,
+          "stop" : 1653618722963,
+          "duration" : 89
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "53f59312750ec371.json",
+  "parameterValues" : [ ]
+}

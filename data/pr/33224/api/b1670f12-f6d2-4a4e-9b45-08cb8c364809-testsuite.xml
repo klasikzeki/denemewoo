@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654061774922' stop='1654061775488'>
+    <name>Shipping zones API tests</name>
+    <title>Shipping zones API tests</title>
+    <test-cases>
+        <test-case start='1654061774922' status='failed' stop='1654061775004'>
+            <name>cannot delete the default shipping zone "Locations not covered by your other zones"</name>
+            <title>cannot delete the default shipping zone "Locations not covered by your other zones"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: body.map is not a function</message>
+                <stack-trace>TypeError: body.map is not a function
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:22:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654061775004' status='failed' stop='1654061775077'>
+            <name>cannot update the default shipping zone</name>
+            <title>cannot update the default shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 403
+                Received: 200</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 403
+                Received: 200
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:48:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654061775077' status='failed' stop='1654061775147'>
+            <name>can create a shipping zone</name>
+            <title>can create a shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 201
+                Received: 200</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 201
+                Received: 200
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:62:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654061775147' status='passed' stop='1654061775214'>
+            <name>can retrieve a shipping zone</name>
+            <title>can retrieve a shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1654061775214' status='failed' stop='1654061775289'>
+            <name>can list all shipping zones</name>
+            <title>can list all shipping zones</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has type:  object
+                Received has value: {}</message>
+                <stack-trace>Error: expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has type:  object
+                Received has value: {}
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:87:18)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654061775289' status='failed' stop='1654061775356'>
+            <name>can update a shipping zone</name>
+            <title>can update a shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "United States (Domestic)"
+                Received: undefined</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "United States (Domestic)"
+                Received: undefined
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:106:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654061775356' status='failed' stop='1654061775487'>
+            <name>can delete a shipping zone</name>
+            <title>can delete a shipping zone</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 404
+                Received: 200</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 404
+                Received: 200
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:122:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,263 @@
+{
+  "uid" : "26eb9b48a555c3e4",
+  "name" : "can batch update products",
+  "fullName" : "Products API tests: CRUD Batch update products.can batch update products",
+  "historyId" : "b24ff347d5b1e6dbb0f7aec8f53d0eaf",
+  "time" : {
+    "start" : 1654061770655,
+    "stop" : 1654061770724,
+    "duration" : 69
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has value: undefined",
+  "statusTrace" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has value: undefined\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/products/products-crud.test.js:153:36)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : true,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Products API tests: CRUD Batch update products"
+  }, {
+    "name" : "testClass",
+    "value" : "Products API tests: CRUD Batch update products"
+  }, {
+    "name" : "testMethod",
+    "value" : "can batch update products"
+  }, {
+    "name" : "package",
+    "value" : "Products API tests: CRUD Batch update products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8cc596383085d640",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654061170913,
+        "stop" : 1654061171068,
+        "duration" : 155
+      }
+    }, {
+      "uid" : "1e3d816885d4bc58",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has value: undefined",
+      "time" : {
+        "start" : 1654059874282,
+        "stop" : 1654059874376,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "9adc5888bfe707b0",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has value: undefined",
+      "time" : {
+        "start" : 1654058748297,
+        "stop" : 1654058748369,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "d2ab52f2b5975c45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654057908403,
+        "stop" : 1654057908529,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "98d404c84e98acfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626447972,
+        "stop" : 1653626448101,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "2115a975d9b61f5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653625158667,
+        "stop" : 1653625158796,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "590e70d5f2ea51ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653624158558,
+        "stop" : 1653624158704,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "2082f05abba25ec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653623048898,
+        "stop" : 1653623049100,
+        "duration" : 202
+      }
+    }, {
+      "uid" : "ebc162371290b4d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653621372208,
+        "stop" : 1653621372329,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "d9bda7ae62658153",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653620563733,
+        "stop" : 1653620563898,
+        "duration" : 165
+      }
+    }, {
+      "uid" : "9ed88a659dad3073",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653619688112,
+        "stop" : 1653619688296,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "7fd1679f58812390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653618719451,
+        "stop" : 1653618719578,
+        "duration" : 127
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "b733afe5e9c855e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654061170913,
+          "stop" : 1654061171068,
+          "duration" : 155
+        }
+      }, {
+        "uid" : "353ae7097b857c52",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has value: undefined",
+        "time" : {
+          "start" : 1654059874282,
+          "stop" : 1654059874376,
+          "duration" : 94
+        }
+      }, {
+        "uid" : "773ed41ad5cd6d2b",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has value: undefined",
+        "time" : {
+          "start" : 1654058748297,
+          "stop" : 1654058748369,
+          "duration" : 72
+        }
+      }, {
+        "uid" : "90c3cad72aa514b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654057908403,
+          "stop" : 1654057908529,
+          "duration" : 126
+        }
+      }, {
+        "uid" : "1887d6a757edb5a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653626447972,
+          "stop" : 1653626448101,
+          "duration" : 129
+        }
+      }, {
+        "uid" : "4daa5dc3b8ee0c6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653625158667,
+          "stop" : 1653625158796,
+          "duration" : 129
+        }
+      }, {
+        "uid" : "ea31a43313a91f12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653624158558,
+          "stop" : 1653624158704,
+          "duration" : 146
+        }
+      }, {
+        "uid" : "7234d9644265557f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653623048898,
+          "stop" : 1653623049100,
+          "duration" : 202
+        }
+      }, {
+        "uid" : "7bb848471b5feda9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653621372208,
+          "stop" : 1653621372329,
+          "duration" : 121
+        }
+      }, {
+        "uid" : "ede8363032d49cc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620563733,
+          "stop" : 1653620563898,
+          "duration" : 165
+        }
+      }, {
+        "uid" : "289c000ffe0a7df3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653619688112,
+          "stop" : 1653619688296,
+          "duration" : 184
+        }
+      }, {
+        "uid" : "8cedb08546679cde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653618719451,
+          "stop" : 1653618719578,
+          "duration" : 127
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "26eb9b48a555c3e4.json",
+  "parameterValues" : [ ]
+}
