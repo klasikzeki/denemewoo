@@ -1,0 +1,229 @@
+{
+  "uid" : "19d9c36d4af15915",
+  "name" : "cannot delete the default shipping zone \"Locations not covered by your other zones\"",
+  "fullName" : "Shipping zones API tests.cannot delete the default shipping zone \"Locations not covered by your other zones\"",
+  "historyId" : "ff30b8184a9b12052caabfae8dcbd842",
+  "time" : {
+    "start" : 1654059880081,
+    "stop" : 1654059880191,
+    "duration" : 110
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: body.map is not a function",
+  "statusTrace" : "TypeError: body.map is not a function\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:22:20)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "cannot delete the default shipping zone \"Locations not covered by your other zones\""
+  }, {
+    "name" : "package",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ff1e684ca8a9a04a",
+      "status" : "failed",
+      "statusDetails" : "TypeError: body.map is not a function",
+      "time" : {
+        "start" : 1654058752750,
+        "stop" : 1654058752873,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "53cc760288755d93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654057914381,
+        "stop" : 1654057914586,
+        "duration" : 205
+      }
+    }, {
+      "uid" : "eedea5881953f3ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626454326,
+        "stop" : 1653626454556,
+        "duration" : 230
+      }
+    }, {
+      "uid" : "299deb1ca49349da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653625164987,
+        "stop" : 1653625165207,
+        "duration" : 220
+      }
+    }, {
+      "uid" : "551a9acf7fcd273c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653624165407,
+        "stop" : 1653624165641,
+        "duration" : 234
+      }
+    }, {
+      "uid" : "f2e8e27a16f97a28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653623057984,
+        "stop" : 1653623058325,
+        "duration" : 341
+      }
+    }, {
+      "uid" : "66a60eb5844ad62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653621378268,
+        "stop" : 1653621378499,
+        "duration" : 231
+      }
+    }, {
+      "uid" : "d9eb932372949c55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653620570433,
+        "stop" : 1653620570659,
+        "duration" : 226
+      }
+    }, {
+      "uid" : "648ed67743212003",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653619696920,
+        "stop" : 1653619697216,
+        "duration" : 296
+      }
+    }, {
+      "uid" : "700d9697cdac6d48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653618725974,
+        "stop" : 1653618726224,
+        "duration" : 250
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "cb780d274cd29a6c",
+        "status" : "failed",
+        "statusDetails" : "TypeError: body.map is not a function",
+        "time" : {
+          "start" : 1654058752750,
+          "stop" : 1654058752873,
+          "duration" : 123
+        }
+      }, {
+        "uid" : "de3fd33f08cf5f4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654057914381,
+          "stop" : 1654057914586,
+          "duration" : 205
+        }
+      }, {
+        "uid" : "5477bbe6c7cba805",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653626454326,
+          "stop" : 1653626454556,
+          "duration" : 230
+        }
+      }, {
+        "uid" : "50e5ad197e92a24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653625164987,
+          "stop" : 1653625165207,
+          "duration" : 220
+        }
+      }, {
+        "uid" : "66856b245d39c496",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653624165407,
+          "stop" : 1653624165641,
+          "duration" : 234
+        }
+      }, {
+        "uid" : "795544372f83f918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653623057984,
+          "stop" : 1653623058325,
+          "duration" : 341
+        }
+      }, {
+        "uid" : "3741302bbfae954",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653621378268,
+          "stop" : 1653621378499,
+          "duration" : 231
+        }
+      }, {
+        "uid" : "18d5bda85dc7db0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620570433,
+          "stop" : 1653620570659,
+          "duration" : 226
+        }
+      }, {
+        "uid" : "e985c9cba8c30359",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653619696920,
+          "stop" : 1653619697216,
+          "duration" : 296
+        }
+      }, {
+        "uid" : "f46a7cdf8a4e83bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653618725974,
+          "stop" : 1653618726224,
+          "duration" : 250
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "19d9c36d4af15915.json",
+  "parameterValues" : [ ]
+}

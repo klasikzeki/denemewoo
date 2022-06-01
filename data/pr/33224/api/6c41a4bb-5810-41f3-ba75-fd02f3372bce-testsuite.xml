@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654059874036' stop='1654059874472'>
+    <name>Products API tests: CRUD Batch update products</name>
+    <title>Products API tests: CRUD Batch update products</title>
+    <test-cases>
+        <test-case start='1654059874037' status='failed' stop='1654059874282'>
+            <name>can batch create products</name>
+            <title>can batch create products</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has value: undefined</message>
+                <stack-trace>Error: expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has value: undefined
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/products/products-crud.test.js:124:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654059874282' status='failed' stop='1654059874376'>
+            <name>can batch update products</name>
+            <title>can batch update products</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has value: undefined</message>
+                <stack-trace>Error: expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has value: undefined
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/products/products-crud.test.js:153:36)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654059874376' status='failed' stop='1654059874472'>
+            <name>can batch delete products</name>
+            <title>can batch delete products</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has value: undefined</message>
+                <stack-trace>Error: expect(received).toHaveLength(expected)
+                
+                Matcher error: received value must have a length property whose value must be a number
+                
+                Received has value: undefined
+                    at Object.&lt;anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/products/products-crud.test.js:176:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
