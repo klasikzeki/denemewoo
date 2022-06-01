@@ -1,0 +1,85 @@
+{
+  "uid" : "b5749d51aa4650af",
+  "name" : "customer",
+  "fullName" : "Orders API tests List all orders.customer",
+  "historyId" : "cf930fb556800db82476b1295c8cc63",
+  "time" : {
+    "start" : 1654060966697,
+    "stop" : 1654060968355,
+    "duration" : 1658
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+  "statusTrace" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders.test.js:288:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testMethod",
+    "value" : "customer"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4eadf517c7fe7c3e",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1653893725191,
+        "stop" : 1653893726338,
+        "duration" : 1147
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c3b1257b9804540e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1653893725191,
+          "stop" : 1653893726338,
+          "duration" : 1147
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b5749d51aa4650af.json",
+  "parameterValues" : [ ]
+}
