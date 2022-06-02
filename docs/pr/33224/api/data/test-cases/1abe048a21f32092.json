@@ -1,0 +1,339 @@
+{
+  "uid" : "1abe048a21f32092",
+  "name" : "can add shipping and billing contacts to an order",
+  "fullName" : "Orders API tests: CRUD Update an order.can add shipping and billing contacts to an order",
+  "historyId" : "937369dd4a8ea38a19cc90f7ca2fca71",
+  "time" : {
+    "start" : 1654129698992,
+    "stop" : 1654129699096,
+    "duration" : 104
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add shipping and billing contacts to an order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f68330f9146f5d05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654127931961,
+        "stop" : 1654127932074,
+        "duration" : 113
+      }
+    }, {
+      "uid" : "7355e173375545fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654127240143,
+        "stop" : 1654127240260,
+        "duration" : 117
+      }
+    }, {
+      "uid" : "11e20eec4b659454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654125560018,
+        "stop" : 1654125560130,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "a7d9e524c10c684e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654062672666,
+        "stop" : 1654062672787,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "4135dc0bd755935d",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+      "time" : {
+        "start" : 1654061772934,
+        "stop" : 1654061773003,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "ea20c838c55ff28a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654061174806,
+        "stop" : 1654061174918,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "2f0c7cdeb1752ae3",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+      "time" : {
+        "start" : 1654059877397,
+        "stop" : 1654059877491,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "64320cfab7a6afc0",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+      "time" : {
+        "start" : 1654058750678,
+        "stop" : 1654058750752,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "fec112e114fcd1b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654057911674,
+        "stop" : 1654057911777,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "7718bd315a759fcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626451488,
+        "stop" : 1653626451598,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "8c3373f2be4d248e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653625162157,
+        "stop" : 1653625162271,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "22b1b870c73e4550",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653624162363,
+        "stop" : 1653624162483,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "31c13e5513ddd96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653623053927,
+        "stop" : 1653623054083,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "c42b505e57ed7de1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653621375577,
+        "stop" : 1653621375682,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "633abb3914678a5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653620567399,
+        "stop" : 1653620567511,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "9210a655deb3d068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653619692943,
+        "stop" : 1653619693107,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "a9e50e84e5938902",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653618723053,
+        "stop" : 1653618723167,
+        "duration" : 114
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "a21edd01e0d6d22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654127931961,
+          "stop" : 1654127932074,
+          "duration" : 113
+        }
+      }, {
+        "uid" : "39cb5cbcfa1aa3ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654127240143,
+          "stop" : 1654127240260,
+          "duration" : 117
+        }
+      }, {
+        "uid" : "f8b7cf0d0f2b54dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654125560018,
+          "stop" : 1654125560130,
+          "duration" : 112
+        }
+      }, {
+        "uid" : "1ac33ce25bcb5b39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654062672666,
+          "stop" : 1654062672787,
+          "duration" : 121
+        }
+      }, {
+        "uid" : "49fdfd159397d9de",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+        "time" : {
+          "start" : 1654061772934,
+          "stop" : 1654061773003,
+          "duration" : 69
+        }
+      }, {
+        "uid" : "1fd885f434dc1c6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654061174806,
+          "stop" : 1654061174918,
+          "duration" : 112
+        }
+      }, {
+        "uid" : "72466e6c0aaf06cf",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+        "time" : {
+          "start" : 1654059877397,
+          "stop" : 1654059877491,
+          "duration" : 94
+        }
+      }, {
+        "uid" : "e957ab8812999333",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: {\"address_1\": \"123 Market Street\", \"address_2\": \"Suite 500\", \"city\": \"Austin\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"jane.doe@example.com\", \"first_name\": \"Jane\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"73301\", \"state\": \"TX\"}\n                Received: undefined",
+        "time" : {
+          "start" : 1654058750678,
+          "stop" : 1654058750752,
+          "duration" : 74
+        }
+      }, {
+        "uid" : "7bd8f943cb44fcb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654057911674,
+          "stop" : 1654057911777,
+          "duration" : 103
+        }
+      }, {
+        "uid" : "76a4168b5aea51df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653626451488,
+          "stop" : 1653626451598,
+          "duration" : 110
+        }
+      }, {
+        "uid" : "eef0ab41d9520a1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653625162157,
+          "stop" : 1653625162271,
+          "duration" : 114
+        }
+      }, {
+        "uid" : "f101e0eef303a8c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653624162363,
+          "stop" : 1653624162483,
+          "duration" : 120
+        }
+      }, {
+        "uid" : "91d3d15978a5549b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653623053927,
+          "stop" : 1653623054083,
+          "duration" : 156
+        }
+      }, {
+        "uid" : "1001411464b157bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653621375577,
+          "stop" : 1653621375682,
+          "duration" : 105
+        }
+      }, {
+        "uid" : "f0ba2a7a3eb9727e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653620567399,
+          "stop" : 1653620567511,
+          "duration" : 112
+        }
+      }, {
+        "uid" : "eb85549e9342f5a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653619692943,
+          "stop" : 1653619693107,
+          "duration" : 164
+        }
+      }, {
+        "uid" : "428629af1acfa123",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653618723053,
+          "stop" : 1653618723167,
+          "duration" : 114
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1abe048a21f32092.json",
+  "parameterValues" : [ ]
+}
