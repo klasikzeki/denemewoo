@@ -1,0 +1,99 @@
+{
+  "uid" : "d41ba00c1240b84f",
+  "name" : "include",
+  "fullName" : "Orders API tests List all orders orderby.include",
+  "historyId" : "739a7429b1e76281fa5bf89bb9de4949",
+  "time" : {
+    "start" : 1654146683290,
+    "stop" : 1654146683290,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'id')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'id')\n                    at createSampleProductReviews (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1573:59)\n                    at Object.createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1652:26)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/orders.js:17:26)\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders.test.js:49:16)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests List all orders orderby"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests List all orders orderby"
+  }, {
+    "name" : "testMethod",
+    "value" : "include"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests List all orders orderby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a1a93449ad31659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654060987226,
+        "stop" : 1654060989941,
+        "duration" : 2715
+      }
+    }, {
+      "uid" : "fdc038dba4b5166b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653893741387,
+        "stop" : 1653893743567,
+        "duration" : 2180
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "534779603be91a84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654060987226,
+          "stop" : 1654060989941,
+          "duration" : 2715
+        }
+      }, {
+        "uid" : "97b92a3732239cc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653893741387,
+          "stop" : 1653893743567,
+          "duration" : 2180
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d41ba00c1240b84f.json",
+  "parameterValues" : [ ]
+}

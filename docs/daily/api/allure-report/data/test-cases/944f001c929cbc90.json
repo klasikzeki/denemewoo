@@ -1,0 +1,95 @@
+{
+  "uid" : "944f001c929cbc90",
+  "name" : "can batch update coupons",
+  "fullName" : "Coupons API tests Batch update coupons.can batch update coupons",
+  "historyId" : "983a710bbd7d8ec3797abb4be72e78f5",
+  "time" : {
+    "start" : 1654146692418,
+    "stop" : 1654146693945,
+    "duration" : 1527
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Coupons API tests Batch update coupons"
+  }, {
+    "name" : "testClass",
+    "value" : "Coupons API tests Batch update coupons"
+  }, {
+    "name" : "testMethod",
+    "value" : "can batch update coupons"
+  }, {
+    "name" : "package",
+    "value" : "Coupons API tests Batch update coupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "26841d0d1657f7ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654061005327,
+        "stop" : 1654061006295,
+        "duration" : 968
+      }
+    }, {
+      "uid" : "b832c55675e6710d",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: undefined\n                Received: null",
+      "time" : {
+        "start" : 1653893762069,
+        "stop" : 1653893763313,
+        "duration" : 1244
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "748c67cf98b57af5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654061005327,
+          "stop" : 1654061006295,
+          "duration" : 968
+        }
+      }, {
+        "uid" : "f3c0f21c19a45c75",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: undefined\n                Received: null",
+        "time" : {
+          "start" : 1653893762069,
+          "stop" : 1653893763313,
+          "duration" : 1244
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "944f001c929cbc90.json",
+  "parameterValues" : [ ]
+}
