@@ -1,0 +1,111 @@
+{
+  "uid" : "3881cd25662d4126",
+  "name" : "id",
+  "fullName" : "Orders API tests List all orders orderby.id",
+  "historyId" : "623d328b4d153e74889800451d4ff323",
+  "time" : {
+    "start" : 1654232431444,
+    "stop" : 1654232435168,
+    "duration" : 3724
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests List all orders orderby"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests List all orders orderby"
+  }, {
+    "name" : "testMethod",
+    "value" : "id"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests List all orders orderby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "438ff232fba5ccda",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654146680516,
+        "stop" : 1654146683290,
+        "duration" : 2774
+      }
+    }, {
+      "uid" : "75bccd3fe0bc276f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654060984087,
+        "stop" : 1654060987226,
+        "duration" : 3139
+      }
+    }, {
+      "uid" : "d852ec10044e7df6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653893738966,
+        "stop" : 1653893741386,
+        "duration" : 2420
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4c75115ba4520695",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654146680516,
+          "stop" : 1654146683290,
+          "duration" : 2774
+        }
+      }, {
+        "uid" : "1aae04ec2eff363b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654060984087,
+          "stop" : 1654060987226,
+          "duration" : 3139
+        }
+      }, {
+        "uid" : "b25768588206d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653893738966,
+          "stop" : 1653893741386,
+          "duration" : 2420
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3881cd25662d4126.json",
+  "parameterValues" : [ ]
+}
