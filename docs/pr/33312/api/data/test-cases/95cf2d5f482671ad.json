@@ -1,0 +1,97 @@
+{
+  "uid" : "95cf2d5f482671ad",
+  "name" : "can list all shipping zones",
+  "fullName" : "Shipping zones API tests.can list all shipping zones",
+  "historyId" : "716a87a4683ef7f0b09a71b94df9879e",
+  "time" : {
+    "start" : 1654283295344,
+    "stop" : 1654283295412,
+    "duration" : 68
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can list all shipping zones"
+  }, {
+    "name" : "package",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7b63a46c514d7977",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has type:  object\n                Received has value: {\"code\": \"rest_no_route\", \"data\": {\"status\": 404}, \"message\": \"No route was found matching the URL and request method.\"}",
+      "time" : {
+        "start" : 1654282502853,
+        "stop" : 1654282502879,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "8357c6232a8e1526",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has type:  object\n                Received has value: {\"code\": \"rest_no_route\", \"data\": {\"status\": 404}, \"message\": \"No route was found matching the URL and request method.\"}",
+      "time" : {
+        "start" : 1654279015965,
+        "stop" : 1654279015988,
+        "duration" : 23
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2585ec88e570daee",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has type:  object\n                Received has value: {\"code\": \"rest_no_route\", \"data\": {\"status\": 404}, \"message\": \"No route was found matching the URL and request method.\"}",
+        "time" : {
+          "start" : 1654282502853,
+          "stop" : 1654282502879,
+          "duration" : 26
+        }
+      }, {
+        "uid" : "7d1140a26661536f",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has type:  object\n                Received has value: {\"code\": \"rest_no_route\", \"data\": {\"status\": 404}, \"message\": \"No route was found matching the URL and request method.\"}",
+        "time" : {
+          "start" : 1654279015965,
+          "stop" : 1654279015988,
+          "duration" : 23
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "95cf2d5f482671ad.json",
+  "parameterValues" : [ ]
+}
