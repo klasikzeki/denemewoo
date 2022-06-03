@@ -1,0 +1,85 @@
+{
+  "uid" : "bc1084f471d1605",
+  "name" : "cannot delete the default shipping zone \"Locations not covered by your other zones\"",
+  "fullName" : "Shipping zones API tests.cannot delete the default shipping zone \"Locations not covered by your other zones\"",
+  "historyId" : "ff30b8184a9b12052caabfae8dcbd842",
+  "time" : {
+    "start" : 1654282502747,
+    "stop" : 1654282502776,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: body.map is not a function",
+  "statusTrace" : "TypeError: body.map is not a function\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/shipping/shipping-zones.test.js:22:20)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "cannot delete the default shipping zone \"Locations not covered by your other zones\""
+  }, {
+    "name" : "package",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c0a306fba0a90355",
+      "status" : "failed",
+      "statusDetails" : "TypeError: body.map is not a function",
+      "time" : {
+        "start" : 1654279015863,
+        "stop" : 1654279015897,
+        "duration" : 34
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "286e73a936713cd2",
+        "status" : "failed",
+        "statusDetails" : "TypeError: body.map is not a function",
+        "time" : {
+          "start" : 1654279015863,
+          "stop" : 1654279015897,
+          "duration" : 34
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bc1084f471d1605.json",
+  "parameterValues" : [ ]
+}

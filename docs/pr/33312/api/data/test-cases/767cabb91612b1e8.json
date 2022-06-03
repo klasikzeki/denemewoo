@@ -1,0 +1,85 @@
+{
+  "uid" : "767cabb91612b1e8",
+  "name" : "stock status",
+  "fullName" : "Products API tests: List All Products List all products.stock status",
+  "historyId" : "b88b0e3ca5dfb76ffdb496a44df5fb0c",
+  "time" : {
+    "start" : 1654282498422,
+    "stop" : 1654282498445,
+    "duration" : 23
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: logoProducts.map is not a function",
+  "statusTrace" : "TypeError: logoProducts.map is not a function\n                    at createSampleGroupedProduct (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1133:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1645:26)\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/products/product-list.test.js:22:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Products API tests: List All Products List all products"
+  }, {
+    "name" : "testClass",
+    "value" : "Products API tests: List All Products List all products"
+  }, {
+    "name" : "testMethod",
+    "value" : "stock status"
+  }, {
+    "name" : "package",
+    "value" : "Products API tests: List All Products List all products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "54008aa5f748f8c4",
+      "status" : "failed",
+      "statusDetails" : "TypeError: logoProducts.map is not a function",
+      "time" : {
+        "start" : 1654279011947,
+        "stop" : 1654279011969,
+        "duration" : 22
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "46a110111e77dc7f",
+        "status" : "failed",
+        "statusDetails" : "TypeError: logoProducts.map is not a function",
+        "time" : {
+          "start" : 1654279011947,
+          "stop" : 1654279011969,
+          "duration" : 22
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "767cabb91612b1e8.json",
+  "parameterValues" : [ ]
+}

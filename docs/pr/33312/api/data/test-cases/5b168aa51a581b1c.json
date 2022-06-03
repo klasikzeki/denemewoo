@@ -1,0 +1,85 @@
+{
+  "uid" : "5b168aa51a581b1c",
+  "name" : "can limit results to matching string",
+  "fullName" : "Coupons API tests List coupons.can limit results to matching string",
+  "historyId" : "3b356fe77bf945aa1f96292898dfd7f6",
+  "time" : {
+    "start" : 1654282500506,
+    "stop" : 1654282500530,
+    "duration" : 24
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'find')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'find')\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/coupons/coupons.test.js:206:41)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Coupons API tests List coupons"
+  }, {
+    "name" : "testClass",
+    "value" : "Coupons API tests List coupons"
+  }, {
+    "name" : "testMethod",
+    "value" : "can limit results to matching string"
+  }, {
+    "name" : "package",
+    "value" : "Coupons API tests List coupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b11a4889c6b7385f",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'find')",
+      "time" : {
+        "start" : 1654279013854,
+        "stop" : 1654279013877,
+        "duration" : 23
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ebb99128f324a98b",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'find')",
+        "time" : {
+          "start" : 1654279013854,
+          "stop" : 1654279013877,
+          "duration" : 23
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5b168aa51a581b1c.json",
+  "parameterValues" : [ ]
+}
