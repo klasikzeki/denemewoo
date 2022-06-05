@@ -1,0 +1,157 @@
+{
+  "uid" : "ac0b66b8d0d5e962",
+  "name" : "can add complex order",
+  "fullName" : "Orders API test.can add complex order",
+  "historyId" : "4b4a2e735451adced0823dd33109be06",
+  "time" : {
+    "start" : 1654405334092,
+    "stop" : 1654405336607,
+    "duration" : 2515
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"484.00\"",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"484.00\"\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/order-complex.test.js:187:24)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API test"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API test"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add complex order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d4908e7468b1479",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"484.00\"",
+      "time" : {
+        "start" : 1654318976454,
+        "stop" : 1654318978957,
+        "duration" : 2503
+      }
+    }, {
+      "uid" : "7bf517f4f07be01b",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"484.00\"",
+      "time" : {
+        "start" : 1654232585551,
+        "stop" : 1654232588166,
+        "duration" : 2615
+      }
+    }, {
+      "uid" : "c45416f5d68bc969",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"482.20\"",
+      "time" : {
+        "start" : 1654146806073,
+        "stop" : 1654146808577,
+        "duration" : 2504
+      }
+    }, {
+      "uid" : "1d38c0b5c352dd59",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"484.00\"",
+      "time" : {
+        "start" : 1654061122943,
+        "stop" : 1654061125545,
+        "duration" : 2602
+      }
+    }, {
+      "uid" : "e5b469f68993197e",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1653893862806,
+        "stop" : 1653893864792,
+        "duration" : 1986
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "92ff0b01cc68d196",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"484.00\"",
+        "time" : {
+          "start" : 1654318976454,
+          "stop" : 1654318978957,
+          "duration" : 2503
+        }
+      }, {
+        "uid" : "64000169ff2f5e1e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"484.00\"",
+        "time" : {
+          "start" : 1654232585551,
+          "stop" : 1654232588166,
+          "duration" : 2615
+        }
+      }, {
+        "uid" : "1db384e23d4d1f89",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"482.20\"",
+        "time" : {
+          "start" : 1654146806073,
+          "stop" : 1654146808577,
+          "duration" : 2504
+        }
+      }, {
+        "uid" : "90f37e72f5b577da",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"442.20\"\n                Received: \"484.00\"",
+        "time" : {
+          "start" : 1654061122943,
+          "stop" : 1654061125545,
+          "duration" : 2602
+        }
+      }, {
+        "uid" : "d8c1c617baaa9ab0",
+        "status" : "failed",
+        "statusDetails" : "Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1653893862806,
+          "stop" : 1653893864792,
+          "duration" : 1986
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ac0b66b8d0d5e962.json",
+  "parameterValues" : [ ]
+}
