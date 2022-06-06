@@ -1,0 +1,113 @@
+{
+  "uid" : "f0264b58ebd10ef4",
+  "name" : "can add complex order",
+  "fullName" : "Orders API test.can add complex order",
+  "historyId" : "4b4a2e735451adced0823dd33109be06",
+  "time" : {
+    "start" : 1654524820496,
+    "stop" : 1654524820855,
+    "duration" : 359
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API test"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API test"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add complex order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9b35238167539432",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654283294124,
+        "stop" : 1654283294364,
+        "duration" : 240
+      }
+    }, {
+      "uid" : "c59628c575a98929",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 201\n                Received: 404",
+      "time" : {
+        "start" : 1654282502450,
+        "stop" : 1654282502480,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "578aba4f7fa9d5df",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 201\n                Received: 404",
+      "time" : {
+        "start" : 1654279015591,
+        "stop" : 1654279015616,
+        "duration" : 25
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c8762e9acf4bb251",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654283294124,
+          "stop" : 1654283294364,
+          "duration" : 240
+        }
+      }, {
+        "uid" : "e87e71048188036e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 201\n                Received: 404",
+        "time" : {
+          "start" : 1654282502450,
+          "stop" : 1654282502480,
+          "duration" : 30
+        }
+      }, {
+        "uid" : "e74d6bc6fbd146f0",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 201\n                Received: 404",
+        "time" : {
+          "start" : 1654279015591,
+          "stop" : 1654279015616,
+          "duration" : 25
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f0264b58ebd10ef4.json",
+  "parameterValues" : [ ]
+}
