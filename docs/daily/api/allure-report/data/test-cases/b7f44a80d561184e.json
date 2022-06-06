@@ -1,0 +1,175 @@
+{
+  "uid" : "b7f44a80d561184e",
+  "name" : "customer",
+  "fullName" : "Orders API tests List all orders.customer",
+  "historyId" : "cf930fb556800db82476b1295c8cc63",
+  "time" : {
+    "start" : 1654492020570,
+    "stop" : 1654492020570,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'id')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'id')\n                    at createSampleProductReviews (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1573:59)\n                    at Object.createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1652:26)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/orders.js:17:26)\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders.test.js:49:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testMethod",
+    "value" : "customer"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "85d9a46a674dd546",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654405159689,
+        "stop" : 1654405161538,
+        "duration" : 1849
+      }
+    }, {
+      "uid" : "f10ca81e61edb29a",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654318805092,
+        "stop" : 1654318807200,
+        "duration" : 2108
+      }
+    }, {
+      "uid" : "551d2202aa1485d6",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654232412319,
+        "stop" : 1654232414228,
+        "duration" : 1909
+      }
+    }, {
+      "uid" : "7ba85c00e13e0bfc",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654146676266,
+        "stop" : 1654146676267,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "915c65906e1343ec",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654060966697,
+        "stop" : 1654060968355,
+        "duration" : 1658
+      }
+    }, {
+      "uid" : "fbec4faf446c8928",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1653893725191,
+        "stop" : 1653893726338,
+        "duration" : 1147
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "f1550da4f290e4a9",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654405159689,
+          "stop" : 1654405161538,
+          "duration" : 1849
+        }
+      }, {
+        "uid" : "146271a3195554ba",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654318805092,
+          "stop" : 1654318807200,
+          "duration" : 2108
+        }
+      }, {
+        "uid" : "b8c23478692661a5",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654232412319,
+          "stop" : 1654232414228,
+          "duration" : 1909
+        }
+      }, {
+        "uid" : "8af8596aece6b6fa",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654146676266,
+          "stop" : 1654146676267,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b5749d51aa4650af",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654060966697,
+          "stop" : 1654060968355,
+          "duration" : 1658
+        }
+      }, {
+        "uid" : "c3b1257b9804540e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1653893725191,
+          "stop" : 1653893726338,
+          "duration" : 1147
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b7f44a80d561184e.json",
+  "parameterValues" : [ ]
+}

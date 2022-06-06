@@ -1,0 +1,165 @@
+{
+  "uid" : "226d49df54f05482",
+  "name" : "can retrieve an order",
+  "fullName" : "Orders API tests.can retrieve an order",
+  "historyId" : "5085646292f74b5443423f25d88947ad",
+  "time" : {
+    "start" : 1654492008550,
+    "stop" : 1654492010108,
+    "duration" : 1558
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'id')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'id')\n                    at createSampleProductReviews (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1573:59)\n                    at Object.createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1652:26)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/orders.js:17:26)\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders.test.js:49:16)",
+  "flaky" : true,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can retrieve an order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b86deaec52d822ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654405134312,
+        "stop" : 1654405136295,
+        "duration" : 1983
+      }
+    }, {
+      "uid" : "cdf3f2fffe1c0da6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654318779266,
+        "stop" : 1654318780766,
+        "duration" : 1500
+      }
+    }, {
+      "uid" : "107cbdcd283defb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654232384164,
+        "stop" : 1654232385276,
+        "duration" : 1112
+      }
+    }, {
+      "uid" : "f12853903f983245",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654146664400,
+        "stop" : 1654146665794,
+        "duration" : 1394
+      }
+    }, {
+      "uid" : "909fd3c01485536c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654060941799,
+        "stop" : 1654060943187,
+        "duration" : 1388
+      }
+    }, {
+      "uid" : "6730735a9cc9ef69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653893700806,
+        "stop" : 1653893701903,
+        "duration" : 1097
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "caa4fbc3a413a5cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654405134312,
+          "stop" : 1654405136295,
+          "duration" : 1983
+        }
+      }, {
+        "uid" : "6e3932ec19ad090",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654318779266,
+          "stop" : 1654318780766,
+          "duration" : 1500
+        }
+      }, {
+        "uid" : "8e93240603a3249",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654232384164,
+          "stop" : 1654232385276,
+          "duration" : 1112
+        }
+      }, {
+        "uid" : "5d7836036a7ea6ea",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654146664400,
+          "stop" : 1654146665794,
+          "duration" : 1394
+        }
+      }, {
+        "uid" : "cf0dc366a3f21b8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654060941799,
+          "stop" : 1654060943187,
+          "duration" : 1388
+        }
+      }, {
+        "uid" : "daa7a2dc8b495e3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653893700806,
+          "stop" : 1653893701903,
+          "duration" : 1097
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "226d49df54f05482.json",
+  "parameterValues" : [ ]
+}
