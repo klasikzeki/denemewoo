@@ -1,0 +1,183 @@
+{
+  "uid" : "d94a1f6b2124cb83",
+  "name" : "can permanently delete an order",
+  "fullName" : "Orders API tests.can permanently delete an order",
+  "historyId" : "8e321565617ad654e70c2c180ac0ceb6",
+  "time" : {
+    "start" : 1654578975171,
+    "stop" : 1654578982588,
+    "duration" : 7417
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+  "statusTrace" : "Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.\n                    at mapper (/home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/queueRunner.js:27:45)\n                    at /home/runner/work/woocommerce/woocommerce/node_modules/.pnpm/jest-jasmine2@25.5.4/node_modules/jest-jasmine2/build/queueRunner.js:75:41",
+  "flaky" : true,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can permanently delete an order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ebcaad7a15a95ffe",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654492011265,
+        "stop" : 1654492013922,
+        "duration" : 2657
+      }
+    }, {
+      "uid" : "2d2540936553158a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654405137759,
+        "stop" : 1654405140964,
+        "duration" : 3205
+      }
+    }, {
+      "uid" : "4cc24ad98c6442e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654318782209,
+        "stop" : 1654318785240,
+        "duration" : 3031
+      }
+    }, {
+      "uid" : "757810be930439ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654232386311,
+        "stop" : 1654232389011,
+        "duration" : 2700
+      }
+    }, {
+      "uid" : "bbe4b40808be6703",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654146667452,
+        "stop" : 1654146670403,
+        "duration" : 2951
+      }
+    }, {
+      "uid" : "aba4da87eb1773d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654060944762,
+        "stop" : 1654060947531,
+        "duration" : 2769
+      }
+    }, {
+      "uid" : "227673469d0bb264",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653893706906,
+        "stop" : 1653893709136,
+        "duration" : 2230
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "cd013ebf50af36c4",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654492011265,
+          "stop" : 1654492013922,
+          "duration" : 2657
+        }
+      }, {
+        "uid" : "938208da83bd1b07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654405137759,
+          "stop" : 1654405140964,
+          "duration" : 3205
+        }
+      }, {
+        "uid" : "ffd95d1c27915cdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654318782209,
+          "stop" : 1654318785240,
+          "duration" : 3031
+        }
+      }, {
+        "uid" : "eb096c26a483bce1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654232386311,
+          "stop" : 1654232389011,
+          "duration" : 2700
+        }
+      }, {
+        "uid" : "40a8908440b9728a",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654146667452,
+          "stop" : 1654146670403,
+          "duration" : 2951
+        }
+      }, {
+        "uid" : "60a8cfd301fd8cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654060944762,
+          "stop" : 1654060947531,
+          "duration" : 2769
+        }
+      }, {
+        "uid" : "32dab7ac5bcd4cf6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653893706906,
+          "stop" : 1653893709136,
+          "duration" : 2230
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d94a1f6b2124cb83.json",
+  "parameterValues" : [ ]
+}
