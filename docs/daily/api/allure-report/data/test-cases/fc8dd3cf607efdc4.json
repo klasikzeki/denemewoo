@@ -1,0 +1,209 @@
+{
+  "uid" : "fc8dd3cf607efdc4",
+  "name" : "can search by shipping city",
+  "fullName" : "Order Search API tests.can search by shipping city",
+  "historyId" : "2d7555fa04f4b1b0944fb5b8cd5baefc",
+  "time" : {
+    "start" : 1654751442704,
+    "stop" : 1654751445068,
+    "duration" : 2364
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Order Search API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Order Search API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can search by shipping city"
+  }, {
+    "name" : "package",
+    "value" : "Order Search API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "690cd10e578221c0",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 1\n                Received length: 3\n                Received array:  [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/270159\"}]}, \"billing\": {\"address_1\": \"address1\", \"address_2\": \"address2\", \"city\": \"San Francisco\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"john.doe@example.com\", \"first_name\": \"John\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"94107\", \"state\": \"CA\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"A customer provided note.\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-08T03:57:49\", \"date_created_gmt\": \"2022-06-08T03:57:49\", \"date_modified\": \"2022-06-08T03:57:49\", \"date_modified_gmt\": \"2022-06-08T03:57:49\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 270159, \"is_editable\": false, \"line_items\": [{\"id\": 685, \"image\": {\"id\": 0, \"src\": \"\"}, \"meta_data\": [], \"name\": \"\", \"parent_name\": null, \"price\": 0, \"product_id\": 0, \"quantity\": 2, \"sku\": null, \"subtotal\": \"0.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7179857, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": false, \"number\": \"270159\", \"order_key\": \"wc_order_1hRXKcuBlM8Tp\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/270159/?pay_for_order=true&key=wc_order_1hRXKcuBlM8Tp\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"Linwood Ave\", \"city\": \"Buffalo\", \"company\": \"Murphy LLC\", \"country\": \"US\", \"first_name\": \"Tim\", \"last_name\": \"Clark\", \"phone\": \"6146524353\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"customer\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/customers/386\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269748\"}], \"up\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269740\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 386, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:25\", \"date_created_gmt\": \"2022-06-07T05:17:25\", \"date_modified\": \"2022-06-07T05:17:26\", \"date_modified_gmt\": \"2022-06-07T05:17:26\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269748, \"is_editable\": false, \"line_items\": [{\"id\": 655, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 269679, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7169875, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269748\", \"order_key\": \"wc_order_wuBLHIdK4Kr8H\", \"parent_id\": 269740, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269748/?pay_for_order=true&key=wc_order_wuBLHIdK4Kr8H\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"customer\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/customers/386\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269740\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 386, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-07T05:17:19\", \"date_completed_gmt\": \"2022-06-07T05:17:19\", \"date_created\": \"2022-06-07T05:17:19\", \"date_created_gmt\": \"2022-06-07T05:17:19\", \"date_modified\": \"2022-06-07T05:17:19\", \"date_modified_gmt\": \"2022-06-07T05:17:19\", \"date_paid\": \"2022-06-07T05:17:19\", \"date_paid_gmt\": \"2022-06-07T05:17:19\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269740, \"is_editable\": false, \"line_items\": [{\"id\": 652, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 269679, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7169643, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269740\", \"order_key\": \"wc_order_RFOxMcCBSlJHV\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269740/?pay_for_order=true&key=wc_order_RFOxMcCBSlJHV\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+      "time" : {
+        "start" : 1654660689721,
+        "stop" : 1654660691501,
+        "duration" : 1780
+      }
+    }, {
+      "uid" : "adc9ea6fd7c15ce4",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 1\n                Received length: 3\n                Received array:  [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269893\"}]}, \"billing\": {\"address_1\": \"address1\", \"address_2\": \"address2\", \"city\": \"San Francisco\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"john.doe@example.com\", \"first_name\": \"John\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"94107\", \"state\": \"CA\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"A customer provided note.\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:20:52\", \"date_created_gmt\": \"2022-06-07T05:20:52\", \"date_modified\": \"2022-06-07T05:20:52\", \"date_modified_gmt\": \"2022-06-07T05:20:52\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269893, \"is_editable\": false, \"line_items\": [{\"id\": 675, \"image\": {\"id\": 0, \"src\": \"\"}, \"meta_data\": [], \"name\": \"\", \"parent_name\": null, \"price\": 0, \"product_id\": 0, \"quantity\": 2, \"sku\": null, \"subtotal\": \"0.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7173348, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": false, \"number\": \"269893\", \"order_key\": \"wc_order_6WoWfK56OFSqE\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269893/?pay_for_order=true&key=wc_order_6WoWfK56OFSqE\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"Linwood Ave\", \"city\": \"Buffalo\", \"company\": \"Murphy LLC\", \"country\": \"US\", \"first_name\": \"Tim\", \"last_name\": \"Clark\", \"phone\": \"6146524353\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"customer\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/customers/386\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269748\"}], \"up\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269740\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 386, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:25\", \"date_created_gmt\": \"2022-06-07T05:17:25\", \"date_modified\": \"2022-06-07T05:17:26\", \"date_modified_gmt\": \"2022-06-07T05:17:26\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269748, \"is_editable\": false, \"line_items\": [{\"id\": 655, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 269679, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7169875, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269748\", \"order_key\": \"wc_order_wuBLHIdK4Kr8H\", \"parent_id\": 269740, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269748/?pay_for_order=true&key=wc_order_wuBLHIdK4Kr8H\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"customer\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/customers/386\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269740\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 386, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-07T05:17:19\", \"date_completed_gmt\": \"2022-06-07T05:17:19\", \"date_created\": \"2022-06-07T05:17:19\", \"date_created_gmt\": \"2022-06-07T05:17:19\", \"date_modified\": \"2022-06-07T05:17:19\", \"date_modified_gmt\": \"2022-06-07T05:17:19\", \"date_paid\": \"2022-06-07T05:17:19\", \"date_paid_gmt\": \"2022-06-07T05:17:19\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269740, \"is_editable\": false, \"line_items\": [{\"id\": 652, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 269679, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7169643, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269740\", \"order_key\": \"wc_order_RFOxMcCBSlJHV\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269740/?pay_for_order=true&key=wc_order_RFOxMcCBSlJHV\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+      "time" : {
+        "start" : 1654579273499,
+        "stop" : 1654579274978,
+        "duration" : 1479
+      }
+    }, {
+      "uid" : "cd2a8338de19c878",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654492248650,
+        "stop" : 1654492250435,
+        "duration" : 1785
+      }
+    }, {
+      "uid" : "9a17e70187ec030b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654405400862,
+        "stop" : 1654405402474,
+        "duration" : 1612
+      }
+    }, {
+      "uid" : "40403abe5d8eebce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654319040215,
+        "stop" : 1654319044065,
+        "duration" : 3850
+      }
+    }, {
+      "uid" : "855d7f6055ea15a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654232651206,
+        "stop" : 1654232652604,
+        "duration" : 1398
+      }
+    }, {
+      "uid" : "d07636794e9ba9cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654146868837,
+        "stop" : 1654146870404,
+        "duration" : 1567
+      }
+    }, {
+      "uid" : "758945b7ef7b4620",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654061186858,
+        "stop" : 1654061188313,
+        "duration" : 1455
+      }
+    }, {
+      "uid" : "276dfdd19bfcbd7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653893915635,
+        "stop" : 1653893917022,
+        "duration" : 1387
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "67325e702ca25c09",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 1\n                Received length: 3\n                Received array:  [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/270159\"}]}, \"billing\": {\"address_1\": \"address1\", \"address_2\": \"address2\", \"city\": \"San Francisco\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"john.doe@example.com\", \"first_name\": \"John\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"94107\", \"state\": \"CA\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"A customer provided note.\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-08T03:57:49\", \"date_created_gmt\": \"2022-06-08T03:57:49\", \"date_modified\": \"2022-06-08T03:57:49\", \"date_modified_gmt\": \"2022-06-08T03:57:49\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 270159, \"is_editable\": false, \"line_items\": [{\"id\": 685, \"image\": {\"id\": 0, \"src\": \"\"}, \"meta_data\": [], \"name\": \"\", \"parent_name\": null, \"price\": 0, \"product_id\": 0, \"quantity\": 2, \"sku\": null, \"subtotal\": \"0.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7179857, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": false, \"number\": \"270159\", \"order_key\": \"wc_order_1hRXKcuBlM8Tp\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/270159/?pay_for_order=true&key=wc_order_1hRXKcuBlM8Tp\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"Linwood Ave\", \"city\": \"Buffalo\", \"company\": \"Murphy LLC\", \"country\": \"US\", \"first_name\": \"Tim\", \"last_name\": \"Clark\", \"phone\": \"6146524353\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"customer\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/customers/386\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269748\"}], \"up\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269740\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 386, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:25\", \"date_created_gmt\": \"2022-06-07T05:17:25\", \"date_modified\": \"2022-06-07T05:17:26\", \"date_modified_gmt\": \"2022-06-07T05:17:26\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269748, \"is_editable\": false, \"line_items\": [{\"id\": 655, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 269679, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7169875, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269748\", \"order_key\": \"wc_order_wuBLHIdK4Kr8H\", \"parent_id\": 269740, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269748/?pay_for_order=true&key=wc_order_wuBLHIdK4Kr8H\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"customer\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/customers/386\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269740\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 386, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-07T05:17:19\", \"date_completed_gmt\": \"2022-06-07T05:17:19\", \"date_created\": \"2022-06-07T05:17:19\", \"date_created_gmt\": \"2022-06-07T05:17:19\", \"date_modified\": \"2022-06-07T05:17:19\", \"date_modified_gmt\": \"2022-06-07T05:17:19\", \"date_paid\": \"2022-06-07T05:17:19\", \"date_paid_gmt\": \"2022-06-07T05:17:19\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269740, \"is_editable\": false, \"line_items\": [{\"id\": 652, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 269679, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7169643, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269740\", \"order_key\": \"wc_order_RFOxMcCBSlJHV\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269740/?pay_for_order=true&key=wc_order_RFOxMcCBSlJHV\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+        "time" : {
+          "start" : 1654660689721,
+          "stop" : 1654660691501,
+          "duration" : 1780
+        }
+      }, {
+        "uid" : "94bc44aad555be0e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 1\n                Received length: 3\n                Received array:  [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269893\"}]}, \"billing\": {\"address_1\": \"address1\", \"address_2\": \"address2\", \"city\": \"San Francisco\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"john.doe@example.com\", \"first_name\": \"John\", \"last_name\": \"Doe\", \"phone\": \"123456789\", \"postcode\": \"94107\", \"state\": \"CA\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"A customer provided note.\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:20:52\", \"date_created_gmt\": \"2022-06-07T05:20:52\", \"date_modified\": \"2022-06-07T05:20:52\", \"date_modified_gmt\": \"2022-06-07T05:20:52\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269893, \"is_editable\": false, \"line_items\": [{\"id\": 675, \"image\": {\"id\": 0, \"src\": \"\"}, \"meta_data\": [], \"name\": \"\", \"parent_name\": null, \"price\": 0, \"product_id\": 0, \"quantity\": 2, \"sku\": null, \"subtotal\": \"0.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7173348, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": false, \"number\": \"269893\", \"order_key\": \"wc_order_6WoWfK56OFSqE\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269893/?pay_for_order=true&key=wc_order_6WoWfK56OFSqE\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"Linwood Ave\", \"city\": \"Buffalo\", \"company\": \"Murphy LLC\", \"country\": \"US\", \"first_name\": \"Tim\", \"last_name\": \"Clark\", \"phone\": \"6146524353\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"customer\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/customers/386\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269748\"}], \"up\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269740\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 386, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:25\", \"date_created_gmt\": \"2022-06-07T05:17:25\", \"date_modified\": \"2022-06-07T05:17:26\", \"date_modified_gmt\": \"2022-06-07T05:17:26\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269748, \"is_editable\": false, \"line_items\": [{\"id\": 655, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 269679, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7169875, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269748\", \"order_key\": \"wc_order_wuBLHIdK4Kr8H\", \"parent_id\": 269740, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269748/?pay_for_order=true&key=wc_order_wuBLHIdK4Kr8H\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"customer\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/customers/386\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/269740\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 386, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-07T05:17:19\", \"date_completed_gmt\": \"2022-06-07T05:17:19\", \"date_created\": \"2022-06-07T05:17:19\", \"date_created_gmt\": \"2022-06-07T05:17:19\", \"date_modified\": \"2022-06-07T05:17:19\", \"date_modified_gmt\": \"2022-06-07T05:17:19\", \"date_paid\": \"2022-06-07T05:17:19\", \"date_paid_gmt\": \"2022-06-07T05:17:19\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 269740, \"is_editable\": false, \"line_items\": [{\"id\": 652, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 269679, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7169643, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269740\", \"order_key\": \"wc_order_RFOxMcCBSlJHV\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269740/?pay_for_order=true&key=wc_order_RFOxMcCBSlJHV\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+        "time" : {
+          "start" : 1654579273499,
+          "stop" : 1654579274978,
+          "duration" : 1479
+        }
+      }, {
+        "uid" : "656dc1fb15843760",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654492248650,
+          "stop" : 1654492250435,
+          "duration" : 1785
+        }
+      }, {
+        "uid" : "904c12aedab39c9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654405400862,
+          "stop" : 1654405402474,
+          "duration" : 1612
+        }
+      }, {
+        "uid" : "c235ddcc3aba9271",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654319040215,
+          "stop" : 1654319044065,
+          "duration" : 3850
+        }
+      }, {
+        "uid" : "548b9b62daa5cc39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654232651206,
+          "stop" : 1654232652604,
+          "duration" : 1398
+        }
+      }, {
+        "uid" : "52d31c2e8801fcc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654146868837,
+          "stop" : 1654146870404,
+          "duration" : 1567
+        }
+      }, {
+        "uid" : "46cc6dc8ddd3fbf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654061186858,
+          "stop" : 1654061188313,
+          "duration" : 1455
+        }
+      }, {
+        "uid" : "8c174b316af94aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653893915635,
+          "stop" : 1653893917022,
+          "duration" : 1387
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fc8dd3cf607efdc4.json",
+  "parameterValues" : [ ]
+}
