@@ -1,0 +1,255 @@
+{
+  "uid" : "e656ffb7bc2f3cbb",
+  "name" : "status",
+  "fullName" : "Orders API tests List all orders.status",
+  "historyId" : "bc5a30756930dee3c9dc96a76c3ad761",
+  "time" : {
+    "start" : 1654923981907,
+    "stop" : 1654923983565,
+    "duration" : 1658
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ArrayContaining [ObjectContaining {\"customer_id\": 0, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Single\", \"quantity\": 2}, ObjectContaining {\"name\": \"Beanie with Logo\", \"quantity\": 3}, ObjectContaining {\"name\": \"T-Shirt\", \"quantity\": 1}], \"status\": \"completed\"}, ObjectContaining {\"customer_id\": undefined, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Sunglasses\", \"quantity\": 1}], \"status\": \"completed\"}]\n                Received: [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/280591\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-11T05:05:37\", \"date_completed_gmt\": \"2022-06-11T05:05:37\", \"date_created\": \"2022-06-11T05:05:36\", \"date_created_gmt\": \"2022-06-11T05:05:36\", \"date_modified\": \"2022-06-11T05:05:37\", \"date_modified_gmt\": \"2022-06-11T05:05:37\", \"date_paid\": \"2022-06-11T05:05:37\", \"date_paid_gmt\": \"2022-06-11T05:05:37\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 280591, \"is_editable\": false, \"line_items\": [{\"id\": 858, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 280548, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7463006, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"280591\", \"order_key\": \"wc_order_loFkyJSp3aeFB\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/280591/?pay_for_order=true&key=wc_order_loFkyJSp3aeFB\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/280583\"}]}, \"billing\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"email\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-11T05:05:31\", \"date_completed_gmt\": \"2022-06-11T05:05:31\", \"date_created\": \"2022-06-11T05:05:30\", \"date_created_gmt\": \"2022-06-11T05:05:30\", \"date_modified\": \"2022-06-11T05:05:31\", \"date_modified_gmt\": \"2022-06-11T05:05:31\", \"date_paid\": \"2022-06-11T05:05:31\", \"date_paid_gmt\": \"2022-06-11T05:05:31\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 280583, \"is_editable\": false, \"line_items\": [{\"id\": 851, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Single\", \"parent_name\": null, \"price\": 2, \"product_id\": 280542, \"quantity\": 2, \"sku\": \"woo-single\", \"subtotal\": \"4.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"4.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 852, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Beanie with Logo\", \"parent_name\": null, \"price\": 18, \"product_id\": 280540, \"quantity\": 3, \"sku\": \"Woo-beanie-logo\", \"subtotal\": \"54.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"54.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 853, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"T-Shirt\", \"parent_name\": null, \"price\": 18, \"product_id\": 280552, \"quantity\": 1, \"sku\": \"woo-tshirt\", \"subtotal\": \"18.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7462685, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"280583\", \"order_key\": \"wc_order_TMEXKhun2YiUj\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/280583/?pay_for_order=true&key=wc_order_TMEXKhun2YiUj\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ArrayContaining [ObjectContaining {\"customer_id\": 0, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Single\", \"quantity\": 2}, ObjectContaining {\"name\": \"Beanie with Logo\", \"quantity\": 3}, ObjectContaining {\"name\": \"T-Shirt\", \"quantity\": 1}], \"status\": \"completed\"}, ObjectContaining {\"customer_id\": undefined, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Sunglasses\", \"quantity\": 1}], \"status\": \"completed\"}]\n                Received: [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/280591\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-11T05:05:37\", \"date_completed_gmt\": \"2022-06-11T05:05:37\", \"date_created\": \"2022-06-11T05:05:36\", \"date_created_gmt\": \"2022-06-11T05:05:36\", \"date_modified\": \"2022-06-11T05:05:37\", \"date_modified_gmt\": \"2022-06-11T05:05:37\", \"date_paid\": \"2022-06-11T05:05:37\", \"date_paid_gmt\": \"2022-06-11T05:05:37\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 280591, \"is_editable\": false, \"line_items\": [{\"id\": 858, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 280548, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7463006, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"280591\", \"order_key\": \"wc_order_loFkyJSp3aeFB\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/280591/?pay_for_order=true&key=wc_order_loFkyJSp3aeFB\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/280583\"}]}, \"billing\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"email\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-11T05:05:31\", \"date_completed_gmt\": \"2022-06-11T05:05:31\", \"date_created\": \"2022-06-11T05:05:30\", \"date_created_gmt\": \"2022-06-11T05:05:30\", \"date_modified\": \"2022-06-11T05:05:31\", \"date_modified_gmt\": \"2022-06-11T05:05:31\", \"date_paid\": \"2022-06-11T05:05:31\", \"date_paid_gmt\": \"2022-06-11T05:05:31\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 280583, \"is_editable\": false, \"line_items\": [{\"id\": 851, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Single\", \"parent_name\": null, \"price\": 2, \"product_id\": 280542, \"quantity\": 2, \"sku\": \"woo-single\", \"subtotal\": \"4.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"4.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 852, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Beanie with Logo\", \"parent_name\": null, \"price\": 18, \"product_id\": 280540, \"quantity\": 3, \"sku\": \"Woo-beanie-logo\", \"subtotal\": \"54.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"54.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 853, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"T-Shirt\", \"parent_name\": null, \"price\": 18, \"product_id\": 280552, \"quantity\": 1, \"sku\": \"woo-tshirt\", \"subtotal\": \"18.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7462685, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"280583\", \"order_key\": \"wc_order_TMEXKhun2YiUj\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/280583/?pay_for_order=true&key=wc_order_TMEXKhun2YiUj\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders.test.js:236:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testMethod",
+    "value" : "status"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e8ac0b3bb6bf077",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ArrayContaining [ObjectContaining {\"customer_id\": 0, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Single\", \"quantity\": 2}, ObjectContaining {\"name\": \"Beanie with Logo\", \"quantity\": 3}, ObjectContaining {\"name\": \"T-Shirt\", \"quantity\": 1}], \"status\": \"completed\"}, ObjectContaining {\"customer_id\": undefined, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Sunglasses\", \"quantity\": 1}], \"status\": \"completed\"}]\n                Received: [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/277172\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-10T05:07:25\", \"date_completed_gmt\": \"2022-06-10T05:07:25\", \"date_created\": \"2022-06-10T05:07:24\", \"date_created_gmt\": \"2022-06-10T05:07:24\", \"date_modified\": \"2022-06-10T05:07:25\", \"date_modified_gmt\": \"2022-06-10T05:07:25\", \"date_paid\": \"2022-06-10T05:07:25\", \"date_paid_gmt\": \"2022-06-10T05:07:25\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 277172, \"is_editable\": false, \"line_items\": [{\"id\": 793, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 277130, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7371198, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"277172\", \"order_key\": \"wc_order_R9cZUDQMykIc3\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/277172/?pay_for_order=true&key=wc_order_R9cZUDQMykIc3\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/277165\"}]}, \"billing\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"email\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-10T05:07:19\", \"date_completed_gmt\": \"2022-06-10T05:07:19\", \"date_created\": \"2022-06-10T05:07:18\", \"date_created_gmt\": \"2022-06-10T05:07:18\", \"date_modified\": \"2022-06-10T05:07:19\", \"date_modified_gmt\": \"2022-06-10T05:07:19\", \"date_paid\": \"2022-06-10T05:07:19\", \"date_paid_gmt\": \"2022-06-10T05:07:19\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 277165, \"is_editable\": false, \"line_items\": [{\"id\": 787, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Single\", \"parent_name\": null, \"price\": 2, \"product_id\": 277124, \"quantity\": 2, \"sku\": \"woo-single\", \"subtotal\": \"4.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"4.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 788, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Beanie with Logo\", \"parent_name\": null, \"price\": 18, \"product_id\": 277122, \"quantity\": 3, \"sku\": \"Woo-beanie-logo\", \"subtotal\": \"54.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"54.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 789, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"T-Shirt\", \"parent_name\": null, \"price\": 18, \"product_id\": 277134, \"quantity\": 1, \"sku\": \"woo-tshirt\", \"subtotal\": \"18.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7370876, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"277165\", \"order_key\": \"wc_order_9hC53EtPgYn2c\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/277165/?pay_for_order=true&key=wc_order_9hC53EtPgYn2c\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+      "time" : {
+        "start" : 1654837691143,
+        "stop" : 1654837693237,
+        "duration" : 2094
+      }
+    }, {
+      "uid" : "f5d3b55afd146ebb",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ArrayContaining [ObjectContaining {\"customer_id\": 0, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Single\", \"quantity\": 2}, ObjectContaining {\"name\": \"Beanie with Logo\", \"quantity\": 3}, ObjectContaining {\"name\": \"T-Shirt\", \"quantity\": 1}], \"status\": \"completed\"}, ObjectContaining {\"customer_id\": undefined, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Sunglasses\", \"quantity\": 1}], \"status\": \"completed\"}]\n                Received: [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/273617\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-09T05:05:34\", \"date_completed_gmt\": \"2022-06-09T05:05:34\", \"date_created\": \"2022-06-09T05:05:34\", \"date_created_gmt\": \"2022-06-09T05:05:34\", \"date_modified\": \"2022-06-09T05:05:34\", \"date_modified_gmt\": \"2022-06-09T05:05:34\", \"date_paid\": \"2022-06-09T05:05:34\", \"date_paid_gmt\": \"2022-06-09T05:05:34\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 273617, \"is_editable\": false, \"line_items\": [{\"id\": 731, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 273574, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7274830, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273617\", \"order_key\": \"wc_order_Q2QMRRiQsghqw\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273617/?pay_for_order=true&key=wc_order_Q2QMRRiQsghqw\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/273609\"}]}, \"billing\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"email\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-09T05:05:27\", \"date_completed_gmt\": \"2022-06-09T05:05:27\", \"date_created\": \"2022-06-09T05:05:27\", \"date_created_gmt\": \"2022-06-09T05:05:27\", \"date_modified\": \"2022-06-09T05:05:27\", \"date_modified_gmt\": \"2022-06-09T05:05:27\", \"date_paid\": \"2022-06-09T05:05:27\", \"date_paid_gmt\": \"2022-06-09T05:05:27\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 273609, \"is_editable\": false, \"line_items\": [{\"id\": 725, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Single\", \"parent_name\": null, \"price\": 2, \"product_id\": 273568, \"quantity\": 2, \"sku\": \"woo-single\", \"subtotal\": \"4.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"4.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 726, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Beanie with Logo\", \"parent_name\": null, \"price\": 18, \"product_id\": 273566, \"quantity\": 3, \"sku\": \"Woo-beanie-logo\", \"subtotal\": \"54.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"54.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 727, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"T-Shirt\", \"parent_name\": null, \"price\": 18, \"product_id\": 273578, \"quantity\": 1, \"sku\": \"woo-tshirt\", \"subtotal\": \"18.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7274483, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273609\", \"order_key\": \"wc_order_EEdmMF14IdFDV\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273609/?pay_for_order=true&key=wc_order_EEdmMF14IdFDV\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+      "time" : {
+        "start" : 1654751178150,
+        "stop" : 1654751180016,
+        "duration" : 1866
+      }
+    }, {
+      "uid" : "cd8e297221093f0",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654660475742,
+        "stop" : 1654660477536,
+        "duration" : 1794
+      }
+    }, {
+      "uid" : "12cbde83ed44c931",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1654578991861,
+        "stop" : 1654578994665,
+        "duration" : 2804
+      }
+    }, {
+      "uid" : "bad2d3fa5d01b722",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654492019091,
+        "stop" : 1654492020570,
+        "duration" : 1479
+      }
+    }, {
+      "uid" : "481ca5b5e8ff2719",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654405156447,
+        "stop" : 1654405159689,
+        "duration" : 3242
+      }
+    }, {
+      "uid" : "95d5ccea85dcf9ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654318801290,
+        "stop" : 1654318805092,
+        "duration" : 3802
+      }
+    }, {
+      "uid" : "f38c1b1ab85b4b64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654232408737,
+        "stop" : 1654232412319,
+        "duration" : 3582
+      }
+    }, {
+      "uid" : "89b58c0ae44b437c",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654146674814,
+        "stop" : 1654146676266,
+        "duration" : 1452
+      }
+    }, {
+      "uid" : "34fc95ec1d7bee5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654060963480,
+        "stop" : 1654060966697,
+        "duration" : 3217
+      }
+    }, {
+      "uid" : "e9b7833abb265331",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653893722865,
+        "stop" : 1653893725191,
+        "duration" : 2326
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "65f76837cea8a37b",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ArrayContaining [ObjectContaining {\"customer_id\": 0, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Single\", \"quantity\": 2}, ObjectContaining {\"name\": \"Beanie with Logo\", \"quantity\": 3}, ObjectContaining {\"name\": \"T-Shirt\", \"quantity\": 1}], \"status\": \"completed\"}, ObjectContaining {\"customer_id\": undefined, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Sunglasses\", \"quantity\": 1}], \"status\": \"completed\"}]\n                Received: [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/277172\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-10T05:07:25\", \"date_completed_gmt\": \"2022-06-10T05:07:25\", \"date_created\": \"2022-06-10T05:07:24\", \"date_created_gmt\": \"2022-06-10T05:07:24\", \"date_modified\": \"2022-06-10T05:07:25\", \"date_modified_gmt\": \"2022-06-10T05:07:25\", \"date_paid\": \"2022-06-10T05:07:25\", \"date_paid_gmt\": \"2022-06-10T05:07:25\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 277172, \"is_editable\": false, \"line_items\": [{\"id\": 793, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 277130, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7371198, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"277172\", \"order_key\": \"wc_order_R9cZUDQMykIc3\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/277172/?pay_for_order=true&key=wc_order_R9cZUDQMykIc3\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/277165\"}]}, \"billing\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"email\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-10T05:07:19\", \"date_completed_gmt\": \"2022-06-10T05:07:19\", \"date_created\": \"2022-06-10T05:07:18\", \"date_created_gmt\": \"2022-06-10T05:07:18\", \"date_modified\": \"2022-06-10T05:07:19\", \"date_modified_gmt\": \"2022-06-10T05:07:19\", \"date_paid\": \"2022-06-10T05:07:19\", \"date_paid_gmt\": \"2022-06-10T05:07:19\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 277165, \"is_editable\": false, \"line_items\": [{\"id\": 787, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Single\", \"parent_name\": null, \"price\": 2, \"product_id\": 277124, \"quantity\": 2, \"sku\": \"woo-single\", \"subtotal\": \"4.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"4.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 788, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Beanie with Logo\", \"parent_name\": null, \"price\": 18, \"product_id\": 277122, \"quantity\": 3, \"sku\": \"Woo-beanie-logo\", \"subtotal\": \"54.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"54.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 789, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"T-Shirt\", \"parent_name\": null, \"price\": 18, \"product_id\": 277134, \"quantity\": 1, \"sku\": \"woo-tshirt\", \"subtotal\": \"18.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7370876, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"277165\", \"order_key\": \"wc_order_9hC53EtPgYn2c\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/277165/?pay_for_order=true&key=wc_order_9hC53EtPgYn2c\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+        "time" : {
+          "start" : 1654837691143,
+          "stop" : 1654837693237,
+          "duration" : 2094
+        }
+      }, {
+        "uid" : "e400b7de07bee75b",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: ArrayContaining [ObjectContaining {\"customer_id\": 0, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Single\", \"quantity\": 2}, ObjectContaining {\"name\": \"Beanie with Logo\", \"quantity\": 3}, ObjectContaining {\"name\": \"T-Shirt\", \"quantity\": 1}], \"status\": \"completed\"}, ObjectContaining {\"customer_id\": undefined, \"line_items\": ArrayContaining [ObjectContaining {\"name\": \"Sunglasses\", \"quantity\": 1}], \"status\": \"completed\"}]\n                Received: [{\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/273617\"}]}, \"billing\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"email\": \"tina.clark@example.com\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-09T05:05:34\", \"date_completed_gmt\": \"2022-06-09T05:05:34\", \"date_created\": \"2022-06-09T05:05:34\", \"date_created_gmt\": \"2022-06-09T05:05:34\", \"date_modified\": \"2022-06-09T05:05:34\", \"date_modified_gmt\": \"2022-06-09T05:05:34\", \"date_paid\": \"2022-06-09T05:05:34\", \"date_paid_gmt\": \"2022-06-09T05:05:34\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 273617, \"is_editable\": false, \"line_items\": [{\"id\": 731, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Sunglasses\", \"parent_name\": null, \"price\": 90, \"product_id\": 273574, \"quantity\": 1, \"sku\": \"woo-sunglasses\", \"subtotal\": \"90.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"reduced-rate\", \"taxes\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7274830, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273617\", \"order_key\": \"wc_order_Q2QMRRiQsghqw\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273617/?pay_for_order=true&key=wc_order_Q2QMRRiQsghqw\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"Oxford Ave\", \"address_2\": \"\", \"city\": \"Buffalo\", \"company\": \"Automattic\", \"country\": \"US\", \"first_name\": \"Tina\", \"last_name\": \"Clark\", \"phone\": \"123456789\", \"postcode\": \"14201\", \"state\": \"NY\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": {\"collection\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders\"}], \"self\": [{\"href\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/wp-json/wc/v3/orders/273609\"}]}, \"billing\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"email\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-09T05:05:27\", \"date_completed_gmt\": \"2022-06-09T05:05:27\", \"date_created\": \"2022-06-09T05:05:27\", \"date_created_gmt\": \"2022-06-09T05:05:27\", \"date_modified\": \"2022-06-09T05:05:27\", \"date_modified_gmt\": \"2022-06-09T05:05:27\", \"date_paid\": \"2022-06-09T05:05:27\", \"date_paid_gmt\": \"2022-06-09T05:05:27\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [], \"id\": 273609, \"is_editable\": false, \"line_items\": [{\"id\": 725, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Single\", \"parent_name\": null, \"price\": 2, \"product_id\": 273568, \"quantity\": 2, \"sku\": \"woo-single\", \"subtotal\": \"4.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"4.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 726, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"Beanie with Logo\", \"parent_name\": null, \"price\": 18, \"product_id\": 273566, \"quantity\": 3, \"sku\": \"Woo-beanie-logo\", \"subtotal\": \"54.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"54.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}, {\"id\": 727, \"image\": {\"id\": \"\", \"src\": \"\"}, \"meta_data\": [], \"name\": \"T-Shirt\", \"parent_name\": null, \"price\": 18, \"product_id\": 273578, \"quantity\": 1, \"sku\": \"woo-tshirt\", \"subtotal\": \"18.00\", \"subtotal_tax\": \"0.00\", \"tax_class\": \"\", \"taxes\": [], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"variation_id\": 0}], \"meta_data\": [{\"id\": 7274483, \"key\": \"_new_order_email_sent\", \"value\": \"true\"}], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273609\", \"order_key\": \"wc_order_EEdmMF14IdFDV\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273609/?pay_for_order=true&key=wc_order_EEdmMF14IdFDV\", \"prices_include_tax\": false, \"refunds\": [], \"shipping\": {\"address_1\": \"\", \"address_2\": \"\", \"city\": \"\", \"company\": \"\", \"country\": \"\", \"first_name\": \"\", \"last_name\": \"\", \"phone\": \"\", \"postcode\": \"\", \"state\": \"\"}, \"shipping_lines\": [], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+        "time" : {
+          "start" : 1654751178150,
+          "stop" : 1654751180016,
+          "duration" : 1866
+        }
+      }, {
+        "uid" : "572c6cce916f82a0",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654660475742,
+          "stop" : 1654660477536,
+          "duration" : 1794
+        }
+      }, {
+        "uid" : "607374b99e1b58df",
+        "status" : "failed",
+        "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1654578991861,
+          "stop" : 1654578994665,
+          "duration" : 2804
+        }
+      }, {
+        "uid" : "b7226e3d8cf081e8",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654492019091,
+          "stop" : 1654492020570,
+          "duration" : 1479
+        }
+      }, {
+        "uid" : "523879d20e0b3392",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654405156447,
+          "stop" : 1654405159689,
+          "duration" : 3242
+        }
+      }, {
+        "uid" : "f7c190bf254115f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654318801290,
+          "stop" : 1654318805092,
+          "duration" : 3802
+        }
+      }, {
+        "uid" : "26013fafcb7082fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654232408737,
+          "stop" : 1654232412319,
+          "duration" : 3582
+        }
+      }, {
+        "uid" : "8a9e089fd4e6ba8a",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654146674814,
+          "stop" : 1654146676266,
+          "duration" : 1452
+        }
+      }, {
+        "uid" : "77cfa4e7cd1566ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654060963480,
+          "stop" : 1654060966697,
+          "duration" : 3217
+        }
+      }, {
+        "uid" : "8d22f9b7c04d2623",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653893722865,
+          "stop" : 1653893725191,
+          "duration" : 2326
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e656ffb7bc2f3cbb.json",
+  "parameterValues" : [ ]
+}
