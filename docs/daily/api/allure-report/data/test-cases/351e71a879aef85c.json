@@ -1,0 +1,321 @@
+{
+  "uid" : "351e71a879aef85c",
+  "name" : "can search by billing city name",
+  "fullName" : "Order Search API tests.can search by billing city name",
+  "historyId" : "e66ba078493412fdb64b3c7ecec1ce79",
+  "time" : {
+    "start" : 1655356009766,
+    "stop" : 1655356011590,
+    "duration" : 1824
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Order Search API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Order Search API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can search by billing city name"
+  }, {
+    "name" : "package",
+    "value" : "Order Search API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd31acee5c4d0004",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655270387162,
+        "stop" : 1655270388864,
+        "duration" : 1702
+      }
+    }, {
+      "uid" : "4498d0301d903e8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655184182485,
+        "stop" : 1655184184192,
+        "duration" : 1707
+      }
+    }, {
+      "uid" : "b88680546420b932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655092923303,
+        "stop" : 1655092924928,
+        "duration" : 1625
+      }
+    }, {
+      "uid" : "a1f94c97c5aceec0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655010140752,
+        "stop" : 1655010142154,
+        "duration" : 1402
+      }
+    }, {
+      "uid" : "e5cb5ec346691caf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654924268230,
+        "stop" : 1654924270372,
+        "duration" : 2142
+      }
+    }, {
+      "uid" : "e2c7c8adb7c8612b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654837982901,
+        "stop" : 1654837984497,
+        "duration" : 1596
+      }
+    }, {
+      "uid" : "6c1fae933ff9d0e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654751428298,
+        "stop" : 1654751430437,
+        "duration" : 2139
+      }
+    }, {
+      "uid" : "30db4bdb7149ac19",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 1\n                Received length: 6\n                Received array:  [{\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"A customer provided note.\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-08T03:57:49\", \"date_created_gmt\": \"2022-06-08T03:57:49\", \"date_modified\": \"2022-06-08T03:57:49\", \"date_modified_gmt\": \"2022-06-08T03:57:49\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 270159, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": false, \"number\": \"270159\", \"order_key\": \"wc_order_1hRXKcuBlM8Tp\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/270159/?pay_for_order=true&key=wc_order_1hRXKcuBlM8Tp\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:22\", \"date_created_gmt\": \"2022-06-07T05:17:22\", \"date_modified\": \"2022-06-07T05:17:22\", \"date_modified_gmt\": \"2022-06-07T05:17:22\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269744, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269744\", \"order_key\": \"wc_order_l0xAuUNgNOEi4\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269744/?pay_for_order=true&key=wc_order_l0xAuUNgNOEi4\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:21\", \"date_created_gmt\": \"2022-06-07T05:17:21\", \"date_modified\": \"2022-06-07T05:17:21\", \"date_modified_gmt\": \"2022-06-07T05:17:21\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269742, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269742\", \"order_key\": \"wc_order_P7mVj8LkESuKX\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269742/?pay_for_order=true&key=wc_order_P7mVj8LkESuKX\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"11.05\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:18\", \"date_created_gmt\": \"2022-06-07T05:17:18\", \"date_modified\": \"2022-06-07T05:17:18\", \"date_modified_gmt\": \"2022-06-07T05:17:18\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269738, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269738\", \"order_key\": \"wc_order_XUMuDv2Dp4j12\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269738/?pay_for_order=true&key=wc_order_XUMuDv2Dp4j12\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:16\", \"date_created_gmt\": \"2022-06-07T05:17:16\", \"date_modified\": \"2022-06-07T05:17:17\", \"date_modified_gmt\": \"2022-06-07T05:17:17\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269736, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269736\", \"order_key\": \"wc_order_sCNv4D3dGWw3P\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269736/?pay_for_order=true&key=wc_order_sCNv4D3dGWw3P\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"15.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:15\", \"date_created_gmt\": \"2022-06-07T05:17:15\", \"date_modified\": \"2022-06-07T05:17:15\", \"date_modified_gmt\": \"2022-06-07T05:17:15\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269734, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269734\", \"order_key\": \"wc_order_QaHARalmGf5CI\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269734/?pay_for_order=true&key=wc_order_QaHARalmGf5CI\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"35.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+      "time" : {
+        "start" : 1654660678042,
+        "stop" : 1654660679932,
+        "duration" : 1890
+      }
+    }, {
+      "uid" : "4b344addefa388d2",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 1\n                Received length: 6\n                Received array:  [{\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"A customer provided note.\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:20:52\", \"date_created_gmt\": \"2022-06-07T05:20:52\", \"date_modified\": \"2022-06-07T05:20:52\", \"date_modified_gmt\": \"2022-06-07T05:20:52\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269893, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": false, \"number\": \"269893\", \"order_key\": \"wc_order_6WoWfK56OFSqE\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269893/?pay_for_order=true&key=wc_order_6WoWfK56OFSqE\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:22\", \"date_created_gmt\": \"2022-06-07T05:17:22\", \"date_modified\": \"2022-06-07T05:17:22\", \"date_modified_gmt\": \"2022-06-07T05:17:22\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269744, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269744\", \"order_key\": \"wc_order_l0xAuUNgNOEi4\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269744/?pay_for_order=true&key=wc_order_l0xAuUNgNOEi4\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:21\", \"date_created_gmt\": \"2022-06-07T05:17:21\", \"date_modified\": \"2022-06-07T05:17:21\", \"date_modified_gmt\": \"2022-06-07T05:17:21\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269742, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269742\", \"order_key\": \"wc_order_P7mVj8LkESuKX\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269742/?pay_for_order=true&key=wc_order_P7mVj8LkESuKX\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"11.05\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:18\", \"date_created_gmt\": \"2022-06-07T05:17:18\", \"date_modified\": \"2022-06-07T05:17:18\", \"date_modified_gmt\": \"2022-06-07T05:17:18\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269738, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269738\", \"order_key\": \"wc_order_XUMuDv2Dp4j12\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269738/?pay_for_order=true&key=wc_order_XUMuDv2Dp4j12\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:16\", \"date_created_gmt\": \"2022-06-07T05:17:16\", \"date_modified\": \"2022-06-07T05:17:17\", \"date_modified_gmt\": \"2022-06-07T05:17:17\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269736, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269736\", \"order_key\": \"wc_order_sCNv4D3dGWw3P\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269736/?pay_for_order=true&key=wc_order_sCNv4D3dGWw3P\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"15.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:15\", \"date_created_gmt\": \"2022-06-07T05:17:15\", \"date_modified\": \"2022-06-07T05:17:15\", \"date_modified_gmt\": \"2022-06-07T05:17:15\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269734, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269734\", \"order_key\": \"wc_order_QaHARalmGf5CI\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269734/?pay_for_order=true&key=wc_order_QaHARalmGf5CI\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"35.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+      "time" : {
+        "start" : 1654579261873,
+        "stop" : 1654579263623,
+        "duration" : 1750
+      }
+    }, {
+      "uid" : "9c571afeffd45f4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654492237003,
+        "stop" : 1654492238568,
+        "duration" : 1565
+      }
+    }, {
+      "uid" : "6e585b9ae767871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654405389886,
+        "stop" : 1654405391483,
+        "duration" : 1597
+      }
+    }, {
+      "uid" : "cf9ee081f74c7b83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654319029912,
+        "stop" : 1654319031338,
+        "duration" : 1426
+      }
+    }, {
+      "uid" : "38f1263df4216396",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654232640543,
+        "stop" : 1654232642005,
+        "duration" : 1462
+      }
+    }, {
+      "uid" : "f2e95fbf74b7aedd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654146858710,
+        "stop" : 1654146860179,
+        "duration" : 1469
+      }
+    }, {
+      "uid" : "1a4e910cd540578d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654061176729,
+        "stop" : 1654061178209,
+        "duration" : 1480
+      }
+    }, {
+      "uid" : "2b4510c244b4555a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653893906156,
+        "stop" : 1653893907351,
+        "duration" : 1195
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "ad9f1e6e3a1ca3fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655270387162,
+          "stop" : 1655270388864,
+          "duration" : 1702
+        }
+      }, {
+        "uid" : "35f85f4d7c59bfed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655184182485,
+          "stop" : 1655184184192,
+          "duration" : 1707
+        }
+      }, {
+        "uid" : "49cf1b93d764132",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655092923303,
+          "stop" : 1655092924928,
+          "duration" : 1625
+        }
+      }, {
+        "uid" : "9413e3564e0c1fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655010140752,
+          "stop" : 1655010142154,
+          "duration" : 1402
+        }
+      }, {
+        "uid" : "7c031d8e8177a057",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654924268230,
+          "stop" : 1654924270372,
+          "duration" : 2142
+        }
+      }, {
+        "uid" : "179ba13e71f37ecc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654837982901,
+          "stop" : 1654837984497,
+          "duration" : 1596
+        }
+      }, {
+        "uid" : "25b37b58fe5aa579",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654751428298,
+          "stop" : 1654751430437,
+          "duration" : 2139
+        }
+      }, {
+        "uid" : "149f670394bd0b58",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 1\n                Received length: 6\n                Received array:  [{\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"A customer provided note.\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-08T03:57:49\", \"date_created_gmt\": \"2022-06-08T03:57:49\", \"date_modified\": \"2022-06-08T03:57:49\", \"date_modified_gmt\": \"2022-06-08T03:57:49\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 270159, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": false, \"number\": \"270159\", \"order_key\": \"wc_order_1hRXKcuBlM8Tp\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/270159/?pay_for_order=true&key=wc_order_1hRXKcuBlM8Tp\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:22\", \"date_created_gmt\": \"2022-06-07T05:17:22\", \"date_modified\": \"2022-06-07T05:17:22\", \"date_modified_gmt\": \"2022-06-07T05:17:22\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269744, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269744\", \"order_key\": \"wc_order_l0xAuUNgNOEi4\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269744/?pay_for_order=true&key=wc_order_l0xAuUNgNOEi4\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:21\", \"date_created_gmt\": \"2022-06-07T05:17:21\", \"date_modified\": \"2022-06-07T05:17:21\", \"date_modified_gmt\": \"2022-06-07T05:17:21\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269742, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269742\", \"order_key\": \"wc_order_P7mVj8LkESuKX\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269742/?pay_for_order=true&key=wc_order_P7mVj8LkESuKX\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"11.05\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:18\", \"date_created_gmt\": \"2022-06-07T05:17:18\", \"date_modified\": \"2022-06-07T05:17:18\", \"date_modified_gmt\": \"2022-06-07T05:17:18\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269738, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269738\", \"order_key\": \"wc_order_XUMuDv2Dp4j12\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269738/?pay_for_order=true&key=wc_order_XUMuDv2Dp4j12\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:16\", \"date_created_gmt\": \"2022-06-07T05:17:16\", \"date_modified\": \"2022-06-07T05:17:17\", \"date_modified_gmt\": \"2022-06-07T05:17:17\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269736, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269736\", \"order_key\": \"wc_order_sCNv4D3dGWw3P\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269736/?pay_for_order=true&key=wc_order_sCNv4D3dGWw3P\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"15.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:15\", \"date_created_gmt\": \"2022-06-07T05:17:15\", \"date_modified\": \"2022-06-07T05:17:15\", \"date_modified_gmt\": \"2022-06-07T05:17:15\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269734, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269734\", \"order_key\": \"wc_order_QaHARalmGf5CI\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269734/?pay_for_order=true&key=wc_order_QaHARalmGf5CI\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"35.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+        "time" : {
+          "start" : 1654660678042,
+          "stop" : 1654660679932,
+          "duration" : 1890
+        }
+      }, {
+        "uid" : "efb957aa6b928b3a",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 1\n                Received length: 6\n                Received array:  [{\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"A customer provided note.\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:20:52\", \"date_created_gmt\": \"2022-06-07T05:20:52\", \"date_modified\": \"2022-06-07T05:20:52\", \"date_modified_gmt\": \"2022-06-07T05:20:52\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269893, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": false, \"number\": \"269893\", \"order_key\": \"wc_order_6WoWfK56OFSqE\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269893/?pay_for_order=true&key=wc_order_6WoWfK56OFSqE\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"0.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:22\", \"date_created_gmt\": \"2022-06-07T05:17:22\", \"date_modified\": \"2022-06-07T05:17:22\", \"date_modified_gmt\": \"2022-06-07T05:17:22\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269744, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269744\", \"order_key\": \"wc_order_l0xAuUNgNOEi4\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269744/?pay_for_order=true&key=wc_order_l0xAuUNgNOEi4\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"18.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:21\", \"date_created_gmt\": \"2022-06-07T05:17:21\", \"date_modified\": \"2022-06-07T05:17:21\", \"date_modified_gmt\": \"2022-06-07T05:17:21\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269742, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269742\", \"order_key\": \"wc_order_P7mVj8LkESuKX\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269742/?pay_for_order=true&key=wc_order_P7mVj8LkESuKX\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"11.05\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:18\", \"date_created_gmt\": \"2022-06-07T05:17:18\", \"date_modified\": \"2022-06-07T05:17:18\", \"date_modified_gmt\": \"2022-06-07T05:17:18\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269738, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269738\", \"order_key\": \"wc_order_XUMuDv2Dp4j12\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269738/?pay_for_order=true&key=wc_order_XUMuDv2Dp4j12\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:16\", \"date_created_gmt\": \"2022-06-07T05:17:16\", \"date_modified\": \"2022-06-07T05:17:17\", \"date_modified_gmt\": \"2022-06-07T05:17:17\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269736, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269736\", \"order_key\": \"wc_order_sCNv4D3dGWw3P\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269736/?pay_for_order=true&key=wc_order_sCNv4D3dGWw3P\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"15.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-07T05:17:15\", \"date_created_gmt\": \"2022-06-07T05:17:15\", \"date_modified\": \"2022-06-07T05:17:15\", \"date_modified_gmt\": \"2022-06-07T05:17:15\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 269734, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"269734\", \"order_key\": \"wc_order_QaHARalmGf5CI\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/269734/?pay_for_order=true&key=wc_order_QaHARalmGf5CI\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"35.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+        "time" : {
+          "start" : 1654579261873,
+          "stop" : 1654579263623,
+          "duration" : 1750
+        }
+      }, {
+        "uid" : "892016b7104394db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654492237003,
+          "stop" : 1654492238568,
+          "duration" : 1565
+        }
+      }, {
+        "uid" : "58a690e7638cc53d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654405389886,
+          "stop" : 1654405391483,
+          "duration" : 1597
+        }
+      }, {
+        "uid" : "2d3cc2859c941bc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654319029912,
+          "stop" : 1654319031338,
+          "duration" : 1426
+        }
+      }, {
+        "uid" : "d41994ff070930b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654232640543,
+          "stop" : 1654232642005,
+          "duration" : 1462
+        }
+      }, {
+        "uid" : "35e65262391e92d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654146858710,
+          "stop" : 1654146860179,
+          "duration" : 1469
+        }
+      }, {
+        "uid" : "17e7c7913cde2751",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654061176729,
+          "stop" : 1654061178209,
+          "duration" : 1480
+        }
+      }, {
+        "uid" : "c518195e8913ac45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653893906156,
+          "stop" : 1653893907351,
+          "duration" : 1195
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "351e71a879aef85c.json",
+  "parameterValues" : [ ]
+}
