@@ -1,0 +1,391 @@
+{
+  "uid" : "1006811c66440b35",
+  "name" : "customer",
+  "fullName" : "Orders API tests List all orders.customer",
+  "historyId" : "cf930fb556800db82476b1295c8cc63",
+  "time" : {
+    "start" : 1655528568141,
+    "stop" : 1655528568142,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'id')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'id')\n                    at createSampleProductReviews (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1573:59)\n                    at Object.createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1652:26)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/orders.js:17:26)\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders.test.js:49:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 18,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testMethod",
+    "value" : "customer"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c35fc7fe5367658d",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1655442639380,
+        "stop" : 1655442641993,
+        "duration" : 2613
+      }
+    }, {
+      "uid" : "8bb18e7754e0d752",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1655355808163,
+        "stop" : 1655355808164,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b4f77969aed6d882",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1655270143973,
+        "stop" : 1655270145860,
+        "duration" : 1887
+      }
+    }, {
+      "uid" : "b0e901f4a0781cd3",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1655183984975,
+        "stop" : 1655183984975,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8acf6a60e0040559",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1655092696467,
+        "stop" : 1655092696468,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "35d519339cf86275",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 3\n                Received length: 5\n                Received array:  [{\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.61\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-12T04:58:02\", \"date_created_gmt\": \"2022-06-12T04:58:02\", \"date_modified\": \"2022-06-12T04:58:02\", \"date_modified_gmt\": \"2022-06-12T04:58:02\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.28\", \"discount_total\": \"5.00\", \"fee_lines\": [Array], \"id\": 284274, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284274\", \"order_key\": \"wc_order_HtiIMwTlgplh6\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284274/?pay_for_order=true&key=wc_order_HtiIMwTlgplh6\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.28\", \"shipping_total\": \"5.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"16.89\", \"total_tax\": \"0.89\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-12T04:57:47\", \"date_created_gmt\": \"2022-06-12T04:57:47\", \"date_modified\": \"2022-06-12T04:57:47\", \"date_modified_gmt\": \"2022-06-12T04:57:47\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 284266, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284266\", \"order_key\": \"wc_order_UXVDXjaLh7VOE\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284266/?pay_for_order=true&key=wc_order_UXVDXjaLh7VOE\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"40.10\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-12T04:57:45\", \"date_created_gmt\": \"2022-06-12T04:57:45\", \"date_modified\": \"2022-06-12T04:57:45\", \"date_modified_gmt\": \"2022-06-12T04:57:45\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 284264, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284264\", \"order_key\": \"wc_order_mxymXTBipE3z5\", \"parent_id\": 284254, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284264/?pay_for_order=true&key=wc_order_mxymXTBipE3z5\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-12T04:57:44\", \"date_completed_gmt\": \"2022-06-12T04:57:44\", \"date_created\": \"2022-06-12T04:57:44\", \"date_created_gmt\": \"2022-06-12T04:57:44\", \"date_modified\": \"2022-06-12T04:57:44\", \"date_modified_gmt\": \"2022-06-12T04:57:44\", \"date_paid\": \"2022-06-12T04:57:44\", \"date_paid_gmt\": \"2022-06-12T04:57:44\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 284254, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284254\", \"order_key\": \"wc_order_xxhBSoVStsIe3\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284254/?pay_for_order=true&key=wc_order_xxhBSoVStsIe3\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-12T04:57:40\", \"date_completed_gmt\": \"2022-06-12T04:57:40\", \"date_created\": \"2022-06-12T04:57:40\", \"date_created_gmt\": \"2022-06-12T04:57:40\", \"date_modified\": \"2022-06-12T04:57:40\", \"date_modified_gmt\": \"2022-06-12T04:57:40\", \"date_paid\": \"2022-06-12T04:57:40\", \"date_paid_gmt\": \"2022-06-12T04:57:40\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 284248, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284248\", \"order_key\": \"wc_order_uB0skYFytcAfs\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284248/?pay_for_order=true&key=wc_order_uB0skYFytcAfs\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [Array], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+      "time" : {
+        "start" : 1655009911797,
+        "stop" : 1655009915227,
+        "duration" : 3430
+      }
+    }, {
+      "uid" : "69c2cf08b1904066",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654923983565,
+        "stop" : 1654923985660,
+        "duration" : 2095
+      }
+    }, {
+      "uid" : "eeb77768f357aca3",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654837693237,
+        "stop" : 1654837695388,
+        "duration" : 2151
+      }
+    }, {
+      "uid" : "f5e54d616742d57f",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 3\n                Received length: 5\n                Received array:  [{\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.61\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-09T05:05:44\", \"date_created_gmt\": \"2022-06-09T05:05:44\", \"date_modified\": \"2022-06-09T05:05:44\", \"date_modified_gmt\": \"2022-06-09T05:05:44\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.28\", \"discount_total\": \"5.00\", \"fee_lines\": [Array], \"id\": 273635, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273635\", \"order_key\": \"wc_order_NGlcsqx2hB1vB\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273635/?pay_for_order=true&key=wc_order_NGlcsqx2hB1vB\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.28\", \"shipping_total\": \"5.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"16.89\", \"total_tax\": \"0.89\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-09T05:05:38\", \"date_created_gmt\": \"2022-06-09T05:05:38\", \"date_modified\": \"2022-06-09T05:05:38\", \"date_modified_gmt\": \"2022-06-09T05:05:38\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 273628, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273628\", \"order_key\": \"wc_order_om6oMxyDmNXav\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273628/?pay_for_order=true&key=wc_order_om6oMxyDmNXav\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"40.10\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-09T05:05:36\", \"date_created_gmt\": \"2022-06-09T05:05:36\", \"date_modified\": \"2022-06-09T05:05:36\", \"date_modified_gmt\": \"2022-06-09T05:05:36\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 273626, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273626\", \"order_key\": \"wc_order_35ebo3zpC2Bj1\", \"parent_id\": 273617, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273626/?pay_for_order=true&key=wc_order_35ebo3zpC2Bj1\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-09T05:05:34\", \"date_completed_gmt\": \"2022-06-09T05:05:34\", \"date_created\": \"2022-06-09T05:05:34\", \"date_created_gmt\": \"2022-06-09T05:05:34\", \"date_modified\": \"2022-06-09T05:05:34\", \"date_modified_gmt\": \"2022-06-09T05:05:34\", \"date_paid\": \"2022-06-09T05:05:34\", \"date_paid_gmt\": \"2022-06-09T05:05:34\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 273617, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273617\", \"order_key\": \"wc_order_Q2QMRRiQsghqw\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273617/?pay_for_order=true&key=wc_order_Q2QMRRiQsghqw\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-09T05:05:27\", \"date_completed_gmt\": \"2022-06-09T05:05:27\", \"date_created\": \"2022-06-09T05:05:27\", \"date_created_gmt\": \"2022-06-09T05:05:27\", \"date_modified\": \"2022-06-09T05:05:27\", \"date_modified_gmt\": \"2022-06-09T05:05:27\", \"date_paid\": \"2022-06-09T05:05:27\", \"date_paid_gmt\": \"2022-06-09T05:05:27\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 273609, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273609\", \"order_key\": \"wc_order_EEdmMF14IdFDV\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273609/?pay_for_order=true&key=wc_order_EEdmMF14IdFDV\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [Array], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+      "time" : {
+        "start" : 1654751180016,
+        "stop" : 1654751183662,
+        "duration" : 3646
+      }
+    }, {
+      "uid" : "3f143ae342eb96fb",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654660477536,
+        "stop" : 1654660477537,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1f983b8396c3cf06",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1654578994665,
+        "stop" : 1654578994666,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "18d840fce098e2b5",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654492020570,
+        "stop" : 1654492020570,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "33cd1338a4131859",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654405159689,
+        "stop" : 1654405161538,
+        "duration" : 1849
+      }
+    }, {
+      "uid" : "283ffe7d0db8550d",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654318805092,
+        "stop" : 1654318807200,
+        "duration" : 2108
+      }
+    }, {
+      "uid" : "5e24f7b91fded695",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654232412319,
+        "stop" : 1654232414228,
+        "duration" : 1909
+      }
+    }, {
+      "uid" : "27383c556e1bebf8",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654146676266,
+        "stop" : 1654146676267,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "698d79d344644d9f",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1654060966697,
+        "stop" : 1654060968355,
+        "duration" : 1658
+      }
+    }, {
+      "uid" : "3bcea81e3465d5ec",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+      "time" : {
+        "start" : 1653893725191,
+        "stop" : 1653893726338,
+        "duration" : 1147
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 19,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "726a2e757df52eaa",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1655442639380,
+          "stop" : 1655442641993,
+          "duration" : 2613
+        }
+      }, {
+        "uid" : "2764c06cf4552bdb",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1655355808163,
+          "stop" : 1655355808164,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "55e26fac2b350ed1",
+        "status" : "failed",
+        "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1655270143973,
+          "stop" : 1655270145860,
+          "duration" : 1887
+        }
+      }, {
+        "uid" : "122572c913e51b33",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1655183984975,
+          "stop" : 1655183984975,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a4767fc1f6904d70",
+        "status" : "failed",
+        "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1655092696467,
+          "stop" : 1655092696468,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "222933ce3c12bc4c",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 3\n                Received length: 5\n                Received array:  [{\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.61\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-12T04:58:02\", \"date_created_gmt\": \"2022-06-12T04:58:02\", \"date_modified\": \"2022-06-12T04:58:02\", \"date_modified_gmt\": \"2022-06-12T04:58:02\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.28\", \"discount_total\": \"5.00\", \"fee_lines\": [Array], \"id\": 284274, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284274\", \"order_key\": \"wc_order_HtiIMwTlgplh6\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284274/?pay_for_order=true&key=wc_order_HtiIMwTlgplh6\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.28\", \"shipping_total\": \"5.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"16.89\", \"total_tax\": \"0.89\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-12T04:57:47\", \"date_created_gmt\": \"2022-06-12T04:57:47\", \"date_modified\": \"2022-06-12T04:57:47\", \"date_modified_gmt\": \"2022-06-12T04:57:47\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 284266, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284266\", \"order_key\": \"wc_order_UXVDXjaLh7VOE\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284266/?pay_for_order=true&key=wc_order_UXVDXjaLh7VOE\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"40.10\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-12T04:57:45\", \"date_created_gmt\": \"2022-06-12T04:57:45\", \"date_modified\": \"2022-06-12T04:57:45\", \"date_modified_gmt\": \"2022-06-12T04:57:45\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 284264, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284264\", \"order_key\": \"wc_order_mxymXTBipE3z5\", \"parent_id\": 284254, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284264/?pay_for_order=true&key=wc_order_mxymXTBipE3z5\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-12T04:57:44\", \"date_completed_gmt\": \"2022-06-12T04:57:44\", \"date_created\": \"2022-06-12T04:57:44\", \"date_created_gmt\": \"2022-06-12T04:57:44\", \"date_modified\": \"2022-06-12T04:57:44\", \"date_modified_gmt\": \"2022-06-12T04:57:44\", \"date_paid\": \"2022-06-12T04:57:44\", \"date_paid_gmt\": \"2022-06-12T04:57:44\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 284254, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284254\", \"order_key\": \"wc_order_xxhBSoVStsIe3\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284254/?pay_for_order=true&key=wc_order_xxhBSoVStsIe3\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-12T04:57:40\", \"date_completed_gmt\": \"2022-06-12T04:57:40\", \"date_created\": \"2022-06-12T04:57:40\", \"date_created_gmt\": \"2022-06-12T04:57:40\", \"date_modified\": \"2022-06-12T04:57:40\", \"date_modified_gmt\": \"2022-06-12T04:57:40\", \"date_paid\": \"2022-06-12T04:57:40\", \"date_paid_gmt\": \"2022-06-12T04:57:40\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 284248, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"284248\", \"order_key\": \"wc_order_uB0skYFytcAfs\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/284248/?pay_for_order=true&key=wc_order_uB0skYFytcAfs\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [Array], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+        "time" : {
+          "start" : 1655009911797,
+          "stop" : 1655009915227,
+          "duration" : 3430
+        }
+      }, {
+        "uid" : "e10d197b6a645829",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654923983565,
+          "stop" : 1654923985660,
+          "duration" : 2095
+        }
+      }, {
+        "uid" : "5c58b8b9638927b9",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654837693237,
+          "stop" : 1654837695388,
+          "duration" : 2151
+        }
+      }, {
+        "uid" : "cb3d526517ddfe75",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 3\n                Received length: 5\n                Received array:  [{\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.61\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-09T05:05:44\", \"date_created_gmt\": \"2022-06-09T05:05:44\", \"date_modified\": \"2022-06-09T05:05:44\", \"date_modified_gmt\": \"2022-06-09T05:05:44\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.28\", \"discount_total\": \"5.00\", \"fee_lines\": [Array], \"id\": 273635, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273635\", \"order_key\": \"wc_order_NGlcsqx2hB1vB\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273635/?pay_for_order=true&key=wc_order_NGlcsqx2hB1vB\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.28\", \"shipping_total\": \"5.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"16.89\", \"total_tax\": \"0.89\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-09T05:05:38\", \"date_created_gmt\": \"2022-06-09T05:05:38\", \"date_modified\": \"2022-06-09T05:05:38\", \"date_modified_gmt\": \"2022-06-09T05:05:38\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 273628, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273628\", \"order_key\": \"wc_order_om6oMxyDmNXav\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273628/?pay_for_order=true&key=wc_order_om6oMxyDmNXav\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"40.10\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": null, \"date_completed_gmt\": null, \"date_created\": \"2022-06-09T05:05:36\", \"date_created_gmt\": \"2022-06-09T05:05:36\", \"date_modified\": \"2022-06-09T05:05:36\", \"date_modified_gmt\": \"2022-06-09T05:05:36\", \"date_paid\": null, \"date_paid_gmt\": null, \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 273626, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273626\", \"order_key\": \"wc_order_35ebo3zpC2Bj1\", \"parent_id\": 273617, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273626/?pay_for_order=true&key=wc_order_35ebo3zpC2Bj1\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"processing\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-09T05:05:34\", \"date_completed_gmt\": \"2022-06-09T05:05:34\", \"date_created\": \"2022-06-09T05:05:34\", \"date_created_gmt\": \"2022-06-09T05:05:34\", \"date_modified\": \"2022-06-09T05:05:34\", \"date_modified_gmt\": \"2022-06-09T05:05:34\", \"date_paid\": \"2022-06-09T05:05:34\", \"date_paid_gmt\": \"2022-06-09T05:05:34\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 273617, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273617\", \"order_key\": \"wc_order_Q2QMRRiQsghqw\", \"parent_id\": 0, \"payment_method\": \"cod\", \"payment_method_title\": \"Cash on Delivery\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273617/?pay_for_order=true&key=wc_order_Q2QMRRiQsghqw\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [Array], \"total\": \"90.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}, {\"_links\": [Object], \"billing\": [Object], \"cart_hash\": \"\", \"cart_tax\": \"0.00\", \"coupon_lines\": [Array], \"created_via\": \"rest-api\", \"currency\": \"USD\", \"currency_symbol\": \"$\", \"customer_id\": 0, \"customer_ip_address\": \"\", \"customer_note\": \"\", \"customer_user_agent\": \"\", \"date_completed\": \"2022-06-09T05:05:27\", \"date_completed_gmt\": \"2022-06-09T05:05:27\", \"date_created\": \"2022-06-09T05:05:27\", \"date_created_gmt\": \"2022-06-09T05:05:27\", \"date_modified\": \"2022-06-09T05:05:27\", \"date_modified_gmt\": \"2022-06-09T05:05:27\", \"date_paid\": \"2022-06-09T05:05:27\", \"date_paid_gmt\": \"2022-06-09T05:05:27\", \"discount_tax\": \"0.00\", \"discount_total\": \"0.00\", \"fee_lines\": [Array], \"id\": 273609, \"is_editable\": false, \"line_items\": [Array], \"meta_data\": [Array], \"needs_payment\": false, \"needs_processing\": true, \"number\": \"273609\", \"order_key\": \"wc_order_EEdmMF14IdFDV\", \"parent_id\": 0, \"payment_method\": \"\", \"payment_method_title\": \"\", \"payment_url\": \"https://wcnightlysmoketest.bluehost-and-a8c.com/checkout/order-pay/273609/?pay_for_order=true&key=wc_order_EEdmMF14IdFDV\", \"prices_include_tax\": false, \"refunds\": [Array], \"shipping\": [Object], \"shipping_lines\": [Array], \"shipping_tax\": \"0.00\", \"shipping_total\": \"0.00\", \"status\": \"completed\", \"tax_lines\": [Array], \"total\": \"76.00\", \"total_tax\": \"0.00\", \"transaction_id\": \"\", \"version\": \"6.7.0\"}]",
+        "time" : {
+          "start" : 1654751180016,
+          "stop" : 1654751183662,
+          "duration" : 3646
+        }
+      }, {
+        "uid" : "5d9c052dd9f4225e",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654660477536,
+          "stop" : 1654660477537,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "945896df9093e2c8",
+        "status" : "failed",
+        "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1654578994665,
+          "stop" : 1654578994666,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b7f44a80d561184e",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654492020570,
+          "stop" : 1654492020570,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f1550da4f290e4a9",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654405159689,
+          "stop" : 1654405161538,
+          "duration" : 1849
+        }
+      }, {
+        "uid" : "146271a3195554ba",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654318805092,
+          "stop" : 1654318807200,
+          "duration" : 2108
+        }
+      }, {
+        "uid" : "b8c23478692661a5",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654232412319,
+          "stop" : 1654232414228,
+          "duration" : 1909
+        }
+      }, {
+        "uid" : "8af8596aece6b6fa",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654146676266,
+          "stop" : 1654146676267,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b5749d51aa4650af",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1654060966697,
+          "stop" : 1654060968355,
+          "duration" : 1658
+        }
+      }, {
+        "uid" : "c3b1257b9804540e",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Expected length: 5\n                Received length: 10\n                Received array:  [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]",
+        "time" : {
+          "start" : 1653893725191,
+          "stop" : 1653893726338,
+          "duration" : 1147
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1006811c66440b35.json",
+  "parameterValues" : [ ]
+}

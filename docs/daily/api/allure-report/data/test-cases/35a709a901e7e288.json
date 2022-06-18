@@ -1,0 +1,371 @@
+{
+  "uid" : "35a709a901e7e288",
+  "name" : "inclusion / exclusion",
+  "fullName" : "Orders API tests List all orders.inclusion / exclusion",
+  "historyId" : "ea4c73e22257b800b7df0d09a6bbdf6b",
+  "time" : {
+    "start" : 1655528565085,
+    "stop" : 1655528566667,
+    "duration" : 1582
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'id')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'id')\n                    at createSampleProductReviews (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1573:59)\n                    at Object.createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/product-list.js:1652:26)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at createSampleData (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/data/orders.js:17:26)\n                    at Object.<anonymous> (/home/runner/work/woocommerce/woocommerce/packages/js/api-core-tests/tests/orders/orders.test.js:49:16)",
+  "flaky" : true,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 18,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "testMethod",
+    "value" : "inclusion / exclusion"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests List all orders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7b82cc085ee407b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655442623457,
+        "stop" : 1655442630776,
+        "duration" : 7319
+      }
+    }, {
+      "uid" : "b3eea9cbc42f5772",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1655355805081,
+        "stop" : 1655355806316,
+        "duration" : 1235
+      }
+    }, {
+      "uid" : "d2bf7c3ccb9583dc",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1655270133474,
+        "stop" : 1655270138498,
+        "duration" : 5024
+      }
+    }, {
+      "uid" : "46aedd6deb39ef70",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1655183981990,
+        "stop" : 1655183983358,
+        "duration" : 1368
+      }
+    }, {
+      "uid" : "c7362b65d4d72aa5",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1655092690749,
+        "stop" : 1655092695044,
+        "duration" : 4295
+      }
+    }, {
+      "uid" : "68191b80270768d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655009901393,
+        "stop" : 1655009906536,
+        "duration" : 5143
+      }
+    }, {
+      "uid" : "44c281f6d76f00e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654923972611,
+        "stop" : 1654923977977,
+        "duration" : 5366
+      }
+    }, {
+      "uid" : "7b7d196296401373",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654837681237,
+        "stop" : 1654837687003,
+        "duration" : 5766
+      }
+    }, {
+      "uid" : "3f8168b6558e27be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654751168457,
+        "stop" : 1654751174454,
+        "duration" : 5997
+      }
+    }, {
+      "uid" : "b97870306933105c",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654660470446,
+        "stop" : 1654660475741,
+        "duration" : 5295
+      }
+    }, {
+      "uid" : "11542821369d197d",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1654578988789,
+        "stop" : 1654578991860,
+        "duration" : 3071
+      }
+    }, {
+      "uid" : "edcde4a5a4cf4730",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654492017385,
+        "stop" : 1654492019090,
+        "duration" : 1705
+      }
+    }, {
+      "uid" : "409ccb9f1d3b441a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654405148402,
+        "stop" : 1654405153387,
+        "duration" : 4985
+      }
+    }, {
+      "uid" : "df521fba2587d14b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654318792668,
+        "stop" : 1654318798118,
+        "duration" : 5450
+      }
+    }, {
+      "uid" : "37dde50642376eb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654232399177,
+        "stop" : 1654232404990,
+        "duration" : 5813
+      }
+    }, {
+      "uid" : "7ace8658bbc19f79",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+      "time" : {
+        "start" : 1654146673358,
+        "stop" : 1654146674813,
+        "duration" : 1455
+      }
+    }, {
+      "uid" : "1177ee0e488d972d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654060954842,
+        "stop" : 1654060959915,
+        "duration" : 5073
+      }
+    }, {
+      "uid" : "8665bd2ccc5748b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653893714139,
+        "stop" : 1653893717864,
+        "duration" : 3725
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "4efea7640306311e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655442623457,
+          "stop" : 1655442630776,
+          "duration" : 7319
+        }
+      }, {
+        "uid" : "5110a9f52c0eeba7",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1655355805081,
+          "stop" : 1655355806316,
+          "duration" : 1235
+        }
+      }, {
+        "uid" : "b3e908190a3e1ae1",
+        "status" : "failed",
+        "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1655270133474,
+          "stop" : 1655270138498,
+          "duration" : 5024
+        }
+      }, {
+        "uid" : "765cb6aeac7be84c",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1655183981990,
+          "stop" : 1655183983358,
+          "duration" : 1368
+        }
+      }, {
+        "uid" : "fb6c9b23799fbf28",
+        "status" : "failed",
+        "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1655092690749,
+          "stop" : 1655092695044,
+          "duration" : 4295
+        }
+      }, {
+        "uid" : "89ee46cc36bed073",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655009901393,
+          "stop" : 1655009906536,
+          "duration" : 5143
+        }
+      }, {
+        "uid" : "b30ed28077aa3fde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654923972611,
+          "stop" : 1654923977977,
+          "duration" : 5366
+        }
+      }, {
+        "uid" : "1f1e10a5b17f67a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654837681237,
+          "stop" : 1654837687003,
+          "duration" : 5766
+        }
+      }, {
+        "uid" : "3e7cb240ebc660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654751168457,
+          "stop" : 1654751174454,
+          "duration" : 5997
+        }
+      }, {
+        "uid" : "95b0056079d1d41d",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654660470446,
+          "stop" : 1654660475741,
+          "duration" : 5295
+        }
+      }, {
+        "uid" : "6c810e6b6cf1733b",
+        "status" : "failed",
+        "statusDetails" : "Error: Timeout - Async callback was not invoked within the 100000ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1654578988789,
+          "stop" : 1654578991860,
+          "duration" : 3071
+        }
+      }, {
+        "uid" : "2b883649ac9255d9",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654492017385,
+          "stop" : 1654492019090,
+          "duration" : 1705
+        }
+      }, {
+        "uid" : "f3d4abaa58bd819d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654405148402,
+          "stop" : 1654405153387,
+          "duration" : 4985
+        }
+      }, {
+        "uid" : "b6cdba515d97fc60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654318792668,
+          "stop" : 1654318798118,
+          "duration" : 5450
+        }
+      }, {
+        "uid" : "ea15481e0cfb4221",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654232399177,
+          "stop" : 1654232404990,
+          "duration" : 5813
+        }
+      }, {
+        "uid" : "29aae80f1c1c453",
+        "status" : "failed",
+        "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'id')",
+        "time" : {
+          "start" : 1654146673358,
+          "stop" : 1654146674813,
+          "duration" : 1455
+        }
+      }, {
+        "uid" : "cffe80768535085a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654060954842,
+          "stop" : 1654060959915,
+          "duration" : 5073
+        }
+      }, {
+        "uid" : "890a0090c9834283",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653893714139,
+          "stop" : 1653893717864,
+          "duration" : 3725
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "35a709a901e7e288.json",
+  "parameterValues" : [ ]
+}
