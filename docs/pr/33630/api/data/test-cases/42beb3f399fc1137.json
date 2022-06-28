@@ -1,0 +1,95 @@
+{
+  "uid" : "42beb3f399fc1137",
+  "name" : "can add a 'Free shipping' shipping method",
+  "fullName" : "Shipping methods API tests.can add a 'Free shipping' shipping method",
+  "historyId" : "c0b0c3af792f2090ec491f86e50d1062",
+  "time" : {
+    "start" : 1656405277810,
+    "stop" : 1656405277979,
+    "duration" : 169
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shipping methods API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Shipping methods API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add a 'Free shipping' shipping method"
+  }, {
+    "name" : "package",
+    "value" : "Shipping methods API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3fc330ff513a38a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656399031227,
+        "stop" : 1656399031422,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "341995bb5bb3b3ac",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+      "time" : {
+        "start" : 1656396916426,
+        "stop" : 1656396916452,
+        "duration" : 26
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6daa1987779080b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656399031227,
+          "stop" : 1656399031422,
+          "duration" : 195
+        }
+      }, {
+        "uid" : "e9eec0791d654934",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+        "time" : {
+          "start" : 1656396916426,
+          "stop" : 1656396916452,
+          "duration" : 26
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "42beb3f399fc1137.json",
+  "parameterValues" : [ ]
+}

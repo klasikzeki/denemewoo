@@ -1,0 +1,95 @@
+{
+  "uid" : "cde7dd784b21145f",
+  "name" : "can add a product to an order",
+  "fullName" : "Orders API tests: CRUD Update an order.can add a product to an order",
+  "historyId" : "7c3abafc5fdd6d3f50c8380a2f1cd695",
+  "time" : {
+    "start" : 1656405270016,
+    "stop" : 1656405270152,
+    "duration" : 136
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testClass",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add a product to an order"
+  }, {
+    "name" : "package",
+    "value" : "Orders API tests: CRUD Update an order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "940010dda23244fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656399023320,
+        "stop" : 1656399023450,
+        "duration" : 130
+      }
+    }, {
+      "uid" : "f380bb72ce294015",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+      "time" : {
+        "start" : 1656396914184,
+        "stop" : 1656396914203,
+        "duration" : 19
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4bb8f21605c686f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656399023320,
+          "stop" : 1656399023450,
+          "duration" : 130
+        }
+      }, {
+        "uid" : "d7eefb32deb8f2a1",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+        "time" : {
+          "start" : 1656396914184,
+          "stop" : 1656396914203,
+          "duration" : 19
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cde7dd784b21145f.json",
+  "parameterValues" : [ ]
+}

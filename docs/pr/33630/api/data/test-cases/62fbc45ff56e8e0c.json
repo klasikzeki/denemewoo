@@ -1,0 +1,95 @@
+{
+  "uid" : "62fbc45ff56e8e0c",
+  "name" : "can list all shipping zones",
+  "fullName" : "Shipping zones API tests.can list all shipping zones",
+  "historyId" : "716a87a4683ef7f0b09a71b94df9879e",
+  "time" : {
+    "start" : 1656405273642,
+    "stop" : 1656405273738,
+    "duration" : 96
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can list all shipping zones"
+  }, {
+    "name" : "package",
+    "value" : "Shipping zones API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "25cfbf8dc7cd21d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656399027007,
+        "stop" : 1656399027100,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "8e6c04b15dc865d8",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has type:  object\n                Received has value: {\"additional_errors\": [], \"code\": \"internal_server_error\", \"data\": {\"status\": 500}, \"message\": \"<p>There has been a critical error on this website.</p><p><a href=\\\"https://wordpress.org/support/article/faq-troubleshooting/\\\">Learn more about troubleshooting WordPress.</a></p>\"}",
+      "time" : {
+        "start" : 1656396915102,
+        "stop" : 1656396915160,
+        "duration" : 58
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4bdbdb226f00d4c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656399027007,
+          "stop" : 1656399027100,
+          "duration" : 93
+        }
+      }, {
+        "uid" : "d41527caa508475",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toHaveLength(expected)\n                \n                Matcher error: received value must have a length property whose value must be a number\n                \n                Received has type:  object\n                Received has value: {\"additional_errors\": [], \"code\": \"internal_server_error\", \"data\": {\"status\": 500}, \"message\": \"<p>There has been a critical error on this website.</p><p><a href=\\\"https://wordpress.org/support/article/faq-troubleshooting/\\\">Learn more about troubleshooting WordPress.</a></p>\"}",
+        "time" : {
+          "start" : 1656396915102,
+          "stop" : 1656396915160,
+          "duration" : 58
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "62fbc45ff56e8e0c.json",
+  "parameterValues" : [ ]
+}
