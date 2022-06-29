@@ -1,0 +1,111 @@
+{
+  "uid" : "1e7668d97815d639",
+  "name" : "can batch create coupons",
+  "fullName" : "Coupons API tests Batch update coupons.can batch create coupons",
+  "historyId" : "7593f39614166e0a5c070bb5c39d9d6c",
+  "time" : {
+    "start" : 1656481916685,
+    "stop" : 1656481916792,
+    "duration" : 107
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Coupons API tests Batch update coupons"
+  }, {
+    "name" : "testClass",
+    "value" : "Coupons API tests Batch update coupons"
+  }, {
+    "name" : "testMethod",
+    "value" : "can batch create coupons"
+  }, {
+    "name" : "package",
+    "value" : "Coupons API tests Batch update coupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9b9d43b0536aad6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656405262533,
+        "stop" : 1656405262647,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "6b96a90fbfa813ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656399015874,
+        "stop" : 1656399015989,
+        "duration" : 115
+      }
+    }, {
+      "uid" : "7d7a238e3fe3b0a5",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+      "time" : {
+        "start" : 1656396912812,
+        "stop" : 1656396912832,
+        "duration" : 20
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "499a0c059fc0b0dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656405262533,
+          "stop" : 1656405262647,
+          "duration" : 114
+        }
+      }, {
+        "uid" : "3bd443fb0bae3450",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656399015874,
+          "stop" : 1656399015989,
+          "duration" : 115
+        }
+      }, {
+        "uid" : "43cd84ac9adeabc2",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+        "time" : {
+          "start" : 1656396912812,
+          "stop" : 1656396912832,
+          "duration" : 20
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1e7668d97815d639.json",
+  "parameterValues" : [ ]
+}

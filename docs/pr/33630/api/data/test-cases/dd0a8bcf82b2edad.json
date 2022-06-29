@@ -1,0 +1,111 @@
+{
+  "uid" : "dd0a8bcf82b2edad",
+  "name" : "can permanently delete a coupon",
+  "fullName" : "Coupons API tests.can permanently delete a coupon",
+  "historyId" : "32bb0e0261b8a49f56f9da7cea62d31d",
+  "time" : {
+    "start" : 1656481916498,
+    "stop" : 1656481916685,
+    "duration" : 187
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Coupons API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Coupons API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can permanently delete a coupon"
+  }, {
+    "name" : "package",
+    "value" : "Coupons API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f0830a648924dd0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656405262350,
+        "stop" : 1656405262532,
+        "duration" : 182
+      }
+    }, {
+      "uid" : "a81165910fabd6f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656399015658,
+        "stop" : 1656399015874,
+        "duration" : 216
+      }
+    }, {
+      "uid" : "ee894987a5b6ed04",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+      "time" : {
+        "start" : 1656396912791,
+        "stop" : 1656396912811,
+        "duration" : 20
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "2928c006553288d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656405262350,
+          "stop" : 1656405262532,
+          "duration" : 182
+        }
+      }, {
+        "uid" : "1ce13b5e67328908",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656399015658,
+          "stop" : 1656399015874,
+          "duration" : 216
+        }
+      }, {
+        "uid" : "ee9411e3b229f6cb",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+        "time" : {
+          "start" : 1656396912791,
+          "stop" : 1656396912811,
+          "duration" : 20
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dd0a8bcf82b2edad.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,111 @@
+{
+  "uid" : "db643112464abc26",
+  "name" : "can delete a refund",
+  "fullName" : "Refunds API tests.can delete a refund",
+  "historyId" : "1acb4253285ec26f54b09823d39f601a",
+  "time" : {
+    "start" : 1656481928145,
+    "stop" : 1656481928415,
+    "duration" : 270
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Refunds API tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Refunds API tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "can delete a refund"
+  }, {
+    "name" : "package",
+    "value" : "Refunds API tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "88a2d3de8e3967f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656405274930,
+        "stop" : 1656405275239,
+        "duration" : 309
+      }
+    }, {
+      "uid" : "63e557bd8d2a4f58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656399028313,
+        "stop" : 1656399028635,
+        "duration" : 322
+      }
+    }, {
+      "uid" : "4c66207b1206536f",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+      "time" : {
+        "start" : 1656396915558,
+        "stop" : 1656396915579,
+        "duration" : 21
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "663772c690ad26b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656405274930,
+          "stop" : 1656405275239,
+          "duration" : 309
+        }
+      }, {
+        "uid" : "e37d090a8993e006",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656399028313,
+          "stop" : 1656399028635,
+          "duration" : 322
+        }
+      }, {
+        "uid" : "5da9943c404f1c65",
+        "status" : "failed",
+        "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: 200\n                Received: 500",
+        "time" : {
+          "start" : 1656396915558,
+          "stop" : 1656396915579,
+          "duration" : 21
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "db643112464abc26.json",
+  "parameterValues" : [ ]
+}
