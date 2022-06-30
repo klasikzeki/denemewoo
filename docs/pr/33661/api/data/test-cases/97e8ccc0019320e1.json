@@ -1,0 +1,95 @@
+{
+  "uid" : "97e8ccc0019320e1",
+  "name" : "default",
+  "fullName" : "Products API tests: List All Products List all products orderby.default",
+  "historyId" : "548d23640c6289f702f2a6588475ac97",
+  "time" : {
+    "start" : 1656557737906,
+    "stop" : 1656557738036,
+    "duration" : 130
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Products API tests: List All Products List all products orderby"
+  }, {
+    "name" : "testClass",
+    "value" : "Products API tests: List All Products List all products orderby"
+  }, {
+    "name" : "testMethod",
+    "value" : "default"
+  }, {
+    "name" : "package",
+    "value" : "Products API tests: List All Products List all products orderby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e3088ad3f67aeb0",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within the 10000ms timeout specified by jest.setTimeout.",
+      "time" : {
+        "start" : 1656557290212,
+        "stop" : 1656557290340,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "c2b0c23ff18d3da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656550098392,
+        "stop" : 1656550098537,
+        "duration" : 145
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ca8b176cc669d553",
+        "status" : "failed",
+        "statusDetails" : "Error: Timeout - Async callback was not invoked within the 10000ms timeout specified by jest.setTimeout.",
+        "time" : {
+          "start" : 1656557290212,
+          "stop" : 1656557290340,
+          "duration" : 128
+        }
+      }, {
+        "uid" : "6df630aa910df383",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656550098392,
+          "stop" : 1656550098537,
+          "duration" : 145
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "97e8ccc0019320e1.json",
+  "parameterValues" : [ ]
+}
