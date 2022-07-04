@@ -78,11 +78,3 @@ jobs:
           GH_EMAIL: ${{ secrets.REPORTS_EMAIL }}
           GH_TOKEN: ${{ secrets.REPORTS_TOKEN }}
         run: ${{ env.REPO_PATH }}/.github/workflows/scripts/push-changes.sh
-
-      - name: Add comment to PR
-        if: ${{ github.event.inputs.test_workflow == 'pr' }}
-        working-directory: ${{ env.REPO_PATH }}/.github/workflows/scripts
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPORTS_TOKEN }}
-          REPORTS_USER: ${{ secrets.REPORTS_USER }}
-        run: bash add-pr-comment.sh
