@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33919/e2e/i
 pr_number: 33919
 pr_title_encoded: "Migrate+the+analyzer%27s+DB+scan+to+the+tmp+repo+clone+approach"
 pr_test_type: e2e
-last_published: "2022-07-15 04:29:38 +0000"
-commit_sha: fab865b937ebbf2469c1ba01e6c9367972eeaa21
-commit_message: "Migrate the analyzer's DB scan to the tmp repo clone approach"
+last_published: "2022-07-18 02:21:52 +0000"
+commit_sha: e8bf53e70da8dd32080f5515e9a80a0d0601cf04
+commit_message: "Filter minimal build to woocommerce, remove the step from CI since it…"
 branch_name: dev/migrate-db-scan-to-tmp-repo
 ---
