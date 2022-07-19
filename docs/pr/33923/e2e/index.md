@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33923/e2e/i
 pr_number: 33923
 pr_title_encoded: "Fix+free+features+is+still+rendered+when+no+recommendation"
 pr_test_type: e2e
-last_published: "2022-07-19 04:02:48 +0000"
-commit_sha: e6bd879bcfe66053efe9c1f9a19d1be2905ceefe
-commit_message: "Update BusinessDetails tab to go to next step if no installable exten…"
+last_published: "2022-07-19 04:31:05 +0000"
+commit_sha: b7153b65978eb1644bd1d9e90303b40a6d558e9f
+commit_message: "Update spinner"
 branch_name: fix/free-features-is-still-rendered-when-no-recommendation
 ---
