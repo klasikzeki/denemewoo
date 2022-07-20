@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33982/e2e/i
 pr_number: 33982
 pr_title_encoded: "Update+woocommerce+admin+scripts+to+align+more+with+turborepo"
 pr_test_type: e2e
-last_published: "2022-07-19 18:31:14 +0000"
-commit_sha: e06b7df77a847b4ec3937d52ad1433788e780fcf
-commit_message: "Add dev script back in"
+last_published: "2022-07-20 15:36:15 +0000"
+commit_sha: 147b58dd613bb425751612f52710ca08864f3509
+commit_message: "Add install-if-deps-outdated back into build script"
 branch_name: update/33948_client_admin_scripts
 ---
