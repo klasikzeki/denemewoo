@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34004/e2e/i
 pr_number: 34004
 pr_title_encoded: "Add+detailed+logs+for+e2e+setup%2Fteardown"
 pr_test_type: e2e
-last_published: "2022-07-20 22:30:10 +0000"
-commit_sha: 756a058828816530a63e5653778a0d8375e1aba3
-commit_message: "Add changelog"
+last_published: "2022-07-20 22:41:39 +0000"
+commit_sha: eb26829bce6db9f1635d7ac30a121fea1b76ed97
+commit_message: "Validate log-in"
 branch_name: 22-07/e2e/better-setup-log
 ---
