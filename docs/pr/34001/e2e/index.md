@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34001/e2e/i
 pr_number: 34001
 pr_title_encoded: "Debug+turbo+cache+e2e+CI+failures"
 pr_test_type: e2e
-last_published: "2022-07-20 17:40:05 +0000"
-commit_sha: 65b53fe060b5baeeefd07d77d2d4ad462abc7ef3
-commit_message: "Debug e2e"
+last_published: "2022-07-20 18:21:27 +0000"
+commit_sha: 3675acb5092b4a2ea0344ad769cafb3ca672218f
+commit_message: "Stop attempting when successfull"
 branch_name: cache/turbo-debug-e2e
 ---
