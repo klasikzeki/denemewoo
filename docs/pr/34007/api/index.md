@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34007/api/i
 pr_number: 34007
 pr_title_encoded: "Prevent+double+build+on+unit+test+workflow+in+CI"
 pr_test_type: api
-last_published: "2022-07-20 21:51:52 +0000"
+last_published: "2022-07-20 22:37:07 +0000"
 commit_sha: b25692a524e223368fce09750082cd07152082b0
 commit_message: "Fix path"
 branch_name: 22-07/ci/prevent-double-build
