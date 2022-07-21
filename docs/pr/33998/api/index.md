@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33998/api/i
 pr_number: 33998
 pr_title_encoded: "Add+turbo+caches+to+the+cache+action+to+prevent+building+if+not+needed"
 pr_test_type: api
-last_published: "2022-07-21 15:18:03 +0000"
-commit_sha: e3bed88380943c3287cf3713ca13b837d5c018b5
-commit_message: "Add build name in cache key"
+last_published: "2022-07-21 16:15:28 +0000"
+commit_sha: 02b2f097ff8997e08efe907472a9322f604db937
+commit_message: "Cache with same cache key as dependencies"
 branch_name: cache/turbo
 ---
