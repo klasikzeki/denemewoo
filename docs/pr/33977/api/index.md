@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33977/api/i
 pr_number: 33977
 pr_title_encoded: "Implement+%60maxFailures%60"
 pr_test_type: api
-last_published: "2022-07-21 06:54:09 +0000"
-commit_sha: 0b95a85682a114195aaee6587983a42ffc9f1b59
-commit_message: "Use env var to set `maxFailures` value instead of hard-coding it"
+last_published: "2022-07-21 07:29:03 +0000"
+commit_sha: 1ba2ef2c362e050c0c66afa6e4076cd032baa43a
+commit_message: "Allow maxFailures even if not on CI"
 branch_name: e2e/pr-fail-fast
 ---
