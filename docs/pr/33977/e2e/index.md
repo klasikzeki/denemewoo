@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33977/e2e/i
 pr_number: 33977
 pr_title_encoded: "Implement+%60maxFailures%60"
 pr_test_type: e2e
-last_published: "2022-07-21 09:05:58 +0000"
-commit_sha: cf947934be682ee9cccb6a5776857c18670a0e4b
-commit_message: "Remove unnecessary newline escaping"
+last_published: "2022-07-21 09:37:19 +0000"
+commit_sha: e942ed42ffe2e1b7671678db6ba7747dc278e656
+commit_message: "Fix incorrect reference to E2E_MAX_FAILURES"
 branch_name: e2e/pr-fail-fast
 ---
