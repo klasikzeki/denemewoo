@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34027/api/i
 pr_number: 34027
 pr_title_encoded: "Split+changelog+steps+from+code-freeze+action"
 pr_test_type: api
-last_published: "2022-07-21 20:57:18 +0000"
-commit_sha: 52dd292a9fdb6d40a2a43652edf3b3ed3da0d4c7
-commit_message: "Remove generation of changelog.txt file from automation"
+last_published: "2022-07-21 21:21:03 +0000"
+commit_sha: 5efc65bd3017efd90ee77918cc2500126102e1c9
+commit_message: "Correct comments and add back write of readme"
 branch_name: fix/33906
 ---
