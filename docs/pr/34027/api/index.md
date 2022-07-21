@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34027/api/i
 pr_number: 34027
 pr_title_encoded: "Split+changelog+steps+from+code-freeze+action"
 pr_test_type: api
-last_published: "2022-07-21 18:19:32 +0000"
-commit_sha: 6b678fac7dfbe142da8d6e58443a5edb4c6cfeb9
-commit_message: "Split changelog script from code-freeze"
+last_published: "2022-07-21 20:20:35 +0000"
+commit_sha: 3be889a4e80475f98bf24cfdceae91d3b30f3774
+commit_message: "Remove hardcoded repository info from testing"
 branch_name: fix/33906
 ---
