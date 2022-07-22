@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33518/e2e/i
 pr_number: 33518
 pr_title_encoded: "Add+WooCommerce+default+styles+for+block+themes"
 pr_test_type: e2e
-last_published: "2022-07-21 09:19:25 +0000"
-commit_sha: bb83b1c0ab1157c798cd231ca6799ee7d63a9972
-commit_message: "address feedback"
+last_published: "2022-07-22 09:51:52 +0000"
+commit_sha: ce5cd547134f03ee79f5dd98faa0525832c2238d
+commit_message: "fix store notice position"
 branch_name: add/introduce-block-theme-default-styles
 ---
