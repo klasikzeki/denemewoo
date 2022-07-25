@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33998/api/i
 pr_number: 33998
 pr_title_encoded: "Add+turbo+caches+to+the+cache+action+to+prevent+building+if+not+needed"
 pr_test_type: api
-last_published: "2022-07-25 15:49:18 +0000"
-commit_sha: 19fe146f3f15ce8f4eb620cd76e17f67a802ca59
-commit_message: "Add debug check"
+last_published: "2022-07-25 16:20:16 +0000"
+commit_sha: f7c43408d5bbb8b32b54423b60d96c1a08838361
+commit_message: "Add assets folder"
 branch_name: cache/turbo
 ---
