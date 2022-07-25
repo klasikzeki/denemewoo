@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33834/api/i
 pr_number: 33834
 pr_title_encoded: "%5BCOT%5D+Implement+%60query%28%29%60+in+the+COT+datastore"
 pr_test_type: api
-last_published: "2022-07-22 21:05:49 +0000"
-commit_sha: 495dc07388445f66c0eb699db7ed3b0a5c068418
+last_published: "2022-07-25 15:31:22 +0000"
+commit_sha: 1863e1a81e5ef78cd5beb0dad76b4d66252d4362
 commit_message: "Make CI happy"
 branch_name: add/33613-cot-datastore-query
 ---
