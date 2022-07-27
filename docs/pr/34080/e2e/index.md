@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34080/e2e/i
 pr_number: 34080
 pr_title_encoded: "Implement+the+%22Installed+extensions%22+card"
 pr_test_type: e2e
-last_published: "2022-07-27 17:38:26 +0000"
-commit_sha: 27e63067af3e98043eb76a623950ee88b55b5ba1
-commit_message: "Code refactor with usePlugins."
+last_published: "2022-07-27 18:19:36 +0000"
+commit_sha: 8a6b5cf5a2e6e342b89349c54c7c4e620326939a
+commit_message: "Merge branch 'feature/33895-marketing-page/main' into feature/33895-m…"
 branch_name: feature/33895-marketing-page/34025-installed-extensions
 ---
