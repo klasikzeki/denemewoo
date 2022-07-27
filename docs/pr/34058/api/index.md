@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34058/api/i
 pr_number: 34058
 pr_title_encoded: "%5BCOT%5D+Fix+order+related+methods+in+customer+data+store"
 pr_test_type: api
-last_published: "2022-07-27 04:23:01 +0000"
-commit_sha: dc7c408a253cd46073ce2ddeba48f2dc518b37f9
-commit_message: "Fix unit tests"
+last_published: "2022-07-27 15:32:30 +0000"
+commit_sha: 35fdeffc963362aacd6160c165e50d2a9c8bf6bd
+commit_message: ""
 branch_name: cot/fix-order-related-methods-in-customer-data-store
 ---
