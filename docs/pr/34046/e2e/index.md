@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34046/e2e/i
 pr_number: 34046
 pr_title_encoded: "Update+code-freeze+action+to+exit+earlier+without+fail+on+non-release+days"
 pr_test_type: e2e
-last_published: "2022-07-22 14:56:10 +0000"
-commit_sha: 3b2d9e7ddc1dfa65f7cb12998c7ab2722ad1b2c3
-commit_message: "Update code-freeze action to exit earlier without fail on non-release…"
+last_published: "2022-07-27 17:59:43 +0000"
+commit_sha: cb1d15a6f5e452327a9c234ee177623257a1dc34
+commit_message: ""
 branch_name: update/freeze-no-fail-on-nonfreeze
 ---
