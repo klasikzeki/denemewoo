@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34081/e2e/i
 pr_number: 34081
 pr_title_encoded: "%28WIP%29+E2e%2Frep+s3+daily"
 pr_test_type: e2e
-last_published: "2022-07-28 06:42:42 +0000"
-commit_sha: 7a2af832a8f5055f044864f1be65ece2f88267f8
-commit_message: "Fix playwright command"
+last_published: "2022-07-28 07:11:37 +0000"
+commit_sha: c1b023ef00f7153589e93d1e1b028ee76968fbb8
+commit_message: "Fix browser installation"
 branch_name: e2e/rep-s3-daily
 ---
