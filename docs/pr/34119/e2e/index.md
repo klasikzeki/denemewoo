@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34119/e2e/i
 pr_number: 34119
 pr_title_encoded: "%5BCOT%5D+%60query%28%29%60+method%3A+add+support+for+date+queries"
 pr_test_type: e2e
-last_published: "2022-07-29 03:10:36 +0000"
-commit_sha: 58e3ec78b94cb8c0560854ad63cf2a2333670156
+last_published: "2022-07-29 12:03:48 +0000"
+commit_sha: 9a036c4262afad9591bdd3f4a86d7de9bd9fe68f
 commit_message: "Add changelog"
 branch_name: add/33877-cot-datastore-query-dates
 ---
