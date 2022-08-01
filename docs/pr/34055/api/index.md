@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34055/api/i
 pr_number: 34055
 pr_title_encoded: "Simplify+turbo+commands"
 pr_test_type: api
-last_published: "2022-08-01 04:47:52 +0000"
-commit_sha: d1ac5c7e04ea7db2ccdaa87e3c3ebd2ca0f5786a
-commit_message: "Fix typo in GH script"
+last_published: "2022-08-01 08:38:01 +0000"
+commit_sha: d9c01928bf88b74e17f02cf2990698a6e90df659
+commit_message: "Fix build dep bugs, make a script to run as package"
 branch_name: dev/simplify-turbo
 ---
