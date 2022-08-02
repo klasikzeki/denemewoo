@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34153/e2e/i
 pr_number: 34153
 pr_title_encoded: "Update+store+location+profiler"
 pr_test_type: e2e
-last_published: "2022-08-02 07:39:02 +0000"
-commit_sha: f28a1f054d7241f57d1bcde4922ddf03bf7098cb
+last_published: "2022-08-02 08:23:49 +0000"
+commit_sha: 55f4932d264a07f1b3c2555f19ac1072404df3de
 commit_message: "Update Store owner can go through setup Task List test"
 branch_name: update/32585-store-location-profiler
 ---
