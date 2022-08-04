@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34119/api/i
 pr_number: 34119
 pr_title_encoded: "%5BCOT%5D+%60query%28%29%60+method%3A+add+support+for+date+queries"
 pr_test_type: api
-last_published: "2022-08-03 19:16:50 +0000"
-commit_sha: 1f1e268600bab260daa7efae3691f9a5ca625757
+last_published: "2022-08-04 02:43:45 +0000"
+commit_sha: d30d8d8b167331b2e8df96bdad247cdf7bfaae0c
 commit_message: "Remap legacy date columns too"
 branch_name: add/33877-cot-datastore-query-dates
 ---
