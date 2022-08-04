@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34167/api/i
 pr_number: 34167
 pr_title_encoded: "Link+backfilling+to+migration+process"
 pr_test_type: api
-last_published: "2022-08-04 11:46:23 +0000"
-commit_sha: 8b2ca2ba015a68d9af2895a6a8ea19ca93628625
-commit_message: "Adjust setting test to account for COT feature."
+last_published: "2022-08-04 12:11:23 +0000"
+commit_sha: e551b1fad6fe58492ef10bee6ee6e864792e3505
+commit_message: "Support temporary tables."
 branch_name: fix/34151
 ---
