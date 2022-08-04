@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34167/e2e/i
 pr_number: 34167
 pr_title_encoded: "Link+backfilling+to+migration+process"
 pr_test_type: e2e
-last_published: "2022-08-04 11:13:36 +0000"
-commit_sha: 162e3f05a4a4768a3335824b68c4af78625d412b
-commit_message: "Revert adding concrete controller, object instance is already shared."
+last_published: "2022-08-04 11:46:24 +0000"
+commit_sha: 8b2ca2ba015a68d9af2895a6a8ea19ca93628625
+commit_message: "Adjust setting test to account for COT feature."
 branch_name: fix/34151
 ---
