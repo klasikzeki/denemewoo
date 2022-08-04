@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34022/e2e/i
 pr_number: 34022
 pr_title_encoded: "Hide+the+customizer+when+the+active+theme+is+a+FSE+theme"
 pr_test_type: e2e
-last_published: "2022-07-22 13:12:23 +0000"
-commit_sha: a48e7bb974614d5f3a335911e254342596069537
-commit_message: "Skip the test if the WP version is not compatible with the block theme."
+last_published: "2022-08-04 09:30:14 +0000"
+commit_sha: 6b92b3ef1c7b301b13494dbf876c326f8254e8bd
+commit_message: "Move the condition to avoid the class instantiation when theme is fse."
 branch_name: hide-customiser-for-fse-themes
 ---
