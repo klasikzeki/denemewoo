@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34055/api/i
 pr_number: 34055
 pr_title_encoded: "Simplify+turbo+commands"
 pr_test_type: api
-last_published: "2022-08-04 01:51:45 +0000"
-commit_sha: 449f3483f5616d3fc399bd1f577105ea04a4aa45
-commit_message: "Adjust CI workflows to rely on pnpm semantics instead of turbo."
+last_published: "2022-08-04 02:26:46 +0000"
+commit_sha: 097dc3f9d91e187421c875ddf54c28d86b7fdca9
+commit_message: "Fix up mistakes in the DEVELOPMENT.md doco"
 branch_name: dev/simplify-turbo
 ---
