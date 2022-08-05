@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34178/api/i
 pr_number: 34178
 pr_title_encoded: "%5BCOT%5D+Add+support+for+%2Fv3%2Forders"
 pr_test_type: api
-last_published: "2022-08-04 21:30:23 +0000"
-commit_sha: 284f355a032de0356d6170186c86196037b14ec6
-commit_message: "Fix test in `ProductAttributesLookup\FiltererTest`"
+last_published: "2022-08-05 19:46:33 +0000"
+commit_sha: 006240ef86e26eb1e8fa6485597bcf9ba1056a66
+commit_message: ""
 branch_name: cot-rest-api
 ---
