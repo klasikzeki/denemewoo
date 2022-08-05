@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34050/api/i
 pr_number: 34050
 pr_title_encoded: "Add+support+for+refunds+and+other+order+types+in+custom+order+tables"
 pr_test_type: api
-last_published: "2022-08-05 09:51:59 +0000"
-commit_sha: 724142d18f98e80f818d48fc7eae04a889f5068a
-commit_message: "Merge branch 'fix/34151' into enhancement/33771"
+last_published: "2022-08-05 10:53:17 +0000"
+commit_sha: f6d745ddecf508938e5ea35ef25c31b510a600f7
+commit_message: "Add types in unit test since we added it in schema."
 branch_name: enhancement/33771
 ---
