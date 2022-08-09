@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34211/api/i
 pr_number: 34211
 pr_title_encoded: "Add+product+form+buttons+and+specific+product+edit+page"
 pr_test_type: api
-last_published: "2022-08-09 12:08:43 +0000"
-commit_sha: aff00e7f1c994f2a3bc22684a44399d904b80531
-commit_message: "Add tests for the product form actions"
+last_published: "2022-08-09 13:18:05 +0000"
+commit_sha: 7a3faa5dffcf0cd9aa5b175e60e5d03c6ee915f1
+commit_message: "Update copy for publish & duplicate"
 branch_name: add/30_product_form_buttons
 ---
