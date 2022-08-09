@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/33789/e2e/i
 pr_number: 33789
 pr_title_encoded: "Filtering+for+the+COT+admin+list+table."
 pr_test_type: e2e
-last_published: "2022-08-09 20:07:05 +0000"
-commit_sha: 1755694b15c0200c26b9ed0cc086b0a02bba9832
-commit_message: "Merge branch 'trunk' into add/33196-admin-list-filtering"
+last_published: "2022-08-09 22:31:09 +0000"
+commit_sha: 78ef7a47f0c87e7d4e071a950a5f61b060ae57e5
+commit_message: "Further tidying of filter logic (and clean-up after some conflict res…"
 branch_name: add/33196-admin-list-filtering
 ---
