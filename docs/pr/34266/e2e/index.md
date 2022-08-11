@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34266/e2e/index.html
 pr_number: 34266
-pr_title_encoded: "Rough+draft+of+FlexBox+component."
+pr_title_encoded: "FlexBox+component"
 pr_test_type: e2e
-last_published: "2022-08-10 20:24:19 +0000"
-commit_sha: 7e42f3b046892f2ffc6f00f9e5277cbd1ba3865d
-commit_message: "Rough draft of FlexBox component."
+last_published: "2022-08-11 15:55:48 +0000"
+commit_sha: 2945261ff7f04741eb2ffa536f8439d8c6c3cba9
+commit_message: "Update props table in FlexBox README."
 branch_name: add/flex-box-component
 ---
