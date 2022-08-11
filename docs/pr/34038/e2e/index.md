@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34038/e2e/i
 pr_number: 34038
 pr_title_encoded: "Update+inbox+notes+to+display+localized+strings+when+locale+changed"
 pr_test_type: e2e
-last_published: "2022-08-10 23:02:45 +0000"
-commit_sha: f293593b79d677d16a702ecb35b73fb90c3124cc
-commit_message: "Update the filter doc"
+last_published: "2022-08-11 03:02:53 +0000"
+commit_sha: 60067a76b66730c3d443f676952aed826b150cc9
+commit_message: "Remove unneeded check"
 branch_name: update/display-localized-inbox-notes-when-locale-changed
 ---
