@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34251/e2e/i
 pr_number: 34251
 pr_title_encoded: "Add+WC+Payments+welcome+page+experiment"
 pr_test_type: e2e
-last_published: "2022-08-10 11:10:38 +0000"
-commit_sha: 5c17bc521937b4ca7d582245e4a7ba22e376555f
-commit_message: "Remove WPCOM starter plan check"
+last_published: "2022-08-11 09:22:59 +0000"
+commit_sha: abf55c6a527288a6cc226d696abde3eeca9c0f2e
+commit_message: "Country and time conditions."
 branch_name: add/wcpay-welcome-page-core-us-promo
 ---
