@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34211/e2e/i
 pr_number: 34211
 pr_title_encoded: "Add+product+form+buttons+and+specific+product+edit+page"
 pr_test_type: e2e
-last_published: "2022-08-10 14:42:54 +0000"
-commit_sha: 356a07e53bc56867214471eaa2a0d74d97728181
-commit_message: "Reset changes in pnpm lock"
+last_published: "2022-08-11 13:04:02 +0000"
+commit_sha: 4a88c2a223cb1bfd630009142763bf27097158a3
+commit_message: "Fix backwards compabitibility issue with Form changes"
 branch_name: add/30_product_form_buttons
 ---
