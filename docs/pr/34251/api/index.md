@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34251/api/i
 pr_number: 34251
 pr_title_encoded: "Add+WC+Payments+welcome+page+experiment"
 pr_test_type: api
-last_published: "2022-08-12 11:26:31 +0000"
-commit_sha: 5324852223ec30beb70e90fe67262e0d06aad4f6
-commit_message: "Load SVG as image instead of background"
+last_published: "2022-08-12 13:36:34 +0000"
+commit_sha: 16f71593f2d7b5d82a84f3b9317f938779f765b8
+commit_message: "Fix WCPay installed condition"
 branch_name: add/wcpay-welcome-page-core-us-promo
 ---
