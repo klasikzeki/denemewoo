@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34159/e2e/i
 pr_number: 34159
 pr_title_encoded: "Add+SearchControl+component"
 pr_test_type: e2e
-last_published: "2022-08-15 20:14:59 +0000"
-commit_sha: 8717d941b7bf756451f48ca0e08ab31005d18fa2
-commit_message: "Fix up IDs in e2e tests"
+last_published: "2022-08-16 16:11:06 +0000"
+commit_sha: f84f5c3597950fa8d41c1eddb4f133e1eb69de34
+commit_message: "Make list structure more semantic"
 branch_name: try/downshift
 ---
