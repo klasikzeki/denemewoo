@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34357/api/i
 pr_number: 34357
 pr_title_encoded: "Refactor+inbox+notes+to+have+get_note+method"
 pr_test_type: api
-last_published: "2022-08-17 08:44:03 +0000"
-commit_sha: dfd4ac0b2bdeb8c7f3c6602d31481d9e970298dc
+last_published: "2022-08-17 09:08:47 +0000"
+commit_sha: 84f45db573b1725c5fb48859a743ac5f09e3742c
 commit_message: "Add changelog"
 branch_name: update/34269-refactor-inbox-notes-to-have-get-notes-method
 ---
