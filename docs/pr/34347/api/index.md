@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34347/api/index.html
 pr_number: 34347
-pr_title_encoded: "%5BCOT%5D+Add+support+for+an+atomic+%60meta_query%60+in+%60OrdersTableQuery%60"
+pr_title_encoded: "%5BCOT%5D+%60OrdersTableQuery%60%3A+ignore+invalid+elements+in+%60meta_query%60"
 pr_test_type: api
-last_published: "2022-08-16 19:40:10 +0000"
-commit_sha: 68d42a9c2b6638966758c58887f2c8110357d475
-commit_message: "Add changelog"
+last_published: "2022-08-18 20:26:52 +0000"
+commit_sha: 63551f7293970fba794c4e25a8d1db4ba0ff3a92
+commit_message: ""
 branch_name: fix/34346
 ---
