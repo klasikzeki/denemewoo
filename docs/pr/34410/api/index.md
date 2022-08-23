@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34410/api/i
 pr_number: 34410
 pr_title_encoded: "Hide+finish+setup+button+when+task+list+is+disabled"
 pr_test_type: api
-last_published: "2022-08-22 00:52:01 +0000"
-commit_sha: 4e0675a03996fd21d47ba2bb0db16251f37e04c7
-commit_message: "Add changelog"
+last_published: "2022-08-23 04:22:27 +0000"
+commit_sha: 7775abfcacce670e938e8f890fedd44097341bcc
+commit_message: "Update plugins/woocommerce-admin/client/activity-panel/activity-panel.js"
 branch_name: fix/34143-hide-finish-setup-button-when-task-list-is-disabled
 ---
