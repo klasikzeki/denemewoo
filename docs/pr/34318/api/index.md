@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34318/api/i
 pr_number: 34318
 pr_title_encoded: "Remove+foreign+key+from+the+wc_download_log+table"
 pr_test_type: api
-last_published: "2022-08-23 08:01:17 +0000"
-commit_sha: 19af7931cc3378d754637bb1730ced3bf5319c08
-commit_message: "Bump the version when this will be included."
+last_published: "2022-08-23 08:31:24 +0000"
+commit_sha: 819f604ff3e9ed7ef85efd841105c2bb1c1aaef1
+commit_message: "Fixed missing select in subquery."
 branch_name: fix/34305-remove-fk
 ---
