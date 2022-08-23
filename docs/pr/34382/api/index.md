@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34382/api/index.html
 pr_number: 34382
-pr_title_encoded: "Add%2F30+list+price+field"
+pr_title_encoded: "Add+Pricing+section"
 pr_test_type: api
-last_published: "2022-08-18 20:08:09 +0000"
-commit_sha: c2f807361037379b0675832944641d9fbff16a76
-commit_message: "Add pricing inputs"
+last_published: "2022-08-23 18:21:44 +0000"
+commit_sha: 83a46a7141a2ec31c8cef8f9ba1908243f6df10a
+commit_message: "Add tax settings"
 branch_name: add/30_list_price_field
 ---
