@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34050/e2e/i
 pr_number: 34050
 pr_title_encoded: "Add+support+for+refunds+and+other+order+types+in+custom+order+tables"
 pr_test_type: e2e
-last_published: "2022-08-24 09:09:44 +0000"
-commit_sha: 6ffd76c08b911b40f0f1c0cc011b7d5402adda51
-commit_message: "Merge branch 'trunk' into enhancement/33771"
+last_published: "2022-08-24 09:32:02 +0000"
+commit_sha: 7101711c8b9bad433c8c7392bf1bca41362d1c4c
+commit_message: "Merge branch 'enhancement/33771' of github.com:woocommerce/woocommerc…"
 branch_name: enhancement/33771
 ---
