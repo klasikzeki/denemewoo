@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34415/api/i
 pr_number: 34415
 pr_title_encoded: "Marketing+page+-+Implement+%22Discover+more+marketing+tools%22+card"
 pr_test_type: api
-last_published: "2022-08-24 07:49:07 +0000"
-commit_sha: 98c3cba1f0c7ceb630903497df4ceb918eee59c5
-commit_message: "Merge branch 'feature/33895-marketing-page/34108-learn-marketing' int…"
+last_published: "2022-08-24 14:26:03 +0000"
+commit_sha: 1a1523d4f1ff3a7bde4b2c99f9ca234a7b7ce8aa
+commit_message: "Use svg icon for Jetpack CRM."
 branch_name: feature/33895-marketing-page/34107-discover-tools
 ---
