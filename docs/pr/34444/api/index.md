@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34444/api/i
 pr_number: 34444
 pr_title_encoded: "Modify+the+extensions+that+show+up+in+%22Installed+marketing+extensions%22+card"
 pr_test_type: api
-last_published: "2022-08-29 14:02:08 +0000"
-commit_sha: 7351ad8497310741af25c8657c31551dad2de627
-commit_message: "Fix Vimeo icon path"
+last_published: "2022-08-30 10:25:37 +0000"
+commit_sha: 19b91307bc6e70d441919bc20e500adc7c314132
+commit_message: "Remove tracking parameters from URL"
 branch_name: feature/33895-marketing-page/34431-add-new-extensions
 ---
