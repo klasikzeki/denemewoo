@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34465/api/i
 pr_number: 34465
 pr_title_encoded: "Fix%2F33158"
 pr_test_type: api
-last_published: "2022-08-29 11:25:59 +0000"
-commit_sha: 471551c827cea1c0784609f15e9b57b01d5fa361
-commit_message: "Fetch post only when data sync is enabled."
+last_published: "2022-08-30 12:33:17 +0000"
+commit_sha: 7f692c8de1fcc6d76e5c502b3dfb03f192dc6d7b
+commit_message: "Merge branch 'trunk' into fix/33158"
 branch_name: fix/33158
 ---
