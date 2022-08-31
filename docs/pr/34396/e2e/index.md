@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34396/e2e/i
 pr_number: 34396
 pr_title_encoded: "%5BCOT%5D+Add+the+orders+cache"
 pr_test_type: e2e
-last_published: "2022-08-29 16:28:24 +0000"
-commit_sha: c9adf27093aa8e42fefbf1192d128800465c55ee
-commit_message: "Fix failing unit test"
+last_published: "2022-08-31 16:56:22 +0000"
+commit_sha: 7da3bc2136df0b696607ee1a03accc972038b6ca
+commit_message: "Merge branch 'trunk' into add/order_cache"
 branch_name: add/order_cache
 ---
