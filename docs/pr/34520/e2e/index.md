@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34520/e2e/i
 pr_number: 34520
 pr_title_encoded: "Validate+React+Admin+Changelog+Files"
 pr_test_type: e2e
-last_published: "2022-08-30 20:03:23 +0000"
-commit_sha: f8a33548483bfbe40bd0be20edc4c316365e5be1
-commit_message: "Added Project Component Changelog Validation"
+last_published: "2022-08-31 15:53:16 +0000"
+commit_sha: 830996ea45619bddeee2998950891cd63c71a5bb
+commit_message: "Address code sniff; end multi-line array-item with a comma."
 branch_name: add/project-component-changelogs
 ---
