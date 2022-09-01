@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34467/api/i
 pr_number: 34467
 pr_title_encoded: "Mobile+messaging"
 pr_test_type: api
-last_published: "2022-08-30 14:57:59 +0000"
-commit_sha: e78d477e351249e8b61fa3482f053af0ad4ac135
-commit_message: "fix: conditions making order eligible for ipp"
+last_published: "2022-09-01 12:05:52 +0000"
+commit_sha: ec55428ec09b1801d84f44c9c208e58a38ad3204
+commit_message: "ci(temp): disable canceling unit tests jobs"
 branch_name: feature/footer_with_mobile_deep_link
 ---
