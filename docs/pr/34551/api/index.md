@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34551/api/i
 pr_number: 34551
 pr_title_encoded: "Validate+that+tinymce+exists+before+using+it."
 pr_test_type: api
-last_published: "2022-09-01 17:56:24 +0000"
-commit_sha: e39d62d2ce9c548d6b4423e8fe510f06cf44f49a
-commit_message: "Validate that tinymce exists before using it."
+last_published: "2022-09-01 19:32:02 +0000"
+commit_sha: b124e1aed845f1ebda1b4298b32171b4e670cfac
+commit_message: "Add changelog file"
 branch_name: fix/34221-error-on-save-product
 ---
