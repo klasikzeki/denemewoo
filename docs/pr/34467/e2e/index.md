@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34467/e2e/i
 pr_number: 34467
 pr_title_encoded: "Mobile+messaging"
 pr_test_type: e2e
-last_published: "2022-09-01 12:05:52 +0000"
-commit_sha: ec55428ec09b1801d84f44c9c208e58a38ad3204
-commit_message: "ci(temp): disable canceling unit tests jobs"
+last_published: "2022-09-01 12:41:42 +0000"
+commit_sha: 1dac910501de21b841c28e4f48a78b828757195d
+commit_message: "Merge branch 'trunk' into feature/footer_with_mobile_deep_link"
 branch_name: feature/footer_with_mobile_deep_link
 ---
