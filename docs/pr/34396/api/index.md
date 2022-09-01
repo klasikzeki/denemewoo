@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34396/api/i
 pr_number: 34396
 pr_title_encoded: "%5BCOT%5D+Add+the+orders+cache"
 pr_test_type: api
-last_published: "2022-08-31 16:56:21 +0000"
-commit_sha: 7da3bc2136df0b696607ee1a03accc972038b6ca
-commit_message: "Merge branch 'trunk' into add/order_cache"
+last_published: "2022-09-01 08:41:37 +0000"
+commit_sha: c7ec9aa49dfa7f3aadd86802b1d89f9d8d86dee9
+commit_message: ""
 branch_name: add/order_cache
 ---
