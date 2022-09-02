@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34444/api/i
 pr_number: 34444
 pr_title_encoded: "Modify+the+extensions+that+show+up+in+%22Installed+marketing+extensions%22+card"
 pr_test_type: api
-last_published: "2022-08-30 10:25:37 +0000"
-commit_sha: 19b91307bc6e70d441919bc20e500adc7c314132
-commit_message: "Remove tracking parameters from URL"
+last_published: "2022-09-02 14:29:46 +0000"
+commit_sha: e67d490194e2e3915288adb3389bcfc095f9403c
+commit_message: "Show AW extensions docs and support link if AW not activated"
 branch_name: feature/33895-marketing-page/34431-add-new-extensions
 ---
