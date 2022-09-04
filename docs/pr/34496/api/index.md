@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34496/api/i
 pr_number: 34496
 pr_title_encoded: "Port+the+release+generator+from+Woorelease+extensions+to+tools"
 pr_test_type: api
-last_published: "2022-09-01 21:41:17 +0000"
-commit_sha: 3229f5c4bdab72816cd5a1fe9319032aa6209404
-commit_message: "Remove unrelated change"
+last_published: "2022-09-04 23:43:31 +0000"
+commit_sha: a7bd4c4c89b07ccea11f3dcbcaf568db79229056
+commit_message: "Remove redundant ignore from .gitignore"
 branch_name: dev/release-post-generator
 ---
