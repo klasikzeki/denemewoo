@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34461/api/i
 pr_number: 34461
 pr_title_encoded: "Update+get_product_data+to+send+request+with+a+locale+query+param+for+translation"
 pr_test_type: api
-last_published: "2022-09-01 03:16:59 +0000"
-commit_sha: 0ecb3cf73b535ff9dcd0685410a16b253edfd926
+last_published: "2022-09-06 04:11:38 +0000"
+commit_sha: 1b0939afd746818c184fa994458c3f62841aac85
 commit_message: "Add changelog"
 branch_name: update/get-product-data-i18n
 ---
