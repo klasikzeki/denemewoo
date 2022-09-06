@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34435/e2e/i
 pr_number: 34435
 pr_title_encoded: "Add+image+gallery+component"
 pr_test_type: e2e
-last_published: "2022-08-30 00:09:14 +0000"
-commit_sha: 9052b6063fd6a0b23a6a0b616956846fa7b91ba3
-commit_message: "Handle PR feedback"
+last_published: "2022-09-06 17:41:12 +0000"
+commit_sha: 2126585dc27884a1ed31e1ed0bd268d17d4f1463
+commit_message: "Update lock file"
 branch_name: add/image-gallery
 ---
