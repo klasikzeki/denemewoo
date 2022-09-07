@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34467/api/i
 pr_number: 34467
 pr_title_encoded: "Mobile+messaging"
 pr_test_type: api
-last_published: "2022-09-01 12:41:42 +0000"
-commit_sha: 1dac910501de21b841c28e4f48a78b828757195d
-commit_message: "Merge branch 'trunk' into feature/footer_with_mobile_deep_link"
+last_published: "2022-09-07 09:01:55 +0000"
+commit_sha: fedb7548fcb3206a61a0887ca93b29365d0a171d
+commit_message: "fix: setting country in tests"
 branch_name: feature/footer_with_mobile_deep_link
 ---
