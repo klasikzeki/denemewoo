@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34468/e2e/i
 pr_number: 34468
 pr_title_encoded: "Add+jest+to+syncpack%2C"
 pr_test_type: e2e
-last_published: "2022-09-02 17:41:18 +0000"
-commit_sha: aa80b679aeec1939edd62d6036e083711249ac6e
-commit_message: "Merge branch 'trunk' into update/unify-jest-27"
+last_published: "2022-09-07 12:34:45 +0000"
+commit_sha: 68ede531bb54f603873782cde225c49ab4f672e4
+commit_message: "Update `ts-jest@^27.1.3` in `api`,"
 branch_name: add/jest-to-syncpack
 ---
