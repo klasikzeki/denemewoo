@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34581/e2e/i
 pr_number: 34581
 pr_title_encoded: "Show+APMs+on+the+new+Payments+menu"
 pr_test_type: e2e
-last_published: "2022-09-06 13:30:59 +0000"
-commit_sha: 9a79f8c9ec715c1f0cf956b86f4ef9a95f9d27cb
-commit_message: "Implement APMs toggle button"
+last_published: "2022-09-07 09:55:31 +0000"
+commit_sha: 94caad58b2f3fe14e072799786c27828459ff1bd
+commit_message: "Refactor the code to be more explicit"
 branch_name: add/wcpay-4529-additional-pms-on-payments-welcome
 ---
