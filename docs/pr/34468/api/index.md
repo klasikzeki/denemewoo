@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34468/api/i
 pr_number: 34468
 pr_title_encoded: "Add+jest+to+syncpack%2C"
 pr_test_type: api
-last_published: "2022-09-07 12:34:44 +0000"
-commit_sha: 68ede531bb54f603873782cde225c49ab4f672e4
-commit_message: "Update `ts-jest@^27.1.3` in `api`,"
+last_published: "2022-09-07 13:01:54 +0000"
+commit_sha: ca0db10474ee68143b3ff56c4e797b360b9f3584
+commit_message: "Update changelogs after merges from trunk"
 branch_name: add/jest-to-syncpack
 ---
