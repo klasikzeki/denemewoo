@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34600/api/i
 pr_number: 34600
 pr_title_encoded: "Extract+the+scanning+functionality+from+code-analyzer%2C+move+common+code+into+a+separate+package"
 pr_test_type: api
-last_published: "2022-09-08 00:35:30 +0000"
-commit_sha: 21d4bca5f4277105439929f303784507e95abaf6
-commit_message: "Don't print output if there are no changes"
+last_published: "2022-09-08 21:27:58 +0000"
+commit_sha: da12d92c289a086e5a9df151dc0becaae5aa9039
+commit_message: "Merge remote-tracking branch 'origin/trunk' into dev/analyzer-lint"
 branch_name: dev/analyzer-lint
 ---
