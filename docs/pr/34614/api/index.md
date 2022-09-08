@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34614/api/i
 pr_number: 34614
 pr_title_encoded: "Fix+form+onchange+callback"
 pr_test_type: api
-last_published: "2022-09-08 15:01:25 +0000"
-commit_sha: 480ce82110934bfb21aa32771adbed4c7ab08fc8
-commit_message: "Update tests and fix onChange isValidForm callback"
+last_published: "2022-09-08 19:09:55 +0000"
+commit_sha: ba7b73f44536d9075f8de939b12632a4658eb890
+commit_message: "Fix radio control example"
 branch_name: fix/34584_form_onchange_callback
 ---
