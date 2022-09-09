@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34619/api/i
 pr_number: 34619
 pr_title_encoded: "Collapse+the+short+description+module+by+default"
 pr_test_type: api
-last_published: "2022-09-09 16:47:08 +0000"
-commit_sha: 759dcb57034e9ce8e1424f143cd6ab6bc79c537e
+last_published: "2022-09-09 17:58:30 +0000"
+commit_sha: d8267852c5809d1117db1cb0ad622d2386e781c5
 commit_message: "Add a descriptive tooltip to description and short description editors"
 branch_name: enhancement/33537-product-creation-experince
 ---
