@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34510/api/i
 pr_number: 34510
 pr_title_encoded: "Improve+experimental+select+control+extensibility"
 pr_test_type: api
-last_published: "2022-08-29 21:57:53 +0000"
-commit_sha: 9f025098915d83d56534dd9a0bffda271ab10939
-commit_message: "Add changelog entry"
+last_published: "2022-09-12 22:03:22 +0000"
+commit_sha: 7de406c5bbaaffaa1a399314c3fe4d5e2ee9fca2
+commit_message: "Deselect item in state on remove"
 branch_name: fix/select-control-extensibility
 ---
