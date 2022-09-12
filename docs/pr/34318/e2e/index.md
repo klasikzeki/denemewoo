@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34318/e2e/i
 pr_number: 34318
 pr_title_encoded: "Remove+foreign+key+from+the+wc_download_log+table"
 pr_test_type: e2e
-last_published: "2022-09-02 09:36:46 +0000"
-commit_sha: 27a305e4c42ef6094c95ba53856af0b1c81d1a05
-commit_message: "Slight refactor to make it easier to read."
+last_published: "2022-09-12 07:43:14 +0000"
+commit_sha: 1dd8e42e1495336d1bb9ce18f9975569d140937c
+commit_message: "Merge branch 'fix/34305-remove-fk' of https://github.com/woocommerce/…"
 branch_name: fix/34305-remove-fk
 ---
