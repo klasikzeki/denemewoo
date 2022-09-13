@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34616/e2e/i
 pr_number: 34616
 pr_title_encoded: "Add+the+WooCommerce+features+engine"
 pr_test_type: e2e
-last_published: "2022-09-08 15:42:52 +0000"
-commit_sha: 54badc49d7310ddf77afedc1cc590c53a75b7655
-commit_message: "Add changelog file"
+last_published: "2022-09-13 08:14:30 +0000"
+commit_sha: 15c766aa19ad6c2911da15091f9ceafba9ec5ab3
+commit_message: "Directly use old option names for legacy features"
 branch_name: add/features-controller-with-plugin-compatibility-declaration
 ---
