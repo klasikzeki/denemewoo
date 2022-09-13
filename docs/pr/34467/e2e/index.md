@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34467/e2e/i
 pr_number: 34467
 pr_title_encoded: "Mobile+messaging"
 pr_test_type: e2e
-last_published: "2022-09-12 08:56:40 +0000"
-commit_sha: c9c2b7675f6e00e6a21a519c5015fcf3a01afd30
-commit_message: "docs: update phpdoc versions"
+last_published: "2022-09-13 12:03:11 +0000"
+commit_sha: 2cb384186f1d47509897df53ddc891d8024baf8b
+commit_message: "test: verify if message contains correct deep link"
 branch_name: feature/footer_with_mobile_deep_link
 ---
