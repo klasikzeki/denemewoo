@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34653/api/i
 pr_number: 34653
 pr_title_encoded: "fix%3A+handle+mobile+app+wrong+user+connection"
 pr_test_type: api
-last_published: "2022-09-13 08:42:15 +0000"
-commit_sha: de4ce50194f5c3de827795db49dd540c133e21b5
-commit_message: "fix: handle wrong user connected case"
+last_published: "2022-09-13 09:15:49 +0000"
+commit_sha: 731c8cb0ba674a8dedce6935ff2196ecb6e7e22f
+commit_message: "fix: changelogs"
 branch_name: fix/mobile-app-wrong-user-connection
 ---
