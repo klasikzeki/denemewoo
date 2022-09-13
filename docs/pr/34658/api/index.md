@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34658/api/i
 pr_number: 34658
 pr_title_encoded: "Disable+action+buttons+when+product+form+is+invalid"
 pr_test_type: api
-last_published: "2022-09-13 18:47:44 +0000"
+last_published: "2022-09-13 20:09:45 +0000"
 commit_sha: 1f9dc4b24d8581bcb61f0ea0065aad816250a2b0
 commit_message: "Disable action buttons when product form is invalid"
 branch_name: add/38-disable-action-buttons
