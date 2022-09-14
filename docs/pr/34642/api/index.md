@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34642/api/i
 pr_number: 34642
 pr_title_encoded: "Feature+integration%3A+UI+Revamp+on+Marketing+Page"
 pr_test_type: api
-last_published: "2022-09-14 04:34:39 +0000"
-commit_sha: cf25f5d9961955bb4f2d787fa5cd6b6bbb083550
-commit_message: "Remove initialCollapsed for DiscoverTools."
+last_published: "2022-09-14 07:02:49 +0000"
+commit_sha: 53dbaff4495fb45ac95b38b5a7ebc933c5daac18
+commit_message: "Merge branch 'trunk' into feature/33895-marketing-page/main"
 branch_name: feature/33895-marketing-page/main
 ---
