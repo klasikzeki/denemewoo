@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34558/api/i
 pr_number: 34558
 pr_title_encoded: "Price+section+-+Small+refactor+and+style+fix"
 pr_test_type: api
-last_published: "2022-09-07 16:10:27 +0000"
-commit_sha: b488121ed31237e08e536535aa8e61623a9a09ca
-commit_message: "Fix Sale price validation"
+last_published: "2022-09-14 20:54:49 +0000"
+commit_sha: 0e6586341082a7e33a22a24602fa9b4e89fe39d9
+commit_message: ""
 branch_name: update/30_list_price_field_follow_up
 ---
