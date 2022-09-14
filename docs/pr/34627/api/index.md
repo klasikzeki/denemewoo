@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34627/api/i
 pr_number: 34627
 pr_title_encoded: "Change+order+data+store+internal+keys+to+props+for+better+representation"
 pr_test_type: api
-last_published: "2022-09-14 05:59:30 +0000"
-commit_sha: ac8c731b90cfa6bb1be6f0d5cc1471f118dfa6c4
-commit_message: "Revert "Use correct conversion.""
+last_published: "2022-09-14 06:52:25 +0000"
+commit_sha: 4f629dc990c152d8198e2735beb82f840a3bf01c
+commit_message: "Add conversions to test as needed."
 branch_name: implement/data_store_saves
 ---
