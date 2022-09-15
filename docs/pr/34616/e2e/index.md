@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34616/e2e/i
 pr_number: 34616
 pr_title_encoded: "Add+the+WooCommerce+features+engine"
 pr_test_type: e2e
-last_published: "2022-09-13 10:35:23 +0000"
-commit_sha: 635dee6a1570f9ffef4eb1e3eff2117b745bc59b
-commit_message: "Merge branch 'trunk' into add/features-controller-with-plugin-compati…"
+last_published: "2022-09-15 08:48:30 +0000"
+commit_sha: 9b922e231da4e60af142ee9d724dd95e7e9d9431
+commit_message: "FeaturesController now uses the AccessiblePrivateMethods trait"
 branch_name: add/features-controller-with-plugin-compatibility-declaration
 ---
