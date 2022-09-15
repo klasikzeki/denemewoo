@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34670/api/i
 pr_number: 34670
 pr_title_encoded: "Added+tracks+for+mobile+welcome+modal"
 pr_test_type: api
-last_published: "2022-09-15 06:55:03 +0000"
+last_published: "2022-09-15 08:17:48 +0000"
 commit_sha: 94a8e03d5a76843d8b984aaac7977ee1ccd3146e
 commit_message: "fix: amended tracks for retry send link event"
 branch_name: add/tracks-for-mobile-welcome
