@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34658/e2e/i
 pr_number: 34658
 pr_title_encoded: "Disable+action+buttons+when+product+form+is+invalid"
 pr_test_type: e2e
-last_published: "2022-09-14 20:07:42 +0000"
-commit_sha: d873e8a7de14d2cd2822434712d0a96ed4527a47
-commit_message: "Move to trash action should be enabled when editing a product even wh…"
+last_published: "2022-09-15 14:43:41 +0000"
+commit_sha: 26085e5964399683da82af3bb85744398424c509
+commit_message: "Hide Move to trash action button in the Add new product page"
 branch_name: add/38-disable-action-buttons
 ---
