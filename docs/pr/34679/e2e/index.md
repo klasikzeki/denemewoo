@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34679/e2e/i
 pr_number: 34679
 pr_title_encoded: "Remove+marketing+transient+on+upgrade+to+7.0"
 pr_test_type: e2e
-last_published: "2022-09-14 22:19:56 +0000"
-commit_sha: 963ffaad2fb26ff4ea50e835b875365426b1be06
-commit_message: "Remove marketing transient on upgrade to 7.0"
+last_published: "2022-09-15 16:47:37 +0000"
+commit_sha: 71f18b5ced216304b6c952ea29459c668df19fef
+commit_message: "Use constant instead of literal key for transient"
 branch_name: feature/34655-remove-marketing-transient
 ---
