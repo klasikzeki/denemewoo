@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34547/e2e/i
 pr_number: 34547
 pr_title_encoded: "Allowing+generic+item+type+in+new+experimental+SelectControl"
 pr_test_type: e2e
-last_published: "2022-09-01 17:18:30 +0000"
-commit_sha: 609d7385352b544da3c3b8c6dd2eb12d83021a11
-commit_message: "Resolving linting issues."
+last_published: "2022-09-15 21:16:13 +0000"
+commit_sha: 99243488a58fa2d9b0f6d3073b5830404049d648
+commit_message: "Expanding item value to allow numbers"
 branch_name: update/34399-select-control
 ---
