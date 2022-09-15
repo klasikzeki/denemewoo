@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34653/e2e/i
 pr_number: 34653
 pr_title_encoded: "fix%3A+handle+mobile+app+wrong+user+connection"
 pr_test_type: e2e
-last_published: "2022-09-14 04:56:05 +0000"
-commit_sha: ba316596cd8b8f65857e8e2a59644ebe8d4c7403
+last_published: "2022-09-15 04:29:34 +0000"
+commit_sha: 3b6b62765ae48ce79eb4a511dc0593222faf5d7f
 commit_message: "fix: rearranged state paths so that USER_CANNOT_INSTALL takes precedence"
 branch_name: fix/mobile-app-wrong-user-connection
 ---
