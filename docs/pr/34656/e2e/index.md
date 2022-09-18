@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34656/e2e/i
 pr_number: 34656
 pr_title_encoded: "%5BWIP%5D+DateTimePickerControl+updates"
 pr_test_type: e2e
-last_published: "2022-09-16 23:48:35 +0000"
-commit_sha: 2e579105b2628825e682a1d09ea75c44a4a139cf
-commit_message: "Handle clicking on the input control suffix icon"
+last_published: "2022-09-18 11:06:45 +0000"
+commit_sha: 517e1dce37773a5ff449f7214f8333d81a6dfb96
+commit_message: "Use BaseControl in DateTimePickerControl to render label and help"
 branch_name: update/date-time-picker-control
 ---
