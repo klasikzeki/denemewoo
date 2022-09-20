@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34581/api/i
 pr_number: 34581
 pr_title_encoded: "Show+APMs+on+the+new+Payments+menu"
 pr_test_type: api
-last_published: "2022-09-20 18:52:19 +0000"
-commit_sha: f98eb3d246265f53f68fd6af7675a2f552390399
-commit_message: "Merge remote-tracking branch 'origin/trunk' into add/wcpay-4529-addit…"
+last_published: "2022-09-20 20:12:04 +0000"
+commit_sha: c1ef694e0e2d7cf0c1dd6d7dd9ca416a18e04f56
+commit_message: "Remove Affirm as it's not in the store"
 branch_name: add/wcpay-4529-additional-pms-on-payments-welcome
 ---
