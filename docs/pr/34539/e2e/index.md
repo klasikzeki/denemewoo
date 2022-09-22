@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34539/e2e/i
 pr_number: 34539
 pr_title_encoded: "Add+Sortable+component+accessibility"
 pr_test_type: e2e
-last_published: "2022-09-21 21:39:54 +0000"
-commit_sha: a991aa0fd49324068ce02e37fafef4a8396e5782
-commit_message: "pnpm add from root"
+last_published: "2022-09-22 00:52:55 +0000"
+commit_sha: f2cd6fb63225fd10d6b51b45ad6a89deb2b32dca
+commit_message: "Fix itemToString in SelectControl"
 branch_name: add/sortable-accessibility
 ---
