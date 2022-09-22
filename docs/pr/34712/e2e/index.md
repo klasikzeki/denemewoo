@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34712/e2e/i
 pr_number: 34712
 pr_title_encoded: "Add+a+header+for+the+%22Add+store+details%22+task+in+woocommerce+admin"
 pr_test_type: e2e
-last_published: "2022-09-22 10:08:33 +0000"
-commit_sha: 0f53887918fc61f19b44f53a33e5162ca5f330d5
-commit_message: "Revisit progress header styles"
+last_published: "2022-09-22 13:59:31 +0000"
+commit_sha: bc5a848ec832df57d94e314f6c1a12f4ea9b44ec
+commit_message: "Bring back ellipsis menu"
 branch_name: add/store-details-header
 ---
