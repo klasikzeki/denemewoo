@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34658/api/i
 pr_number: 34658
 pr_title_encoded: "Disable+action+buttons+when+product+form+is+invalid"
 pr_test_type: api
-last_published: "2022-09-22 15:21:49 +0000"
-commit_sha: 5caad778c1b7f8617057b88251cfa9dde1cb980b
-commit_message: "Disable Publish options menu button when all menu items are disabled"
+last_published: "2022-09-22 18:41:42 +0000"
+commit_sha: 6badcf98b3855635f6a7caaba842580dbd9fd318
+commit_message: "Test menu items by text instead of index"
 branch_name: add/38-disable-action-buttons
 ---
