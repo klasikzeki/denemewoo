@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34620/e2e/i
 pr_number: 34620
 pr_title_encoded: "Update%2Fexperimental+select+control"
 pr_test_type: e2e
-last_published: "2022-09-23 15:25:51 +0000"
-commit_sha: b8a94cdd81567f781d4c1818b545b027194cecb7
-commit_message: "Some updates by testing a new onStateChange callback"
+last_published: "2022-09-23 20:24:16 +0000"
+commit_sha: 4cb01b9851e10b06741b9c0759438ff005844a0f
+commit_message: "Some minor adjustments"
 branch_name: update/experimental_select_control
 ---
