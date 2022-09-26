@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34801/api/i
 pr_number: 34801
 pr_title_encoded: "Searching+E2E+tests+failures+%283%29..."
 pr_test_type: api
-last_published: "2022-09-26 09:39:09 +0000"
-commit_sha: b6fdd828724254b975c224d91d6c7f2e62eab151
-commit_message: "See what happens when adding just a title in the settings"
+last_published: "2022-09-26 09:52:08 +0000"
+commit_sha: 7ba9fa4cc8f6465e1a9745c39cdaf733bb90f97e
+commit_message: "Leave only one feature"
 branch_name: add/features-controller-with-plugin-compatibility-declaration-take-2-bis
 ---
