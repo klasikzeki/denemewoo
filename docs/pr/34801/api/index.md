@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34801/api/i
 pr_number: 34801
 pr_title_encoded: "Searching+E2E+tests+failures+%283%29..."
 pr_test_type: api
-last_published: "2022-09-26 09:15:58 +0000"
-commit_sha: 7d67f00800546acf706494f375f2966ab1acc873
-commit_message: "Try now merging the array supplied to the hook with the new one"
+last_published: "2022-09-26 09:39:09 +0000"
+commit_sha: b6fdd828724254b975c224d91d6c7f2e62eab151
+commit_message: "See what happens when adding just a title in the settings"
 branch_name: add/features-controller-with-plugin-compatibility-declaration-take-2-bis
 ---
