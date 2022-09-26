@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34801/e2e/i
 pr_number: 34801
 pr_title_encoded: "Searching+E2E+tests+failures+%283%29..."
 pr_test_type: e2e
-last_published: "2022-09-23 15:39:00 +0000"
-commit_sha: 8745f368c9c188e9974ab33d57a24299f3125cc1
-commit_message: "Disable the woocommerce_get_sections_advanced hook in FeaturesController"
+last_published: "2022-09-26 06:57:16 +0000"
+commit_sha: 5e424a56d1209815a7f17a31c57e8d55ff4f2565
+commit_message: "Enable again woocommerce_get_sections_advanced in FeaturesController"
 branch_name: add/features-controller-with-plugin-compatibility-declaration-take-2-bis
 ---
