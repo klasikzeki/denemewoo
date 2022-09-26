@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34751/e2e/i
 pr_number: 34751
 pr_title_encoded: "Add+initial+attributes+section+for+empty+state"
 pr_test_type: e2e
-last_published: "2022-09-20 19:15:56 +0000"
-commit_sha: 7b151032b8e04befd6610d3bfcad78c6f1a6be67
-commit_message: "Add check to not render the blank section when attributes exist"
+last_published: "2022-09-26 17:16:45 +0000"
+commit_sha: 5b69b84c638a483556a7819f5f7b0f78c576bd75
+commit_message: "Fix misspelling"
 branch_name: add/34330_attributes_section
 ---
