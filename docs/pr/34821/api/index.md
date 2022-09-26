@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34821/api/i
 pr_number: 34821
 pr_title_encoded: "Add+dimensions+to+shipping+section"
 pr_test_type: api
-last_published: "2022-09-23 21:25:04 +0000"
-commit_sha: fff4232c137a662332e2ad257320c00dc5d3acff
-commit_message: "Remove custom styles from FormSection component and use Card and Card…"
+last_published: "2022-09-26 14:51:21 +0000"
+commit_sha: 38c975470a458f8bf200213bf364f06619ec14e0
+commit_message: ""
 branch_name: add/34329-shipping-dimensions
 ---
