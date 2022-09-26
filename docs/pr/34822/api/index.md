@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34822/api/i
 pr_number: 34822
 pr_title_encoded: "%5BCOT%5D+Do+not+set+order+prop+to+NULL+while+reading+order+data"
 pr_test_type: api
-last_published: "2022-09-23 21:48:55 +0000"
-commit_sha: f059b0130185363713613168ca7f6a9f9fef1aa2
-commit_message: "Do not set order prop to NULL while reading order (HPOS)"
+last_published: "2022-09-26 14:15:18 +0000"
+commit_sha: 56fe3c4cf69571d5a11c3b3c3e27aa150d609e1b
+commit_message: "Add changelog"
 branch_name: fix/34677
 ---
