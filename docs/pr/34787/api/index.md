@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34787/api/i
 pr_number: 34787
 pr_title_encoded: "Update+plugins+installer+component+to+TS%2C+Fix+TS+bugs+and+Syncpack+TypeScript"
 pr_test_type: api
-last_published: "2022-09-27 02:26:01 +0000"
-commit_sha: f89c561cfe97bc3599ff068396c6c55482510aa8
-commit_message: "Attempt to restore module mocks after test run"
+last_published: "2022-09-27 04:01:07 +0000"
+commit_sha: 67619594e1b39c088844d1159fe0230c02313c02
+commit_message: "Mock the other select values"
 branch_name: fix/plugin-installer-ts
 ---
