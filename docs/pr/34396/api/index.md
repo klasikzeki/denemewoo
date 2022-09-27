@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34396/api/i
 pr_number: 34396
 pr_title_encoded: "%5BCOT%5D+Add+the+orders+cache"
 pr_test_type: api
-last_published: "2022-09-16 10:46:34 +0000"
-commit_sha: c9e8d490ed72030f5121fc2ab497ef872095d972
-commit_message: "Use the new features engine to declare the cache as an experimental f…"
+last_published: "2022-09-27 07:49:04 +0000"
+commit_sha: c5c0c7ce23dcf911026221ae7e81f0c4ab9d572f
+commit_message: "Merge branch 'trunk' into add/order_cache"
 branch_name: add/order_cache
 ---
