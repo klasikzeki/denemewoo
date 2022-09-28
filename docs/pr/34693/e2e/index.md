@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34693/e2e/i
 pr_number: 34693
 pr_title_encoded: "Build+for+COT+testing"
 pr_test_type: e2e
-last_published: "2022-09-28 12:50:21 +0000"
-commit_sha: 896e60a9b1d3c0aed950f18eb1d0d58454d466b7
-commit_message: "Fix merge typo."
+last_published: "2022-09-28 13:05:48 +0000"
+commit_sha: 949eaa835764c1950e2f672869f354513526135a
+commit_message: "Fixup in unit test."
 branch_name: cot-main
 ---
