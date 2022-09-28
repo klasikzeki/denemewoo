@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34788/e2e/i
 pr_number: 34788
 pr_title_encoded: "Update+text+input+placement+in+SelectControl"
 pr_test_type: e2e
-last_published: "2022-09-22 21:41:22 +0000"
-commit_sha: ac7e5db86c297c630a5ea6297514bc0c01801559
-commit_message: "Add changelog entry"
+last_published: "2022-09-28 23:54:22 +0000"
+commit_sha: f6be8d6a7e6dbaf1dbc3597621960d298c6f2629
+commit_message: "Handle PR feedback"
 branch_name: update/select-control-input-placement
 ---
