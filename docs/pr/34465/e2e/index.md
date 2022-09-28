@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34465/e2e/i
 pr_number: 34465
 pr_title_encoded: "Also+read+from+posts+when+reading+from+COT+to+check+for+direct+write"
 pr_test_type: e2e
-last_published: "2022-09-28 12:07:20 +0000"
-commit_sha: 5c4fd4b98c2c1313eae04a1e52270fa23eee7610
-commit_message: "Merge branch 'implement/data_store_saves' into fix/33158"
+last_published: "2022-09-28 13:12:47 +0000"
+commit_sha: 6b7b2ac5069edd11ae00b75c15aba57ccc0ea74a
+commit_message: "Fixup in unit test."
 branch_name: fix/33158
 ---
