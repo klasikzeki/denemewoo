@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34400/e2e/i
 pr_number: 34400
 pr_title_encoded: "Add+category+field+dropdown+field"
 pr_test_type: e2e
-last_published: "2022-09-08 19:48:19 +0000"
-commit_sha: ac47ff2521c2411f6102a1d79dbb30ce6f8e1737
-commit_message: "Fix minor css issue with border"
+last_published: "2022-09-28 18:16:19 +0000"
+commit_sha: f2ac82fd7d232fbd467ba0e3e65c1f050d911850
+commit_message: "Revert some of the select control changes and make use of the custom …"
 branch_name: add/34_category_field
 ---
