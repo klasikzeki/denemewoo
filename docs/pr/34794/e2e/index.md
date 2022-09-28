@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34794/e2e/i
 pr_number: 34794
 pr_title_encoded: "Fix+initially+selected+items+in+SelectControl+component"
 pr_test_type: e2e
-last_published: "2022-09-23 03:27:21 +0000"
-commit_sha: 3f7fb3f99b495c8152ae19ce5d1df6c041ad16a5
-commit_message: "Add changelog entry"
+last_published: "2022-09-28 20:55:51 +0000"
+commit_sha: 4c7571025a30cfe6a4f49ca8663a0138921387f7
+commit_message: "Update combobox single selected item name"
 branch_name: fix/select-control-selection
 ---
