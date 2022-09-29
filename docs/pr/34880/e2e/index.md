@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34880/e2e/i
 pr_number: 34880
 pr_title_encoded: "WIP"
 pr_test_type: e2e
-last_published: "2022-09-29 11:42:27 +0000"
-commit_sha: d09387cbd73ddc51ed5f9e4c5edfe5209e4abca6
-commit_message: "Trigger e2e tests"
+last_published: "2022-09-29 13:25:27 +0000"
+commit_sha: 298709f283e6e65578427db7286c53fca7f62831
+commit_message: "Print number of customers"
 branch_name: e2e/try-fix-trunk
 ---
