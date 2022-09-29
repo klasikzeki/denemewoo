@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34873/api/i
 pr_number: 34873
 pr_title_encoded: "Move+the+React+Admin+into+plugins"
 pr_test_type: api
-last_published: "2022-09-29 02:23:09 +0000"
-commit_sha: 630d2071cec559f5d8c75fe39f031c0a6fa75e5f
-commit_message: "Merge remote-tracking branch 'origin/trunk' into dev/move-wc-admin"
+last_published: "2022-09-29 04:13:17 +0000"
+commit_sha: f49646b07bf2a29da5d250427b1dc979fc4bcd79
+commit_message: "Change relative path to jest config."
 branch_name: dev/move-wc-admin
 ---
