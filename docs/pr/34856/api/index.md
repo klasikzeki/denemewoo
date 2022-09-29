@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34856/api/i
 pr_number: 34856
 pr_title_encoded: "Load+size+units+to+show+them+as+a+suffix+of+shipping+dimensions+fields"
 pr_test_type: api
-last_published: "2022-09-28 20:05:34 +0000"
-commit_sha: 50d217e2459ca7e6455e68ee5a76fb19d2538e9d
-commit_message: "Load size units to show it as a suffix of shipping dimensions fields"
+last_published: "2022-09-29 15:34:20 +0000"
+commit_sha: b525da8a577c2c0f5a6e57568a81491fda9dc9c2
+commit_message: "Fix card styles according the disign and pass props manually to BaseC…"
 branch_name: add/34329-load-size-units
 ---
