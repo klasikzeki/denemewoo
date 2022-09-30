@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34871/api/i
 pr_number: 34871
 pr_title_encoded: "Adding+toolbar+to+the+Image+Gallery+component"
 pr_test_type: api
-last_published: "2022-09-30 22:21:09 +0000"
-commit_sha: 8ec22833f02d4947e059f4950807fc9f80e5fcb6
-commit_message: "Reusing media modal mock from media uploader component"
+last_published: "2022-09-30 23:01:01 +0000"
+commit_sha: d999e49f427d2b1ad8f3ce8e21e8e9644ec7942d
+commit_message: "Adding onReplace callback"
 branch_name: add/34437-gallery-toolbar
 ---
