@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34620/api/i
 pr_number: 34620
 pr_title_encoded: "Update%2Fexperimental+select+control"
 pr_test_type: api
-last_published: "2022-10-03 18:41:53 +0000"
-commit_sha: 3c4c71215df0f711256a1ff14447a3a9d071c7b6
-commit_message: "Update the way the stateReducer is called"
+last_published: "2022-10-03 19:05:14 +0000"
+commit_sha: d8526471cba932623e1b231b7ef3d765f2218b6b
+commit_message: "Remove some of the unneeded logic"
 branch_name: update/experimental_select_control
 ---
