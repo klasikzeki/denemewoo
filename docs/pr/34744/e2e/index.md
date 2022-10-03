@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34744/e2e/i
 pr_number: 34744
 pr_title_encoded: "Add%2F34000+attribute+select+control"
 pr_test_type: e2e
-last_published: "2022-09-20 14:32:39 +0000"
-commit_sha: 41c7902d09713eb48bebb25e5b232bc00a2c1dd4
-commit_message: "Add changelog"
+last_published: "2022-10-03 18:06:31 +0000"
+commit_sha: 9cf74f8da34fd29d5ac415bf6901edc952bb3547
+commit_message: "Move mininumInputLength down to follow the same format as the other f…"
 branch_name: add/34000_attribute_select_control
 ---
