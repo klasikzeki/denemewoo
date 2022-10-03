@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34538/e2e/i
 pr_number: 34538
 pr_title_encoded: "%5BWIP%5D+Add+scheduled+sale+fields"
 pr_test_type: e2e
-last_published: "2022-09-01 21:32:44 +0000"
-commit_sha: deec77ed34f8a68095f8f006adda575364e50878
-commit_message: "Changelog entry for setValues in FormContext"
+last_published: "2022-10-03 20:53:48 +0000"
+commit_sha: 272e95bd90f1927778be4c0127928fd6d8bd4048
+commit_message: "Add changelogs"
 branch_name: add/product_schedule_sale
 ---
