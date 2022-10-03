@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34857/api/i
 pr_number: 34857
 pr_title_encoded: "Add+shipping+dimensions+image"
 pr_test_type: api
-last_published: "2022-10-03 14:35:29 +0000"
-commit_sha: db4037da9df958e6707c7f5bffdf7f6af282aa5f
-commit_message: "Add shipping dimensions image"
+last_published: "2022-10-03 17:56:20 +0000"
+commit_sha: 6205b8ab6dbfde89a259796ca5ec7b061b387652
+commit_message: "Apply comment suggestions"
 branch_name: add/34329-shipping-dimensions-image
 ---
