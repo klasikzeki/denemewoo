@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34879/api/i
 pr_number: 34879
 pr_title_encoded: "Add+handling+for+plugin-feature+incompatibilities"
 pr_test_type: api
-last_published: "2022-10-03 15:49:03 +0000"
-commit_sha: bb0d8572e0be1f191174b40a252fab43493cc24f
-commit_message: "Add a warning about incompatible plugins in the features page."
+last_published: "2022-10-04 11:29:09 +0000"
+commit_sha: 3b2fcd03088639aa4efb334a03d13aa61b9b8cd2
+commit_message: "WIP"
 branch_name: add/feature-incompatible-plugins-management
 ---
