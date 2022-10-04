@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34597/e2e/i
 pr_number: 34597
 pr_title_encoded: "Update+PR+template+to+provide+guidance+for+testing"
 pr_test_type: e2e
-last_published: "2022-09-20 22:45:36 +0000"
-commit_sha: d1dba71de6f9b2d8adc7d27e7cc1446965613ba1
-commit_message: "Updates per PR feedback"
+last_published: "2022-10-04 17:31:50 +0000"
+commit_sha: 959371112ebfaa302b8b6d3da66d8ac035550eb9
+commit_message: "Merge branch 'trunk' into patch/improve-pr-template-for-testing-instr…"
 branch_name: patch/improve-pr-template-for-testing-instructions
 ---
