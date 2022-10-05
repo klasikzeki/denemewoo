@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34769/api/i
 pr_number: 34769
 pr_title_encoded: "Images+Product+management+MVP+1.0"
 pr_test_type: api
-last_published: "2022-09-29 14:01:43 +0000"
-commit_sha: 93aeb66a57347a399e8fee1c9d77babd19569f83
-commit_message: "Add `pnpm-lock.yaml`"
+last_published: "2022-10-05 19:16:06 +0000"
+commit_sha: 662d29c38c90166689d74be13ad0aad61d3efea4
+commit_message: "Rename `isRemoveZoneVisible`"
 branch_name: add/39_image_section_details
 ---
