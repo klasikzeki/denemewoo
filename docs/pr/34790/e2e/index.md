@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34790/e2e/i
 pr_number: 34790
 pr_title_encoded: "Fix%2Fupdate+playwright+and+test+fixes"
 pr_test_type: e2e
-last_published: "2022-10-05 20:52:26 +0000"
-commit_sha: 78d2d9c8a01c06de7a3b4d24b3c714df122bdc15
-commit_message: "Update PW Selectors (#34959)"
+last_published: "2022-10-05 22:04:35 +0000"
+commit_sha: 4cff7ef3e1a6729d6d81ba22a96078fe68606a1d
+commit_message: "Fix failing payment setup test"
 branch_name: fix/update-playwright-and-test-fixes
 ---
