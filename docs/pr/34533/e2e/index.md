@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34533/e2e/i
 pr_number: 34533
 pr_title_encoded: "%5BCOT%5D+%60query%28%29%60+method%3A+add+support+for+field+queries"
 pr_test_type: e2e
-last_published: "2022-10-05 18:39:38 +0000"
-commit_sha: c382aa2d44e9da6d8d76326bc36a6ec047e525e2
-commit_message: "Use backticks for table names and aliases"
+last_published: "2022-10-05 20:27:07 +0000"
+commit_sha: b6fe0ca1f54f08f0523007d4873786844a45979d
+commit_message: "Add some more tests"
 branch_name: cot-field_query
 ---
