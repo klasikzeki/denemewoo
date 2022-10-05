@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34823/api/i
 pr_number: 34823
 pr_title_encoded: "Allow+external+tags+in+SelectControl+component"
 pr_test_type: api
-last_published: "2022-09-23 23:21:22 +0000"
-commit_sha: 194772ad2404b2491bc0c7257f1ff14847e1c435
-commit_message: "Allow external tags in SelectControl component"
+last_published: "2022-10-05 19:47:53 +0000"
+commit_sha: 750de289bb8f6f6fb9a7fe41d02df95dbba280a9
+commit_message: "Fix up custom item type example"
 branch_name: update/select-control-tag-location
 ---
