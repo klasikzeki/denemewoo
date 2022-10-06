@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34744/api/i
 pr_number: 34744
 pr_title_encoded: "Add%2F34000+attribute+select+control"
 pr_test_type: api
-last_published: "2022-10-06 12:21:36 +0000"
-commit_sha: 84fa0564cc8ff4f15590c5b29ddc7ffcf865ea3a
-commit_message: "Make sure empty attributes are shown and suppress query filter"
+last_published: "2022-10-06 12:47:39 +0000"
+commit_sha: 38fce146c85fd04e0181e3b7c32bcf270d463900
+commit_message: "Fix code sniff error"
 branch_name: add/34000_attribute_select_control
 ---
