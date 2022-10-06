@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34972/e2e/i
 pr_number: 34972
 pr_title_encoded: "Fix+order+email+receiving+test"
 pr_test_type: e2e
-last_published: "2022-10-06 02:25:42 +0000"
-commit_sha: 92ee54bcdf6fd4569c7c3ac62d56528fd5515451
-commit_message: "Updated path"
+last_published: "2022-10-06 14:37:17 +0000"
+commit_sha: 9fd34de16134ee8ea247325a1a24baec6d0ef155
+commit_message: "Added comment and removed log"
 branch_name: fix/order-email-receiving-test
 ---
