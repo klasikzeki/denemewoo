@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34953/e2e/i
 pr_number: 34953
 pr_title_encoded: "Add+Tiktok+to+OBW+grow+list"
 pr_test_type: e2e
-last_published: "2022-10-06 05:08:01 +0000"
-commit_sha: 451b88ef167257ef647b8af48e01917fb09b8c5b
-commit_message: "removed geo restrictions and added hyperlink and name mapping"
+last_published: "2022-10-06 05:54:20 +0000"
+commit_sha: 1142535bd1a48e176eff17a851d07cfa668581ce
+commit_message: "added tiktok-for-business to valid plugin slugs"
 branch_name: add/tiktok-to-obw-grow
 ---
