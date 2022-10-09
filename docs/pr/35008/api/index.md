@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35008/api/i
 pr_number: 35008
 pr_title_encoded: "%5BWIP%5D+Fix+linting"
 pr_test_type: api
-last_published: "2022-10-09 23:41:14 +0000"
-commit_sha: ff2b6b6dd72b7d7ef5634b7d8539958b8838991d
-commit_message: "Update lock file"
+last_published: "2022-10-09 23:49:12 +0000"
+commit_sha: 6c0bf277e13197586c3a4b7cfc04fd0f848c00e3
+commit_message: "Also sync eslint and fix some eslint config issues"
 branch_name: dev/sync-ts-lint-version
 ---
