@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34538/api/i
 pr_number: 34538
 pr_title_encoded: "%5BWIP%5D+Add+scheduled+sale+fields"
 pr_test_type: api
-last_published: "2022-10-09 11:08:13 +0000"
-commit_sha: 9dfb946aa71ad3692bdc5dd08907d4784b8c3ded
-commit_message: "Use default format consts in tests"
+last_published: "2022-10-09 11:22:49 +0000"
+commit_sha: 9c7caebbbe03b9f47a8c497f369cc2f1a74c6f29
+commit_message: ""
 branch_name: add/product_schedule_sale
 ---
