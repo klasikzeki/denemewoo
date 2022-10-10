@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34978/api/i
 pr_number: 34978
 pr_title_encoded: "Add+product+management+SKU"
 pr_test_type: api
-last_published: "2022-10-07 16:32:23 +0000"
-commit_sha: b00dbf96c6e29e6cc3902db89a32bb5ff01fc2d2
-commit_message: "Call input props onBlur for product name field"
+last_published: "2022-10-10 19:09:09 +0000"
+commit_sha: d08c11b47a09e24a7f632d2f71ed4682b75d342c
+commit_message: "Watch product name value change in inventory section"
 branch_name: add/34386
 ---
