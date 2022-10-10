@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35025/api/i
 pr_number: 35025
 pr_title_encoded: "%5B7.0%5D+Fix+mobile+messaging"
 pr_test_type: api
-last_published: "2022-10-10 17:22:46 +0000"
-commit_sha: 46c71665ed524d4015d17ef3ddf26ccce04f2b8f
-commit_message: "docs: add changelog entry"
+last_published: "2022-10-10 17:41:54 +0000"
+commit_sha: c9f5870ca7110c767f6a90ff864a36f4de422de1
+commit_message: "fix: add mobile messaging only for WC_Email_New_Order"
 branch_name: patch/fix_mobile_messaging
 ---
