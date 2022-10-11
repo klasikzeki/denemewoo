@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34465/api/i
 pr_number: 34465
 pr_title_encoded: "Also+read+from+posts+when+reading+from+COT+to+check+for+direct+write"
 pr_test_type: api
-last_published: "2022-10-11 10:54:23 +0000"
-commit_sha: ac15a9b04ad0c5bf57eb0c857eeb4420d9477e42
-commit_message: "Record order ids we are syncing for to prevent any infinite loop."
+last_published: "2022-10-11 13:12:12 +0000"
+commit_sha: f338d0060ef8385918d7f671525b5d27679d1577
+commit_message: "Add test for fixing infinite loop with read on sync."
 branch_name: fix/33158
 ---
