@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34879/e2e/i
 pr_number: 34879
 pr_title_encoded: "Add+handling+for+plugin-feature+incompatibilities"
 pr_test_type: e2e
-last_published: "2022-10-12 09:56:04 +0000"
-commit_sha: ee75210125c9740789c4167a7eebf2899166292a
-commit_message: "Address PR feedback."
+last_published: "2022-10-12 10:30:43 +0000"
+commit_sha: 5a3e897e1ddf776364a3b74ca3fd6058a8d3afa6
+commit_message: "Return if plugin_status is not set."
 branch_name: add/feature-incompatible-plugins-management
 ---
