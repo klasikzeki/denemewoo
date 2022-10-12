@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35031/api/i
 pr_number: 35031
 pr_title_encoded: "Change+copy+of+the+payments+welcome+modal"
 pr_test_type: api
-last_published: "2022-10-11 10:24:49 +0000"
-commit_sha: eb227a96e8a5ee654d5f7957bc12fa6cb095baae
-commit_message: "Change copy in Payments Welcome modal"
+last_published: "2022-10-12 12:02:57 +0000"
+commit_sha: 84f0f73df24f16d1cbb6b71f8f31b452d643ddaa
+commit_message: "Merge remote-tracking branch 'origin/trunk' into tweak/wcpay-4827-cha…"
 branch_name: tweak/wcpay-4827-change-copy-of-the-payments-welcome-modal
 ---
