@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35045/e2e/i
 pr_number: 35045
 pr_title_encoded: "Fix+JS+errors+when+the+OBW+business+step+is+accessed+directly+via+URL"
 pr_test_type: e2e
-last_published: "2022-10-11 23:37:43 +0000"
-commit_sha: 3e22132950eb1fb4c4893997e356d1f183a61e64
+last_published: "2022-10-12 19:52:42 +0000"
+commit_sha: b7d095e3a5fb468304c79df94519b15b83fa0501
 commit_message: "Add changelog"
 branch_name: fix/34974-obw-steps-break-via-url
 ---
