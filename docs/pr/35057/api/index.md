@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35057/api/i
 pr_number: 35057
 pr_title_encoded: "Enable+HPOS+in+the+e2e+environment+using+env+var"
 pr_test_type: api
-last_published: "2022-10-12 17:59:46 +0000"
-commit_sha: feaf9686eb6d1dad168cf9ab72232965e3f67675
-commit_message: "Disabeld HPOS for k6 tests"
+last_published: "2022-10-12 19:48:22 +0000"
+commit_sha: e96250b71a2152db03a7c94ff4e07c7923215e25
+commit_message: "Used env var to enable HPOS"
 branch_name: update/hpos-env-setup
 ---
