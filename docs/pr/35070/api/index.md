@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35070/api/i
 pr_number: 35070
 pr_title_encoded: "%5BHPOS%5D+Improve+plugin+matching+for+compatibility+check"
 pr_test_type: api
-last_published: "2022-10-13 11:41:18 +0000"
-commit_sha: 7ace18e77a76623810fd8d9043e9dcfee4f5150a
-commit_message: "Handle Windows, plus more fallbacks for matching."
+last_published: "2022-10-13 12:12:29 +0000"
+commit_sha: 9eaf4daf31506e6a063a6c255bc1f7d6980cbd18
+commit_message: "CS violations, vol 2."
 branch_name: fix/compat-check
 ---
