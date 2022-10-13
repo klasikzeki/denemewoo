@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34465/api/i
 pr_number: 34465
 pr_title_encoded: "Also+read+from+posts+when+reading+from+COT+to+check+for+direct+write"
 pr_test_type: api
-last_published: "2022-10-13 07:21:01 +0000"
-commit_sha: 87ea0954dc83bc26a43d3a670fee4d501a6c737d
-commit_message: "Remove space between minus and numeral for readability."
+last_published: "2022-10-13 10:56:20 +0000"
+commit_sha: 5bdb847e0b2758ee8a1e3f2da6a5356ac9f3e5a4
+commit_message: "Fix ut, and use assertTrue instead of native for consistency."
 branch_name: fix/33158
 ---
