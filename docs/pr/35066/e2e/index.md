@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35066/e2e/index.html
 pr_number: 35066
-pr_title_encoded: "%5BWIP%5D+Add+date-only+mode+to+DateTimePickerControl"
+pr_title_encoded: "Add+date-only+mode+to+DateTimePickerControl"
 pr_test_type: e2e
-last_published: "2022-10-13 00:45:29 +0000"
-commit_sha: 0d2d57fccf51080fa4634d891fa3ecab4d11b06c
-commit_message: "Changelog"
+last_published: "2022-10-14 20:46:35 +0000"
+commit_sha: 104702018969607021a6f72105912630ce05048c
+commit_message: "Fix up issues missed from rebase conflicts"
 branch_name: add/date-time-picker-control-date-only-mode
 ---
