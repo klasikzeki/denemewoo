@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34693/api/i
 pr_number: 34693
 pr_title_encoded: "Build+for+COT+testing"
 pr_test_type: api
-last_published: "2022-10-06 11:57:27 +0000"
-commit_sha: 7d7919d8439ce64051efc9e93af119b13fce8054
-commit_message: ""
+last_published: "2022-10-17 04:01:17 +0000"
+commit_sha: 0d3a4d53ea71eafa8934ddd0d29d25e56c99f6d4
+commit_message: "Version bump."
 branch_name: cot-main
 ---
