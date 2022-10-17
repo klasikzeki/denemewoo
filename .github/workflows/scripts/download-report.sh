@@ -13,7 +13,7 @@
 #!/usr/bin/env bash
 
 # Attempt download this many times
-MAX_ATTEMPTS=10
+MAX_ATTEMPTS=12
 
 # Wait time between each download attempt
 WAIT_TIME=10
@@ -22,9 +22,9 @@ EXIT_CODE=0
 
 for ((i = 1; i <= $MAX_ATTEMPTS; i++)); do
 
-    echo "Downloading $ARTIFACT_NAME to $DOWNLOAD_PATH (try #$i)..."
+    echo "Downloading \"$ARTIFACT_NAME\" to $DOWNLOAD_PATH (try #$i)..."
     gh run download $RUN_ID \
-        --name $ARTIFACT_NAME \
+        --name "$ARTIFACT_NAME" \
         --dir $DOWNLOAD_PATH \
         --repo woocommerce/woocommerce
 
