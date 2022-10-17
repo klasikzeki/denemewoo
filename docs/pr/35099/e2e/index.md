@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35099/e2e/i
 pr_number: 35099
 pr_title_encoded: "Multichannel+Marketing+-+Core+Library"
 pr_test_type: e2e
-last_published: "2022-10-14 15:27:49 +0000"
-commit_sha: a25a598d1fe380f3fbeaa46d490c02862db21656
-commit_message: "Use the const from MarketingSpecs"
+last_published: "2022-10-17 12:28:48 +0000"
+commit_sha: ef9e9af46b393fca752fa070b008645ed372c339
+commit_message: "Fix MarketingChannels unit tests"
 branch_name: feature/34549-multichannel-marketing-framework
 ---
