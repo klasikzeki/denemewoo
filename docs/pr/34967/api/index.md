@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34967/api/i
 pr_number: 34967
 pr_title_encoded: "Add+popover+support+to+select+control+dropdown"
 pr_test_type: api
-last_published: "2022-10-18 18:37:48 +0000"
-commit_sha: 8e895d4139b8369fd8c90943818bb20c7d10cf06
+last_published: "2022-10-18 19:30:34 +0000"
+commit_sha: 6551eb083c65e4625cf99098dc05ed89b7d7ecb7
 commit_message: "Fix flashing of popover and addressed some minor PR suggestions"
 branch_name: add/34331_popover_to_select_control_dropdown
 ---
