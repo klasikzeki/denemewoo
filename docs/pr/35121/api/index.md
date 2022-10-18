@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35121/api/i
 pr_number: 35121
 pr_title_encoded: "Update+biling+and+shipping+address+indexes."
 pr_test_type: api
-last_published: "2022-10-17 13:05:53 +0000"
-commit_sha: 783ed81e7a8053dc10d7b43956443f9409f0b90d
-commit_message: "Add changelog."
+last_published: "2022-10-18 09:20:22 +0000"
+commit_sha: c74e84d7d21f56925e96eb76db53d5306dd56264
+commit_message: "Code standard fixes."
 branch_name: fix/34989
 ---
