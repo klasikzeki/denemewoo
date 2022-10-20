@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35160/e2e/i
 pr_number: 35160
 pr_title_encoded: "Show+a+dismissible+snackbar+if+the+server+responds+an+error"
 pr_test_type: e2e
-last_published: "2022-10-19 13:45:17 +0000"
-commit_sha: 0d3d95ec6a5dfd6f4278891ddf3c95d0f15b8f08
-commit_message: "Fix linter errors"
+last_published: "2022-10-20 02:01:46 +0000"
+commit_sha: d85e2e155d4f582cb4f197f961c2789862b30846
+commit_message: "Update grammar error"
 branch_name: add/35037-error-handling
 ---
