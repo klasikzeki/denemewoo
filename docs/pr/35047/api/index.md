@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35047/api/i
 pr_number: 35047
 pr_title_encoded: "Add+manual+stock+management+section+to+product+management+experience"
 pr_test_type: api
-last_published: "2022-10-18 17:31:07 +0000"
-commit_sha: 672dc9620f070b7945a773351023fe387b02c3ef
-commit_message: "Fix up lint issues"
+last_published: "2022-10-20 17:40:10 +0000"
+commit_sha: 2c6c31e8523e58834bb790a46f1bd781c3526413
+commit_message: "Handle PR feedback"
 branch_name: add/34388
 ---
