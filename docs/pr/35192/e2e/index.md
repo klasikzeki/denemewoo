@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35192/e2e/i
 pr_number: 35192
 pr_title_encoded: "Remove+address+indexes+from+list+of+internal+keys."
 pr_test_type: e2e
-last_published: "2022-10-19 13:24:05 +0000"
-commit_sha: 237f5b721db9facc510618fcd265b426df747b73
-commit_message: "Add changelog."
+last_published: "2022-10-20 11:00:43 +0000"
+commit_sha: 80ef63f9d9f3e504ec3406a5afcf8adb5242e561
+commit_message: "Remove index meta from internal list as they dont have getter and set…"
 branch_name: fix/duplicate_meta
 ---
