@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35057/e2e/i
 pr_number: 35057
 pr_title_encoded: "Enable+HPOS+in+the+e2e+environment+using+env+var"
 pr_test_type: e2e
-last_published: "2022-10-14 15:13:48 +0000"
-commit_sha: 0efb6f8d7914ae5fec1385a4ef838bf3698db2b1
-commit_message: "Disable HPOS for performance tests"
+last_published: "2022-10-25 17:08:51 +0000"
+commit_sha: a5bad7cb3f39f0c1f8815aaee6c7982055e9cbe3
+commit_message: "Merge branch 'fix/cot-env-setup' into update/hpos-env-setup"
 branch_name: update/hpos-env-setup
 ---
