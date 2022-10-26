@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35270/api/i
 pr_number: 35270
 pr_title_encoded: "Track+enabling%2Fdisabling+features."
 pr_test_type: api
-last_published: "2022-10-26 03:14:59 +0000"
-commit_sha: c6fe386889688c1b0bd91458be3fbe3f735e8b36
-commit_message: "Add support for tracking the value of changed options (starting with …"
+last_published: "2022-10-26 20:41:06 +0000"
+commit_sha: 75def406e6e2132592c0ce3f39a0ac8bd2ecf68f
+commit_message: "Track additional COT related fields."
 branch_name: fix/34898-track-features
 ---
