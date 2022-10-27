@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35118/e2e/i
 pr_number: 35118
 pr_title_encoded: "+Also+support+syncing+for+HPOS+with+stats+table."
 pr_test_type: e2e
-last_published: "2022-10-26 15:25:10 +0000"
-commit_sha: 29f7502a2739a530a339bbf706ba8bd721d4d420
-commit_message: "Merge branch 'trunk' into fix/35032"
+last_published: "2022-10-27 06:33:20 +0000"
+commit_sha: 8109d3cee9b90c99898974637cebc403f06a0543
+commit_message: "Applied coding standards."
 branch_name: fix/35032
 ---
