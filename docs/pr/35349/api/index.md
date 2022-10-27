@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35349/api/i
 pr_number: 35349
 pr_title_encoded: "Check+order+type+is+set+before+returning+to+prevent+notice."
 pr_test_type: api
-last_published: "2022-10-27 11:28:45 +0000"
-commit_sha: 938bfb1e59ecf12bfb5e0ff49f87799fda09f780
-commit_message: "Check order type is set before returning to prevent notice."
+last_published: "2022-10-27 12:05:54 +0000"
+commit_sha: fa8a361302b109d142986116654e2262b9408dda
+commit_message: "Applied code standards."
 branch_name: fix/order_type
 ---
