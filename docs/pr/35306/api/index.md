@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35306/api/i
 pr_number: 35306
 pr_title_encoded: "TT3+compatibility+"
 pr_test_type: api
-last_published: "2022-10-26 11:38:04 +0000"
-commit_sha: 4b23164b0321515260e0ceb36af6ed1d70220430
-commit_message: "Avoid duplication of CSS rules."
+last_published: "2022-10-27 18:40:26 +0000"
+commit_sha: f543cc05658110ea8d08e3d261d536d0c24d69d5
+commit_message: "Fix version tags"
 branch_name: add/tt3-support
 ---
