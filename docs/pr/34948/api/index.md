@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34948/api/i
 pr_number: 34948
 pr_title_encoded: "Product+creation+experience%3A+shortcut+to+add+variation+price"
 pr_test_type: api
-last_published: "2022-10-27 22:17:49 +0000"
-commit_sha: 6c6c75bf86384c2f4709d587ea8cb4f3bbcdefc5
-commit_message: "Fix text"
+last_published: "2022-10-28 15:19:27 +0000"
+commit_sha: fa77301a1f11ed5565dc9d525dba74afb5548799
+commit_message: "Fix styles"
 branch_name: add/33554_variation-price
 ---
