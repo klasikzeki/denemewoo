@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35306/e2e/i
 pr_number: 35306
 pr_title_encoded: "TT3+compatibility+"
 pr_test_type: e2e
-last_published: "2022-10-28 12:03:56 +0000"
-commit_sha: 55a9a0db81b7ffb0659ee95763885a74c645ba83
-commit_message: "MyAccount > Orders View narrow view action button fix"
+last_published: "2022-10-28 12:15:29 +0000"
+commit_sha: b03631c1bda203ea64dec2988c3cb031fe4c774c
+commit_message: "Make buttons less wide to account for narrow theme styles."
 branch_name: add/tt3-support
 ---
