@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35306/api/i
 pr_number: 35306
 pr_title_encoded: "TT3+compatibility+"
 pr_test_type: api
-last_published: "2022-10-28 13:55:11 +0000"
-commit_sha: ffeac5dfa27d198800b84af39d70c740b152cdcf
-commit_message: "Some styles are not working with this color combo."
+last_published: "2022-10-28 15:24:56 +0000"
+commit_sha: 27423318d9a7c39cd008ffe9121c52c5f85316ff
+commit_message: "Align attribute names to the left"
 branch_name: add/tt3-support
 ---
