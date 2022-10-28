@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35306/e2e/i
 pr_number: 35306
 pr_title_encoded: "TT3+compatibility+"
 pr_test_type: e2e
-last_published: "2022-10-28 13:33:07 +0000"
-commit_sha: 6ab15dd99eee682e06238672ead2acf2fd1e5a6c
-commit_message: "More fixes!"
+last_published: "2022-10-28 13:55:12 +0000"
+commit_sha: ffeac5dfa27d198800b84af39d70c740b152cdcf
+commit_message: "Some styles are not working with this color combo."
 branch_name: add/tt3-support
 ---
