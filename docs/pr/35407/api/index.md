@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35407/api/i
 pr_number: 35407
 pr_title_encoded: "PHPCS%3A+Lint+only+changes"
 pr_test_type: api
-last_published: "2022-10-30 22:03:00 +0000"
-commit_sha: 638558daace6ed81c7769a5dd34ed1b0c4dcfeec
-commit_message: "remove test"
+last_published: "2022-10-30 22:24:35 +0000"
+commit_sha: 25481c125b53a49ce4058ce2ea5c7b2de7001e80
+commit_message: "changelog"
 branch_name: try/add-phpcs-changed
 ---
