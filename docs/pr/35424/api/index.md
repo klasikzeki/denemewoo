@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35424/api/i
 pr_number: 35424
 pr_title_encoded: "Update+WooCommerce+blocks+package+to+8.7.5"
 pr_test_type: api
-last_published: "2022-10-31 16:42:28 +0000"
-commit_sha: 8257df73408d0e416a30b797db8d9e67e4517060
-commit_message: "Update WooCommerce blocks package to 8.7.5"
+last_published: "2022-10-31 17:29:45 +0000"
+commit_sha: 1cdc99f7a6f1dca3ae7ecfbc8366035cdf014520
+commit_message: "Update changelog"
 branch_name: update/woocommerce-blocks-8.7.5
 ---
