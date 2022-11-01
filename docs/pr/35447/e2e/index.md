@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35447/e2e/i
 pr_number: 35447
 pr_title_encoded: "Add+contextual+product+more+menu"
 pr_test_type: e2e
-last_published: "2022-11-01 17:30:22 +0000"
-commit_sha: 40f18d736a7fbab1645cb76b844598dcefd1d9f6
-commit_message: "Remove welcome guide link and icon"
+last_published: "2022-11-01 19:17:53 +0000"
+commit_sha: b3132646f1be29a8038c7fd7fe8c64f292e27b59
+commit_message: "Remove errant import"
 branch_name: add/35177
 ---
