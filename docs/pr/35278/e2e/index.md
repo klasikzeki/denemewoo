@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35278/e2e/i
 pr_number: 35278
 pr_title_encoded: "Feature%3A+Add+the+In-App+Marketplace+Tour"
 pr_test_type: e2e
-last_published: "2022-11-01 07:44:25 +0000"
-commit_sha: 350cbb5127c91402546ef92f8e9de6882272073d
-commit_message: "Changelog adding recordViewEvent onboarding task attribute"
+last_published: "2022-11-01 12:00:54 +0000"
+commit_sha: 0666a55eeb658a3ec0a13fbaff2b2f116931ba12
+commit_message: "Expand spotlight area for tour on WC Addons page"
 branch_name: feature/in-app-marketplace-tour
 ---
