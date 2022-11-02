@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35269/api/i
 pr_number: 35269
 pr_title_encoded: "Adding+attribute+edit+modal+for+products+MVP"
 pr_test_type: api
-last_published: "2022-11-02 19:56:58 +0000"
-commit_sha: 556d1d28ae06912cbeea9332c678efa6608c9e36
-commit_message: "Fixing a few minor styling issues"
+last_published: "2022-11-02 20:35:27 +0000"
+commit_sha: 94e78a9eb88036f63eb5470b2bdd1023eeb2be12
+commit_message: "Addressing scss linting issues"
 branch_name: add/34332-add-attribute-edit
 ---
