@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/34538/api/i
 pr_number: 34538
 pr_title_encoded: "Add+scheduled+sale+fields"
 pr_test_type: api
-last_published: "2022-11-02 02:14:46 +0000"
-commit_sha: 1d4c68012c61a3cb4f8343998911c64a30cc05ff
-commit_message: "Fix SCSS lint issues (didn't have Stylelint set up properly in VSCode)"
+last_published: "2022-11-03 16:10:10 +0000"
+commit_sha: 390b41a221fb0e5d8411662b7bf094218a2d113c
+commit_message: "Add Tracks event for when schedule sale toggle is clicked"
 branch_name: add/product_schedule_sale
 ---
