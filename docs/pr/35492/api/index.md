@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35492/api/i
 pr_number: 35492
 pr_title_encoded: "WIP"
 pr_test_type: api
-last_published: "2022-11-04 10:05:27 +0000"
-commit_sha: 7f975968d4635bbf77a742d8e6c48bd46f9d859f
-commit_message: "Enable cron"
+last_published: "2022-11-04 11:40:55 +0000"
+commit_sha: e1b6360d434642ba34b0b4e16cee8fb6a5f32c73
+commit_message: "More accurate job names"
 branch_name: e2e/daily-playwright-2
 ---
