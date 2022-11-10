@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35532/api/i
 pr_number: 35532
 pr_title_encoded: "FSE%3A+Fix+icon+fonts+not+being+loaded+in+the+Site+Editor"
 pr_test_type: api
-last_published: "2022-11-09 17:14:43 +0000"
-commit_sha: 9edef798a05be04e9f33ec4f0c8e5dfea7b6f625
-commit_message: "Site Editor: Fix WooCommerce icons not loading in the site editor."
+last_published: "2022-11-10 12:06:47 +0000"
+commit_sha: b96ed6106ee075f62cb79b34bac9b7f8eae02c20
+commit_message: "Add additional FSE theme check"
 branch_name: fix/35495-site-editor-icons
 ---
