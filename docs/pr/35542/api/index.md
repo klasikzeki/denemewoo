@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35542/api/i
 pr_number: 35542
 pr_title_encoded: "Add+one-click+installation+for+recommended+extensions+in+multichannel+Marketing+page"
 pr_test_type: api
-last_published: "2022-11-10 15:05:15 +0000"
-commit_sha: 0192d9284033d97f94d015fe977769bc4f08b58b
-commit_message: "Add changelog."
+last_published: "2022-11-10 19:09:05 +0000"
+commit_sha: fac8079bf1cab3f7778c9139037f086829080e4f
+commit_message: "Fix failed tests."
 branch_name: feature/marketing-one-click-installation
 ---
