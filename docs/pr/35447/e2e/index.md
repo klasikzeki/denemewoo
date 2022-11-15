@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35447/e2e/i
 pr_number: 35447
 pr_title_encoded: "Add+contextual+product+more+menu"
 pr_test_type: e2e
-last_published: "2022-11-01 19:17:53 +0000"
-commit_sha: b3132646f1be29a8038c7fd7fe8c64f292e27b59
-commit_message: "Remove errant import"
+last_published: "2022-11-15 20:46:21 +0000"
+commit_sha: 6e8ab96c34925da17b777870797c443f43ce04bf
+commit_message: "Remove unnecessary plugin registration"
 branch_name: add/35177
 ---
