@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35581/api/i
 pr_number: 35581
 pr_title_encoded: "WCPay+Experiment%3A+Create+an+Inbox+Note+if+user+wants+more+info+on+WCPay"
 pr_test_type: api
-last_published: "2022-11-15 09:57:37 +0000"
-commit_sha: 95b6983cf747ed32aee7d1a7bb31db852dccfc24
-commit_message: "revert a change made to test the logic"
+last_published: "2022-11-15 13:13:30 +0000"
+commit_sha: accd4394af1ec1eba032167fce74cc84f0597649
+commit_message: "Update to use updateOptions for both option saving events."
 branch_name: add/4536-inbox-note-post-survey
 ---
