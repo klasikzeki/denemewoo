@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35595/api/i
 pr_number: 35595
 pr_title_encoded: "Fix+JS+package+readme"
 pr_test_type: api
-last_published: "2022-11-15 19:30:33 +0000"
+last_published: "2022-11-15 20:26:56 +0000"
 commit_sha: d8087af768692dca4bd7e81fa0885b1337f0b498
 commit_message: "Fix JS package readme"
 branch_name: fix/js-package-readme
