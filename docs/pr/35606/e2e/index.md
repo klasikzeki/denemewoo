@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35606/e2e/i
 pr_number: 35606
 pr_title_encoded: "Add%2F35173+category+field+improvements"
 pr_test_type: e2e
-last_published: "2022-11-16 20:59:19 +0000"
-commit_sha: 0aec6f8978cceaa1710037ba22c03efab5c86cf3
-commit_message: "Open categories menu list when the user click the category field"
+last_published: "2022-11-16 21:29:48 +0000"
+commit_sha: e924344b8594493d7d4ddbf2dae4592f9cdefa24
+commit_message: "Fix linter error"
 branch_name: add/35173-category-field-improvements
 ---
