@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35625/e2e/i
 pr_number: 35625
 pr_title_encoded: "Add+a+confirmation+modal+when+the+user+tries+to+navigate+away+with+unsaved+changes"
 pr_test_type: e2e
-last_published: "2022-11-17 17:59:29 +0000"
-commit_sha: fc86cf0b349118390732cf7c67149d3a7a7d6d13
+last_published: "2022-11-17 18:48:22 +0000"
+commit_sha: cca422cd6e73fd0eb0a58b6ecc76473ef15ecb32
 commit_message: "Add a confirmation modal when the user tries to navigate away with un…"
 branch_name: enhancement/35194-confirm-when-exiting
 ---
