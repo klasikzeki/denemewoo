@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35100/e2e/i
 pr_number: 35100
 pr_title_encoded: "Create+attribute+within+the+new+product+MVP"
 pr_test_type: e2e
-last_published: "2022-11-15 16:02:00 +0000"
-commit_sha: 521b1ac4c01e0b56c83a847b7419d3f1c8ef2ef9
-commit_message: "Fix lint error"
+last_published: "2022-11-17 11:10:10 +0000"
+commit_sha: 2dcbcd50c61e66e3a28be45f78d9fc2101674947
+commit_message: "Add isNewAttributeListItem helper function"
 branch_name: add/34331_create_attribute
 ---
