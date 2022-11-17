@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35617/e2e/i
 pr_number: 35617
 pr_title_encoded: "Add+support+for+product+by+attribute+template"
 pr_test_type: e2e
-last_published: "2022-11-17 16:16:34 +0000"
-commit_sha: 7a5ed15cf8003b0f9819c832b181f71cf85bc7d5
-commit_message: "Fix template version"
+last_published: "2022-11-17 16:45:49 +0000"
+commit_sha: 4077aa3ed1d1aeb5e67921d3c52488962b51b1aa
+commit_message: "Refactor tests"
 branch_name: add/7647-product-by-attribute-template
 ---
