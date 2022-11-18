@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35625/api/i
 pr_number: 35625
 pr_title_encoded: "Add+a+confirmation+modal+when+the+user+tries+to+navigate+away+with+unsaved+changes"
 pr_test_type: api
-last_published: "2022-11-17 18:48:21 +0000"
-commit_sha: cca422cd6e73fd0eb0a58b6ecc76473ef15ecb32
-commit_message: "Add a confirmation modal when the user tries to navigate away with un…"
+last_published: "2022-11-18 14:20:50 +0000"
+commit_sha: 282605062ce8b821ba91575e039052e4a8ac6ba6
+commit_message: "Add support for react router navigation"
 branch_name: enhancement/35194-confirm-when-exiting
 ---
