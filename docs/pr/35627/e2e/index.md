@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35627/e2e/i
 pr_number: 35627
 pr_title_encoded: "Add+pre+build+script+to+delete+assets"
 pr_test_type: e2e
-last_published: "2022-11-18 15:22:38 +0000"
-commit_sha: d9d76f3b1fd49a2f0dc7adec72a688de53686d4f
-commit_message: "Add the cleanup dependency to turbo config"
+last_published: "2022-11-21 16:39:34 +0000"
+commit_sha: d7124ea203985a0649412d07ccad3b0baa667791
+commit_message: "Add assets cleanup for build zip command"
 branch_name: dev/prebuild-cleanup
 ---
