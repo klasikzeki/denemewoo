@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35649/api/i
 pr_number: 35649
 pr_title_encoded: "Analytics%3A+Fix+custom+date+range+calendar+styling+in+WP+6.1"
 pr_test_type: api
-last_published: "2022-11-20 16:09:15 +0000"
-commit_sha: dc31890ef81a30a529386ccf6ce6e1e4ce5fbc88
-commit_message: "Changelog"
+last_published: "2022-11-22 20:08:47 +0000"
+commit_sha: 930cb5c6911820e0edb464ef111a23ce6ca14e45
+commit_message: "Include react-dates CSS directly from module instead of copy/pasting."
 branch_name: fix/analytics-daterange-custom-wp61
 ---
