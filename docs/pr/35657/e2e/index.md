@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35657/e2e/i
 pr_number: 35657
 pr_title_encoded: "Fix%2Funsaved+prompt"
 pr_test_type: e2e
-last_published: "2022-11-21 21:16:41 +0000"
-commit_sha: fca7b45f419a9e557d5f34faf1dbea4384d3214f
-commit_message: "Reset form on save draft and before navigation starts"
+last_published: "2022-11-22 14:33:16 +0000"
+commit_sha: 0605938876a3855864a8f8d0dab32bb23a98f4be
+commit_message: "Add comments ssuggestions"
 branch_name: fix/unsaved-prompt
 ---
