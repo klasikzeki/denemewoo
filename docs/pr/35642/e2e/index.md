@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35642/e2e/i
 pr_number: 35642
 pr_title_encoded: "Allow+changelogger+regex+to+find+directories+with+woocommerce%2A+names+"
 pr_test_type: e2e
-last_published: "2022-11-22 10:11:18 +0000"
+last_published: "2022-11-22 10:24:13 +0000"
 commit_sha: 55f486cabe57a5fff929cccc656685bfb6338ebf
 commit_message: "Allow package preparation script to run regardless of directory name …"
 branch_name: fix/changelogger-path
