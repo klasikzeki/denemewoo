@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35681/api/i
 pr_number: 35681
 pr_title_encoded: "Fix%2Fe2e+environment+test+failures"
 pr_test_type: api
-last_published: "2022-11-23 03:48:07 +0000"
-commit_sha: 94ed0d418ef1e996b0c0b9d232c21ca5d3b7e397
-commit_message: "Add a couple of waits"
+last_published: "2022-11-23 04:10:45 +0000"
+commit_sha: 02607d4494e754897d112cbf75abb448918da5a9
+commit_message: "Moved around setup"
 branch_name: fix/e2e-environment-test-failures
 ---
