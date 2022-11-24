@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35698/e2e/i
 pr_number: 35698
 pr_title_encoded: "Add+a+blank+space+between+the+emoji+and+the+message+within+a+notice+popup"
 pr_test_type: e2e
-last_published: "2022-11-23 21:22:17 +0000"
-commit_sha: 77e393136beb02bb3fe9bcb150b2bbf52e999a7f
-commit_message: "Add a blank space between the emoji and the message within a notice p…"
+last_published: "2022-11-24 19:33:00 +0000"
+commit_sha: f874f1654ff4474ba707f0b98b29fcbcac163226
+commit_message: "Apply comment suggestions"
 branch_name: fix/35541
 ---
