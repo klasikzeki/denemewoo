@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35728/api/i
 pr_number: 35728
 pr_title_encoded: "CES+exit+prompt+for+product+editing+screens"
 pr_test_type: api
-last_published: "2022-11-25 11:01:47 +0000"
-commit_sha: c0d7928010ec8fd04052b88cd69d261c3ff39639
-commit_message: "Fix lint errors and add comments"
+last_published: "2022-11-25 11:25:21 +0000"
+commit_sha: 4b85bcd0deba69044af3ec1cbd6e4de26a97765d
+commit_message: "Add ces_location prop"
 branch_name: add/35126_ces_exit_prompt
 ---
