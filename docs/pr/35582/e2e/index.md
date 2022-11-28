@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35582/e2e/i
 pr_number: 35582
 pr_title_encoded: "Add+tracks+event+for+%22View+product%22+and+dismiss+action+after+update"
 pr_test_type: e2e
-last_published: "2022-11-28 15:15:04 +0000"
-commit_sha: 5057ad970ae099ba9560ca7d29bdb77bf001db48
-commit_message: "Add stock_quantity_update implementation which is not working as inte…"
+last_published: "2022-11-28 20:54:26 +0000"
+commit_sha: c53d42463596d03c065881d021cfa3228e302bdc
+commit_message: "Remove stock_quantity_update property and adjust is_downloadable, is_…"
 branch_name: add/tracks-product-action
 ---
