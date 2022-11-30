@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35701/e2e/i
 pr_number: 35701
 pr_title_encoded: "Set+editor+mode+on+initialization+to+prevent+initial+text+editor+focus"
 pr_test_type: e2e
-last_published: "2022-11-28 22:06:41 +0000"
-commit_sha: b186c77cbc61572d2a6e607d6faadf80226e0b1f
-commit_message: "Check for editor set method to prevent breaks in tests with older ver…"
+last_published: "2022-11-30 18:31:19 +0000"
+commit_sha: 78615f844f6bfbb9cbe4b96339faaf4d543f62de
+commit_message: "Update argument name for initialization"
 branch_name: fix/35697
 ---
