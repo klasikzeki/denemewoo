@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35652/api/i
 pr_number: 35652
 pr_title_encoded: "Add%2F35129+product+mvp+ces"
 pr_test_type: api
-last_published: "2022-11-30 12:02:33 +0000"
-commit_sha: 4b5869fddfb204ab11cc870750bbe8ae1eb59193
-commit_message: "Add changelog"
+last_published: "2022-11-30 14:01:57 +0000"
+commit_sha: 149c43fcf59f7c5cc4ba6bd1847c927a665810aa
+commit_message: "Fix lint error"
 branch_name: add/35129_product_mvp_ces
 ---
