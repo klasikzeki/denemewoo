@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35783/api/index.html
 pr_number: 35783
-pr_title_encoded: "%5BWIP%5D%3A+Create+ProductForm+component+to+merge+duplicated+UI+"
+pr_title_encoded: "Create+ProductForm+component+to+merge+duplicated+UI+"
 pr_test_type: api
-last_published: "2022-11-30 14:29:21 +0000"
-commit_sha: 0636194e738ef921e263184dfa3b180f253a3bd0
+last_published: "2022-12-02 14:19:54 +0000"
+commit_sha: eed83b7fe1c9f2c22a3de0a13b04c932ab1cbb98
 commit_message: "Add changelog"
 branch_name: enhancement/35766
 ---
