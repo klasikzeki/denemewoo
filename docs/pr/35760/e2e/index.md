@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35760/e2e/i
 pr_number: 35760
 pr_title_encoded: "%28WIP%29+E2e%2Fdaily+playwright+merchant+%26+shopper"
 pr_test_type: e2e
-last_published: "2022-12-01 08:49:54 +0000"
-commit_sha: a8986fbd6f808efb38e17eef6d02715238916284
-commit_message: "Remove unnecessary setup step as it's already done in global setup"
+last_published: "2022-12-02 07:57:30 +0000"
+commit_sha: 5d0d7a76f0c5f50a9852bf29b6453a622c36301f
+commit_message: "Reset site only through a toggle or env var"
 branch_name: e2e/daily-playwright-shopper
 ---
