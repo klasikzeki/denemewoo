@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35834/e2e/i
 pr_number: 35834
 pr_title_encoded: "Add+help+tip+for+Product+Image+and+Product+Gallery+meta+boxes"
 pr_test_type: e2e
-last_published: "2022-12-06 15:53:34 +0000"
-commit_sha: a3e9b453cec137c9fa58f9659a0e42805881edf1
+last_published: "2022-12-06 17:40:09 +0000"
+commit_sha: 21d926e45b7c05ab30581a83d647a4b011f94d63
 commit_message: "Change span tabIndex to 0 to allow focus on screen readers"
 branch_name: update/35017
 ---
