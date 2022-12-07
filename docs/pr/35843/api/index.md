@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35843/api/index.html
 pr_number: 35843
-pr_title_encoded: "%5BWIP%5D+Another+set+of+migrations+from+set-output+to+GITHUB_OUTPUT"
+pr_title_encoded: "Another+set+of+migrations+from+set-output+to+GITHUB_OUTPUT"
 pr_test_type: api
-last_published: "2022-12-06 02:54:04 +0000"
-commit_sha: e19b68f9c3790c33a13dc542dfac162f42449d9c
-commit_message: "Another set of migrations from set-output to GITHUB_OUTPUT"
+last_published: "2022-12-07 23:20:26 +0000"
+commit_sha: f6a4db3e5f87db4284d922e7501585145b0a2013
+commit_message: "Fix typo in community script"
 branch_name: dev/more-setoutput-migration
 ---
