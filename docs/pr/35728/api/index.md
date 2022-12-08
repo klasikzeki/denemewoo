@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35728/api/i
 pr_number: 35728
 pr_title_encoded: "CES+exit+prompt+for+product+editing+screens"
 pr_test_type: api
-last_published: "2022-11-29 08:14:49 +0000"
-commit_sha: 049815d08163bf9eb507e1ffda142475c685c76c
-commit_message: "Remove exit prefix within action"
+last_published: "2022-12-08 10:19:20 +0000"
+commit_sha: a8ee37c0d00a03a69fc9da06150b5c6577270631
+commit_message: "Address PR feedback and make sure its not triggered on save"
 branch_name: add/35126_ces_exit_prompt
 ---
