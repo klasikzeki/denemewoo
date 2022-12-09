@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35904/e2e/i
 pr_number: 35904
 pr_title_encoded: "Add+a+default+placeholder+title+for+newly+added+attributes+and+always+show+remove+button+for+attributes"
 pr_test_type: e2e
-last_published: "2022-12-09 14:19:49 +0000"
-commit_sha: 5a9f5d63b23e954127d7516e1172fc6aa747ce2f
-commit_message: "Add css and logic to make placeholder title have opacity and remove o…"
+last_published: "2022-12-09 14:47:01 +0000"
+commit_sha: 5547b7e61a68d3edc6298834db28f219943a0a05
+commit_message: "Update placeholder value"
 branch_name: enhancement/35116
 ---
