@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35907/api/i
 pr_number: 35907
 pr_title_encoded: "%28Draft%29+Consistent+folder+structure+for+E2E+and+API+test+results"
 pr_test_type: api
-last_published: "2022-12-09 11:33:16 +0000"
-commit_sha: f0f002437f8906ca7144d09cbe50f045107c581d
-commit_message: "Update paths in daily smoke test workflow"
+last_published: "2022-12-10 02:18:25 +0000"
+commit_sha: 7527dd89fb96aa118b1c515b98c468c0db654bb5
+commit_message: "Add entries to table of contents"
 branch_name: e2e/output-directories
 ---
