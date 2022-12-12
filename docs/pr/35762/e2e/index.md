@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35762/e2e/i
 pr_number: 35762
 pr_title_encoded: "Add%2F35126+ces+exit+prompt+orders"
 pr_test_type: e2e
-last_published: "2022-11-29 13:50:50 +0000"
-commit_sha: 32c9067b1a60d3318dd577f2e95a71d0489601ca
-commit_message: "Update exit page CES action"
+last_published: "2022-12-12 19:50:26 +0000"
+commit_sha: c557fe049906527633a399e85e5243bb0d08acc7
+commit_message: "Fix order hook name"
 branch_name: add/35126_ces_exit_prompt_orders
 ---
