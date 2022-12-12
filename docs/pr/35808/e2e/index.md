@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35808/e2e/i
 pr_number: 35808
 pr_title_encoded: "Add+aria-label+for+simple+select+dropdown+in+select-control+component"
 pr_test_type: e2e
-last_published: "2022-12-05 17:18:54 +0000"
-commit_sha: f45560a721da27fd12efd3faa03ba3dc2ae7cc17
-commit_message: "Allow aria label prop and use label as a fallback"
+last_published: "2022-12-12 18:49:24 +0000"
+commit_sha: e9cd8c2c04231c512f6d3c180cecbfab7b6be1d5
+commit_message: "Add changelog"
 branch_name: update/add-aria-label-to-select-control-component
 ---
