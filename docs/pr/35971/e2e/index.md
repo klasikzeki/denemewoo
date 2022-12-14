@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35971/e2e/i
 pr_number: 35971
 pr_title_encoded: "Fix+no+email+report+on+product+filter"
 pr_test_type: e2e
-last_published: "2022-12-14 10:28:48 +0000"
-commit_sha: e1b24647705c22dc9f5986e4c5349be95302ebaf
-commit_message: "Add changelog"
+last_published: "2022-12-14 11:56:25 +0000"
+commit_sha: 0ad1879cd190e86dad0270778a0dea7f3e2e49a9
+commit_message: "Fix lint errors"
 branch_name: fix/32220_no_email_report_on_product_filter
 ---
