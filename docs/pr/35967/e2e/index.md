@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35967/e2e/i
 pr_number: 35967
 pr_title_encoded: "Include+taxes+migration+in+the+states+migrator+helper+method"
 pr_test_type: e2e
-last_published: "2022-12-14 11:17:51 +0000"
-commit_sha: 2424b8646cae330907da29a0b26cf12d2295f91f
-commit_message: "Change db version of state update functions to 7.2.1"
+last_published: "2022-12-14 15:01:00 +0000"
+commit_sha: 5b3f36068db759602c493e9122f880a40e520d1d
+commit_message: "Fix indentation"
 branch_name: fix/include-taxes-in-states-migrator
 ---
