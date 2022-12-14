@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35658/e2e/i
 pr_number: 35658
 pr_title_encoded: "Allow+HPOS+screens+to+work+for+custom+order+types"
 pr_test_type: e2e
-last_published: "2022-12-13 18:58:59 +0000"
-commit_sha: 96108edc4fc7f84dcfc1549e17d2f99046ad012b
-commit_message: "Do not rely on `wc_orders_count()` for counting orders in `ListTable`"
+last_published: "2022-12-14 12:01:53 +0000"
+commit_sha: cb6a787c59c982c4b95624d314943f703730b72d
+commit_message: "Fire both order-type specific and generic hook for default column in …"
 branch_name: issue-35601
 ---
