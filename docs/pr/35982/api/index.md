@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35982/api/i
 pr_number: 35982
 pr_title_encoded: "Product+variation+quantity+status+indicator"
 pr_test_type: api
-last_published: "2022-12-15 14:55:04 +0000"
-commit_sha: e79ec950f56a3990eb7f4ca16994dcb459a3bc96
-commit_message: "Rename enum"
+last_published: "2022-12-15 15:25:25 +0000"
+commit_sha: d66d057819d7f1a2705b10d8423b4a07a0a4c1ee
+commit_message: "Fix lint"
 branch_name: add/35791_variation_quantity_status_indicator
 ---
