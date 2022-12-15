@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36023/e2e/i
 pr_number: 36023
 pr_title_encoded: "Update+code-freeze+actions+to+Monday+22+days+before+release"
 pr_test_type: e2e
-last_published: "2022-12-15 16:50:33 +0000"
-commit_sha: bfee3130eaf3c7f40dc3c6093f9773b995f1192b
-commit_message: "Update code-freeze actions to Monday 22 days before release"
+last_published: "2022-12-15 17:48:31 +0000"
+commit_sha: a1f33a1f3d70857370f4065814665c042e5bd9c4
+commit_message: "Fix incorrect params in workflow dispatch"
 branch_name: update/code-freeze-date
 ---
