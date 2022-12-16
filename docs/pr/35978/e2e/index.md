@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35978/e2e/i
 pr_number: 35978
 pr_title_encoded: "update%2Fapi-core-tests+guide+for+writing+tests"
 pr_test_type: e2e
-last_published: "2022-12-15 11:01:49 +0000"
-commit_sha: a566fd912e4e160b8f6eabf90d9026e52a915899
-commit_message: "Update plugins/woocommerce/tests/api-core-tests/README.md"
+last_published: "2022-12-16 12:37:41 +0000"
+commit_sha: 71d28412698ceeeba83f1767dff8bb1ad5630cd3
+commit_message: "updates after review"
 branch_name: update/api-core-tests-guide-for-writing-tests
 ---
