@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35910/e2e/i
 pr_number: 35910
 pr_title_encoded: "%5BWIP%5D+Add+Options+section+to+new+product+experience"
 pr_test_type: e2e
-last_published: "2022-12-18 16:24:36 +0000"
-commit_sha: 3e9c4bd1570284998d0de2a0950478e6618493a9
-commit_message: "Refactor more to create Attributes and Options fields"
+last_published: "2022-12-20 15:04:39 +0000"
+commit_sha: 68ec76a20618f1c2c8fd41ac7944d85f96160d0b
+commit_message: "Refactor a couple of things"
 branch_name: add/new-product-experience-options
 ---
