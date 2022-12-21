@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36053/api/index.html
 pr_number: 36053
-pr_title_encoded: "Product+variations+-+set+fixed+height+for+card"
+pr_title_encoded: "Product+variations+-+Set+fixed+height+for+card"
 pr_test_type: api
-last_published: "2022-12-16 16:53:29 +0000"
-commit_sha: cab2b5ca7b70fa533a5d889f17c0debb5fcc5a04
-commit_message: "Add changelogs"
+last_published: "2022-12-21 15:55:20 +0000"
+commit_sha: 4072484160bfa529ea34e684594d1775c3d90159
+commit_message: "Fix min-height"
 branch_name: add/35789_set_variations_list_fixed_height
 ---
