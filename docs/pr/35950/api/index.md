@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35950/api/i
 pr_number: 35950
 pr_title_encoded: "Cleanup+product+task+experiment"
 pr_test_type: api
-last_published: "2022-12-13 07:55:58 +0000"
-commit_sha: 870c2be03b5e8b3278bab8913a683e9f3714479f
-commit_message: "Add changelog"
+last_published: "2022-12-21 06:01:26 +0000"
+commit_sha: f3321081ceb7463eaca8f9e73f597c352fb14132
+commit_message: "Remove experimental-products-task feature flag"
 branch_name: dev/clean-up-product-layout-exp-codes
 ---
