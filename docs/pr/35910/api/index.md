@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35910/api/index.html
 pr_number: 35910
-pr_title_encoded: "%5BWIP%5D+Add+Options+section+to+new+product+experience"
+pr_title_encoded: "Add+Options+section+to+new+product+experience"
 pr_test_type: api
-last_published: "2022-12-20 19:28:21 +0000"
-commit_sha: 5b688c7e0ce1c0a5bb511ff9e97a3cf6cb8cec8d
-commit_message: "Remove `Used for filters` checkbox"
+last_published: "2022-12-21 12:36:00 +0000"
+commit_sha: 0efe07c87da1494d6609b44e08377843434f7828
+commit_message: "Add subtitle to empty state component"
 branch_name: add/new-product-experience-options
 ---
