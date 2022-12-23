@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36125/api/i
 pr_number: 36125
 pr_title_encoded: "Update+WooCommerce+Blocks+to+9.1.3"
 pr_test_type: api
-last_published: "2022-12-22 21:36:40 +0000"
-commit_sha: 1c71eab02b44fd9f3d637893aab05b91d3f0bbc0
-commit_message: "Update WooCommerce Blocks to 9.1.3"
+last_published: "2022-12-23 01:32:20 +0000"
+commit_sha: 1be3a0fcec80753ee6828c010e6710543f570ec5
+commit_message: "add results of composer update"
 branch_name: update/woocommerce-blocks-9.1.2
 ---
