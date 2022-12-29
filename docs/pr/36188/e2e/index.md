@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36188/e2e/i
 pr_number: 36188
 pr_title_encoded: "Automatically+generate+product+variations+on+option+changes"
 pr_test_type: e2e
-last_published: "2022-12-28 00:16:45 +0000"
-commit_sha: 62a27f502873698bcfba8b2f8d733d731c2d0bd4
-commit_message: "Fix product ID usage in variations"
+last_published: "2022-12-29 01:54:41 +0000"
+commit_sha: 752225876c2d77f33940c630b202b6a7fc86c2e6
+commit_message: "Reset form after initial product creation"
 branch_name: add/35778
 ---
