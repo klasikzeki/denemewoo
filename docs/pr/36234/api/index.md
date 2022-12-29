@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36234/api/i
 pr_number: 36234
 pr_title_encoded: "Add%2F35989"
 pr_test_type: api
-last_published: "2022-12-29 18:32:55 +0000"
-commit_sha: 3c0d03049468e7b1b6395f5652f29df6efd391cf
-commit_message: "Remove non needed code from pricing section"
+last_published: "2022-12-29 19:11:16 +0000"
+commit_sha: e487e9ea6f40bb31b6b2a370479b0b3b4588ac46
+commit_message: "Set manage stock to true if parent product is managing the stock"
 branch_name: add/35989
 ---
