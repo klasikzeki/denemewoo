@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36234/api/index.html
 pr_number: 36234
-pr_title_encoded: "Add%2F35989"
+pr_title_encoded: "Product+variations+should+inherit+parent+product+properties"
 pr_test_type: api
-last_published: "2022-12-29 21:54:50 +0000"
-commit_sha: 65d3eba57332f6840444e796b6ebc5ca6037806e
-commit_message: "Disable manage stock section if manage_stock is set to parent"
+last_published: "2023-01-04 14:43:00 +0000"
+commit_sha: 4972e2f7f12bc1b3a8ed24adc18296e137c3b87b
+commit_message: ""
 branch_name: add/35989
 ---
