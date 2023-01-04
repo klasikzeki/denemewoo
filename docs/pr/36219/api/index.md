@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36219/api/i
 pr_number: 36219
 pr_title_encoded: "Enable+COT+Tests+for+all+PRs."
 pr_test_type: api
-last_published: "2022-12-29 12:25:39 +0000"
-commit_sha: 975d2533b795c3089cdcec11e32003ef725587de
-commit_message: "Merge branch 'fix/36214' into enable/hpos-check"
+last_published: "2023-01-04 12:10:46 +0000"
+commit_sha: 018ce55304e85e50db38f577ad2329bfa97d7340
+commit_message: "Add test for sorting by include param."
 branch_name: enable/hpos-check
 ---
