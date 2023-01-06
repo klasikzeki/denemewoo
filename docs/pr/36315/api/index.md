@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36315/api/i
 pr_number: 36315
 pr_title_encoded: "Adding+WooProductFieldItem+slotfill"
 pr_test_type: api
-last_published: "2023-01-06 17:08:19 +0000"
-commit_sha: d0a8d54756ea42958f12ef942aa59501fd27adc2
-commit_message: "Adding WooProductFieldItem to product details section."
+last_published: "2023-01-06 23:52:39 +0000"
+commit_sha: 30d1f8c38d4e73e8d62977d44559e54e5a3083b6
+commit_message: "Removing obsolete slot component"
 branch_name: add/36014-mvp-field-slot
 ---
