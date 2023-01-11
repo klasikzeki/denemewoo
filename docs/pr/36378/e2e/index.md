@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36378/e2e/i
 pr_number: 36378
 pr_title_encoded: "Add+new+filter+to+add+additional+clauses+for+SQL+statement+in+Variations+report"
 pr_test_type: e2e
-last_published: "2023-01-11 16:41:02 +0000"
-commit_sha: ba9e145dd8e94bb5c9c1ea1d09e12813769a92d0
-commit_message: "Add docblock and update the filter name"
+last_published: "2023-01-11 17:02:35 +0000"
+commit_sha: e8dbd0a7232c91d6fbf04918ad2ea41f81945170
+commit_message: "Improve docblock of new filter"
 branch_name: add/new-variation-report-filter
 ---
