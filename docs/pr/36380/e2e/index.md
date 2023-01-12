@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36380/e2e/i
 pr_number: 36380
 pr_title_encoded: "Add+advanced+setting+option"
 pr_test_type: e2e
-last_published: "2023-01-12 15:03:47 +0000"
-commit_sha: 039ff4690e645bab463716a12156b784ad5b4c13
-commit_message: "Add `new_product_management` to legacy features"
+last_published: "2023-01-12 15:18:19 +0000"
+commit_sha: f15acfbc7a008bc398adb127956061f7302c5313
+commit_message: "Fix escaped tooltip"
 branch_name: add/36163_advanced_setting_option
 ---
