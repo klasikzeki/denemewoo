@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36238/e2e/i
 pr_number: 36238
 pr_title_encoded: "Add+support+to+fetch+approximate+page+remaining+count"
 pr_test_type: e2e
-last_published: "2022-12-30 10:57:56 +0000"
-commit_sha: 653b3c8871f840b9cb1af9e48d060fcf829b54a7
+last_published: "2023-01-12 07:43:39 +0000"
+commit_sha: 7fe816d53918901eaee15251a33f1cea4b1cb202
 commit_message: "Add orderby to approx query count."
 branch_name: enhance/approx-query-count
 ---
