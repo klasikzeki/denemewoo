@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36382/api/i
 pr_number: 36382
 pr_title_encoded: "Update+product+links+when+new+product+management+experience+is+enabled"
 pr_test_type: api
-last_published: "2023-01-11 21:50:49 +0000"
-commit_sha: e465acb3b751b1416f562bf5583c435f411d7b9e
+last_published: "2023-01-13 20:37:19 +0000"
+commit_sha: 102ae8ea2cc1b469b33f5d64e9456c6ba9240906
 commit_message: "Add changelog entry"
 branch_name: update/36363
 ---
