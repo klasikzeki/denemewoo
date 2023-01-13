@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36429/api/i
 pr_number: 36429
 pr_title_encoded: "Add+check+to+line+item+refund+quantity"
 pr_test_type: api
-last_published: "2023-01-13 20:27:54 +0000"
-commit_sha: 9cfb7de7a8fd208245869497ce7eee425215fc7c
-commit_message: "added check for the item qty to be refunded"
+last_published: "2023-01-13 20:54:37 +0000"
+commit_sha: ad5f213d001e2203fc60e0f64132d8e4ea21de51
+commit_message: "linting fixes"
 branch_name: fix/31738-refund-qty-check
 ---
