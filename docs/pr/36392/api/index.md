@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36392/api/i
 pr_number: 36392
 pr_title_encoded: "Add+basic+fields+for+rendering+of+Product+MVP"
 pr_test_type: api
-last_published: "2023-01-12 14:07:35 +0000"
-commit_sha: 2b31012bf65951de5329290eb69e6913ebbf7cc4
+last_published: "2023-01-13 14:46:38 +0000"
+commit_sha: e51b5a459d75d8eb7f69b3c08f55cc538af336f7
 commit_message: "Add changelog"
 branch_name: add/36074_basic_fields
 ---
