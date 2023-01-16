@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36387/e2e/i
 pr_number: 36387
 pr_title_encoded: "Create+a+manually+triggered+workflow+to+release+WooCommerce+Beta+Tester"
 pr_test_type: e2e
-last_published: "2023-01-12 02:54:03 +0000"
-commit_sha: 3a33f05fb875571f966759907e887569a77c8882
-commit_message: "Use the woocommerce action fork."
+last_published: "2023-01-16 06:00:26 +0000"
+commit_sha: ed342a78918bb65d0f53ed4c514b0e1185c8d57c
+commit_message: "Lock down the permissions on the whole workflow with permissions: {}"
 branch_name: dev/beta-tester-release-workflow
 ---
