@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36382/e2e/i
 pr_number: 36382
 pr_title_encoded: "Update+product+links+when+new+product+management+experience+is+enabled"
 pr_test_type: e2e
-last_published: "2023-01-13 20:37:20 +0000"
-commit_sha: 102ae8ea2cc1b469b33f5d64e9456c6ba9240906
-commit_message: "Add changelog entry"
+last_published: "2023-01-17 17:56:55 +0000"
+commit_sha: 0128272c0451ffd1ade97aeb6af3b0a5e0bdc1b5
+commit_message: "Fix additional space around equals sign"
 branch_name: update/36363
 ---
