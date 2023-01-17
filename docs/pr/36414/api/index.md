@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36414/api/i
 pr_number: 36414
 pr_title_encoded: "Add%2F36075+render+fields+sections+from+php+config"
 pr_test_type: api
-last_published: "2023-01-13 14:47:47 +0000"
-commit_sha: 126142a46ccd4e1b171c52abe986924cb4bf3cda
+last_published: "2023-01-17 10:35:02 +0000"
+commit_sha: 201422f62c437c6ca6fe55f923bf826d89ac340f
 commit_message: "Add changelog"
 branch_name: add/36075_render_fields_sections_from_php_config
 ---
