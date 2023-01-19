@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36497/e2e/i
 pr_number: 36497
 pr_title_encoded: "Add+permalink_template+and+generated_slug+to+products+REST+API+response"
 pr_test_type: e2e
-last_published: "2023-01-18 20:58:38 +0000"
-commit_sha: ee817c973e92f33096f27b9f6186f2c6a47b7c4f
-commit_message: "Changelog"
+last_published: "2023-01-19 15:45:33 +0000"
+commit_sha: 1e7af40df5ae0ea7f4de9266b263fd9dee003500
+commit_message: "Update number of expected properties in products schema"
 branch_name: add/product-permalink-template-rest-api
 ---
