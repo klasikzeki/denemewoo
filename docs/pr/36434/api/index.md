@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36434/api/i
 pr_number: 36434
 pr_title_encoded: "Add+tree-control+expand%2Fcollapse+on+click+the+expander+button+or+by+a+custom+logic"
 pr_test_type: api
-last_published: "2023-01-14 02:13:30 +0000"
-commit_sha: ff04deb230f1a1f15eae1560d902acfb780b2a6c
+last_published: "2023-01-19 20:53:58 +0000"
+commit_sha: baa3cb50a70340dd11863e1a1d4e627d1fa6a819
 commit_message: "Add tree-control expand/collapse on click the expander button or by a…"
 branch_name: add/35851-tree-control-expander
 ---
