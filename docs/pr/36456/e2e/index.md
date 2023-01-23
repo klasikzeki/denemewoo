@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36456/e2e/i
 pr_number: 36456
 pr_title_encoded: "Disable+the+new+navigation+in+the+WC+Admin."
 pr_test_type: e2e
-last_published: "2023-01-23 15:02:23 +0000"
-commit_sha: 16e8733d727c1c050a62c314c2b62ae4d9ee55b5
-commit_message: "Linter errors."
+last_published: "2023-01-23 15:24:48 +0000"
+commit_sha: b821f3b8c162b8effa04234361e8a40ee9caf311
+commit_message: "Edit the notice text."
 branch_name: update/remove-new-nav
 ---
