@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36549/api/i
 pr_number: 36549
 pr_title_encoded: "Update+action+dependencies+to+remove+set-output+and+save-state+warnings"
 pr_test_type: api
-last_published: "2023-01-23 07:33:15 +0000"
-commit_sha: 67d9e7c375fe2c165def111e8c425baa494db8fc
-commit_message: "Also update actions/cache"
+last_published: "2023-01-24 07:45:49 +0000"
+commit_sha: 1196d4931553d0fd7fb1be4fd287aeab98e6d422
+commit_message: "Update pnpm action-setup"
 branch_name: dev/update-action-deps
 ---
