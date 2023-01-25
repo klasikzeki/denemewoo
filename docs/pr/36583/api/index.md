@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36583/api/i
 pr_number: 36583
 pr_title_encoded: "Create+PHP+helper+functions+for+adding+new+tabs"
 pr_test_type: api
-last_published: "2023-01-25 14:47:29 +0000"
-commit_sha: 93071fa77dbc4eec41c7c31244e93c442cda8c7d
-commit_message: "Update method documentation"
+last_published: "2023-01-25 15:11:04 +0000"
+commit_sha: c421aebd3bf3fe8f5c7b400ce73ed4175b1e5303
+commit_message: "Add required fields to test"
 branch_name: add/form-factory-tab
 ---
