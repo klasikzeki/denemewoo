@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/35014/api/i
 pr_number: 35014
 pr_title_encoded: "%5BCOT%5D+Reintroduce+the+orders+cache"
 pr_test_type: api
-last_published: "2023-01-24 12:33:25 +0000"
-commit_sha: 3d4e26a4bdd2a58c1b6cbf40faafa482d0e0f7c4
-commit_message: "Apply renaming of WPCacheEngine class."
+last_published: "2023-01-25 07:26:42 +0000"
+commit_sha: d5b5d1574186890182ff3b1dfdd3aaacba06d575
+commit_message: "Fix unit tests for object cache to accomodate recent changes."
 branch_name: revert-34992-revert-34396-add/order_cache
 ---
