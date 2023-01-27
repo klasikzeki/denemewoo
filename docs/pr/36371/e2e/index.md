@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36371/e2e/i
 pr_number: 36371
 pr_title_encoded: "E2e%2Fjn+atomic"
 pr_test_type: e2e
-last_published: "2023-01-12 03:55:16 +0000"
-commit_sha: 2386b9f0fe7af51dfb73d596029afe9fed1980b0
-commit_message: "Make locator theme-agnostic"
+last_published: "2023-01-27 11:01:31 +0000"
+commit_sha: 47d0e2f159edc70818f5336f1cb098101eab254f
+commit_message: "Merge branch 'trunk' into e2e/jn-atomic"
 branch_name: e2e/jn-atomic
 ---
