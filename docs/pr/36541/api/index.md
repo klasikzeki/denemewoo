@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36541/api/i
 pr_number: 36541
 pr_title_encoded: "Add+Channels+card+into+Multichannel+Marketing+page"
 pr_test_type: api
-last_published: "2023-01-28 18:07:41 +0000"
-commit_sha: 449da4e91c4e12d8514b74cc628d7f194915103d
-commit_message: "Merge branch 'trunk' into feature/34906-marketing-channels-card"
+last_published: "2023-01-31 19:25:41 +0000"
+commit_sha: 46adb0dc25e329ad3e1f7fb5d108c2f1c0131cd6
+commit_message: "Rename Channels to RegisteredChannels."
 branch_name: feature/34906-marketing-channels-card
 ---
