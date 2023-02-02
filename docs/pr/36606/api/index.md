@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36606/api/i
 pr_number: 36606
 pr_title_encoded: "Show+attribute+creation+form+when+there+are+no+attributes"
 pr_test_type: api
-last_published: "2023-02-01 19:01:03 +0000"
-commit_sha: 663b5f986c848f03008c3e3341074fce2e646f94
-commit_message: "Fix do not show form with local attributes"
+last_published: "2023-02-02 13:05:21 +0000"
+commit_sha: 76f43c00fd791b7d6d37964a10b767e089bae59e
+commit_message: "Fix lint"
 branch_name: dev/35115_show_attribute_creation_form
 ---
