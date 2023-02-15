@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36708/api/i
 pr_number: 36708
 pr_title_encoded: "Translate+the+labels+for+units+of+measure"
 pr_test_type: api
-last_published: "2023-02-15 23:23:02 +0000"
-commit_sha: b336652e0d46bfa96c1257e5bd2424e25e07d632
-commit_message: "Return the input string if it's not a recognized unit of measure"
+last_published: "2023-02-15 23:45:35 +0000"
+commit_sha: 76e726036217a86e2ea910d0b7348e2b1f7e2422
+commit_message: "Clean up linting errors"
 branch_name: fix/31486/unit-i18n
 ---
