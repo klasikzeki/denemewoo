@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36492/e2e/i
 pr_number: 36492
 pr_title_encoded: "Add+date+sorting+configuration+for+Analytics"
 pr_test_type: e2e
-last_published: "2023-02-15 17:43:00 +0000"
-commit_sha: 2c68443f36e8f01708bf6c58e159bab2666f9f12
-commit_message: "Fill date_paid and date_completed for refunds to avoid problems whem …"
+last_published: "2023-02-15 23:05:27 +0000"
+commit_sha: 4ae48ed7d0b0677906408c7882be9e3159cffc4a
+commit_message: "Bump update script to 7.5.0"
 branch_name: update/revenue-default-sorting
 ---
