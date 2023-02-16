@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36854/api/i
 pr_number: 36854
 pr_title_encoded: "Switched+matching+of+screen+ID+with+the+untranslated+string."
 pr_test_type: api
-last_published: "2023-02-16 14:05:58 +0000"
-commit_sha: 0c254c03c341ed8f3cce296b4352855b7bbf7c68
-commit_message: "Switched matching of screen ID with the untranslated string."
+last_published: "2023-02-16 14:38:38 +0000"
+commit_sha: 8ccfedfa4f59e2aa9a30a09ab97f0b2cf87e56de
+commit_message: "Hardcoding the string instead of refering to value"
 branch_name: fix/36474
 ---
