@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36873/api/i
 pr_number: 36873
 pr_title_encoded: "Add%3A+shipping+plugins+in+shipping+task+based+on+location"
 pr_test_type: api
-last_published: "2023-02-17 16:04:15 +0000"
-commit_sha: 52c246d3b929d08a4ca58b8feed423cabb385062
-commit_message: "fix: lint"
+last_published: "2023-02-17 16:17:13 +0000"
+commit_sha: 116411847d51a97c420d66296edbc509511dc879
+commit_message: "fix lint again"
 branch_name: update/36248-shipping-plugins-based-on-location
 ---
