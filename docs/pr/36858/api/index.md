@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36858/api/i
 pr_number: 36858
 pr_title_encoded: "Add+additional+global+attributes+and+local+attributes+information+when+saving+product+attributes"
 pr_test_type: api
-last_published: "2023-02-16 20:28:18 +0000"
-commit_sha: 8169ef17c7e5056e682062aed1f4b74e87cc9287
-commit_message: "Add additional global attributes and local attributes information whe…"
+last_published: "2023-02-17 20:53:10 +0000"
+commit_sha: 6c0603e99980633ff87c58505b163b6f79322773
+commit_message: "Save name and slug for global attributes and global terms"
 branch_name: add/more-attributes-tracks
 ---
