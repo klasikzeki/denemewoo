@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36852/api/i
 pr_number: 36852
 pr_title_encoded: "Update+WooCommerce+blocks+package+to+9.6.1"
 pr_test_type: api
-last_published: "2023-02-17 15:39:57 +0000"
-commit_sha: 1e1111f32938d207369f966bb318506e84e32453
-commit_message: "Run "pnpm --filter=woocommerce changelog add""
+last_published: "2023-02-17 16:08:50 +0000"
+commit_sha: e434d021f1f8d9e5338f248fdf3835988f618486
+commit_message: "Revert the .gitignore change"
 branch_name: update/woocommerce-blocks-9.6.0
 ---
