@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36883/api/i
 pr_number: 36883
 pr_title_encoded: "Remove+redundant+code+from+Report+classes"
 pr_test_type: api
-last_published: "2023-02-18 18:14:52 +0000"
-commit_sha: c161de857bf78abb80a1fc5037e324e81c3388f9
-commit_message: "Reuse parent `register_routes` method in `PerformanceIndicators\Contr…"
+last_published: "2023-02-18 18:35:18 +0000"
+commit_sha: 26e7588d7d11b6ed6afba3ac89eab2012de02b63
+commit_message: "Add changelog entry"
 branch_name: dev/clean-analytics-classes
 ---
