@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36894/e2e/i
 pr_number: 36894
 pr_title_encoded: "Product+editor%3A+disable+the+feature+in+advanced+Settings."
 pr_test_type: e2e
-last_published: "2023-02-20 20:42:18 +0000"
-commit_sha: b4a2e2e33f0bd5388f518b57aa4545a63994bf7a
-commit_message: "Remove commented lines, obsolete brackets. Fix conflicts."
+last_published: "2023-02-20 21:01:44 +0000"
+commit_sha: 0ae66ca7f2c07b3109ff19e1d969060c6b474e80
+commit_message: "Styling."
 branch_name: update/hide-new-editor
 ---
