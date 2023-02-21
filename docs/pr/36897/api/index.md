@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36897/api/i
 pr_number: 36897
 pr_title_encoded: "Assign+milestone+only+if+a+PR+touches+WooCommerce+Core"
 pr_test_type: api
-last_published: "2023-02-20 22:04:39 +0000"
-commit_sha: c36f2513b36d144bd23eba1f2f2d0573d639e90a
-commit_message: "add woocommerce-admin to list of paths"
+last_published: "2023-02-21 09:41:34 +0000"
+commit_sha: a3de7cfe0168816b5defb257cfa0f03c057c9c93
+commit_message: "Merge branch 'trunk' into dev/milestone-ignore-some-paths"
 branch_name: dev/milestone-ignore-some-paths
 ---
