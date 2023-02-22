@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36598/api/i
 pr_number: 36598
 pr_title_encoded: "Enable+%22Smoke+test+release%22+workflow"
 pr_test_type: api
-last_published: "2023-02-15 09:27:50 +0000"
-commit_sha: bf4fa5afe902d9974b7a3b3a60f17a5ab02feafe
+last_published: "2023-02-22 11:06:26 +0000"
+commit_sha: 5f70773d9ff16fa5d96283a02fb31a9f91c69b85
 commit_message: ""
 branch_name: e2e/playwright-release
 ---
