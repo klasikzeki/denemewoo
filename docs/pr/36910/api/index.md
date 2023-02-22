@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36910/api/i
 pr_number: 36910
 pr_title_encoded: "Fix+API+unit+test+for+HPOS+compat"
 pr_test_type: api
-last_published: "2023-02-22 12:36:22 +0000"
-commit_sha: 61b6daae27c6c09098c23a3540e78b3a7a41201f
-commit_message: "Use correct column name for date_updated."
+last_published: "2023-02-22 14:06:21 +0000"
+commit_sha: 6d162a99500b08275f28832a68c6a2013614c0a0
+commit_message: "Undo regression in previous commit."
 branch_name: fix/36679
 ---
