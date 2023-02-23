@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36735/e2e/i
 pr_number: 36735
 pr_title_encoded: "Add+Campaigns+card+in+Multichannel+Marketing+page"
 pr_test_type: e2e
-last_published: "2023-02-02 17:23:30 +0000"
-commit_sha: c9214abe1f53d4cd9ba14b5eaf5dc9be93f0d8de
-commit_message: "Merge branch 'feature/34906-marketing-channels-card' into feature/349…"
+last_published: "2023-02-23 18:43:25 +0000"
+commit_sha: 61aa3cd135b8fcdc0246874a4499de01f09c2617
+commit_message: "Add changelog."
 branch_name: feature/34905-marketing-campaigns-card
 ---
