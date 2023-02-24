@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36944/api/i
 pr_number: 36944
 pr_title_encoded: "Add+existing+global+attribute+layout"
 pr_test_type: api
-last_published: "2023-02-24 15:29:29 +0000"
-commit_sha: 3f4b12036f0f42a08142c8f39d206b7d3cc4e65b
-commit_message: "Remove commented code"
+last_published: "2023-02-24 17:26:02 +0000"
+commit_sha: b7797ede02f44c05ed532248ff26c8083dcdfdfa
+commit_message: "Change changelog"
 branch_name: add/36661_existing_attribute_layout
 ---
