@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36946/api/i
 pr_number: 36946
 pr_title_encoded: "Fix+test+in+Admin+reports+for+HPOS+compat"
 pr_test_type: api
-last_published: "2023-02-24 08:18:01 +0000"
-commit_sha: a3c646fe552cf9e6df8ef8816d2364ec69e0ff76
-commit_message: "Apply coding standards."
+last_published: "2023-02-24 08:59:24 +0000"
+commit_sha: 2362d7785a1a5c7add8cc31649b18a256096a930
+commit_message: "Add HPOS support to admin orders API."
 branch_name: fix/36678
 ---
