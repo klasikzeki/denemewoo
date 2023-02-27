@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36918/e2e/i
 pr_number: 36918
 pr_title_encoded: "Add+workflow+to+remind+PR+reviewers+to+also+review+the+testing+instructions."
 pr_test_type: e2e
-last_published: "2023-02-22 16:29:16 +0000"
-commit_sha: cba5b207f41d999ae7ad685085b07f63c2d3d9b2
-commit_message: "Update review-testing-instructions GitHub Actions workflow to also me…"
+last_published: "2023-02-27 15:58:05 +0000"
+commit_sha: 3912fa8f5d5b1d38fbddad60837f04dc2422332d
+commit_message: "Update review-testing-instructions GitHub Actions workflow to find if…"
 branch_name: add/review-testing-instructions-workflow
 ---
