@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36907/api/i
 pr_number: 36907
 pr_title_encoded: "Add+HPOS+compat+to+meta+and+CRUD+unit+tests."
 pr_test_type: api
-last_published: "2023-02-21 10:42:21 +0000"
-commit_sha: a76a4154876085f06e1d4ccf1c9b8b64ebf70f63
-commit_message: "Add HPOS compat for crud unit tests."
+last_published: "2023-02-27 12:21:54 +0000"
+commit_sha: f5ac18f11c70cb34a853dd6cbe0878ba178efd79
+commit_message: "Add changelog."
 branch_name: fix/36682
 ---
