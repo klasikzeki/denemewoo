@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36843/api/i
 pr_number: 36843
 pr_title_encoded: "Fix+HPOS+unit+tests+for+WC+Order+unit+test+classes"
 pr_test_type: api
-last_published: "2023-02-27 08:15:21 +0000"
-commit_sha: cf46233b350c7f40d339dcac9391fbf39bc313b7
-commit_message: "Merge branch 'fix/36686' into fix/36685"
+last_published: "2023-02-27 08:44:14 +0000"
+commit_sha: 8da07f73e71194aedbfc4474a882e3d436a4bc83
+commit_message: "Fetch order first to refresh cache before returning prop."
 branch_name: fix/36685
 ---
