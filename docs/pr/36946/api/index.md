@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36946/api/i
 pr_number: 36946
 pr_title_encoded: "Fix+test+in+Admin+reports+for+HPOS+compat"
 pr_test_type: api
-last_published: "2023-02-24 09:31:32 +0000"
-commit_sha: 2d3f38851c29784dcd850160f95a5b55029014bb
-commit_message: "Set correct datastore for tests."
+last_published: "2023-02-27 14:08:16 +0000"
+commit_sha: 33d41206fcbe7fc43c7c3779b88a4a4627162edf
+commit_message: "Add changelog."
 branch_name: fix/36678
 ---
