@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36435/api/i
 pr_number: 36435
 pr_title_encoded: "Add+selection+to+the+tree+control"
 pr_test_type: api
-last_published: "2023-02-27 19:14:58 +0000"
-commit_sha: 5795e0b39af0f90e5578cf001c454956eb4bcbd7
+last_published: "2023-02-27 21:11:16 +0000"
+commit_sha: 17b014c7c689096dbe5e6958f386a7cd5ff686d0
 commit_message: "Fix unit test errors due to a new version of @wordpress/compose relat…"
 branch_name: add/35851-tree-control-selection
 ---
