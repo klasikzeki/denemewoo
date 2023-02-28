@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36945/api/i
 pr_number: 36945
 pr_title_encoded: "Migrating+details+fields+to+product-editor+package"
 pr_test_type: api
-last_published: "2023-02-28 22:54:55 +0000"
-commit_sha: 29b2bbfcf35f53a65027b54c0f1b78030aefbb46
-commit_message: ""
+last_published: "2023-02-28 23:11:16 +0000"
+commit_sha: d3e892de4c3cdd6f3da7d9f517dda6a2164ff36b
+commit_message: "Updating lock file and import"
 branch_name: update/36395-move-product-fields
 ---
