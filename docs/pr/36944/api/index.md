@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36944/api/i
 pr_number: 36944
 pr_title_encoded: "Add+existing+global+attribute+layout"
 pr_test_type: api
-last_published: "2023-02-28 22:08:15 +0000"
-commit_sha: 552e120e53b6a4e554b4160014742a125f239031
-commit_message: "Fix div visibility"
+last_published: "2023-03-01 13:09:17 +0000"
+commit_sha: 7d4a250a817cb74f59c0bdcb3423b66517bd306f
+commit_message: "Fix buttons visibility"
 branch_name: add/36661_existing_attribute_layout
 ---
