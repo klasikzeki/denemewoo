@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37034/api/i
 pr_number: 37034
 pr_title_encoded: "%5BWIP%5D+Use+syncpack+to+pin+%40wordpress+packages+to+wp-6.0+"
 pr_test_type: api
-last_published: "2023-03-06 02:04:14 +0000"
-commit_sha: 977e9af48ea928e659faab2ccc1957affa2b1a9f
-commit_message: "Try bump the wordpress components types package"
+last_published: "2023-03-06 02:15:26 +0000"
+commit_sha: fe08cf6511040590335d42d223c35a7de57aecc1
+commit_message: "Try debugging some other deps."
 branch_name: dev/pin-wp-deps-6
 ---
