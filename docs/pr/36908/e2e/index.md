@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36908/e2e/i
 pr_number: 36908
 pr_title_encoded: "Skip+unsupported+tests+with+HPOS."
 pr_test_type: e2e
-last_published: "2023-03-01 12:43:51 +0000"
-commit_sha: 185b8ae252344f52eefec104dbcfa2b274f02c2b
-commit_message: "Use common method to mark HPOS tests as skipped."
+last_published: "2023-03-06 12:19:10 +0000"
+commit_sha: 77f7cf987999bf08af4b9287cd933a608827f040
+commit_message: "Update PayPal tests for HPOS compat. (#36909)"
 branch_name: fix/36681
 ---
