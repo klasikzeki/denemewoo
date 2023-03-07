@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37034/e2e/index.html
 pr_number: 37034
-pr_title_encoded: "%5BWIP%5D+Use+syncpack+to+pin+%40wordpress+packages+to+wp-6.0+"
+pr_title_encoded: "Update+Syncpack+and+use+it+to+pin+%40wordpress+packages+to+wp-6.0+"
 pr_test_type: e2e
-last_published: "2023-03-07 18:56:01 +0000"
-commit_sha: c78fa49b7626e64924887f54dec65f6dbe5cbee7
-commit_message: "Remove erroneous flag in eslint"
+last_published: "2023-03-07 22:34:09 +0000"
+commit_sha: a77e07cd574bc3445698719c94a3b238150e0894
+commit_message: "Syncpack version in actions should match the one used in package json."
 branch_name: dev/pin-wp-deps-6
 ---
