@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37044/api/i
 pr_number: 37044
 pr_title_encoded: "Add+%22Create+a+new+campaign%22+modal"
 pr_test_type: api
-last_published: "2023-03-02 19:54:28 +0000"
-commit_sha: 15c57bf712c5e7040a11a70bde8b0a51eddd1663
-commit_message: "Fix and add tests for Campaigns card."
+last_published: "2023-03-07 19:22:04 +0000"
+commit_sha: 97ed1d2a7d25a6511535e60edfb8edc26b066cc2
+commit_message: "Fix array length rendering literal 0 in CreateNewCampaignModal."
 branch_name: feature/34909-marketing-create-campaign-modal
 ---
