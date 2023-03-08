@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37126/api/i
 pr_number: 37126
 pr_title_encoded: "Exclude+marketing+channels+in+%22Installed+extensions%22+and+%22Discover+more+marketing+tools%22+cards"
 pr_test_type: api
-last_published: "2023-03-08 16:46:11 +0000"
-commit_sha: 8c85b21116a0a1082cac996714945e0e425900bf
-commit_message: "Add changelog."
+last_published: "2023-03-08 18:05:53 +0000"
+commit_sha: 2f297d3a06d2698f95324e6e4bffa044776a065e
+commit_message: "Merge branch 'feature/34904-marketing-introduction-banner' into featu…"
 branch_name: feature/34907-marketing-exclude-channels
 ---
