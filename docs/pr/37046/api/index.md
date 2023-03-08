@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37046/api/i
 pr_number: 37046
 pr_title_encoded: "Add+validation+to+enable+Save+attributes+and+Save+variations+buttons"
 pr_test_type: api
-last_published: "2023-03-06 15:56:11 +0000"
-commit_sha: 42f1390189949b5c75953fd4b969074ed33b178c
-commit_message: "Fix e2e tests"
+last_published: "2023-03-08 15:29:28 +0000"
+commit_sha: 47e48310df301e4958e52a0016211b873721a8ff
+commit_message: "Use maybe_disable_save_button"
 branch_name: fix/37021_add_validation_when_saving_attributes
 ---
