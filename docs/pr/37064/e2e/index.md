@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37064/e2e/i
 pr_number: 37064
 pr_title_encoded: "Populating+product+data+with+entity+draft+object+instead+of+dummy"
 pr_test_type: e2e
-last_published: "2023-03-04 00:54:36 +0000"
-commit_sha: 1b00b627396317bb60cee934d570fbd96cc9e900
-commit_message: "Adding support for editing existing products."
+last_published: "2023-03-08 02:12:00 +0000"
+commit_sha: 2bf00095d4971951491afa248fe47be87b6a18b5
+commit_message: "Changing auto draft name to match other auto drafts"
 branch_name: add/initial-product-draft-37003
 ---
