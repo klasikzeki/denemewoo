@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36832/e2e/i
 pr_number: 36832
 pr_title_encoded: "Validate+orders+separately+since+it+not+always+a+CPT."
 pr_test_type: e2e
-last_published: "2023-03-08 17:39:21 +0000"
-commit_sha: 5edf768c20214515359879b1a0172a1086157af7
-commit_message: ""
+last_published: "2023-03-08 18:05:42 +0000"
+commit_sha: 5d07d29366bbb21458bdc154fda7ec125cd5fe18
+commit_message: "Fix HPOS unit tests for WC Order unit test classes (#37130)"
 branch_name: fix/36686
 ---
