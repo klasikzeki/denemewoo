@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37140/e2e/i
 pr_number: 37140
 pr_title_encoded: "Show+link+to+store+settings+when+stock+management+is+disabled"
 pr_test_type: e2e
-last_published: "2023-03-09 14:53:17 +0000"
-commit_sha: 6543365baecc3e1ed53f66d506ea34e95711da2c
-commit_message: "Fix code format issue with concat operator."
+last_published: "2023-03-09 23:18:32 +0000"
+commit_sha: 7abc519ea6e8876d6fe57b94b788e5f05ae02ccf
+commit_message: "Refactor to create woocommerce_wp_note function"
 branch_name: update/manage-stock-disabled
 ---
