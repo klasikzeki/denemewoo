@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37112/e2e/i
 pr_number: 37112
 pr_title_encoded: "Add+components+to+%40woocommerce%2Fcustomer-effort-score"
 pr_test_type: e2e
-last_published: "2023-03-07 22:24:39 +0000"
-commit_sha: 466f4ece2e89a66ae25146d4364cf69c980a2899
-commit_message: "Fix up imports from @woocommerce/customer-effort-score"
+last_published: "2023-03-10 16:48:28 +0000"
+commit_sha: f061f48215ffb2d3f55d6bc2701a666a960e7082
+commit_message: "Changelog"
 branch_name: update/move-ces-to-package
 ---
