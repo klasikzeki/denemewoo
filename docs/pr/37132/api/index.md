@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37132/api/i
 pr_number: 37132
 pr_title_encoded: "Adding+test+name+block+with+support+for+entity+data+store"
 pr_test_type: api
-last_published: "2023-03-11 01:49:30 +0000"
-commit_sha: d284e9b82c4ab915a3eb680a8d1efee2bad85486
-commit_message: "Experiment in loading blocks from settings template"
+last_published: "2023-03-13 12:52:47 +0000"
+commit_sha: 62a689115ad04c63f5707a1ae17954c1eea3aece
+commit_message: "Add changelog"
 branch_name: add/name-block-37007
 ---
