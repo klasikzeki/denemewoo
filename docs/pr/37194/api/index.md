@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37194/api/i
 pr_number: 37194
 pr_title_encoded: "%5BWIP%5D%3A+Migrate+category+field+to+Tree+control"
 pr_test_type: api
-last_published: "2023-03-13 18:38:17 +0000"
-commit_sha: 3408818f6799adf35588c33f077fcc351e4c8d83
-commit_message: "Try to make TreeControl work with downshift's props"
+last_published: "2023-03-14 18:06:13 +0000"
+commit_sha: 633a86948170d67e8de21b130f7c2639f5ec2572
+commit_message: "Add more functionality to SelectTree"
 branch_name: update/category-field2
 ---
