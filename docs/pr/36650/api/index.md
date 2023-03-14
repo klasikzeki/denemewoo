@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36650/api/i
 pr_number: 36650
 pr_title_encoded: "Run+all+unit+tests+in+HPOS+context"
 pr_test_type: api
-last_published: "2023-03-13 11:32:08 +0000"
-commit_sha: 5e636046dd6319d1ccafcc48e9b488e4fb479636
-commit_message: "Also delete when order type is placehoder, since it was created by HPOS."
+last_published: "2023-03-14 18:02:27 +0000"
+commit_sha: 112d4585c7c145c3409ad298e08a7f72776c2132
+commit_message: "Restore the sort order when orders are cached. (#37192)"
 branch_name: hpos/unit-tests
 ---
