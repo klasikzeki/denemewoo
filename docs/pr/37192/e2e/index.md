@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37192/e2e/i
 pr_number: 37192
 pr_title_encoded: "Restore+the+sort+order+when+orders+are+cached."
 pr_test_type: e2e
-last_published: "2023-03-13 16:50:49 +0000"
-commit_sha: 09581201f2f1035a9d33ca255cfc0060c191b651
-commit_message: "Add changelog."
+last_published: "2023-03-14 12:29:49 +0000"
+commit_sha: 52890fccab8fa1f0e3539d25158073b64e3b75aa
+commit_message: "Fix typo."
 branch_name: fix/order-caching
 ---
