@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37211/e2e/i
 pr_number: 37211
 pr_title_encoded: "Add+product+pricing+block"
 pr_test_type: e2e
-last_published: "2023-03-14 14:21:43 +0000"
-commit_sha: 1698cfe647dcd1f5536119d99bb9f1b2b7dce041
-commit_message: "Fix lint issues"
+last_published: "2023-03-15 13:02:18 +0000"
+commit_sha: b4a5b66b7ff275f13f1d1ce40ace83b199ff7ef1
+commit_message: "Fix type error"
 branch_name: add/37098_add_product_list_price_block
 ---
