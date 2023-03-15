@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37233/e2e/i
 pr_number: 37233
 pr_title_encoded: "Update+default+payment+gateways+for+payment+partners"
 pr_test_type: e2e
-last_published: "2023-03-15 09:37:41 +0000"
-commit_sha: 70da0e87c2d4f3970400dd53b9d888135eb82431
-commit_message: "Add changelog"
+last_published: "2023-03-15 10:27:41 +0000"
+commit_sha: e957fef961d2517e9ad0eb3aa26da0b55ea48c8c
+commit_message: "Move cod"
 branch_name: update/payment-gateways
 ---
