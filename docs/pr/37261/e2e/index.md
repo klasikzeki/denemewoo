@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37261/e2e/i
 pr_number: 37261
 pr_title_encoded: "Add+tracks+for+plugin+installation+and+activation"
 pr_test_type: e2e
-last_published: "2023-03-16 11:48:06 +0000"
-commit_sha: f26035dcdc2d0a54a4b7ad5bd9dbd33132658eb3
-commit_message: "Add doc"
+last_published: "2023-03-16 12:09:29 +0000"
+commit_sha: 72925623ce5fe73ded2c1f59909f13458dcf42ae
+commit_message: "Update doc"
 branch_name: add/track-event-for-plugins-actions
 ---
