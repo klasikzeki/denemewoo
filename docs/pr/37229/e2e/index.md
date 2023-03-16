@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37229/e2e/i
 pr_number: 37229
 pr_title_encoded: "Visual+tweaks+for+shipping+task+partners"
 pr_test_type: e2e
-last_published: "2023-03-16 00:51:07 +0000"
-commit_sha: 981f8679a375c6fe7fd0710665296c039f5ee1cb
-commit_message: "Align buttons at the bottom"
+last_published: "2023-03-16 01:13:22 +0000"
+commit_sha: f484ceb64d132daa46688d017817d0b267575c4e
+commit_message: "Lint fix"
 branch_name: update/36977-visual-tweaks-for-shipping-task-partners
 ---
