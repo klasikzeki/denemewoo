@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37229/e2e/i
 pr_number: 37229
 pr_title_encoded: "Visual+tweaks+for+shipping+task+partners"
 pr_test_type: e2e
-last_published: "2023-03-15 01:56:25 +0000"
-commit_sha: 662688776d5ddaddbecd84643c53f71bde59da31
-commit_message: "Add changelog"
+last_published: "2023-03-16 00:29:04 +0000"
+commit_sha: 459e4c88e1a7a2e74fb6bd5feae21f8e8028f118
+commit_message: "  Add spacing between banner image and list"
 branch_name: update/36977-visual-tweaks-for-shipping-task-partners
 ---
