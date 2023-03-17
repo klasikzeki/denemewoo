@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37285/api/i
 pr_number: 37285
 pr_title_encoded: "Remove+cart2cart+option+from+product+task"
 pr_test_type: api
-last_published: "2023-03-17 07:24:08 +0000"
-commit_sha: 0c4b329303edcf0d8edff70445209cf0c02d8874
-commit_message: "Fix unit test"
+last_published: "2023-03-17 07:54:09 +0000"
+commit_sha: 59dbda6c685797f306a052838d0a11b554d79315
+commit_message: "Fix lint"
 branch_name: update/remove-cart2cart
 ---
