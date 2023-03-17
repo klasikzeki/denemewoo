@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37282/e2e/i
 pr_number: 37282
 pr_title_encoded: "Convert+%22Allow+backorders%3F%22+into+radio+buttons"
 pr_test_type: e2e
-last_published: "2023-03-16 22:52:31 +0000"
-commit_sha: 8645cb155e86676304b5e2deabcfb3eda8985dc4
-commit_message: "Add changelog"
+last_published: "2023-03-17 18:38:05 +0000"
+commit_sha: be2fcbca025e54075c2a8f461ec1b00509330e5f
+commit_message: "Rename hook"
 branch_name: dev/37118_convert_allow_backorders_into_radio_buttons
 ---
