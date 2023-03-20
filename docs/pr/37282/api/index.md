@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37282/api/i
 pr_number: 37282
 pr_title_encoded: "Convert+%22Allow+backorders%3F%22+into+radio+buttons"
 pr_test_type: api
-last_published: "2023-03-17 19:01:21 +0000"
-commit_sha: 4e2c8e50edb3e53b7b4d3eab5596e31f48ee9b3f
+last_published: "2023-03-20 14:23:37 +0000"
+commit_sha: 138e36a7a7b1440a331e8545a287776eba25cd04
 commit_message: "Fix lint"
 branch_name: dev/37118_convert_allow_backorders_into_radio_buttons
 ---
