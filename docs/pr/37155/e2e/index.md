@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37155/e2e/i
 pr_number: 37155
 pr_title_encoded: "Add+shipping+partner+suggestions+api"
 pr_test_type: e2e
-last_published: "2023-03-16 01:03:34 +0000"
-commit_sha: 88bf0713fd7c2a054592f1d02292204aa5384c7d
-commit_message: "Override is_visible value after evaluation"
+last_published: "2023-03-20 04:37:27 +0000"
+commit_sha: 3d43434896388a7046cf67a1a541957b0c8dd365
+commit_message: "Lint fix"
 branch_name: add/36281-shipping-partners-suggestion-api
 ---
