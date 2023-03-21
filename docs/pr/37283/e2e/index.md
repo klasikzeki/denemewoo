@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37283/e2e/i
 pr_number: 37283
 pr_title_encoded: "Replacing+multiple+components+on+the+product+page+with+a+single+hook."
 pr_test_type: e2e
-last_published: "2023-03-21 11:40:43 +0000"
-commit_sha: 2700c03861be56576a1691856eb9465d5cab7d10
-commit_message: "Removed the conditional hook logic, because of React rule - Don’t cal…"
+last_published: "2023-03-21 16:01:30 +0000"
+commit_sha: 0cf1fb692f2c574db365a2f3086accfeff5d66ef
+commit_message: "Add changelog"
 branch_name: update/product-page-add-hook-37281
 ---
