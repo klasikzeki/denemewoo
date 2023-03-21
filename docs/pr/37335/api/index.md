@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37335/api/i
 pr_number: 37335
 pr_title_encoded: "e2e%3A+Improve+test+reliability+for+variable+products+tests"
 pr_test_type: api
-last_published: "2023-03-21 14:27:35 +0000"
-commit_sha: 8c39a05fd10df8c76d7974caeaf93a6e6420ba3f
-commit_message: "Changelog"
+last_published: "2023-03-21 16:35:21 +0000"
+commit_sha: 421b2f9aa0fad2a589a63620f8f129f9a9eaef9e
+commit_message: "Improve waiting for Analytics overview settings to be saved"
 branch_name: try/remove-e2e-waits
 ---
