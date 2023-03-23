@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37319/api/i
 pr_number: 37319
 pr_title_encoded: "Create+experimental+SelectTree+component"
 pr_test_type: api
-last_published: "2023-03-21 16:22:39 +0000"
-commit_sha: 5559ee79c0777f9dd105cf4ab6fa514b34e3a6c1
-commit_message: "Fix CSS import path"
+last_published: "2023-03-23 17:46:32 +0000"
+commit_sha: 2eeafc557157f307004c0143a70ddefe9a2774b8
+commit_message: "Change interface"
 branch_name: add/tree-select
 ---
