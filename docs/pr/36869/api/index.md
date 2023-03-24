@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36869/api/i
 pr_number: 36869
 pr_title_encoded: "Update%2F34885+category+field+in+product+editor"
 pr_test_type: api
-last_published: "2023-03-24 16:02:58 +0000"
-commit_sha: 01f87ffde8e25abf18e0c63cdfc0830ff9218e5f
-commit_message: "Fix lint error"
+last_published: "2023-03-24 16:39:21 +0000"
+commit_sha: 28828b4e6e802187b3e5babe10fa2bbdb20b7e9d
+commit_message: "Fix lint errors"
 branch_name: update/34885_category_field_in_product_editor
 ---
