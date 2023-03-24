@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37340/e2e/i
 pr_number: 37340
 pr_title_encoded: "Add+icon+support+to+product+section+block"
 pr_test_type: e2e
-last_published: "2023-03-21 19:53:41 +0000"
-commit_sha: 16811854265a6db1ce2378739ee6ad999d8f7395
-commit_message: "Fix rebase conflicts"
+last_published: "2023-03-24 13:46:37 +0000"
+commit_sha: e4a955055aa85a83ca9af8bb8085a395509a01a6
+commit_message: "Add changelog file"
 branch_name: add/37264
 ---
