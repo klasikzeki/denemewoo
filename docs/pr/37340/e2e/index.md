@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37340/e2e/i
 pr_number: 37340
 pr_title_encoded: "Add+icon+support+to+product+section+block"
 pr_test_type: e2e
-last_published: "2023-03-27 15:00:43 +0000"
+last_published: "2023-03-27 15:28:50 +0000"
 commit_sha: 1c4035686940d8263edb5e86f3322beec5fcd746
-commit_message: "Return null instead of a Fragment"
+commit_message: ""
 branch_name: add/37264
 ---
