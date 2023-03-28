@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37382/e2e/i
 pr_number: 37382
 pr_title_encoded: "Content+lock+all+blocks+in+the+product+editor"
 pr_test_type: e2e
-last_published: "2023-03-28 08:17:45 +0000"
+last_published: "2023-03-28 17:42:05 +0000"
 commit_sha: ce3c8ee53bfac6f5b03d80ace10adae898bae4ce
 commit_message: "Remove unused BlockControls"
 branch_name: fix/37209
