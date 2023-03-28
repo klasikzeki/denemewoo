@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37131/api/i
 pr_number: 37131
 pr_title_encoded: "Move+product-editor+CES-related+components+and+utilities"
 pr_test_type: api
-last_published: "2023-03-24 21:08:20 +0000"
-commit_sha: 573278677bc1f80245dfedfba91155576f85f244
+last_published: "2023-03-28 15:06:34 +0000"
+commit_sha: 4a5a6d739ffb2f59560b522d6d2304959ec16cc5
 commit_message: "FIx mock of __experimentalUseProductMVPCESFooter in test"
 branch_name: update/move-ces-to-product-editor
 ---
