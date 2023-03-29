@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37461/api/i
 pr_number: 37461
 pr_title_encoded: "Move+the+Save+draft+and+Preview+buttons+to+the+product+editor+header"
 pr_test_type: api
-last_published: "2023-03-28 19:14:06 +0000"
-commit_sha: 1446996bfef98263f2db51a6e2cd40a253be4ff8
-commit_message: "Add save draft button"
+last_published: "2023-03-29 18:47:39 +0000"
+commit_sha: b2e7e55d7e65f1b5c58249f45d32bf3fdb0fa9ed
+commit_message: "Fix some comment typos"
 branch_name: add/37249
 ---
