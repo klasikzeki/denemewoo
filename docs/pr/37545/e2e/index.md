@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37545/e2e/i
 pr_number: 37545
 pr_title_encoded: "Add+sort+order+for+migration+script."
 pr_test_type: e2e
-last_published: "2023-03-31 16:25:45 +0000"
-commit_sha: d1d67c675854f284602e1f6973ce9f9fbef2ac05
-commit_message: "Add changelog."
+last_published: "2023-04-03 09:48:05 +0000"
+commit_sha: ab371b8703dbe7ef869cb2b5667d209fdd635e85
+commit_message: "Add unit test."
 branch_name: hpos/add_sort
 ---
