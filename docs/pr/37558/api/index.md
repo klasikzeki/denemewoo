@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37558/api/i
 pr_number: 37558
 pr_title_encoded: "Change+variations+dropdown+visibility"
 pr_test_type: api
-last_published: "2023-04-03 18:03:48 +0000"
-commit_sha: 8203b88d81849def9e621d5ba2872b6315b06db9
-commit_message: "Fix e2e tests"
+last_published: "2023-04-04 19:07:04 +0000"
+commit_sha: 97e80125a88e0e990898b014eb0f1dbd12377acc
+commit_message: "Fix styles"
 branch_name: add/37148_change_variations_dropdown_visibility
 ---
