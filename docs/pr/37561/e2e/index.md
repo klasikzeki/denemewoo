@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37561/e2e/i
 pr_number: 37561
 pr_title_encoded: "Monorepo+CLI+tooling%3A+Set+folder+organisation"
 pr_test_type: e2e
-last_published: "2023-04-04 22:28:19 +0000"
-commit_sha: 4f4b36ccdca164d3040c6ddeedbc8c9f40428a3a
-commit_message: "build after install"
+last_published: "2023-04-04 23:26:28 +0000"
+commit_sha: 1cef27de1de4c6b8bf38b20bbb384b456aa3e229
+commit_message: "cleanup dependencies"
 branch_name: add/actions-tooling-cli
 ---
