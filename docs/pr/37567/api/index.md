@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37567/api/i
 pr_number: 37567
 pr_title_encoded: "Create+schedule+sale+pricing+block"
 pr_test_type: api
-last_published: "2023-04-05 14:44:24 +0000"
-commit_sha: ffe64739b7e1aafcedd477eb7d7fbeefaae05999
-commit_message: "Fix some words typos"
+last_published: "2023-04-05 15:14:49 +0000"
+commit_sha: fbaf580d2b704c9ae8b5e5b3ae096ce60fba6731
+commit_message: "Move and rename schedule sale block to the blocks folder"
 branch_name: add/37394
 ---
