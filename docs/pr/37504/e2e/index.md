@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37504/e2e/i
 pr_number: 37504
 pr_title_encoded: "Update+Playwright+to+1.32.1"
 pr_test_type: e2e
-last_published: "2023-04-06 22:06:51 +0000"
+last_published: "2023-04-06 23:06:33 +0000"
 commit_sha: f7620bbf5adffbabba8278a573cc82b65ce40080
 commit_message: "Fix for failing variations test"
 branch_name: e2e/playwright-1_32_1
