@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37567/e2e/i
 pr_number: 37567
 pr_title_encoded: "Create+schedule+sale+pricing+block"
 pr_test_type: e2e
-last_published: "2023-04-05 18:28:55 +0000"
-commit_sha: 5a48aade208a6b71d98226b2aab714b7e7829347
+last_published: "2023-04-10 19:06:27 +0000"
+commit_sha: afb83da01ebc83eec202192840ba99103e51d274
 commit_message: "Make sure the dates are normalized for comparison"
 branch_name: add/37394
 ---
