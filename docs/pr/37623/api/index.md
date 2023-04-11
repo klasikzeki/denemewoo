@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37623/api/i
 pr_number: 37623
 pr_title_encoded: "Add+inventory+section+and+SKU+blocks"
 pr_test_type: api
-last_published: "2023-04-11 20:19:27 +0000"
-commit_sha: feed4fc1b13b57e2d43808c03b3315a06de894d7
-commit_message: "Adding changelog"
+last_published: "2023-04-11 20:42:46 +0000"
+commit_sha: 22ecd9f9a599d7405e70741f3ac5f9c7327c20e6
+commit_message: "Adding back track inventory fields block"
 branch_name: add/inventory-sku-block-37399
 ---
