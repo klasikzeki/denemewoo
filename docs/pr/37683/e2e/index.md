@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37683/e2e/i
 pr_number: 37683
 pr_title_encoded: "Create+product+shipping+dimensions+block"
 pr_test_type: e2e
-last_published: "2023-04-12 18:21:34 +0000"
-commit_sha: 7fe040b838bb6e90a4ac1e86ee59ddf608aeeb01
-commit_message: "Fix php linter error"
+last_published: "2023-04-12 19:52:23 +0000"
+commit_sha: c74cef75de43fdb04a4b75bccc53e22d6cea08cc
+commit_message: "Change unused attr name to __contentEditable to better indicate the p…"
 branch_name: add/37408
 ---
