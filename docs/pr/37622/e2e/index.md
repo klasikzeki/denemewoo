@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37622/e2e/i
 pr_number: 37622
 pr_title_encoded: "Add+tracks+events+to+attributes+tab"
 pr_test_type: e2e
-last_published: "2023-04-10 14:58:23 +0000"
-commit_sha: e15ae1cec39b483e52082a8bcc7c739bdfa73a3a
-commit_message: "Record `used for variations` and `visible on product page` events"
+last_published: "2023-04-13 20:43:56 +0000"
+commit_sha: e6e254a4a719ca955241e2b0046ad84d77927fe2
+commit_message: "Fix js error"
 branch_name: add/37163_add_tracks_events_to_attributes_tab
 ---
