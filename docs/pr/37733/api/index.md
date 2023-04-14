@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37733/api/index.html
 pr_number: 37733
-pr_title_encoded: "E2e%2Fsplit+variable+product+test"
+pr_title_encoded: "Split+the+%60can+create+product%2C+attributes+and+variations%2C+edit+variations+and+delete+variations%60+E2E+test+into+smaller+tests"
 pr_test_type: api
-last_published: "2023-04-14 16:06:46 +0000"
-commit_sha: 9cc66e793eafe40a99caab3434d524a5c269add8
-commit_message: "Fix cleaning up of created fixture"
+last_published: "2023-04-14 16:54:27 +0000"
+commit_sha: 136b76834b849db13fba48fb541f490ed3807174
+commit_message: "Trivial correction to test step"
 branch_name: e2e/split-variable-product-test
 ---
