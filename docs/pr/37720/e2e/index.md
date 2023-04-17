@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37720/e2e/i
 pr_number: 37720
 pr_title_encoded: "Refactoring+LayoutContext+and+implementing+with+product+editor"
 pr_test_type: e2e
-last_published: "2023-04-14 20:08:16 +0000"
-commit_sha: 09cdd4a99e92e8c7802264f4880067db91d1baa8
-commit_message: "Adding decendentOf shortcut function"
+last_published: "2023-04-17 18:50:40 +0000"
+commit_sha: 0117781e8a7a3105af73824e2a98ebd2b7ae7063
+commit_message: "Replacing error with warn due to test issues"
 branch_name: update/layout-context-for-blocks
 ---
