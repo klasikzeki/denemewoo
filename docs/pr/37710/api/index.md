@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37710/api/i
 pr_number: 37710
 pr_title_encoded: "Add+close+button+for+store+alerts"
 pr_test_type: api
-last_published: "2023-04-17 16:21:56 +0000"
-commit_sha: dcd30333523188d2c3da17e98a61587536ef804f
-commit_message: "Replace dismiss button with X button"
+last_published: "2023-04-17 17:01:55 +0000"
+commit_sha: c91f9dcac8babea96922d56f341de7b949f32cbd
+commit_message: "Revert unnecessary changes"
 branch_name: fix/undismissable-notice
 ---
