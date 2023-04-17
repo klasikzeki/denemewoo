@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37570/api/i
 pr_number: 37570
 pr_title_encoded: "Add+IframeEditor+component+to+product+editor"
 pr_test_type: api
-last_published: "2023-04-15 00:44:09 +0000"
-commit_sha: 12bf0f40628a21762010522aa732441f682cc145
-commit_message: "Remove unused private apis package"
+last_published: "2023-04-17 17:32:41 +0000"
+commit_sha: 6480e021f1be89ccdb3fe150ef8f4b8df92f9f12
+commit_message: "Pin keycodes version"
 branch_name: add/37266
 ---
