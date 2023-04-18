@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37774/api/index.html
 pr_number: 37774
-pr_title_encoded: "Update+the+cache+action+to+latest+in+the+monorepo+setup+action"
+pr_title_encoded: "%5BWIP%5D+Update+cache+action+and+fix+hashFiles+bug"
 pr_test_type: api
-last_published: "2023-04-18 03:05:40 +0000"
-commit_sha: e7407e6fd3ebab747c9bf2955acd7075675a2025
-commit_message: "Update the cache action to latest in the monorepo setup action."
+last_published: "2023-04-18 03:34:02 +0000"
+commit_sha: 1a2a3ce6617b82977cdc1d18c6717152d7081646
+commit_message: "Adjust the path matching for the hashFiles function."
 branch_name: dev/update-cache-action
 ---
