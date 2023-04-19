@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37804/api/i
 pr_number: 37804
 pr_title_encoded: "Fix+E2E+test"
 pr_test_type: api
-last_published: "2023-04-19 05:31:12 +0000"
-commit_sha: 0ca227280d9d90abe25a4fc0911cdb22967e7b3e
-commit_message: "Updated command"
+last_published: "2023-04-19 13:10:48 +0000"
+commit_sha: 9e5db9bef3b97a6f7686743493c8dd5d4f7f0531
+commit_message: "Stoped escaping on json_encode"
 branch_name: fix/wp-env-unit-tests
 ---
