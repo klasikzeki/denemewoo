@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37731/api/i
 pr_number: 37731
 pr_title_encoded: "Fix+release+post+contributors"
 pr_test_type: api
-last_published: "2023-04-14 15:35:35 +0000"
-commit_sha: 6b8c23655bed1c7d57cdaeb8d09aceb1a2831f95
-commit_message: "remove target="_blank" from generated release post"
+last_published: "2023-04-19 12:30:04 +0000"
+commit_sha: c1495c2885c2c026ec7972fb1153dc7ff9c97da8
+commit_message: "fix release-post contributors command"
 branch_name: dev/fix-release-post-contributors
 ---
