@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37741/e2e/i
 pr_number: 37741
 pr_title_encoded: "Add+navigation+and+progress-bar+components+for+the+new+core+profiler"
 pr_test_type: e2e
-last_published: "2023-04-19 21:45:22 +0000"
-commit_sha: 879e0e6a71362712593aef9ec24a1db2567edf27
-commit_message: "Update plugins/woocommerce-admin/client/core-profiler/components/navi…"
+last_published: "2023-04-19 23:32:08 +0000"
+commit_sha: c7390a3d093e00f11415f10937dfe7302f0c4af5
+commit_message: "Use inherit for display -- initial did not work properly"
 branch_name: update/195-core-profiler-navigation-component
 ---
