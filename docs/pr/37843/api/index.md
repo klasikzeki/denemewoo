@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37843/api/i
 pr_number: 37843
 pr_title_encoded: "Enforce+LF+Line+Endings"
 pr_test_type: api
-last_published: "2023-04-19 14:59:14 +0000"
-commit_sha: fac0fbd5518b50de4fb2ff2fea503c964d062aae
-commit_message: "Changelog"
+last_published: "2023-04-19 15:23:17 +0000"
+commit_sha: 5fbcb7d8e19d56389262ebf6375e4e288fb1d7ec
+commit_message: "Excluded Files From Archive"
 branch_name: fix/line-endings
 ---
