@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37774/e2e/i
 pr_number: 37774
 pr_title_encoded: "Update+cache+action+and+fix+hashFiles+bug"
 pr_test_type: e2e
-last_published: "2023-04-19 05:55:22 +0000"
-commit_sha: 6deef226ab9f8ef3b0e12b1f4414924182ea45a0
-commit_message: "Upgrade turbo to 1.9.3"
+last_published: "2023-04-19 07:31:52 +0000"
+commit_sha: 04f8600a9e085186341b74ae64539509ee76f40e
+commit_message: "Try adjusting the hashFiles calculation."
 branch_name: dev/update-cache-action
 ---
