@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37760/api/i
 pr_number: 37760
 pr_title_encoded: "Add+a11y+support+to+collapsible+content+component"
 pr_test_type: api
-last_published: "2023-04-17 17:18:48 +0000"
-commit_sha: ef6bd6799a183b873202095b2fb302698783a200
-commit_message: "Add changelog file"
+last_published: "2023-04-19 15:51:30 +0000"
+commit_sha: 3f249f52f3271e0b4d362b6788109d2ea92b9249
+commit_message: "Change id pattern to"
 branch_name: add/37330
 ---
