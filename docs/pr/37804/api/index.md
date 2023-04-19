@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37804/api/i
 pr_number: 37804
 pr_title_encoded: "Try+wp+env+unit+tests"
 pr_test_type: api
-last_published: "2023-04-19 02:24:40 +0000"
-commit_sha: 1b15293a1c9a647184c8a5083664c5eab07119ca
-commit_message: "Updated initialization files"
+last_published: "2023-04-19 03:56:19 +0000"
+commit_sha: 9fb40f1a5aee8ea516f45a69d8bc0d65b11e3c64
+commit_message: "Udpated setup script"
 branch_name: fix/wp-env-unit-tests
 ---
