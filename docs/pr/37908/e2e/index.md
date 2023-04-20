@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37908/e2e/i
 pr_number: 37908
 pr_title_encoded: "Rewrite+the+withCurrentUserHydration+hook+to+not+dispatch+inside+useSelect"
 pr_test_type: e2e
-last_published: "2023-04-20 21:10:09 +0000"
-commit_sha: 068ca7445e0d2c4a535c617a407b169761daaac0
-commit_message: "Remove unused import"
+last_published: "2023-04-20 22:43:24 +0000"
+commit_sha: e63402e4ef472a580082b2d2095da0cb29313db1
+commit_message: "Update comment"
 branch_name: fix/with-current-user-hydration
 ---
