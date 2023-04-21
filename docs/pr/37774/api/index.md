@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37774/api/i
 pr_number: 37774
 pr_title_encoded: "Update+cache+action+and+fix+hashFiles+bug"
 pr_test_type: api
-last_published: "2023-04-21 05:25:46 +0000"
-commit_sha: 35a529739d1391ce89e1cd29a2908ef7abb19a4f
-commit_message: "Try set the branch name from a reusable action."
+last_published: "2023-04-21 07:11:48 +0000"
+commit_sha: 469432a1d3fdc6fbea9d1dcef631e9beb1b6ce56
+commit_message: "Add using composite directive to shared action."
 branch_name: dev/update-cache-action
 ---
