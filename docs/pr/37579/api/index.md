@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37579/api/index.html
 pr_number: 37579
-pr_title_encoded: "Fix+TT2+button+styles+and+introduce+missing+button+classes+for+the+order-again+and+orders+pagination+buttons"
+pr_title_encoded: "Fix+TT2+button+styles"
 pr_test_type: api
-last_published: "2023-04-07 11:33:25 +0000"
-commit_sha: 36b6b9ebaf4fd547f66df9744ee016728ebd0569
-commit_message: "Move back the positioning margin rule"
+last_published: "2023-04-21 16:38:09 +0000"
+commit_sha: c32d6cd23a18661d39bdda4826bc8e2821e1c11e
+commit_message: "Revert button element classes"
 branch_name: fix/tt2-buttons
 ---
