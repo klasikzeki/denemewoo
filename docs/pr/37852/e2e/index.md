@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37852/e2e/i
 pr_number: 37852
 pr_title_encoded: "Add+the+product+description+block+and+callbacks+for+the+IframeEditor"
 pr_test_type: e2e
-last_published: "2023-04-19 17:49:36 +0000"
-commit_sha: 009b4b62a9ad41ffca2d0d14f9b33707fd0bfa5f
-commit_message: "Add changelog entry"
+last_published: "2023-04-24 17:21:09 +0000"
+commit_sha: 9166d9056eb57f1150076ebc25b22ef27b5c5483
+commit_message: "Handle PR feedback"
 branch_name: add/37771
 ---
