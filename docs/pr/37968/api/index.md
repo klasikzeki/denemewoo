@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37968/api/i
 pr_number: 37968
 pr_title_encoded: "Working+add+shipping+class+option+and+modal"
 pr_test_type: api
-last_published: "2023-04-25 00:46:44 +0000"
-commit_sha: d43a289ed6081a836c812f0799e24978cf31eb77
-commit_message: "Adding changelogs"
+last_published: "2023-04-25 21:52:26 +0000"
+commit_sha: fff60ec77421ac4dcf1c42725e2783c6a954a9e1
+commit_message: "Updatring pnpm lock file...again"
 branch_name: add/shipping-class-creation-37886
 ---
