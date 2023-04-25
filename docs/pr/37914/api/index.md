@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37914/api/i
 pr_number: 37914
 pr_title_encoded: "Code+Freeze+CLI%3A+Add+branch+command"
 pr_test_type: api
-last_published: "2023-04-21 03:45:27 +0000"
-commit_sha: 11069723186e9240abf7d88f8e59cb62b3c5d414
-commit_message: "missing type"
+last_published: "2023-04-25 22:36:22 +0000"
+commit_sha: b4f48d90a630747f0d8cb34546db5e2dfbacfa1a
+commit_message: "lock file update"
 branch_name: add/code-freeze-branch
 ---
