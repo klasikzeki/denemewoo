@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/36405/e2e/i
 pr_number: 36405
 pr_title_encoded: "Migrate+Ellipsis+Menu+component+to+TS"
 pr_test_type: e2e
-last_published: "2023-04-11 23:04:54 +0000"
-commit_sha: 659ab05e4b747bd9772430ac5564f179d23add56
+last_published: "2023-04-26 21:05:23 +0000"
+commit_sha: 9c5929e581caa8432f82a0a3aeb61feb731357fa
 commit_message: "Remove React.VFC -- it is deprecated in React 18"
 branch_name: dev/migrate-ellipsis-menu-component-to-ts
 ---
