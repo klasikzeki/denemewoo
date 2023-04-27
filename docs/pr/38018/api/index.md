@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38018/api/i
 pr_number: 38018
 pr_title_encoded: "Monorepo+Utils%3A+Migrate+cli-core+"
 pr_test_type: api
-last_published: "2023-04-26 23:33:16 +0000"
-commit_sha: cccaaf75b0b612853c8bf53077a90c4226ff9ad6
-commit_message: "remove cli-core"
+last_published: "2023-04-27 03:11:27 +0000"
+commit_sha: 247b866ceec1503da4c2d8f7d56dbe7b3bb2f458
+commit_message: "tidy"
 branch_name: try/migrate-cli-core
 ---
