@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38019/api/index.html
 pr_number: 38019
-pr_title_encoded: "Add%2Fcore+profiler+business+location"
+pr_title_encoded: "Add+Business+Location+page+to+the+core+profiler"
 pr_test_type: api
-last_published: "2023-04-27 19:49:52 +0000"
-commit_sha: f9d19c9141a526c822e6c532a37e6179c71a4b22
-commit_message: "Remove unwanted changes from rebase"
+last_published: "2023-04-27 20:07:40 +0000"
+commit_sha: 18c16bf716b0ad3784d9fdef0a4e6efecbb273b5
+commit_message: "Redirect to Woo Home on exit"
 branch_name: add/core-profiler-business-location
 ---
