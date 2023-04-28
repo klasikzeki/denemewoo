@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38048/api/i
 pr_number: 38048
 pr_title_encoded: "Reduce+code+duplication+in+Report+Controllers"
 pr_test_type: api
-last_published: "2023-04-28 15:15:25 +0000"
-commit_sha: f5779ba468c17f1553d49dc427e62fb3fc35bbd2
-commit_message: "Add the changelog entry"
+last_published: "2023-04-28 16:13:47 +0000"
+commit_sha: 2654d577c0714110db01a7d457bf63aadff9ff0a
+commit_message: "Fix whitespaces for PHPCS"
 branch_name: dev/dry-reports
 ---
