@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37951/api/i
 pr_number: 37951
 pr_title_encoded: "Add+WC+Tracker+unique+payment+method"
 pr_test_type: api
-last_published: "2023-04-28 06:36:39 +0000"
-commit_sha: 6b7dcc11ac54836e21fa14cbee0b0b7e225db7db
-commit_message: "Refine comments for the logic"
+last_published: "2023-05-01 07:21:05 +0000"
+commit_sha: adff4e4b85ef319441df9fe2f9918c94e8254b20
+commit_message: "Add logic to check if the differing token contains a digit"
 branch_name: add/tracker_unique_payment_method
 ---
