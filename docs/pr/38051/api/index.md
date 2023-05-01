@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38051/api/i
 pr_number: 38051
 pr_title_encoded: "Adding+attributes+block+to+product+block+editor."
 pr_test_type: api
-last_published: "2023-05-01 20:03:45 +0000"
-commit_sha: 9048f92843b922d9741477152645f4dc07118753
-commit_message: "Removing orphaned component"
+last_published: "2023-05-01 22:43:51 +0000"
+commit_sha: 9c4ed6be127b79d3e1ef36186d1d8f1a018be3bd
+commit_message: "Repairing linting issue"
 branch_name: add/block-attributes-37728
 ---
