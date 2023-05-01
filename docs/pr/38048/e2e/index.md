@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38048/e2e/i
 pr_number: 38048
 pr_title_encoded: "Reduce+code+duplication+in+Report+Controllers"
 pr_test_type: e2e
-last_published: "2023-04-28 16:13:48 +0000"
-commit_sha: 2654d577c0714110db01a7d457bf63aadff9ff0a
-commit_message: "Fix whitespaces for PHPCS"
+last_published: "2023-05-01 20:13:15 +0000"
+commit_sha: 766e19e1095ccf6eb39823868df0e5f23c4df173
+commit_message: "Fix `Taxes\Stats\Controller::get_collection_params`"
 branch_name: dev/dry-reports
 ---
