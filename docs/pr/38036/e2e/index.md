@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38036/e2e/i
 pr_number: 38036
 pr_title_encoded: "Code+Freeze+CLI%3A+Add+version+bump"
 pr_test_type: e2e
-last_published: "2023-05-02 05:51:45 +0000"
-commit_sha: 5cb2a710e0a0cbc05e0fc9fa3c1691b428e08189
-commit_message: "include shallow clone repo functions"
+last_published: "2023-05-02 21:59:19 +0000"
+commit_sha: 421805f8971d91e538acebd9b4653def597a793d
+commit_message: "pass true to getEnvVar"
 branch_name: add/code-freeze-version-bump
 ---
