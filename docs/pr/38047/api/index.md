@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38047/api/i
 pr_number: 38047
 pr_title_encoded: "Await+triggerNoteAction+before+navigating+when+action+is+clicked"
 pr_test_type: api
-last_published: "2023-04-28 15:13:14 +0000"
-commit_sha: ce9c9ec093495a34a4087131b0a7b90d6527615a
-commit_message: "Await triggerNoteAction before navigating when action is clicked"
+last_published: "2023-05-02 12:50:26 +0000"
+commit_sha: 22c4bdd06279d533ab8f8935f9b8bd35e9b263cc
+commit_message: "Add additional logic and use @woocommerce/navigation to navigate"
 branch_name: fix/undismissable-notice2
 ---
