@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38019/api/i
 pr_number: 38019
 pr_title_encoded: "Add+Business+Location+page+to+the+core+profiler"
 pr_test_type: api
-last_published: "2023-04-29 20:51:07 +0000"
-commit_sha: 20c38a256208c8efd4a9384de1564cc8ff36b529
-commit_message: "Support meta value from nested states"
+last_published: "2023-05-03 21:13:15 +0000"
+commit_sha: 0d04f11b899c0919922b7b25cc15b364f9f6f095
+commit_message: "Add changelog"
 branch_name: add/core-profiler-business-location
 ---
