@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38124/e2e/i
 pr_number: 38124
 pr_title_encoded: "Add+tests+to+tracks+events+fired+through+JS"
 pr_test_type: e2e
-last_published: "2023-05-04 19:35:30 +0000"
-commit_sha: e52e7e55569d7cfc256bbdb95a38e0f209d34bab
-commit_message: "Add tracks tests to activity_panel_stock_update_stock"
+last_published: "2023-05-08 19:33:18 +0000"
+commit_sha: a0c46d3b4732ff70dc76c7c6b77515223a10ade7
+commit_message: "Mock recordEvent and recordPageView globally"
 branch_name: dev/add-tracks-tests
 ---
