@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38170/api/i
 pr_number: 38170
 pr_title_encoded: "Try%3A+replace+URL-encoded+newlines+with+normal+escaped+newlines+%5BWIP%5D"
 pr_test_type: api
-last_published: "2023-05-08 18:28:16 +0000"
-commit_sha: 2f64fa32c1730d50ce4da46d5a1317082bbb60bc
-commit_message: "Update woocommerce.php to make changelog file check fail"
+last_published: "2023-05-08 19:38:38 +0000"
+commit_sha: 60c6bd37a391be9fce54303198df90daf433fa1b
+commit_message: "replace URL-encoded newlines with normal escaped newlines"
 branch_name: try/check-changelogger-use-newlines
 ---
