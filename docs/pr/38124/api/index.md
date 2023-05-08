@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38124/api/i
 pr_number: 38124
 pr_title_encoded: "Add+tests+to+tracks+events+fired+through+JS"
 pr_test_type: api
-last_published: "2023-05-08 20:49:56 +0000"
-commit_sha: a0c46d3b4732ff70dc76c7c6b77515223a10ade7
-commit_message: "Mock recordEvent and recordPageView globally"
+last_published: "2023-05-08 21:14:05 +0000"
+commit_sha: 21f384453dd899662b8d51460c21993cc8468401
+commit_message: "Add missing mock"
 branch_name: dev/add-tracks-tests
 ---
