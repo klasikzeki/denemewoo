@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38019/e2e/i
 pr_number: 38019
 pr_title_encoded: "Add+Business+Location+page+to+the+core+profiler"
 pr_test_type: e2e
-last_published: "2023-05-09 01:28:59 +0000"
-commit_sha: dc21d40b982d44bdf216f64813929191e2a4a3ee
-commit_message: "Fix jslint error"
+last_published: "2023-05-09 19:55:47 +0000"
+commit_sha: 0c2c2f271dbcafbf1c4c6e19c9be1ffa5c60b87b
+commit_message: "Update plugins/woocommerce-admin/client/core-profiler/style.scss"
 branch_name: add/core-profiler-business-location
 ---
