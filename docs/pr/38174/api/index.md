@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38174/api/i
 pr_number: 38174
 pr_title_encoded: "Add+onboarding%2Fplugins+REST+endpoint"
 pr_test_type: api
-last_published: "2023-05-09 00:19:41 +0000"
-commit_sha: e6060079212a1389a4c8437130c6516fa334b10c
-commit_message: "Remove test that requires waiting an async action"
+last_published: "2023-05-09 00:42:31 +0000"
+commit_sha: 689fa2ba0fec2bdb521218397b5c98c49eb802a9
+commit_message: "Add test for 404 status"
 branch_name: add/plugin-install-queue-endpoint
 ---
