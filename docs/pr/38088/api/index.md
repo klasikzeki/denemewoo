@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38088/api/i
 pr_number: 38088
 pr_title_encoded: "Fix+%22Marketing+%26+Merchandising%22+padding+on+store+management+panel"
 pr_test_type: api
-last_published: "2023-05-08 10:42:40 +0000"
-commit_sha: 30aab39f8510c0428efa92cbab95bcb363a46fe4
-commit_message: "Update store management card style"
+last_published: "2023-05-10 03:03:08 +0000"
+commit_sha: e4af20ddda7ff894054dae9ff84d01d4af7f6c8a
+commit_message: "Update .woocommerce-store-management-links__card-body padding"
 branch_name: fix/manage-store-panel-padding
 ---
