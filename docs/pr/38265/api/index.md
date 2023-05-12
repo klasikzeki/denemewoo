@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38265/api/i
 pr_number: 38265
 pr_title_encoded: "Support+PHPUnit+Tests+In+%60wp-env%60"
 pr_test_type: api
-last_published: "2023-05-12 17:12:44 +0000"
-commit_sha: 522fe5d93d58637f2a0597cb17cec647b92909fd
-commit_message: "Fixed WP Version Parsing"
+last_published: "2023-05-12 17:41:39 +0000"
+commit_sha: 51634508f4518975062ce7ed63e1e6c7b761437e
+commit_message: "Removed Unnecessary Debugging"
 branch_name: add/wp-env-unit-tests
 ---
