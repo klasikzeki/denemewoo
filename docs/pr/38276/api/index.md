@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38276/api/i
 pr_number: 38276
 pr_title_encoded: "Move+template+addition+to+feature+flag"
 pr_test_type: api
-last_published: "2023-05-12 13:01:24 +0000"
-commit_sha: ea51ba4b6240fdb4b60b489a9da0ea373352486f
-commit_message: "Add changelog"
+last_published: "2023-05-12 13:38:40 +0000"
+commit_sha: cead6daf5aa31d1c38dbcbe87f468d128a933d72
+commit_message: "Fix lint errors"
 branch_name: fix/move_template_addition_to_featureflag
 ---
