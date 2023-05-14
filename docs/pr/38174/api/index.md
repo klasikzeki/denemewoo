@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38174/api/i
 pr_number: 38174
 pr_title_encoded: "Add+onboarding%2Fplugins+REST+endpoint"
 pr_test_type: api
-last_published: "2023-05-13 23:56:39 +0000"
-commit_sha: 325b45fac46a53c9d99c4b4a53dd4d40d6e7724d
-commit_message: "Remove test code"
+last_published: "2023-05-14 00:24:46 +0000"
+commit_sha: 2737db5592f99de78387d06f6a2a04a3a23ae4bc
+commit_message: "Skip failing test -- hard to test as the function uses site url and t…"
 branch_name: add/plugin-install-queue-endpoint
 ---
