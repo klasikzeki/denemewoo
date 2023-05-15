@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38289/api/i
 pr_number: 38289
 pr_title_encoded: "Fix+%60get_options%60+deprecation+notice"
 pr_test_type: api
-last_published: "2023-05-15 00:25:13 +0000"
+last_published: "2023-05-15 03:07:12 +0000"
 commit_sha: d593522d7c934538f61098165704fef34d628151
 commit_message: "Remove duplicates"
 branch_name: fix/option-notice
