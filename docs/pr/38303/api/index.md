@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38303/api/i
 pr_number: 38303
 pr_title_encoded: "Only+register+blocks+when+user+navigates+to+the+product+edit+page"
 pr_test_type: api
-last_published: "2023-05-15 17:22:07 +0000"
-commit_sha: c8bc9fe7d34c53517423a53c37ab27aee5ae0e7f
-commit_message: "Add changelog files"
+last_published: "2023-05-15 18:20:01 +0000"
+commit_sha: 66c2fcc33a880ad529cccef4aded2ad81a539014
+commit_message: "Unregister blocks when product page gets unmounted"
 branch_name: add/38200
 ---
