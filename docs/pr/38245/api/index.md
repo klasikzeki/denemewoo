@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38245/api/i
 pr_number: 38245
 pr_title_encoded: "Update+task+list+documentation+and+example"
 pr_test_type: api
-last_published: "2023-05-12 09:53:42 +0000"
-commit_sha: 57f55418ea8b3c2afef259309aebdba1d477209d
-commit_message: "Update onboarding-tasks.md"
+last_published: "2023-05-15 03:13:33 +0000"
+commit_sha: f77467d14a7bc5d1d77167966059e6eb689395c3
+commit_message: "Fix build wca example cmd"
 branch_name: dev/update-task-list-docs-example
 ---
