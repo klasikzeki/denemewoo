@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38261/api/i
 pr_number: 38261
 pr_title_encoded: "Use+SelectTree+in+Parent+Category+field"
 pr_test_type: api
-last_published: "2023-05-16 13:40:43 +0000"
-commit_sha: 993f169a74c17146b3fcc4ebffafe7d9943f7be2
+last_published: "2023-05-17 15:08:42 +0000"
+commit_sha: acdfbe539567593b2dac3a2b3d627efcc8ff27f6
 commit_message: "Increment changelogs"
 branch_name: update/parent-categ
 ---
