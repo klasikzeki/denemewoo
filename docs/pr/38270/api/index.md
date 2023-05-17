@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38270/api/i
 pr_number: 38270
 pr_title_encoded: "add%3A+core+profiler+fetch+extensions"
 pr_test_type: api
-last_published: "2023-05-17 04:03:44 +0000"
+last_published: "2023-05-17 05:46:00 +0000"
 commit_sha: acfb160d9188e0f8d1259f068bbf182eb3fa34a1
 commit_message: "add: fetch extensions and countries from API for core profiler"
 branch_name: add/core-profiler-fetch-extensions
