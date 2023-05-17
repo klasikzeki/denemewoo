@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38247/e2e/i
 pr_number: 38247
 pr_title_encoded: "Fix+editor+header+hidden+in+Firefox"
 pr_test_type: e2e
-last_published: "2023-05-16 12:16:55 +0000"
-commit_sha: 6cbd291b0255468866ae429701129d97a0b105f6
-commit_message: "Update page config to add support for layout header/footer"
+last_published: "2023-05-17 11:21:42 +0000"
+commit_sha: cefde8da69b106d41ba22550d778a6479ea6a21f
+commit_message: "Fix lint errors"
 branch_name: fix/38242_editor_hidden_in_firefox
 ---
