@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38328/api/i
 pr_number: 38328
 pr_title_encoded: "Add+core+profiler+user+profile+page"
 pr_test_type: api
-last_published: "2023-05-17 05:52:52 +0000"
-commit_sha: 313d5dbc56113c95ea662b23920d5775e2c425ee
-commit_message: "Update heading style"
+last_published: "2023-05-17 07:27:59 +0000"
+commit_sha: 52feedf1e31c2fcbdaded9864af2ec3110839f3f
+commit_message: "Update plugins/woocommerce-admin/client/core-profiler/pages/UserProfi…"
 branch_name: add/core-profiler-user-profile
 ---
