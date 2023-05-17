@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38174/api/i
 pr_number: 38174
 pr_title_encoded: "Add+onboarding%2Fplugins+REST+endpoint"
 pr_test_type: api
-last_published: "2023-05-16 22:11:42 +0000"
-commit_sha: b4f66e27fbed915b78238b25657fec7b86ea47e3
-commit_message: "Update install and activate schema"
+last_published: "2023-05-17 04:27:02 +0000"
+commit_sha: 0d2221121f66820c9bbfbb267553353e2bb90720
+commit_message: "Fix: import AsyncPluginsInstallLogger correctly"
 branch_name: add/plugin-install-queue-endpoint
 ---
