@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37122/api/i
 pr_number: 37122
 pr_title_encoded: "Use+feature+the+new+feature+flags+engine+to+guard+the+access+to+the+new+product+blocks+experience"
 pr_test_type: api
-last_published: "2023-03-08 17:03:12 +0000"
-commit_sha: d05cc89d034893ed1623c0189da94b92defafafc
-commit_message: "Fix php linter errors"
+last_published: "2023-05-17 21:54:26 +0000"
+commit_sha: 114b7e5542a29fae1e7b788fad64917f6ac66226
+commit_message: "Setup the ProductBlockEditor when product_block_editor is enabled"
 branch_name: add/36989
 ---
