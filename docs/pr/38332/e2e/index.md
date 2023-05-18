@@ -4,7 +4,7 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38332/e2e/i
 pr_number: 38332
 pr_title_encoded: "Support+strict+SQL+modes+in+HPOS+migration+that+dont+allow+zero+date+"
 pr_test_type: e2e
-last_published: "2023-05-17 12:14:47 +0000"
+last_published: "2023-05-18 10:19:42 +0000"
 commit_sha: ebf1d342592a186a23cb00272b335e27986c8cfe
 commit_message: "Remove debugging code."
 branch_name: fix/38320
