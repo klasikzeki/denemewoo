@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38359/api/i
 pr_number: 38359
 pr_title_encoded: "E2e%2Freport+hpos+tests"
 pr_test_type: api
-last_published: "2023-05-19 09:37:08 +0000"
-commit_sha: dcbcfe8be569ab893c67316ac0821e587a6f9037
-commit_message: "Fix arguments"
+last_published: "2023-05-19 09:53:32 +0000"
+commit_sha: 82d9106db9090db5f8eff477083aaa6773891444
+commit_message: "Directly pass PR number"
 branch_name: e2e/report-hpos-tests
 ---
