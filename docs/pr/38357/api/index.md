@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38357/api/i
 pr_number: 38357
 pr_title_encoded: "Changelog+CLI%3A+Add+command+to+make+entry+from+PR+description"
 pr_test_type: api
-last_published: "2023-05-19 03:34:39 +0000"
-commit_sha: 69cbd1ad6cabf627823103b59b3cfcd82c041478
-commit_message: "remove all the changelogs in every project"
+last_published: "2023-05-19 04:23:01 +0000"
+commit_sha: 17945ee5f9b3dd2958a8124654e1bf3fa2bb269d
+commit_message: "jsDoc"
 branch_name: add/changelog-determine-projects
 ---
