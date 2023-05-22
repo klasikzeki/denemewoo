@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38392/api/i
 pr_number: 38392
 pr_title_encoded: "Product+Name+Suggestions+with+AI"
 pr_test_type: api
-last_published: "2023-05-22 14:07:50 +0000"
-commit_sha: 7eff2a5f39ee8d4aaa9fe7cb63aa62c877d85747
-commit_message: "Refactor the attribute suggestions service"
+last_published: "2023-05-22 15:15:11 +0000"
+commit_sha: 8b859533796d0c65a0c493d0f231338b867ad870
+commit_message: "Refactor Attribute_Suggestion_Prompt_Generator"
 branch_name: feature/ai-title-suggestions
 ---
