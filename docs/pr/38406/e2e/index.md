@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38406/e2e/i
 pr_number: 38406
 pr_title_encoded: "Add+a+new+plugin+to+the+monorepo+for+the+docs+project+"
 pr_test_type: e2e
-last_published: "2023-05-22 23:46:00 +0000"
-commit_sha: 480fca9c781819c2cb6e2abd898afecf51dc6ed4
-commit_message: "Fix syncpack mismatches"
+last_published: "2023-05-22 23:56:21 +0000"
+commit_sha: a7898c1ffca85b7f04fe344909bdf2a0a5038813
+commit_message: "Merge remote-tracking branch 'origin/trunk' into add/woocommerce-docs…"
 branch_name: add/woocommerce-docs-plugin
 ---
