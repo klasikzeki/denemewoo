@@ -18,6 +18,7 @@ echo "pr_title_encoded: \"$PR_TITLE_ENCODED\"" >> index.md
 echo "pr_test_type: $TEST_TYPE" >> index.md
 echo "last_published: \"$LAST_PUBLISHED\"" >> index.md
 echo "---" >> index.md
+echo "" >> index.md
 
 # Commit changes to new branch
 BRANCH="add/pr-$PR_NUMBER-$TEST_TYPE-run-$GITHUB_RUN_ID"
