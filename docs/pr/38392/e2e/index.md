@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38392/e2e/i
 pr_number: 38392
 pr_title_encoded: "Product+Name+Suggestions+with+AI"
 pr_test_type: e2e
-last_published: "2023-05-23 13:23:19 +0000"
-commit_sha: 53e8c88cff9affa72b5f1a6a91f636d02bf4a138
-commit_message: "Fix comment"
+last_published: "2023-05-24 09:25:00 +0000"
+commit_sha: 74875983111edfa65f20f64a901c8e0b76636c28
+commit_message: "Validate the input data is array"
 branch_name: feature/ai-title-suggestions
 ---
