@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38392/api/i
 pr_number: 38392
 pr_title_encoded: "Product+Name+Suggestions+with+AI"
 pr_test_type: api
-last_published: "2023-05-24 11:04:19 +0000"
-commit_sha: cdf055c910da41da5b9920dcb3a94f26b91a8710
-commit_message: "Rename attribute suggestion to product data suggestion"
+last_published: "2023-05-24 11:43:20 +0000"
+commit_sha: bf0d72e85e0f25bb8414c04b5f115f8ef63a5a78
+commit_message: "Clear timeout before setting another"
 branch_name: feature/ai-title-suggestions
 ---
