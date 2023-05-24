@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38434/api/i
 pr_number: 38434
 pr_title_encoded: "Core+Profiler+-+replace+install-async+with+install-activate-async"
 pr_test_type: api
-last_published: "2023-05-24 20:27:15 +0000"
-commit_sha: 596dfb1555a687684d054216a9606296212f5451
-commit_message: "Add comment for activated function"
+last_published: "2023-05-24 23:12:47 +0000"
+commit_sha: f59dc8cd900ee01a180ed364fa680869b2798f5c
+commit_message: "Fix tests and rename install-activate-async to install-and-activate-a…"
 branch_name: update/38410-update-install-async-to-activate-plugins
 ---
