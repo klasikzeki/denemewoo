@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37050/e2e/i
 pr_number: 37050
 pr_title_encoded: "%5BHPOS%5D+Synchronize+order+deletions"
 pr_test_type: e2e
-last_published: "2023-05-26 07:43:57 +0000"
-commit_sha: 34a8de217c66eef1bbeba5a2924c7f0e3ff2a70c
-commit_message: "Merge branch 'trunk' into add/sync_of_deleted_orders"
+last_published: "2023-05-26 09:17:40 +0000"
+commit_sha: bb6645d4acd8e3b846c58b8a8ecc7ccf89cd4c1b
+commit_message: "Remove deletion of zero parent refunds from the migration"
 branch_name: add/sync_of_deleted_orders
 ---
