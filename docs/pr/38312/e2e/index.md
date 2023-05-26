@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38312/e2e/i
 pr_number: 38312
 pr_title_encoded: "Fix+RIM+rules+processor"
 pr_test_type: e2e
-last_published: "2023-05-25 21:07:41 +0000"
-commit_sha: a71ac474c7c1e8efdb3c1a9464ab08f90e8ca231
-commit_message: "Fix conditional"
+last_published: "2023-05-26 15:36:20 +0000"
+commit_sha: 05193149771d19c32bdde7a282df4231c8f9d0be
+commit_message: "Add unit tests"
 branch_name: fix/38167_RIM_rules_processor
 ---
