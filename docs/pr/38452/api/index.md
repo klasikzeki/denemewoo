@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38452/api/i
 pr_number: 38452
 pr_title_encoded: "Use+Jetpack+AI+endpoint+for+product+name+suggestions"
 pr_test_type: api
-last_published: "2023-05-27 00:31:18 +0000"
-commit_sha: 3ad995446543aed181bf0e259c6b00c34d0f5453
-commit_message: "Display error if Jetpack is not installed"
+last_published: "2023-05-27 09:11:18 +0000"
+commit_sha: 9e4fb51162ef40f4c9cb1f61d8790e8edd7f78ac
+commit_message: "Merge remote-tracking branch 'origin/feature/use-jetpack-ai-endpoint'…"
 branch_name: feature/use-jetpack-ai-endpoint
 ---
