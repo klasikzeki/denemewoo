@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38479/e2e/i
 pr_number: 38479
 pr_title_encoded: "Improve+the+UX+of+AI+product+title+suggestions"
 pr_test_type: e2e
-last_published: "2023-05-26 22:19:55 +0000"
-commit_sha: a8c78333d76ccfc750bba57f1f8eb450fc6a2bd2
-commit_message: "Adding tooltip to experimental pill"
+last_published: "2023-05-27 09:27:34 +0000"
+commit_sha: f9bcb0c228422d251d43ca77207780f0f3001931
+commit_message: "Fix merge conflicts"
 branch_name: feature/ai-title-design-improvements
 ---
