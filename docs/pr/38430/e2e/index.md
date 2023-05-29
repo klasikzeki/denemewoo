@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38430/e2e/i
 pr_number: 38430
 pr_title_encoded: "Check+for+unsaved+changes+before+leaving+product+editor"
 pr_test_type: e2e
-last_published: "2023-05-24 19:40:43 +0000"
-commit_sha: 4a5d31515d020c9ea277d9ca5a8af7870715b68d
-commit_message: "Add changelog entry"
+last_published: "2023-05-29 17:44:11 +0000"
+commit_sha: 8a1d93566a95af502f6bd7e15ccdcfeed38358b0
+commit_message: "Add hasEdit convenience method to useProductEdits hook"
 branch_name: add/38253
 ---
