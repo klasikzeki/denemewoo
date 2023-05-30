@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38510/api/i
 pr_number: 38510
 pr_title_encoded: "Monorepo+Utils%3A+Add+changelog+addition+from+actions"
 pr_test_type: api
-last_published: "2023-05-30 04:21:03 +0000"
-commit_sha: 85e566322d2657c2fd977bea346ad6f6db61a195
-commit_message: "clean up code"
+last_published: "2023-05-30 22:31:35 +0000"
+commit_sha: 1d6b187b04a057d32d6b98306ec371d9de5e38af
+commit_message: "better message"
 branch_name: add/add-changelog-action
 ---
