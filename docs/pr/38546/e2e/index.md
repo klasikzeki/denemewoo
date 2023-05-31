@@ -2,10 +2,10 @@
 layout: redirect
 redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38546/e2e/index.html
 pr_number: 38546
-pr_title_encoded: "Adding+basic+WooAI+plugin+with+product+description+generation+%28%2338309%29"
+pr_title_encoded: "Adding+tracks+events+to+title+generation+and+language+detection"
 pr_test_type: e2e
-last_published: "2023-05-31 20:13:23 +0000"
-commit_sha: ee1b5ba645c4c09c3e0ae0a28ee9903fb06c09b7
-commit_message: "Normalizing title character count to 10 for both features"
+last_published: "2023-05-31 20:50:54 +0000"
+commit_sha: 1eb168948ad765aa31d7008923ffe819847fb3df
+commit_message: "Experimentally enable description btn when title is generated"
 branch_name: update/wooai-title-feature-tracks
 ---
