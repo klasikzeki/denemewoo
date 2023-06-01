@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38546/api/i
 pr_number: 38546
 pr_title_encoded: "Adding+tracks+events+to+title+generation+and+language+detection"
 pr_test_type: api
-last_published: "2023-05-31 20:50:53 +0000"
-commit_sha: 1eb168948ad765aa31d7008923ffe819847fb3df
-commit_message: "Experimentally enable description btn when title is generated"
+last_published: "2023-06-01 18:02:21 +0000"
+commit_sha: 6fe2752c177e11c9081867a4e50d1953d9eb76ed
+commit_message: "Removing suggestions when title changes"
 branch_name: update/wooai-title-feature-tracks
 ---
