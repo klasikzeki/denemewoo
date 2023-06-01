@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38291/e2e/i
 pr_number: 38291
 pr_title_encoded: "Add+compatibility+with+CPT%27s+search+result+filters+in+HPOS."
 pr_test_type: e2e
-last_published: "2023-05-16 13:39:32 +0000"
-commit_sha: 0d2c6fb026ea9cc66051def8dfccf2c6a29312b0
-commit_message: "Better documentation for hooks."
+last_published: "2023-06-01 07:21:58 +0000"
+commit_sha: 92a48d1934bf9e5940b6d00ee28f7131d0da7685
+commit_message: "Applied coding standards."
 branch_name: enhance/add-search-filter
 ---
