@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/37378/api/i
 pr_number: 37378
 pr_title_encoded: "Prevent+unwanted+helper+api+calls+when+loading+subscription+notes"
 pr_test_type: api
-last_published: "2023-03-31 16:17:35 +0000"
-commit_sha: 6bea7180a341ed81153f2f4a0be503df4f889291
-commit_message: "Merge branch 'trunk' into fix/unwanted-helper-api-calls-when-loading-…"
+last_published: "2023-06-02 10:27:02 +0000"
+commit_sha: 55755935fa08facd40ab7aef660687ab777541f0
+commit_message: "Use admin_head hook instead of admin_init to load subscriptions notes."
 branch_name: fix/unwanted-helper-api-calls-when-loading-subscription-notes
 ---
