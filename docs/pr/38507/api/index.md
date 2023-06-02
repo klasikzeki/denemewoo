@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38507/api/i
 pr_number: 38507
 pr_title_encoded: "Product+route+not+updated+after+save+initially+failed+and+succeeded+after"
 pr_test_type: api
-last_published: "2023-05-31 21:54:40 +0000"
-commit_sha: 159c598d5958e12c8f181301e1aedbf832735756
-commit_message: "Fix notice message when create / update the product"
+last_published: "2023-06-02 17:39:15 +0000"
+commit_sha: ec1b3ebbc061c37a7c3b5fecaf981c0abf36e2f0
+commit_message: "Get product id from within each button hook"
 branch_name: fix/38319
 ---
