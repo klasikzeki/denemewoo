@@ -1,0 +1,333 @@
+---
+title: Test Suite Stats
+layout: common
+---
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline"></script>
+
+<div class="row">
+
+	<div class="col-sm-6 mb-3 mb-sm-0">
+		<div class="card" style="width: 100%;">
+
+			<canvas id="sizeOfSuite" class="card-img-top"></canvas>
+			<div class="card-body">
+				<h5 class="card-title">Size of Test Suite</h5>
+				<p class="card-text">Measures the number of tests executed in each run.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-sm-6">
+		<div class="card" style="width: 100%;">
+			<canvas id="executionTime" class="card-img-top"></canvas>
+			<div class="card-body">
+				<h5 class="card-title">Execution Time</h5>
+				<p class="card-text">The amount of time it takes for the test suite to complete.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<hr />
+
+<div class="row">
+	
+	<div class="col-sm-6 mb-3 mb-sm-0">
+		<div class="card" style="width: 100%;">
+			<canvas id="numberOfFailures" class="card-img-top"></canvas>
+			<div class="card-body">
+				<h5 class="card-title">Number of Failures</h5>
+				<p class="card-text">The number of tests marked as failing each run.</p>
+			</div>
+		</div>
+	</div>
+
+<div class="col-sm-6">
+		<div class="card" style="width: 100%;">
+			<canvas id="numberOfSkipped" class="card-img-top"></canvas>
+			<div class="card-body">
+				<h5 class="card-title">Number of Skipped Tests</h5>
+				<p class="card-text">The number of tests we skip each run.</p>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+	<script>
+		// Load the Google Charts library and the Google Sheets API
+		google.charts.load('current', { 'packages': [ 'corechart' ] });
+		google.charts.setOnLoadCallback(chartData);
+		
+		// -----------------------
+		// --- Number of Tests ---
+		// -----------------------
+		function getNumberOfTests() {
+			// Define the query using the GViz Query Language
+			var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1UjaaOCSGNLWW5hYdtw52P5s_PTBWexHW4_CmwHwvCps/gviz/tq?gid=0&headers=1');
+			// Send the query to Google Sheets API and handle the response
+			query.send(chartNumberOfTests);
+		}
+		// Callback function to handle the query response
+		function chartNumberOfTests(response) {
+			if (response.isError()) {
+				console.error('Error in query: ' + response.getMessage());
+				return;
+			}
+			// Get the data table from the query response
+			var dataTable = response.getDataTable();
+			// Extract the labels and data from the DataTable
+			var labels = [];
+			var data = [];
+			var numRows = dataTable.getNumberOfRows();
+			for (var i = 0; i < numRows; i++) {
+				labels.push(dataTable.getFormattedValue(i, 0));
+				data.push(dataTable.getFormattedValue(i, 1));
+			}
+			// Render the chart using Chart.js
+			var ctx = document.getElementById('sizeOfSuite').getContext('2d');
+			new Chart(ctx, {
+				type: 'bar',
+				data: {
+					labels: labels,
+					datasets: [ {
+						label: 'Number of Tests',
+						data: data,
+						backgroundColor: 'rgba(75, 192, 192, 0.2)',
+						borderColor: 'rgba(75, 192, 192, 1)',
+						borderWidth: 1,
+						trendlineLinear: {
+							colorMin: 'red',
+							colorMax: 'blue',
+							lineStyle: 'dotted',
+							width: 2
+						}
+					} ]
+				},
+				options: {
+					responsive: true,
+					scales: {
+						y: {
+							min: 180,
+							beginAtZero: false
+						}
+					},
+					plugins: {
+						legend: {
+							display: false // Hide the legend
+						}
+					}
+				}
+			});
+		}
+		
+		// ----------------------
+		// --- Execution Time ---
+		// ----------------------
+		function getExecutionTime() {
+			// Define the query using the GViz Query Language
+			var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1UjaaOCSGNLWW5hYdtw52P5s_PTBWexHW4_CmwHwvCps/gviz/tq?gid=532697128&headers=1');
+			// Send the query to Google Sheets API and handle the response
+			query.send(chartExecutionTime);
+		}
+		// Callback function to handle the query response
+		function chartExecutionTime(response) {
+			if (response.isError()) {
+				console.error('Error in query: ' + response.getMessage());
+				return;
+			}
+
+			// Get the data table from the query response
+			var dataTable = response.getDataTable();
+			// Extract the labels and data from the DataTable
+			var labels = [];
+			var data = [];
+			var numRows = dataTable.getNumberOfRows();
+			for (var i = 0; i < numRows; i++) {
+				labels.push(dataTable.getFormattedValue(i, 0));
+				data.push(dataTable.getFormattedValue(i, 1));
+			}
+
+			// Render the chart using Chart.js
+			var ctx = document.getElementById('executionTime').getContext('2d');
+			new Chart(ctx, {
+				type: 'line',
+				data: {
+					labels: labels,
+					datasets: [ {
+						label: 'Seconds',
+						data: data,
+						backgroundColor: 'rgba(75, 192, 192, 0.2)',
+						borderColor: 'rgba(75, 192, 192, 1)',
+						borderWidth: 1,
+						trendlineLinear: {
+							colorMin: 'red',
+							colorMax: 'blue',
+							lineStyle: 'dotted',
+							width: 2
+						}
+					} ]
+				},
+				options: {
+					responsive: true,
+					scales: {
+						y: {
+							min: 700,
+							beginAtZero: true
+						}
+					},
+					plugins: {
+						legend: {
+							display: false // Hide the legend
+						}
+					}
+				}
+			});
+		}
+		
+		// --------------------------
+		// --- Number of Failures ---
+		// --------------------------
+		function getNumberOfFailures() {
+				// Define the query using the GViz Query Language
+				var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1UjaaOCSGNLWW5hYdtw52P5s_PTBWexHW4_CmwHwvCps/gviz/tq?gid=951115581&headers=1');
+				// Send the query to Google Sheets API and handle the response
+				query.send(chartNumberOfFailures);
+			}
+		// Callback function to handle the query response
+		function chartNumberOfFailures(response) {
+				if (response.isError()) {
+					console.error('Error in query: ' + response.getMessage());
+					return;
+				}
+
+				// Get the data table from the query response
+				var dataTable = response.getDataTable();
+				// Extract the labels and data from the DataTable
+				var labels = [];
+				var data = [];
+				var numRows = dataTable.getNumberOfRows();
+				for (var i = 0; i < numRows; i++) {
+					labels.push(dataTable.getFormattedValue(i, 0));
+					data.push(dataTable.getFormattedValue(i, 1));
+				}
+
+				// Render the chart using Chart.js
+				var ctx = document.getElementById('numberOfFailures').getContext('2d');
+				new Chart(ctx, {
+					type: 'bar',
+					data: {
+						labels: labels,
+						datasets: [ {
+							label: 'Number of Tests',
+							data: data,
+							backgroundColor: 'rgba(75, 192, 192, 0.2)',
+							borderColor: 'rgba(75, 192, 192, 1)',
+							borderWidth: 1,
+							trendlineLinear: {
+								colorMin: 'red',
+								colorMax: 'blue',
+								lineStyle: 'dotted',
+								width: 2
+							}
+						} ]
+					},
+					options: {
+						responsive: true,
+						scales: {
+							y: {
+								min: 0,
+								beginAtZero: true,
+								ticks: {
+									stepSize: 1,
+									callback: function (value, index, values) {
+										// Convert the tick value to an integer
+										return Math.floor(value);
+									}
+								}
+							}
+						},
+						plugins: {
+							legend: {
+								display: false // Hide the legend
+							}
+						}
+					}
+				});
+			}
+		
+		// -------------------------
+		// --- Number of Skipped ---
+		// -------------------------
+		function getNumberOfSkipped() {
+			// Define the query using the GViz Query Language
+			var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1UjaaOCSGNLWW5hYdtw52P5s_PTBWexHW4_CmwHwvCps/gviz/tq?gid=228043313&headers=1');
+			// Send the query to Google Sheets API and handle the response
+			query.send(chartNumberOfSkipped);
+		}
+		// Callback function to handle the query response
+		function chartNumberOfSkipped(response) {
+			if (response.isError()) {
+				console.error('Error in query: ' + response.getMessage());
+				return;
+			}
+
+			// Get the data table from the query response
+			var dataTable = response.getDataTable();
+			// Extract the labels and data from the DataTable
+			var labels = [];
+			var data = [];
+			var numRows = dataTable.getNumberOfRows();
+			for (var i = 0; i < numRows; i++) {
+				labels.push(dataTable.getFormattedValue(i, 0));
+				data.push(dataTable.getFormattedValue(i, 1));
+			}
+
+			// Render the chart using Chart.js
+			var ctx = document.getElementById('numberOfSkipped').getContext('2d');
+			new Chart(ctx, {
+				type: 'bar',
+				data: {
+					labels: labels,
+					datasets: [ {
+						label: 'Number of Tests',
+						data: data,
+						backgroundColor: 'rgba(75, 192, 192, 0.2)',
+						borderColor: 'rgba(75, 192, 192, 1)',
+						borderWidth: 1,
+						trendlineLinear: {
+							colorMin: 'red',
+							colorMax: 'blue',
+							lineStyle: 'dotted',
+							width: 2
+						}
+					} ]
+				},
+				options: {
+					responsive: true,
+					scales: {
+						y: {
+							min: 0,
+							beginAtZero: true
+						}
+					},
+					plugins: {
+						legend: {
+							display: false // Hide the legend
+						}
+					}
+				}
+			});
+		}
+
+		// Call of the functions to perform the charting
+		function chartData() {
+			getNumberOfTests();
+			getExecutionTime();
+			getNumberOfFailures();
+			getNumberOfSkipped();
+		}
+
+	</script>
