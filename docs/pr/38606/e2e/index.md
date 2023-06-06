@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38606/e2e/i
 pr_number: 38606
 pr_title_encoded: "dev%3A+refactor+core+profiler+pages"
 pr_test_type: e2e
-last_published: "2023-06-06 00:47:46 +0000"
-commit_sha: c825ed48397329e4f6601e05c52fdc5e6386a40d
-commit_message: "dev: refactor core-profiler - modularise each page"
+last_published: "2023-06-06 04:14:23 +0000"
+commit_sha: c3684938fe3d6e686e7ade04d811b702f2d3e95b
+commit_message: "moved initializing into introOptIn so it's not a special case by itself"
 branch_name: dev/refactor-core-profiler-pages
 ---
