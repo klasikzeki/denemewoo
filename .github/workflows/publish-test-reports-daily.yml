@@ -165,6 +165,9 @@ jobs:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID_DAILY }}
           payload-file-path: ${{ github.workspace }}/slack/slack-message.json
 
+      - name: Install Google API package
+        run: npm install -g googleapis
+
       - name: Update e2e test suite stats
         working-directory: repo/.github/workflows/scripts
         env:
