@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38616/e2e/i
 pr_number: 38616
 pr_title_encoded: "Additional+changes+for+the+core+profiler+plugins+page"
 pr_test_type: e2e
-last_published: "2023-06-06 06:41:50 +0000"
-commit_sha: 413ae93701d2ed6cc3ab916b188d5372214cbd3d
-commit_message: "fixed first plugin install progress bar reset issue"
+last_published: "2023-06-07 00:37:29 +0000"
+commit_sha: 26c26d6ddf2872c7b8d660abdfa168b1eee8c492
+commit_message: "Fix type error after rebase"
 branch_name: update/38436-additional-changes-for-plugins-page
 ---
