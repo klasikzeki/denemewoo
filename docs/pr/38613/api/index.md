@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38613/api/i
 pr_number: 38613
 pr_title_encoded: "WC+Tracker%3A+Add+info+about+features+and+plugin+compatibility"
 pr_test_type: api
-last_published: "2023-06-05 20:16:39 +0000"
-commit_sha: 1355402eea181e5ce6eb4036625170c7b64c578d
-commit_message: "phpcs cleanup"
+last_published: "2023-06-07 18:58:26 +0000"
+commit_sha: e190bb272ece2ae39ed11606c8311e6addf0d60a
+commit_message: "Rename feature_compat to feature_compatibility"
 branch_name: try/wc-tracker-feature-compat
 ---
