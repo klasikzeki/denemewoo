@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38551/api/i
 pr_number: 38551
 pr_title_encoded: "Publishing+product+in+classic+editor+redirects+back+to+new+editor"
 pr_test_type: api
-last_published: "2023-06-07 18:38:46 +0000"
-commit_sha: aba98d38ee145c1fa3bc178d60da6caa352d1b48
-commit_message: "Use get_current_screen function to better identify if the current scr…"
+last_published: "2023-06-08 20:47:59 +0000"
+commit_sha: 083eeb51f06a76fa7188dd770e1d99f03607fbf1
+commit_message: ""
 branch_name: add/38243
 ---
