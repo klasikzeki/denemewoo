@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38551/api/i
 pr_number: 38551
 pr_title_encoded: "Publishing+product+in+classic+editor+redirects+back+to+new+editor"
 pr_test_type: api
-last_published: "2023-06-08 20:47:59 +0000"
-commit_sha: 083eeb51f06a76fa7188dd770e1d99f03607fbf1
+last_published: "2023-06-08 21:07:54 +0000"
+commit_sha: 7959a67640804ae99ab1e3b6f9210766e28ebd2b
 commit_message: ""
 branch_name: add/38243
 ---
