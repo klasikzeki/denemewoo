@@ -4,7 +4,11 @@ const data = require(process.env.E2E_SUMMARY_JSON);
 // Extract the required information
 const { total, skipped, broken, failed } = data.statistic;
 const duration = data.time.duration;
-const currentDate = new Date();
+const currentDate = new Date().toLocaleDateString('en-GB', {
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric'
+}).replace(/[\s,]+/g, '-');
 // Google Sheet ID and range
 const spreadsheetId = process.env.GOOGLE_SHEET_ID;
 
@@ -156,8 +160,10 @@ async function appendBroken() {
   }
 }
 
+const today = new Date();
+
 // Size of test suite only measured on the first of the month
-if (currentDate.getDate() === 1) {
+if (today.getDate() === 1) {
   // Call the append function
   appendSuiteSize();
 } else {
