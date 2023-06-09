@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38635/api/i
 pr_number: 38635
 pr_title_encoded: "Adjust+functions+in+wc-formatting-functions.php+to+handle+null+argument+deprecations+in+PHP+8.1"
 pr_test_type: api
-last_published: "2023-06-08 08:07:59 +0000"
-commit_sha: d1bffaad9aa8bb4e3b775bc9e72d03a82fb479e4
-commit_message: "Add changelog file"
+last_published: "2023-06-09 16:25:06 +0000"
+commit_sha: 273527e3801bdf12b414f99aa01bdb83bdcc8a3c
+commit_message: "Leave comment, remove `TODO`."
 branch_name: fix/php-8.1-null-args-deprecation
 ---
