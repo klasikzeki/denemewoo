@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38658/api/i
 pr_number: 38658
 pr_title_encoded: "Fix+payment+gateway+suggestions+display+logic"
 pr_test_type: api
-last_published: "2023-06-09 08:25:09 +0000"
-commit_sha: 31fd47b94052afd615f195b4fa66c075d46ebd50
-commit_message: "Added return object comment"
+last_published: "2023-06-09 09:55:07 +0000"
+commit_sha: e523f395f2b5942f9e4c064e428f3c5eeb47b8f2
+commit_message: "Merge branch 'trunk' into fix/payment-gateway-suggestions-logic"
 branch_name: fix/payment-gateway-suggestions-logic
 ---
