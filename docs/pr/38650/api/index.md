@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38650/api/i
 pr_number: 38650
 pr_title_encoded: "Expand+WCPay+Switch+incentives+to+more+countries"
 pr_test_type: api
-last_published: "2023-06-09 10:10:03 +0000"
-commit_sha: 4736d1aa3872fa4a179afc628f66d3a1b97d8d9e
-commit_message: "Add user's first name to heading copy"
+last_published: "2023-06-12 12:46:18 +0000"
+commit_sha: 723b282008cf47644d4a6fa76adaa3280f264375
+commit_message: "Update country eligibility to use and array instead of a single one."
 branch_name: update/3479-expand-wcpay-swtich-incentive-countries
 ---
