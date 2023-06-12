@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38676/api/i
 pr_number: 38676
 pr_title_encoded: "Add+meta+boxes+for+custom+taxonomies+in+order+edit+screens"
 pr_test_type: api
-last_published: "2023-06-12 11:19:50 +0000"
-commit_sha: b0b34b5a075343ea22a2398c7d62d750a5ff974d
-commit_message: "Add test for new order creation with default term."
+last_published: "2023-06-12 13:31:13 +0000"
+commit_sha: 720bb0140e8edd970d97fb019a1794f3ffbbaa64
+commit_message: "Move methods to ordertabledatastore for better reusability."
 branch_name: fix/38560
 ---
