@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38674/api/i
 pr_number: 38674
 pr_title_encoded: "Update%2Fimplement+connect+to+jetpack"
 pr_test_type: api
-last_published: "2023-06-13 02:28:02 +0000"
-commit_sha: 42cf3a99891eef32bc9c4113b4adbb08e007ef36
-commit_message: "Do not redirect to Jetpack auth if it is already connected"
+last_published: "2023-06-13 04:18:36 +0000"
+commit_sha: 734a164ce468e74295d5c45ab425d454f7a7a9a8
+commit_message: "Revert unrelated lock file changes"
 branch_name: update/implement-connect-to-jetpack
 ---
