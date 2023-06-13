@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38650/api/i
 pr_number: 38650
 pr_title_encoded: "Expand+WCPay+Switch+incentives+to+more+countries"
 pr_test_type: api
-last_published: "2023-06-12 13:12:33 +0000"
-commit_sha: 5e174becd99631806585f8a9da871cf528f4fc19
-commit_message: "Add has processed orders condition"
+last_published: "2023-06-13 10:30:13 +0000"
+commit_sha: 7b64ffdb5b5e7ba9b1838acab071c7f5608a13c3
+commit_message: "Update JS side to use the new shared incentive details"
 branch_name: update/3479-expand-wcpay-swtich-incentive-countries
 ---
