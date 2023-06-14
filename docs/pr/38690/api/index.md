@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38690/api/i
 pr_number: 38690
 pr_title_encoded: "Add+re-migrate+support+to+HPOS+CLI."
 pr_test_type: api
-last_published: "2023-06-13 11:43:48 +0000"
-commit_sha: f994f4fd4995587099bad6090d3bbee0c552592f
-commit_message: "Doc fixes."
+last_published: "2023-06-14 10:12:22 +0000"
+commit_sha: 5f4d7db463e82687d6d85c44f0f1ea89a64c4df6
+commit_message: "Remove `modified` check when migrating existing orders for consistency."
 branch_name: fix/38660
 ---
