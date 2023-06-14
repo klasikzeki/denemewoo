@@ -52,6 +52,9 @@ jobs:
       - name: Install allure-commandline package
         run: npm install -g allure-commandline
 
+      - name: Install Google API package
+        run: npm install -g googleapis
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -164,9 +167,6 @@ jobs:
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID_DAILY }}
           payload-file-path: ${{ github.workspace }}/slack/slack-message.json
-
-      - name: Install Google API package
-        run: npm install -g googleapis
 
       - name: Update e2e test suite stats
         working-directory: repo/.github/workflows/scripts
