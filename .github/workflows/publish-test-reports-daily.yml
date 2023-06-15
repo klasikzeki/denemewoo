@@ -17,6 +17,9 @@ on:
         options:
           - public
           - test
+env:
+  FORCE_COLOR: 1
+  
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -51,7 +54,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: repo/
-        run: npm install
+        run: npm install -g allure && npm install -g googleapis
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
