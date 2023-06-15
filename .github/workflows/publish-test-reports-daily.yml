@@ -84,20 +84,20 @@ jobs:
 
       - name: Regenerate API test report with history
         if: fromJSON( steps.api-s3-download.outputs.HAS_PREVIOUS_REPORT )
-        working-directory: repo/.github/workflows/scripts
+        working-directory: repo/
         env:
           OLD_ALLURE_REPORT_PATH: ${{ github.workspace }}/s3/api
           NEW_ALLURE_RESULTS_PATH: ${{ github.workspace }}/artifacts/api/allure-results
           OUTPUT_PATH: ${{ github.workspace }}/output/api
-        run: bash regenerate-report-v2.sh
+        run: bash .github/workflows/scripts/regenerate-report-v2.sh
 
       - name: Set API report title
-        working-directory: repo/.github/workflows/scripts
+        working-directory: repo/
         env:
-          REPORT_TITLE: 'Daily API Smoke Test Report'
+          REPORT_TITLE: "Daily API Smoke Test Report"
           INDEX_HTML_PATH: ${{ github.workspace }}/output/api/index.html
           SUMMARY_JSON_PATH: ${{ github.workspace }}/output/api/widgets/summary.json
-        run: node change-report-title.js
+        run: node .github/workflows/scripts/change-report-title.js
 
       # ####################
       # E2E Test Report
@@ -123,20 +123,20 @@ jobs:
 
       - name: Regenerate E2E test report with history
         if: fromJSON( steps.e2e-s3-download.outputs.HAS_PREVIOUS_REPORT )
-        working-directory: repo/.github/workflows/scripts
+        working-directory: repo/
         env:
           OLD_ALLURE_REPORT_PATH: ${{ github.workspace }}/s3/e2e
           NEW_ALLURE_RESULTS_PATH: ${{ github.workspace }}/artifacts/e2e/allure-results
           OUTPUT_PATH: ${{ github.workspace }}/output/e2e
-        run: bash regenerate-report-v2.sh
+        run: bash .github/workflows/scripts/regenerate-report-v2.sh
 
       - name: Set E2E report title
-        working-directory: repo/.github/workflows/scripts
+        working-directory: repo/
         env:
-          REPORT_TITLE: 'Daily E2E Smoke Test Report'
+          REPORT_TITLE: "Daily E2E Smoke Test Report"
           INDEX_HTML_PATH: ${{ github.workspace }}/output/e2e/index.html
           SUMMARY_JSON_PATH: ${{ github.workspace }}/output/e2e/widgets/summary.json
-        run: node change-report-title.js
+        run: node .github/workflows/scripts/change-report-title.js
 
       - name: Upload test reports to S3 bucket
         env:
@@ -167,11 +167,11 @@ jobs:
           payload-file-path: ${{ github.workspace }}/slack/slack-message.json
 
       - name: Update e2e test suite stats
-        working-directory: repo/.github/workflows/scripts
+        working-directory: repo/
         env:
           GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
         run: |
           E2E_SUMMARY_JSON=${{ github.workspace }}/output/e2e/widgets/summary.json \
-          node update-e2e-stats.js
+          node .github/workflows/scripts/update-e2e-stats.js
