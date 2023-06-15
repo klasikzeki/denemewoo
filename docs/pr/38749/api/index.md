@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38749/api/i
 pr_number: 38749
 pr_title_encoded: "Fix+selection+of+multiple+orders+in+HPOS+list+table"
 pr_test_type: api
-last_published: "2023-06-15 20:24:44 +0000"
-commit_sha: 43bda6f011d4d7b73b7831a7f8f53c9d73ad1dff
+last_published: "2023-06-15 21:12:23 +0000"
+commit_sha: fbc5a10356871000e75746ec07a3b58d964856f6
 commit_message: "Add changelog"
 branch_name: fix/38524
 ---
