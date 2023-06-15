@@ -54,7 +54,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: repo/
-        run: npm install -g allure && npm install -g googleapis
+        run: npm install -g allure-commandline && npm install -g googleapis
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
