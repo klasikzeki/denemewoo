@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38689/api/i
 pr_number: 38689
 pr_title_encoded: "Update+WCPay+welcome+page+incentives"
 pr_test_type: api
-last_published: "2023-06-15 12:56:53 +0000"
-commit_sha: fd03b97e6078163a8b97a018b2b3782863bce9f4
-commit_message: "Fix incentives endpoint request payload"
+last_published: "2023-06-15 13:09:05 +0000"
+commit_sha: 8c26e801a0986c9d2d460a4d9b5413a2222bc2be
+commit_message: "Move promo notes filter to where it's used"
 branch_name: update/wcpay-welcome-page-incentives
 ---
