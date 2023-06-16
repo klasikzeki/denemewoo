@@ -56,9 +56,8 @@ jobs:
       - name: Install dependencies
         working-directory: repo/
         run: |
-          apt-get install openssl &&
-          apt-get install node &&
-          npm install -g allure-commandline && 
+          apt-get install openssl node
+          npm install -g allure-commandline
           npm install -g googleapis
 
       - name: Configure AWS credentials
@@ -181,8 +180,8 @@ jobs:
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
         run: |
-          node --version &&
-          openssl version &&
-          npm install &&
+          node --version
+          openssl version
+          npm install
           E2E_SUMMARY_JSON=${{ github.workspace }}/output/e2e/widgets/summary.json \
           node .github/workflows/scripts/update-e2e-stats.js
