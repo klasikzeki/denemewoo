@@ -19,6 +19,7 @@ on:
           - test
 env:
   FORCE_COLOR: 1
+  CACHE: false
   
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
