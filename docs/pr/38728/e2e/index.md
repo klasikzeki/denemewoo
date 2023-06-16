@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38728/e2e/i
 pr_number: 38728
 pr_title_encoded: "Add+missing+tracks+events+to+product+editor"
 pr_test_type: e2e
-last_published: "2023-06-15 00:35:18 +0000"
-commit_sha: b9535476e9c4243a6f1bf60f6f617d898bd346ec
-commit_message: "Add changelog entry"
+last_published: "2023-06-16 00:01:05 +0000"
+commit_sha: 3b4cae6d56b53473648af2144f3086405ac25064
+commit_message: "Add onClick event to AboutTheEditor menu item"
 branch_name: fix/38637
 ---
