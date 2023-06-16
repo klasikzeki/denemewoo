@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38750/e2e/i
 pr_number: 38750
 pr_title_encoded: "Update%2F38743+loading+changes+in+core+profiler"
 pr_test_type: e2e
-last_published: "2023-06-16 01:48:49 +0000"
-commit_sha: ccf773443239dc1db46fc9876086a0bcc8a6bcbf
-commit_message: "Lint fix -- css"
+last_published: "2023-06-16 06:11:19 +0000"
+commit_sha: 505087a6a887bdd64e0c79d28a14cc8c95c017bb
+commit_message: "fix: banished core profiler page spinners"
 branch_name: update/38743-loading-changes-in-core-profiler
 ---
