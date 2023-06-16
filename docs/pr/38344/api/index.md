@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38344/api/i
 pr_number: 38344
 pr_title_encoded: "Replace+deprecated+%60page%60+methods"
 pr_test_type: api
-last_published: "2023-06-10 00:19:29 +0000"
-commit_sha: 987de1652970a6e76359c45fd5f71515e38f2ab5
-commit_message: "Merge trunk and resolve conflicts"
+last_published: "2023-06-16 13:22:25 +0000"
+commit_sha: 2ce0c1023745d494466f1f2ecf8f4726438083f9
+commit_message: "WIP remaining methods"
 branch_name: e2e/replace-deprecated-page-methods
 ---
