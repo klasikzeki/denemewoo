@@ -4,8 +4,8 @@ redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38729/api/i
 pr_number: 38729
 pr_title_encoded: "Enable+core-profiler+flag+"
 pr_test_type: api
-last_published: "2023-06-15 00:46:26 +0000"
-commit_sha: 04da8e7d57190247df02373da06f76c270370a81
-commit_message: "Add Changelog"
+last_published: "2023-06-17 03:16:48 +0000"
+commit_sha: 83745a2f352b0bb3d11e115080f7d0b8ba8cfcb6
+commit_message: "Incldue features module"
 branch_name: update/enable-core-profiler-in-prod
 ---
