@@ -1,0 +1,11 @@
+---
+layout: redirect
+redirect_to: https://a8c-woo-test-reports.s3.amazonaws.com/public/pr/38794/e2e/index.html
+pr_number: 38794
+pr_title_encoded: "Fix+base+location+remote+inbox+rule"
+pr_test_type: e2e
+last_published: "2023-06-19 08:50:49 +0000"
+commit_sha: da55736263ff6a210a2f50457c7b14efebd75620
+commit_message: "Changelog"
+branch_name: fix/38793-base-location-rule
+---
